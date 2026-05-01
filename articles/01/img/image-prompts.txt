@@ -1,0 +1,42 @@
+# Image / Infographic Prompts for Article 01 — आनंद / Ananda
+
+## Prompt 1: Mechanism Diagram (for NotebookLM or AI image tools)
+
+**Style**: Clean educational infographic, Indian cultural aesthetic, saffron and gold color palette, white background.
+
+**Content**: A circular diagram with "आनंद (Ananda)" at the center in a glowing golden circle. Four pathways pointing inward toward the center:
+1. LEFT-TOP: "ज्ञानेंद्रिये (Jnanendriya)" — five sense organs represented by icons: eye, ear, nose, tongue, hand. Color: teal/green.
+2. LEFT-BOTTOM: "कर्मेंद्रिये (Karmendriya)" — five organs of action represented by hand, foot, mouth, etc. Color: purple.
+3. RIGHT-TOP: "स्मृती (Smriti)" — a swirling memory symbol. Color: gold.
+4. RIGHT-BOTTOM: "निद्रा (Nidra / Sleep)" — crescent moon. Color: gray-blue.
+
+Each pathway has a curved arrow flowing toward the central "Ananda" circle. The design conveys that all four pathways lead to inner joy. Devanagari script labels on each node. Subtitle below: "आनंदाचा मूळ स्रोत आपल्यात आहे."
+
+---
+
+## Prompt 2: Philosophical Illustration (Midjourney / DALL-E)
+
+**Prompt**: "A meditating sage in a lotus position, glowing golden aura, surrounded by soft flowing waves representing the five senses — eyes, ears, nose, taste, touch — all converging as light threads into the sage's heart center. Indian miniature painting style, warm saffron and ivory palette, intricate border decorations. Sanskrit text 'आनंदः' visible in the center of the composition. Sacred, peaceful, illuminated."
+
+---
+
+## Prompt 3: Slide Deck Cover (Google Slides / Canva)
+
+**For a presentation slide**:
+- Background: Deep brown (#5C3A1E) with subtle OM symbol watermark
+- Title (large, gold): "आनंद — The Nature of Joy"
+- Subtitle (smaller, ivory): "Article 01 | भारतीय ज्ञानप्रणाली व वारसा"
+- Visual element: A simple golden mandala pattern on the right side
+- Footer: "Elements of Indian Knowledge Systems"
+
+---
+
+## Prompt 4: WhatsApp Share Card
+
+**Size**: 1080 × 1080 px
+**Background**: Gradient from deep saffron (#D4500A) to warm brown (#5C3A1E)
+**Central quote** (large Devanagari, white):
+"सर्व मानवी प्रयत्न
+आनंदासाठीच असतात."
+**Below quote** (smaller, gold): "— भारतीय ज्ञानप्रणाली"
+**Bottom** (small, ivory italic): "vivek-sovani.github.io/IKS"

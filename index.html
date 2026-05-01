@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>भारतीय ज्ञानप्रणाली व वारसा | Elements of IKS</title>
+<meta name="description" content="भारतीय ज्ञानप्रणाली व वारशाचा सुगम, द्विभाषिक परिचय. Elements of Indian Knowledge Systems in Marathi and English.">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<header class="topbar">
+  <div class="topbar-left">
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a class="topbar-title" href="/IKS/">
+      <span class="mr">भारतीय ज्ञानप्रणाली व वारसा</span>
+      <span class="en">Elements of Indian Knowledge Systems</span>
+    </a>
+  </div>
+  <div class="topbar-right">
+    <div class="lang-toggle">
+      <button class="lang-btn active" data-lang-btn="mr" onclick="IKS.setLang('mr')">मराठी</button>
+      <button class="lang-btn" data-lang-btn="en" onclick="IKS.setLang('en')">English</button>
+    </div>
+  </div>
+</header>
+
+<!-- SIDEBAR OVERLAY -->
+<div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+<!-- SIDEBAR -->
+<nav class="sidebar" id="sidebar" aria-label="Article navigation"></nav>
+
+<!-- MAIN -->
+<main class="main">
+  <div class="home-hero">
+    <h1>
+      भारतीय ज्ञानप्रणाली व वारसा
+      <span class="en-sub">Elements of Indian Knowledge Systems</span>
+    </h1>
+    <div class="hero-divider"></div>
+    <p class="hero-desc" data-lang="mr">भारताच्या ऋषी-मुनींनी आणि विचारवंतांनी सहस्र वर्षांमध्ये जे ज्ञान जतन केले, त्याचे हे सुगम व संक्षिप्त रूप. SaMIKSHA चौकटीनुसार मांडलेला हा ज्ञानकोश भारतीय वारशाची मूलभूत ओळख करून देतो.</p>
+    <p class="hero-desc" data-lang="en" style="display:none;">A systematic and accessible exploration of India's knowledge heritage — consciousness, cosmos, ethics, language, philosophy, and the institutions that sustained them. Based on the SaMIKSHA framework of Yogi-vidwan Sri Sriranga Mahaguru.</p>
+    <div class="authors">
+      <span class="author-tag">Dr. Mohan Raghavan</span>
+      <span class="author-tag">Dr. Harsha Sinha</span>
+      <span class="author-tag">Dr. Ramaswamy</span>
+      <span class="author-tag" data-lang="mr">मराठी अनुवाद: विवेक सोवनी</span>
+      <span class="author-tag" data-lang="en" style="display:none;">Marathi translation: Vivek Sovani</span>
+    </div>
+  </div>
+
+  <div class="home-grid">
+    <div class="sec-card c0" onclick="location.href='/IKS/articles/01/'">
+      <div class="sec-card-badge">०</div>
+      <h3 data-lang="mr">मध्यवर्ती संकल्पना</h3>
+      <h3 data-lang="en" style="display:none;">Central Concepts</h3>
+      <div class="sc-sub" data-lang="mr">आनंद · ज्ञान · योग · विद्या</div>
+      <div class="sc-sub" data-lang="en" style="display:none;">Ananda · Jnana · Yoga · Vidya</div>
+      <div class="sc-count">६ लेख &nbsp;|&nbsp; 6 articles</div>
+    </div>
+    <div class="sec-card c1" onclick="location.href='/IKS/articles/07/'">
+      <div class="sec-card-badge">१</div>
+      <h3 data-lang="mr">जीवनाची चक्रे</h3>
+      <h3 data-lang="en" style="display:none;">Cycles of Life</h3>
+      <div class="sc-sub" data-lang="mr">ऋतम् · धर्म · सत्यम् · पुरुष-प्रकृती</div>
+      <div class="sc-sub" data-lang="en" style="display:none;">Rtam · Dharma · Satyam · Purusha-Prakriti</div>
+      <div class="sc-count">७ लेख &nbsp;|&nbsp; 7 articles</div>
+    </div>
+    <div class="sec-card c2" onclick="location.href='/IKS/articles/14/'">
+      <div class="sec-card-badge">२</div>
+      <h3 data-lang="mr">अव्यक्त, व्यक्त व आंतरव्यक्तीक चक्रे</h3>
+      <h3 data-lang="en" style="display:none;">Unmanifest, Manifest &amp; Inter-Personal Cycles</h3>
+      <div class="sc-sub" data-lang="mr">अंतःकरण · प्राण · देवता · गुरु-शिष्य</div>
+      <div class="sc-sub" data-lang="en" style="display:none;">Antahkarana · Prana · Deities · Guru-Shishya</div>
+      <div class="sc-count">२० लेख &nbsp;|&nbsp; 20 articles</div>
+    </div>
+    <div class="sec-card c3" onclick="location.href='/IKS/articles/34/'">
+      <div class="sec-card-badge">३</div>
+      <h3 data-lang="mr">चक्रांच्या संरक्षणासाठी संस्था</h3>
+      <h3 data-lang="en" style="display:none;">Institutions for Protecting the Cycles</h3>
+      <div class="sc-sub" data-lang="mr">वेद · दर्शने · तंत्र · संस्कार · मंदिर</div>
+      <div class="sc-sub" data-lang="en" style="display:none;">Vedas · Darshanas · Tantra · Samskaras · Temples</div>
+      <div class="sc-count">२० लेख &nbsp;|&nbsp; 20 articles</div>
+    </div>
+  </div>
+</main>
+
+<script src="assets/js/nav.js"></script>
+<script>
+  // Load sidebar
+  fetch('/IKS/shared/sidebar.html')
+    .then(r => r.text())
+    .then(html => {
+      document.getElementById('sidebar').innerHTML = html;
+      IKS.init();
+    });
+</script>
+</body>
+</html>
