@@ -1,0 +1,35 @@
+Article 03 — ज्ञान — परमावस्थेचा सिद्धांत / Jnana — Theory of the Supreme State
+Image generation prompts
+
+1. INFOGRAPHIC (NotebookLM / Canva)
+A horizontal flow diagram titled "The Moment of Jnana" showing 5 steps left to right:
+[Trigger] → [Sensory Experience] → [Buddhi / Intellect] → [JNANA ✦] → [Ananda]
+The JNANA step is highlighted in saffron (#D4500A). Below the flow, three example rows:
+🍎 Apple recognition (blindfold experiment)
+🍬 Tasting sweetness (first moment of recognition)
+💡 Puzzle solved (flash of insight)
+Color palette: ivory background, brown text, saffron accent. Clean, minimal, educational style.
+
+2. PHILOSOPHICAL ILLUSTRATION (Midjourney / DALL-E)
+A single candle flame illuminating a dark room, with a hand reaching toward it.
+The moment just before the fingers feel the warmth — symbolising the precise instant of recognition
+(Jnana). Painted in warm chiaroscuro style, deep shadows and golden warm light.
+The flame should feel like an "aha" moment. No text. Painterly, classical Indian miniature influence.
+
+3. PRESENTATION SLIDE (Google Slides / Canva — 16:9)
+Title: "Jnana — The Moment of Recognition | ज्ञान — साक्षात्काराचा क्षण"
+Visual: A large glowing light-bulb icon (or lotus bud opening) at center.
+Left panel: "1% Inspiration + 99% Effort = Repeatable Science"
+Right panel: Sanskrit etymology tree — jñā → jñāna, bodha → bodhi, Buddha
+Bottom quote: "The root 'jñā' connects to English 'know', Greek 'gnosis', and Latin 'cogn-ize'"
+Style: scholarly, warm earth tones, saffron accents.
+
+4. WHATSAPP SHARE CARD (1080×1080px)
+Square card. Deep ivory background with subtle mandala border in gold.
+Center top: large Devanagari "ज्ञान" in saffron, bold.
+Below: "Jñāna" in Crimson Pro italic, gold.
+Center: A simple glowing dot or spark icon in saffron.
+Quote below in smaller Marathi text:
+"साक्षात्काराचा तो एक क्षण — जेव्हा बुद्धी परमानंदात मग्न होते"
+Bottom: "भारतीय ज्ञानप्रणाली | Article 03"
+Clean, minimal, shareable.

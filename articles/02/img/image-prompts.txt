@@ -1,0 +1,31 @@
+Article 02 — आनंदाच्या उच्च मर्यादांचा शोध / In Search of Supreme Joy
+Image generation prompts
+
+1. INFOGRAPHIC (NotebookLM / Canva)
+A clean educational infographic titled "Four States of Consciousness" showing a horizontal
+progression: Jagruti (Waking) → Swapna (Dream) → Sushupti (Deep Sleep) → Turiya (Fourth State).
+Each state shown as a card with icons. The fourth state (Turiya) highlighted in saffron (#D4500A).
+Below, a scale bar showing increasing joy intensity. Bottom section: "Ananda Mimamsa — 10²⁰ ×"
+callout in gold. Color palette: ivory background, brown text, saffron accent. Devanagari labels.
+
+2. PHILOSOPHICAL ILLUSTRATION (Midjourney / DALL-E)
+A serene Indian sage in deep meditation, sitting cross-legged on a lotus platform at dawn.
+The figure is half-submerged in a calm lake (representing deep sleep / Sushupti) yet their
+eyes are slightly open and luminous (representing Turiya — conscious awareness within stillness).
+Warm golden dawn light. Soft painterly style. No text. Colors: deep blues, warm gold, saffron dawn.
+
+3. PRESENTATION SLIDE (Google Slides / Canva — 16:9)
+Title: "In Search of Supreme Joy | आनंदाच्या उच्च मर्यादांचा शोध"
+Visual: The Gandabherunda (two-headed bird) symbol at center, with two wings labelled:
+Left wing — "Indriyaja Ananda (Sensory Joy)" in green
+Right wing — "Indriyatita Ananda (Trans-Sensory Joy)" in saffron
+Background: ivory with subtle mandala watermark. Footer: Taittiriya Upanishad quote in gold.
+Style: elegant, scholarly, warm earth tones.
+
+4. WHATSAPP SHARE CARD (1080×1080px)
+Square card with saffron gradient background (dark saffron top, ivory bottom).
+Center: large Devanagari text "तुरीय" in white Noto Sans Devanagari, bold.
+Below: "Turīya — The Fourth State" in Crimson Pro italic, gold color.
+Bottom quote in smaller text: "१०²⁰ पट आनंद — तैत्तिरीय उपनिषद"
+Bottom right: small IKS logo / "भारतीय ज्ञानप्रणाली" watermark.
+Clean, minimal, shareable.

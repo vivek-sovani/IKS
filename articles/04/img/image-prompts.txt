@@ -1,0 +1,34 @@
+Article 04 — ज्ञानाच्या अवस्थेची पर्यायी नावे / Alternate Names for the State of Jnana
+Image generation prompts
+
+1. INFOGRAPHIC (NotebookLM / Canva)
+A spoke-wheel / radial diagram with "तत् / Brahman" in a saffron circle at center.
+Four quadrants radiating outward, each in a different color:
+- Green (top-left): "Jnana-root words" — ज्ञान · वेद · बोध · प्रज्ञान
+- Gold (top-right): "Luminosity names" — ज्योतिः · भाति · तेजस्वी · सुवर्णज्योतिः
+- Purple (bottom-left): "Immortality & peace" — अमृतम् · अक्षर · सत्यम् · शांतिः
+- Saffron (bottom-right): "Yoga shastra names" — समाधी · सहज · तुरीय · अद्वैत
+Dashed connector lines from center to each quadrant. Ivory background.
+
+2. PHILOSOPHICAL ILLUSTRATION (Midjourney / DALL-E)
+A single oil lamp (diya) floating on still golden water at night.
+The flame reflects on the water surface, creating brilliant golden ripples —
+yet the water itself is calm and cool. Dark background with stars barely visible.
+Style: warm Indian miniature painting influence. Symbolises "Āpo jyotiḥ" —
+brilliant light that is simultaneously cool and calming. No text.
+
+3. PRESENTATION SLIDE (Google Slides / Canva — 16:9)
+Title: "Alternate Names for the Supreme State | ज्ञानाच्या अवस्थेची नावे"
+Visual: The Katha Upanishad quote in large centered text (Devanagari + English):
+"न तत्र सूर्यो भाति न चन्द्रतारकम्..."
+"There the sun does not shine, nor the moon and stars..."
+Below: Three quote cards from modern sages — Ramakrishna, Ramana, Srirang.
+Background: deep night sky gradient with a single glowing light point at center.
+
+4. WHATSAPP SHARE CARD (1080×1080px)
+Square card, deep night-blue background fading to ivory at bottom.
+Top: a glowing golden flame icon.
+Center large text in white Devanagari: "आपो ज्योतिः रसः अमृतम्"
+Below in smaller gold Crimson Pro: "Āpo Jyotiḥ Rasaḥ Amṛtam"
+Below in even smaller Marathi: "तेजस्वी तरीही शीतल — तैत्तिरीय आरण्यक"
+Bottom: "भारतीय ज्ञानप्रणाली | Article 04"
