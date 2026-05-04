@@ -98,13 +98,13 @@ body {
 }
 .topbar-title .mr {
   font-family: 'Noto Sans Devanagari', sans-serif;
-  font-size: 14px; color: var(--gold-light);
+  font-size: 16px; color: var(--gold-light);
   font-weight: 500; white-space: nowrap;
   overflow: hidden; text-overflow: ellipsis;
 }
 .topbar-title .en {
   font-family: 'Crimson Pro', serif;
-  font-size: 11px; color: var(--brown-pale);
+  font-size: 12px; color: var(--brown-pale);
   font-style: italic; white-space: nowrap;
 }
 
@@ -112,6 +112,31 @@ body {
   display: flex; align-items: center; gap: 10px;
   flex-shrink: 0;
 }
+
+/* Font Size Toggle */
+.fs-toggle {
+  display: flex; gap: 2px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 20px;
+  padding: 3px;
+}
+.fs-btn {
+  padding: 3px 8px;
+  border: none; border-radius: 16px;
+  font-family: 'Crimson Pro', serif;
+  font-size: 11px; font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s;
+  background: transparent;
+  color: rgba(255,255,255,0.45);
+  line-height: 1.2;
+}
+.fs-btn.active {
+  background: rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.9);
+}
+.fs-btn:hover:not(.active) { color: rgba(255,255,255,0.7); }
 
 /* Language Toggle */
 .lang-toggle {
@@ -179,12 +204,12 @@ body {
 .sb-section-label { flex: 1; min-width: 0; }
 .sb-section-label .mr {
   font-family: 'Noto Sans Devanagari', sans-serif;
-  font-size: 11px; color: rgba(255,255,255,0.78);
+  font-size: 13px; color: rgba(255,255,255,0.78);
   font-weight: 500; line-height: 1.35;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 .sb-section-label .en {
-  font-size: 10px; color: rgba(255,255,255,0.35);
+  font-size: 11px; color: rgba(255,255,255,0.35);
   font-style: italic; margin-top: 1px;
 }
 
@@ -225,11 +250,11 @@ body {
 .sb-art-titles { min-width: 0; }
 .sb-art-titles .mr-t {
   font-family: 'Noto Sans Devanagari', sans-serif;
-  font-size: 11px; color: rgba(255,255,255,0.65);
+  font-size: 13px; color: rgba(255,255,255,0.65);
   display: block; line-height: 1.4;
 }
 .sb-art-titles .en-t {
-  font-size: 10px; color: rgba(255,255,255,0.3);
+  font-size: 11px; color: rgba(255,255,255,0.3);
   font-style: italic; display: block; margin-top: 1px;
 }
 .sb-art-link.active .sb-art-titles .mr-t,
@@ -360,6 +385,6 @@ body {
 
 @media (max-width: 560px) {
   .topbar { padding: 0 14px; }
-  .topbar-title .mr { font-size: 12px; }
+  .topbar-title .mr { font-size: 14px; }
   .topbar-title .en { display: none; }
 }

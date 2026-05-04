@@ -2,6 +2,11 @@
    ARTICLE.CSS — Article page styles
    ════════════════════════════════════════════════════ */
 
+/* Font size levels (controlled by IKS.setFontSize) */
+:root             { --art-fs: 17.5px; }
+:root[data-fs="sm"] { --art-fs: 15.5px; }
+:root[data-fs="lg"] { --art-fs: 20px; }
+
 /* ── ARTICLE HEADER ─────────────────────────────── */
 .art-header {
   background: var(--brown);
@@ -79,7 +84,7 @@
   color: var(--saffron); margin-bottom: 8px;
 }
 .summary-box p {
-  font-size: 16px; color: var(--text-secondary);
+  font-size: calc(var(--art-fs) - 1.5px); color: var(--text-secondary);
   line-height: 1.78; font-style: italic;
 }
 
@@ -99,7 +104,7 @@
   color: var(--text-muted); display: block; margin-top: 2px;
 }
 .content-sec p {
-  font-size: 17.5px;
+  font-size: var(--art-fs);
   color: var(--text-primary);
   line-height: 1.9;
   margin-bottom: 14px;
@@ -141,7 +146,7 @@
 }
 .term-roman { font-size: 14px; font-style: italic; color: var(--text-muted); font-family: 'Crimson Pro', serif; }
 .term-def {
-  font-size: 15px; color: var(--text-secondary);
+  font-size: calc(var(--art-fs) - 2.5px); color: var(--text-secondary);
   margin-top: 8px; line-height: 1.65;
 }
 
@@ -161,7 +166,7 @@
   opacity: 0.4;
 }
 .insight-block p {
-  font-size: 17.5px; color: var(--brown-mid);
+  font-size: var(--art-fs); color: var(--brown-mid);
   font-style: italic; line-height: 1.85;
   margin-bottom: 0;
 }
@@ -184,7 +189,7 @@
   display: flex; align-items: center; gap: 6px;
 }
 .curiosity-box .box-label::before { content: '?'; font-size: 14px; font-weight: 900; }
-.curiosity-box p, .curiosity-box ul { font-size: 16px; color: var(--text-primary); line-height: 1.75; }
+.curiosity-box p, .curiosity-box ul { font-size: calc(var(--art-fs) - 1.5px); color: var(--text-primary); line-height: 1.75; }
 .curiosity-box ul { padding-left: 20px; }
 .curiosity-box ul li { margin-bottom: 6px; }
 
@@ -206,7 +211,7 @@
   display: flex; align-items: center; gap: 6px;
 }
 .activity-box .box-label::before { content: '▷'; font-size: 11px; }
-.activity-box p, .activity-box ol { font-size: 16px; color: var(--text-primary); line-height: 1.75; }
+.activity-box p, .activity-box ol { font-size: calc(var(--art-fs) - 1.5px); color: var(--text-primary); line-height: 1.75; }
 .activity-box ol { padding-left: 20px; }
 .activity-box ol li { margin-bottom: 6px; }
 
@@ -231,7 +236,7 @@
   color: var(--brown); margin-bottom: 2px;
 }
 .c-roman { font-size: 11px; color: var(--text-muted); font-style: italic; }
-.c-def { font-size: 13px; color: var(--text-secondary); margin-top: 6px; line-height: 1.5; }
+.c-def { font-size: calc(var(--art-fs) - 4.5px); color: var(--text-secondary); margin-top: 6px; line-height: 1.5; }
 
 /* Phase II teaser */
 .phase2-teaser {

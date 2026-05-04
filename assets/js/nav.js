@@ -7,6 +7,18 @@ const IKS = (() => {
   /* ── Language ─────────────────────────────── */
   let lang = localStorage.getItem('iks-lang') || 'mr';
 
+  /* ── Font size ────────────────────────────── */
+  let fontSize = localStorage.getItem('iks-fs') || 'md';
+
+  function setFontSize(level) {
+    fontSize = level;
+    document.documentElement.setAttribute('data-fs', level);
+    localStorage.setItem('iks-fs', level);
+    document.querySelectorAll('[data-fs-btn]').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.fsBtn === level);
+    });
+  }
+
   function setLang(l) {
     lang = l;
     localStorage.setItem('iks-lang', l);
@@ -82,8 +94,9 @@ const IKS = (() => {
 
   /* ── Init ─────────────────────────────────── */
   function init() {
-    // Apply saved language
+    // Apply saved language and font size
     setLang(lang);
+    setFontSize(fontSize);
 
     // Hamburger
     const ham = document.getElementById('hamburger');
@@ -106,7 +119,7 @@ const IKS = (() => {
     });
   }
 
-  return { setLang, getLang, toggleSidebar, closeSidebar, toggleSection, openSection, setActiveArticle, init };
+  return { setLang, getLang, setFontSize, toggleSidebar, closeSidebar, toggleSection, openSection, setActiveArticle, init };
 })();
 
 document.addEventListener('DOMContentLoaded', IKS.init);
