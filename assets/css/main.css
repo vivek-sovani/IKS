@@ -3,39 +3,39 @@
    ════════════════════════════════════════════════════ */
 
 :root {
-  --saffron:       #E67E22;
-  --saffron-light: #F0A050;
-  --saffron-pale:  #FEF5EC;
-  --gold:          #546E7A;
-  --gold-light:    #D4A84B;
-  --gold-pale:     #F4F6F7;
-  --ivory:         #F8FAFB;
-  --ivory-dark:    #ECEFF1;
-  --brown:         #2C3E50;
-  --brown-mid:     #546E7A;
-  --brown-pale:    #8FA8B8;
-  --text-primary:  #1A252F;
-  --text-secondary:#34495E;
-  --text-muted:    #7F8C8D;
-  --border:        #D5DDE2;
-  --border-light:  #EBF0F2;
+  --saffron:       #D4500A;
+  --saffron-light: #F4874B;
+  --saffron-pale:  #FDF1EA;
+  --gold:          #B8860B;
+  --gold-light:    #E8C84A;
+  --gold-pale:     #FDFAF0;
+  --ivory:         #FAF6EE;
+  --ivory-dark:    #F0E8D8;
+  --brown:         #5C3A1E;
+  --brown-mid:     #8B5E3C;
+  --brown-pale:    #C4956A;
+  --text-primary:  #2C1810;
+  --text-secondary:#6B4423;
+  --text-muted:    #9E7B5A;
+  --border:        #DDD0BC;
+  --border-light:  #EDE3D4;
   --sidebar-w:     285px;
   --topbar-h:      56px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --ivory:         #0F1923;
-    --ivory-dark:    #172028;
-    --brown:         #1A2530;
-    --brown-mid:     #2C3E50;
-    --text-primary:  #ECF0F1;
-    --text-secondary:#BDC3C7;
-    --text-muted:    #7F8C8D;
-    --border:        #2C3E50;
-    --border-light:  #1E2D3D;
-    --saffron-pale:  #2A1E0F;
-    --gold-pale:     #1A2530;
+    --ivory:         #1C1209;
+    --ivory-dark:    #241809;
+    --brown:         #3A2310;
+    --brown-mid:     #5C3A1E;
+    --text-primary:  #F0E6D6;
+    --text-secondary:#D4B896;
+    --text-muted:    #9E7B5A;
+    --border:        #3D2A18;
+    --border-light:  #2E1E0E;
+    --saffron-pale:  #2A1408;
+    --gold-pale:     #1E1800;
   }
 }
 
@@ -112,31 +112,6 @@ body {
   display: flex; align-items: center; gap: 10px;
   flex-shrink: 0;
 }
-
-/* Font Size Toggle */
-.fs-toggle {
-  display: flex; gap: 2px;
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.12);
-  border-radius: 20px;
-  padding: 3px;
-}
-.fs-btn {
-  padding: 3px 8px;
-  border: none; border-radius: 16px;
-  font-family: 'Crimson Pro', serif;
-  font-size: 11px; font-weight: 700;
-  cursor: pointer;
-  transition: all 0.18s;
-  background: transparent;
-  color: rgba(255,255,255,0.45);
-  line-height: 1.2;
-}
-.fs-btn.active {
-  background: rgba(255,255,255,0.15);
-  color: rgba(255,255,255,0.9);
-}
-.fs-btn:hover:not(.active) { color: rgba(255,255,255,0.7); }
 
 /* Language Toggle */
 .lang-toggle {
