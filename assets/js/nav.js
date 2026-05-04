@@ -9,6 +9,7 @@ const IKS = (() => {
 
   /* ── Font size ────────────────────────────── */
   let fontSize = localStorage.getItem('iks-fs') || 'md';
+  if (fontSize === 'sm') { fontSize = 'md'; localStorage.setItem('iks-fs', 'md'); }
 
   function setFontSize(level) {
     fontSize = level;

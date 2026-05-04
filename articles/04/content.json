@@ -1,0 +1,203 @@
+{
+  "id": "04",
+  "section": "c0",
+  "titleMr": "ज्ञानाच्या अवस्थेची पर्यायी नावे",
+  "titleEn": "Alternate Names for the State of Jnana",
+  "readingTime": "५",
+  "readingTimeEn": "5",
+  "metaDesc": "परमानंदाच्या अवस्थेला भारतीय परंपरेत अनेक नावे आहेत — तत्, ब्रह्म, ज्योतिः, अक्षर, समाधी. प्रत्येक नाव त्या अनुभवाच्या एका वेगळ्या पैलूचे वर्णन करते.",
+  "summary": {
+    "mr": "परमानंदाचा अनुभव इतका तीव्र असतो की ऋषींना त्याचे नेमके वर्णन करताना शब्द अपुरे पडतात. म्हणून या एकाच अवस्थेला वेद, तंत्र, योग आणि दर्शन यांच्या विविध ग्रंथांत अनेक नावे दिली गेली — प्रत्येक नाव त्या अनुभवाच्या एका वेगळ्या गुणाचे वर्णन करते. रामकृष्ण परमहंस, रमण महर्षी आणि श्रीरंग महागुरू यांसारख्या आधुनिक ऋषींनी याच अनुभवाचे साक्षीदार वर्णन दिले आहे.",
+    "en": "The experience of supreme Ananda is so intense that sages found words inadequate to describe it precisely. This is why the same state has been given many names across Vedic, Tantric, Yoga, and Darshana texts — each name describing a different quality of the experience. Modern sages like Ramakrishna Paramahamsa, Ramana Maharshi, and Srirang Mahaguru have given first-hand descriptions that closely match the ancient accounts."
+  },
+  "body": [
+    {
+      "type": "section",
+      "headMr": "शब्दांच्या पलीकडचा अनुभव — \"तत्\"",
+      "headEn": "Beyond Words — \"Tat\"",
+      "paragraphs": [
+        {
+          "mr": "जेव्हा एखाद्याला सर्वोच्च आनंदाची अवस्था प्राप्त होते, तेव्हा त्या साक्षात्काराच्या विषयाला नाव देताना ऋषींना शब्द सापडत नाहीत. म्हणूनच त्याला अनेकदा फक्त <strong>\"तत्\"</strong> — म्हणजे \"ते\" — असे म्हटले जाते. भारतीय ज्ञानशास्त्रात त्याला <strong>ब्रह्म</strong> असेही म्हणतात. \"ब्रह्म जिज्ञासा\" म्हणजे ब्रह्माच्या स्वरूपाविषयी जिज्ञासा किंवा कुतूहल.",
+          "en": "When the supreme state of Ananda is attained, the sages find themselves without words to precisely name the object of that realisation. This is why it is often simply called <strong>\"Tat\"</strong> — meaning \"That.\" In Indian knowledge philosophy it is also called <strong>Brahman</strong>. \"Brahma Jijnasa\" means inquiry into or curiosity about the nature of Brahman."
+        },
+        {
+          "mr": "कधीकधी एखादा शब्द त्याच्या नावापेक्षा त्याच्या वैयक्तिक अनुभवाच्या वर्णनाने अधिक चांगला परिभाषित होतो — जसे 'गोड', 'कडू', 'सुंदर' हे शब्द. म्हणून आता आपण या अवस्थेची भारतीय ज्ञानपद्धतींमधील विविध वर्णने पाहूया.",
+          "en": "Sometimes a word is better defined by the description of its personal experience than by its name alone — just as \"sweet\", \"bitter\", or \"beautiful\" are understood. So let us now explore the various descriptions of this state found across India's knowledge traditions."
+        }
+      ]
+    },
+    {
+      "type": "infographic",
+      "svgType": "wheel",
+      "titleMr": "एकाच परमावस्थेची अनेक नावे — वेद · तंत्र · योग · दर्शन",
+      "titleEn": "Many names for the same supreme state — Veda · Tantra · Yoga · Darshana",
+      "captionMr": "सर्व नावे एकाच अनुभवाची — परमानंदाची — वेगवेगळ्या पैलूंनी केलेली वर्णने आहेत.",
+      "captionEn": "All names describe the same experience — supreme Ananda — from different facets.",
+      "center": {
+        "mr": "तत्",
+        "en": "Tat",
+        "roman": "Tat / Brahman",
+        "subMr": "शब्दातीत",
+        "subEn": "\"That\" — beyond words"
+      },
+      "quadrants": [
+        {
+          "position": "top-left",
+          "color": "green",
+          "headMr": "ज्ञान-मूळ शब्द",
+          "headEn": "Knowledge-root words",
+          "subMr": "From root 'jñā' / 'vid'",
+          "subEn": "From root 'jñā' / 'vid'",
+          "itemsMr": ["ज्ञान · वेद · विदुः · बोध", "प्रज्ञान · विज्ञान"],
+          "itemsEn": ["Jnana · Veda · Vidu · Bodha", "Prajnana · Vijnana"]
+        },
+        {
+          "position": "top-right",
+          "color": "gold",
+          "headMr": "प्रकाश-वर्णन",
+          "headEn": "Luminosity names",
+          "subMr": "Luminosity names",
+          "subEn": "Descriptions of light",
+          "itemsMr": ["ज्योतिः · भाति · तेजस्वी", "सुवर्णज्योतिः · भास"],
+          "itemsEn": ["Jyotiḥ · Bhāti · Tejasvī", "Suvarṇajyotiḥ · Bhāsa"]
+        },
+        {
+          "position": "bottom-left",
+          "color": "purple",
+          "headMr": "अमृत-शांती गुण",
+          "headEn": "Immortality & peace",
+          "subMr": "Immortality & peace",
+          "subEn": "Qualities of the state",
+          "itemsMr": ["अमृतम् · अक्षर · अनंतम्", "सत्यम् · शांतिः · समृद्धम्", "आपो ज्योतिः रसः अमृतम्"],
+          "itemsEn": ["Amṛtam · Akṣara · Anantam", "Satyam · Śāntiḥ · Samṛddham", "Āpo jyotiḥ rasaḥ amṛtam"]
+        },
+        {
+          "position": "bottom-right",
+          "color": "saffron",
+          "headMr": "योगशास्त्र नामे",
+          "headEn": "Yoga-shastra synonyms",
+          "subMr": "Yoga shastra synonyms",
+          "subEn": "From Haṭha Yoga Pradīpikā",
+          "itemsMr": ["समाधी · राजयोग · तुरीय", "सहज · जीवनमुक्ती · अद्वैत", "निरंजनम् · परंपदम्"],
+          "itemsEn": ["Samādhi · Rājayoga · Turīya", "Sahaja · Jīvanmukti · Advaita", "Nirañjanam · Paraṃpadam"]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "headMr": "प्रकाशाचे वर्णन — \"ज्योतिः\"",
+      "headEn": "Descriptions of Light — \"Jyotiḥ\"",
+      "paragraphs": [
+        {
+          "mr": "परमानंदाच्या अवस्थेचे सर्वात सामान्य वर्णन प्रकाशाने केले जाते. कठोपनिषद सांगते: <em>\"न तत्र सूर्यो भाति न चन्द्रतारकम् — तमेव भान्तमनुभाति सर्वम् तस्य भासा सर्वमिदं विभाति.\"</em> अर्थ: \"तेथे सूर्य प्रकाशत नाही, चंद्र-तारे प्रकाशत नाहीत, विजाही प्रकाशत नाही — तोच प्रकाशतो म्हणून सर्व प्रकाशते. त्याच्या प्रकाशाने हे सर्व विश्व उजळते.\"",
+          "en": "The most common description of the supreme state uses light. The Katha Upanishad declares: <em>\"Na tatra sūryo bhāti na candratārakam — tameva bhāntam anubhāti sarvam tasya bhāsā sarvam idaṃ vibhāti.\"</em> Meaning: \"There the sun does not shine, nor the moon and stars, lightning does not shine either — it alone shines, and because of it everything else shines. By its light all this world is illumined.\""
+        },
+        {
+          "mr": "तैत्तिरीय आरण्यकात या अनुभवाचे वर्णन <strong>आपो ज्योतिः रसः अमृतम्</strong> असे केले आहे — जे विचार करायला लावणारे आहे. अनुभव अत्यंत तेजस्वी प्रकाशाचा आहे (ज्योतिः), तरीही तो अत्यंत शीतल आणि शांतकारक आहे (आपः = पाण्यासारखा). त्याशिवाय आनंद (रस) आहे आणि अमरत्वाचे अमृत (अमृतम्) आहे.",
+          "en": "The Taittiriya Aranyaka describes this experience as <strong>Āpo jyotiḥ rasaḥ amṛtam</strong> — which is thought-provoking. The experience is of intensely brilliant light (jyotiḥ), yet it is simultaneously extremely cool and calming (āpaḥ = like water). Additionally there is joy and sweetness (rasa) and the nectar of immortality (amṛtam)."
+        }
+      ]
+    },
+    {
+      "type": "termBox",
+      "word": "आपो ज्योतिः रसः अमृतम्",
+      "roman": "Āpo Jyotiḥ Rasaḥ Amṛtam",
+      "defMr": "तैत्तिरीय आरण्यकातील परमानंदाच्या अनुभवाचे चतुर्गुण वर्णन: <strong>आपः</strong> = पाण्यासारखे — शीतल, शांत · <strong>ज्योतिः</strong> = प्रकाश — तेजस्वी, उज्ज्वल · <strong>रसः</strong> = आनंद, गोडवा · <strong>अमृतम्</strong> = अमरत्व — मृत्यूची भीती नाही. हे चारही गुण एकाच वेळी अनुभवास येतात.",
+      "defEn": "A fourfold description of the supreme Ananda experience from the Taittiriya Aranyaka: <strong>Āpaḥ</strong> = water-like — cool, calming · <strong>Jyotiḥ</strong> = light — brilliant, luminous · <strong>Rasaḥ</strong> = bliss, sweetness · <strong>Amṛtam</strong> = immortality — no fear of death. All four qualities are experienced simultaneously."
+    },
+    {
+      "type": "section",
+      "headMr": "आधुनिक साक्षीदार",
+      "headEn": "Modern Witnesses",
+      "paragraphs": [
+        {
+          "mr": "हे अनुभव केवळ प्राचीन शास्त्रग्रंथांपुरते मर्यादित नाहीत. आधुनिक काळातील ऋषींनीही हाच अनुभव घेतला आणि त्याचे वर्णन केले.",
+          "en": "These experiences are not limited to ancient texts. Modern sages have also attained and described the same experience."
+        },
+        {
+          "mr": "<strong>रामकृष्ण परमहंस</strong> यांनी या अनुभवाचे वर्णन करताना सांगितले की जो प्रश्न विचारतो त्याला जसा अनुभव येतो, त्यापेक्षाही घनिष्ठ असा अनुभव प्रत्यक्षात येतो. <strong>पॉल ब्रंटन</strong> — एक संशयवादी — रमण महर्षींच्या मार्गदर्शनाखाली इंद्रियातीत अवस्था अनुभवली आणि त्याचे वर्णन <em>\"प्रखर प्रकाशाच्या सागराच्या मध्यभागी असल्यासारखे\"</em> असे केले. <strong>श्रीरंग महागुरू</strong> या अवस्थेचे वर्णन <em>\"कोटी सूर्यांइतके किंवा त्याहूनही अधिक तेजस्वी — तथापि चंद्रकिरणांसारखे शीतल आणि शांतकारक\"</em> असे करतात.",
+          "en": "<strong>Ramakrishna Paramahamsa</strong> described the experience as even more intimate than the person asking the question can experience. <strong>Paul Brunton</strong> — a sceptic — experienced the trans-sensory state under Ramana Maharshi's guidance and described it as <em>\"being at the centre of an ocean of brilliant light.\"</em> <strong>Srirang Mahaguru</strong> describes the state as <em>\"as brilliant as a crore suns or more, yet as cool and calming as moonbeams.\"</em>"
+        }
+      ],
+      "insight": {
+        "mr": "प्राचीन ऋषींनी वर्णन केलेला \"आपो ज्योतिः\" — तेजस्वी तरीही शीतल — हाच अनुभव आधुनिक साक्षीदारांनीही स्वतंत्रपणे नोंदवला आहे. हजारो वर्षांच्या अंतरानंतरही वर्णनांमधील साम्य हे या शोधाच्या पुनरावृत्तियोग्यतेचे प्रमाण आहे.",
+        "en": "The ancient sages' description of \"Āpo jyotiḥ\" — brilliant yet cooling — has been independently recorded by modern witnesses. The striking similarity in descriptions separated by thousands of years is testimony to the reproducibility of this discovery."
+      }
+    },
+    {
+      "type": "section",
+      "headMr": "योगशास्त्राचे सर्वसमावेशक संकलन",
+      "headEn": "The Yoga Shastra's Comprehensive List",
+      "paragraphs": [
+        {
+          "mr": "हठयोगप्रदीपिका या योगशास्त्राच्या ग्रंथात या अवस्थेच्या समानार्थी शब्दांचे एक सुंदर संकलन आहे. वेद, तंत्र, योग, पुराण आणि दर्शन या सर्व ग्रंथांतून घेतलेल्या या यादीत पुढील शब्दांचा समावेश आहे:",
+          "en": "The Hatha Yoga Pradipika contains a remarkable compilation of synonyms for this state, drawn from Vedic, Tantric, Yoga, Puranic, and Darshana texts. The list includes the following terms:"
+        },
+        {
+          "mr": "<strong>राजयोग · समाधी · उन्मनी · मनोन्मनी · अमरत्व · लयतत्त्व · शून्य · अशून्य · परंपदम् · अमनस्कम् · अद्वैत · निरालंबम् · निरंजनम् · जीवनमुक्ती · सहज · तुरीय</strong>",
+          "en": "<strong>Rajayoga · Samadhi · Unmanī · Manonmanī · Amaratva · Laya-tattva · Śūnya · Aśūnya · Paraṃpadam · Amanaskam · Advaita · Nirālambam · Nirañjanam · Jīvanmukti · Sahaja · Turīya</strong>"
+        },
+        {
+          "mr": "या सर्व शब्दांचे मूळ एकच — परमानंदाच्या त्या अवस्थेचे वर्णन. प्रत्येक शब्द त्या अनुभवाचा एक पैलू उजागर करतो: अमरत्व, शांती, एकत्व, प्रकाश, मुक्ती.",
+          "en": "All these words share one source — the description of the supreme state of Ananda. Each word illuminates one aspect of that experience: immortality, peace, oneness, light, liberation."
+        }
+      ]
+    },
+    {
+      "type": "concepts",
+      "items": [
+        {
+          "term": "तत् / ब्रह्म",
+          "roman": "Tat / Brahman",
+          "defMr": "\"ते\" — शब्दातीत परमानंदाची अवस्था; ब्रह्म जिज्ञासा म्हणजे याचा शोध",
+          "defEn": "\"That\" — the state of supreme bliss beyond words; Brahma Jijnasa means inquiry into this"
+        },
+        {
+          "term": "ज्योतिः",
+          "roman": "Jyotiḥ",
+          "defMr": "प्रकाश — परमानंदाच्या अनुभवातील तेजस्वी प्रकाशाचे वर्णन",
+          "defEn": "Light — description of the brilliant luminosity experienced in the state of supreme Ananda"
+        },
+        {
+          "term": "अक्षर",
+          "roman": "Akṣara",
+          "defMr": "जे नष्ट होऊ शकत नाही किंवा जे सदैव उपस्थित आहे — परमावस्थेचा अविनाशी गुण",
+          "defEn": "That which cannot be destroyed or is ever-present — the indestructible quality of the supreme state"
+        },
+        {
+          "term": "सहज",
+          "roman": "Sahaja",
+          "defMr": "नैसर्गिक अवस्था — परमानंद हे बाहेरून आणलेले नाही, ती आपली मूळ अवस्था आहे",
+          "defEn": "The natural state — supreme bliss is not brought from outside; it is our original, natural condition"
+        }
+      ]
+    },
+    {
+      "type": "curiosity",
+      "mr": "दक्षिण भारतीय घरांमधील पारंपरिक आरती पाहिली आहे का? त्यात हळदीच्या पिवळ्या मिश्रणाने रंगवलेल्या थंड पाण्यात दिवा किंवा ज्योत ठेवली जाते. दिव्याचा प्रकाश पाण्यावरून परावर्तित होऊन सुवर्ण रंग देतो — तथापि तो डोळ्यांना शीतल वाटतो. हे \"आपो ज्योतिः\" — तेजस्वी तरीही शीतल — याच वर्णनाशी किती जुळते!",
+      "en": "Have you seen the traditional aarti in South Indian homes? A lamp is placed in cool water coloured yellow with turmeric. The light reflects off the water giving a golden hue — yet it feels cool and soothing to the eyes. This perfectly mirrors \"Āpo jyotiḥ\" — brilliant yet cooling — the very description the Upanishads give of the supreme experience!"
+    },
+    {
+      "type": "activity",
+      "mr": [
+        "एका शांत खोलीत एक मेणबत्ती पेटवा. पाण्याच्या भांड्यात त्याचे प्रतिबिंब पहा. प्रकाश आहे — पण पाणी शीतल आहे. \"आपो ज्योतिः\" — तेजस्वी तरीही शीतल — हे जाणवते का?",
+        "वरील यादीतील शब्द — सहज, अद्वैत, निरंजन, जीवनमुक्ती — यांचे अर्थ शोधा. प्रत्येक शब्द त्या परमावस्थेचा कोणता पैलू सांगतो?",
+        "रमण महर्षी, रामकृष्ण परमहंस किंवा श्रीरंग महागुरू यांच्याबद्दल एखादी पुस्तिका वाचा — त्यांच्या अनुभवाचे वर्णन आणि उपनिषदांचे वर्णन यांतील साम्य शोधा."
+      ],
+      "en": [
+        "In a quiet room, light a candle. Watch its reflection in a bowl of water. Light is present — yet the water is cool. Can you sense \"Āpo jyotiḥ\" — brilliant yet cooling?",
+        "Look up the meanings of words from the list above — Sahaja, Advaita, Niranjana, Jivanmukti. Which aspect of the supreme state does each word describe?",
+        "Read a booklet about Ramana Maharshi, Ramakrishna Paramahamsa, or Srirang Mahaguru — and find the parallels between their descriptions of experience and the Upanishadic descriptions."
+      ]
+    },
+    {
+      "type": "phase2",
+      "mr": "कठोपनिषद आणि तैत्तिरीय आरण्यकातील मूळ श्लोक, हठयोगप्रदीपिकेतील संपूर्ण नामसंकलन, आणि रामकृष्ण-रमण-श्रीरंग यांच्या अनुभवांचे तुलनात्मक विश्लेषण",
+      "en": "Original verses from the Katha Upanishad and Taittiriya Aranyaka, the complete name-compilation from Hatha Yoga Pradipika, and comparative analysis of the experiences of Ramakrishna, Ramana, and Srirang"
+    }
+  ],
+  "nav": {
+    "prev": { "id": "03", "titleMr": "ज्ञान — परमावस्थेचा सिद्धांत", "titleEn": "Jnana — Theory of the Supreme State" },
+    "next": { "id": "05", "titleMr": "अमर्यादित आनंदाचे परिणाम", "titleEn": "Effects of Unlimited Bliss" }
+  }
+}

@@ -237,6 +237,7 @@ function svgWheel(inf) {
     gold:    { fill: '#FAEEDA', stroke: '#B8860B', head: '#8B6400', sub: '#c4956a', line: '#B8860B' },
     purple:  { fill: '#EEEDFF', stroke: '#7B68CC', head: '#534AB7', sub: '#8a80cc', line: '#7B68CC' },
     saffron: { fill: '#FDF1EA', stroke: '#D4500A', head: '#8B4010', sub: '#c4956a', line: '#D4500A' },
+    gray:    { fill: '#F1EFE8', stroke: '#888780', head: '#5F5E5A', sub: '#888780', line: '#888780' },
   };
   const Q_POS = {
     'top-left':     { x:20,  y:32,  w:220, h:90,  lx1:240, ly1:77,  lx2:298, ly2:130 },
@@ -437,6 +438,8 @@ function renderNav(nav) {
       <span class="nav-art-title" data-lang="mr">${+id}. ${titleMr}</span>
       <span class="nav-art-title" data-lang="en" style="display:none;">${+id}. ${titleEn}</span>
     </a>\n`;
+  } else if (nav.next) {
+    html += `    <div></div>\n`;
   }
   if (nav.next) {
     const { id, titleMr, titleEn } = nav.next;
@@ -481,11 +484,6 @@ function page(c, sec, id) {
     </a>
   </div>
   <div class="topbar-right">
-    <div class="fs-toggle">
-      <button class="fs-btn" data-fs-btn="sm" onclick="IKS.setFontSize('sm')" title="Smaller text">A-</button>
-      <button class="fs-btn active" data-fs-btn="md" onclick="IKS.setFontSize('md')" title="Default text">A</button>
-      <button class="fs-btn" data-fs-btn="lg" onclick="IKS.setFontSize('lg')" title="Larger text">A+</button>
-    </div>
     <div class="lang-toggle">
       <button class="lang-btn active" data-lang-btn="mr" onclick="IKS.setLang('mr')">मराठी</button>
       <button class="lang-btn" data-lang-btn="en" onclick="IKS.setLang('en')">English</button>
@@ -515,9 +513,16 @@ function page(c, sec, id) {
     <h1 data-lang="en" style="display:none;">${c.titleEn}</h1>
     <div class="en-title" data-lang="mr">${c.titleEn}</div>
     <div class="art-meta">
-      <span class="reading-time">${c.readingTime || '৫'} मिनिटे / ${c.readingTimeEn || '5'} min</span>
-      <span class="art-section-tag" data-lang="mr">${sec.nameMr || ''}</span>
-      <span class="art-section-tag" data-lang="en" style="display:none;">${sec.nameEn || ''}</span>
+      <div class="art-meta-left">
+        <span class="reading-time">${c.readingTime || '৫'} मिनिटे / ${c.readingTimeEn || '5'} min</span>
+        <span class="art-section-tag" data-lang="mr">${sec.nameMr || ''}</span>
+        <span class="art-section-tag" data-lang="en" style="display:none;">${sec.nameEn || ''}</span>
+      </div>
+      <div class="fs-toggle">
+        <button class="fs-btn active" data-fs-btn="md" onclick="IKS.setFontSize('md')" title="Default text">A</button>
+        <button class="fs-btn" data-fs-btn="lg" onclick="IKS.setFontSize('lg')" title="Larger text">A+</button>
+        <button class="fs-btn" data-fs-btn="xl" onclick="IKS.setFontSize('xl')" title="Largest text">A++</button>
+      </div>
     </div>
   </div>
 

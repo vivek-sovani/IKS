@@ -1,0 +1,186 @@
+{
+  "id": "03",
+  "section": "c0",
+  "titleMr": "ज्ञान — परमावस्थेचा सिद्धांत",
+  "titleEn": "Jnana — Theory of the Supreme State",
+  "readingTime": "५",
+  "readingTimeEn": "5",
+  "metaDesc": "ज्ञान म्हणजे साक्षात्काराचा क्षण — जेव्हा अनुभव, अवबोधन आणि आनंद एकत्र येतात. भारतीय ज्ञानपरंपरेने या क्षणाला शास्त्रशुद्ध स्वरूप दिले.",
+  "summary": {
+    "mr": "ज्ञान म्हणजे साक्षात्काराचा तो विशिष्ट क्षण — जेव्हा अनुभव, अवबोधन आणि आनंद एकत्र येतात. गोड पदार्थाचा स्वाद घेताना, कोडे सुटताना किंवा मित्राला ओळखताना जो एका झटक्याचा क्षण येतो, तोच ज्ञानाचा क्षण. भारतीय ज्ञानपरंपरेने या क्षणाचे शास्त्रशुद्ध अध्ययन करून आनंदाच्या परमावस्थेपर्यंत पोहोचण्याची पद्धत विकसित केली.",
+    "en": "Jnana is the specific moment of recognition — when experience, understanding, and joy converge. It is the sudden flash when a puzzle is solved, when sweetness is tasted, or when a friend is recognised. India's knowledge tradition studied this moment systematically and developed a method to reach the supreme state of Ananda through it."
+  },
+  "body": [
+    {
+      "type": "section",
+      "headMr": "साक्षात्काराचा क्षण",
+      "headEn": "The Moment of Recognition",
+      "paragraphs": [
+        {
+          "mr": "तुम्ही कधी कोडे सोडवण्याचा प्रयत्न केला आहे का? अनेक पद्धती वापरतो, अपयशी ठरतो — आणि अचानक एका झटक्यात उत्तर समोर येते! त्या क्षणी एक विशेष आनंदाची लाट येते. किंवा डोळ्यांवर पट्टी बांधलेल्या अवस्थेत हातात ठेवलेले सफरचंद ओळखण्याचा अनुभव घ्या. हाताळताना, स्पर्श करताना, गंध घेताना — एक क्षण येतो जेव्हा \"हे सफरचंद आहे\" हे ओळखले जाते. तो अचूक क्षण — ओळखीचा, साक्षात्काराचा क्षण — हाच ज्ञान.",
+          "en": "Have you ever tried to solve a puzzle? You try many approaches, fail repeatedly — and then suddenly, in a flash, the answer appears! At that moment a special wave of joy arrives. Or try this: with your eyes blindfolded, feel an apple placed in your hand. As you handle it, touch it, smell it — there comes a moment when you recognise \"this is an apple.\" That precise instant of recognition — that moment of realisation — is Jnana."
+        },
+        {
+          "mr": "आवडती मिठाई खातानाही हाच क्षण येतो. मिठाई दिसल्यावर, उचलल्यावर, तोंडात टाकल्यावर — जेव्हा साखर जिभेच्या स्वाद-ग्रंथींना स्पर्श करते आणि गोडवा जाणवतो — तोच पूर्ण आनंदाच्या सुरुवातीचा क्षण. हे आनंद कसा सुरू होतो हे समजण्यासाठी महत्त्वाचे आहे — आनंद एका विशिष्ट क्षणी सुरू होतो, आणि तो क्षण म्हणजे साक्षात्कार.",
+          "en": "The same moment arrives when eating a favourite sweet. When you see it, pick it up, place it in your mouth — the instant when sugar touches the taste buds and you recognise sweetness — that is the moment joy begins. This is important for understanding how Ananda arises: it begins at a specific moment, and that moment is one of recognition and realisation."
+        }
+      ]
+    },
+    {
+      "type": "termBox",
+      "word": "ज्ञान",
+      "roman": "Jñāna",
+      "defMr": "मूळ धातू: <strong>'ज्ञा'</strong> — अवबोधन, ओळखणे, साक्षात्कार करणे. ज्ञान म्हणजे केवळ माहिती नाही — ते एक <em>थेट, तीव्र, वैयक्तिक अनुभव</em> आहे. जेव्हा बुद्धी (धी:) आनंदाच्या परम अवस्थेत मग्न होते, त्या अवस्थेला विशेषतः ज्ञान म्हणतात. इंग्रजी know/knowledge यांचे मूळ \"gno-\" हे याच धातूशी जुळते.",
+      "defEn": "Root: <strong>'jñā'</strong> — to comprehend, recognise, realise. Jnana is not mere information — it is a <em>direct, vivid, personal experience</em>. When the intellect (Dhi/Buddhi) is immersed in the supreme state of Ananda, that state is specifically called Jnana. The English words \"know\" and \"knowledge\" trace back to the root \"gno-\", which connects directly to this Sanskrit root."
+    },
+    {
+      "type": "infographic",
+      "svgType": "flow",
+      "titleMr": "ज्ञानाचा क्षण — साक्षात्काराची प्रक्रिया",
+      "titleEn": "The Moment of Jnana — the Process of Realisation",
+      "captionMr": "साक्षात्काराचा तो एक क्षण — जेव्हा बुद्धी आनंदाच्या परमावस्थेत मग्न होते — तोच ज्ञान.",
+      "captionEn": "That one moment of realisation — when the intellect is immersed in supreme bliss — that is Jnana.",
+      "steps": [
+        {
+          "mr": ["बाह्य", "उद्दीपन"],
+          "en": ["External", "Trigger"],
+          "roman": "Trigger",
+          "subMr": ["सफरचंद · मिठाई", "कोडे · संगीत"],
+          "subEn": ["Apple · Sweet", "Puzzle · Music"]
+        },
+        {
+          "mr": ["इंद्रिय", "अनुभव"],
+          "en": ["Sensory", "Experience"],
+          "roman": "Indriya Anubhava",
+          "subMr": ["स्पर्श · गंध · स्वाद", "दृष्टी · श्रवण"],
+          "subEn": ["Touch · Smell · Taste", "Sight · Hearing"]
+        },
+        {
+          "mr": ["बुद्धीचे", "आकलन"],
+          "en": ["Intellect's", "Comprehension"],
+          "roman": "Buddhi / Dhi",
+          "subMr": ["ओळख · तुलना", "विश्लेषण"],
+          "subEn": ["Recognition · Compare", "Analysis"]
+        },
+        {
+          "mr": ["ज्ञान"],
+          "en": ["Jñāna"],
+          "roman": "Jñāna",
+          "subMr": ["साक्षात्काराचा", "अचूक क्षण"],
+          "subEn": ["The Exact Moment", "of Recognition"],
+          "highlight": true
+        },
+        {
+          "mr": ["आनंद"],
+          "en": ["Ānanda"],
+          "roman": "Ānanda",
+          "subMr": ["आनंदाची लाट", "सुरू होते"],
+          "subEn": ["The wave of", "joy begins"]
+        }
+      ],
+      "examples": {
+        "headMr": "ज्ञानाच्या क्षणाची उदाहरणे:",
+        "headEn": "Examples of the Jnana moment:",
+        "mr": ["🍎  डोळ्यांवर पट्टी असताना सफरचंद हाताळून ओळखणे — ओळखीचा अचूक क्षण", "🍬  मिठाई जिभेवर ठेवताना गोडवा जाणवण्याचा पहिला क्षण", "💡  कोडे एका झटक्यात सुटणे — प्रेरणेचा क्षण"],
+        "en": ["🍎  Blindfolded: handling an apple and recognising it — the precise moment of knowing", "🍬  The first instant of tasting sweetness as sugar touches the taste buds", "💡  A puzzle solved in a flash — the moment of inspiration"]
+      }
+    },
+    {
+      "type": "section",
+      "headMr": "शोधाचे शास्त्र — १% प्रेरणा, ९९% परिश्रम",
+      "headEn": "The Science of Discovery — 1% Inspiration, 99% Effort",
+      "paragraphs": [
+        {
+          "mr": "विज्ञान आणि तंत्रज्ञानाच्या क्षेत्रात आपल्याला माहीत आहे की एखाद्या शोधाचा गाभा एका क्षणात प्रकट होऊ शकतो. परंतु त्याला पुनरावृत्तीयोग्य विज्ञान किंवा मोठ्या प्रमाणावर वापरता येणारे तंत्रज्ञान बनवणे — हे एक अवघड काम आहे. १% प्रेरणेला ९९% परिश्रमाचा आधार लागतो.",
+          "en": "In the field of science and technology, we know that the core of a discovery can flash to awareness in a single moment. But transforming it into reproducible science or large-scale applicable technology is an altogether harder task. 1% inspiration needs 99% hard work behind it."
+        },
+        {
+          "mr": "भारतीय ज्ञानपरंपरेचा अभ्यास केला तर आनंदाच्या भारतीय शोधाबाबतही हेच घडल्याची साक्ष मिळते. ऋषींनी केवळ आनंदाचा अनुभव घेतला नाही — त्यांनी त्याचे नेमके वर्णन केले, शब्दसंग्रह विकसित केला, कारण-परिणाम समजून घेतले, पद्धतींचे प्रमाणीकरण केले, प्रमुख व्यक्तींना प्रशिक्षित केले, आणि संस्थात्मक यंत्रणा प्रस्थापित केली.",
+          "en": "When we study India's knowledge tradition carefully, we find the same process at work in the Indian discovery of Ananda. The sages did not merely experience joy — they described it precisely, developed vocabulary for it, understood its causes and effects, standardised methods for achieving it, trained key practitioners, and established institutional structures to preserve and transmit it."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "headMr": "तत्त्व साक्षात्कार — थेट अनुभव",
+      "headEn": "Tattva Sakshatkara — Direct Experience",
+      "paragraphs": [
+        {
+          "mr": "या साक्षात्काराच्या अवस्थेला विशेष नाव आहे — <strong>तत्त्व साक्षात्कार</strong>. तत्त्व म्हणजे 'तत्-त्व' — म्हणजे 'त्या वस्तूचे स्वरूप' किंवा 'त्याचे-पण'. साक्षात्कार म्हणजे 'आपल्याच डोळ्यांनी', म्हणजे प्रत्यक्ष आणि तीव्र वैयक्तिक अनुभव. एकत्रितपणे — तत्त्व साक्षात्कार म्हणजे 'त्या वस्तूच्या स्वरूपाचा प्रत्यक्ष आणि तीव्र वैयक्तिक अनुभव'.",
+          "en": "This state of realisation has a specific name — <strong>Tattva Sakshatkara</strong>. Tattva means \"tat-tva\" — \"that-ness\" or the essential nature of a thing. Sakshatkara means \"with one's own eyes\" — a direct and vivid personal experience. Together — Tattva Sakshatkara means \"the direct, vivid personal experience of the essential nature of something.\""
+        },
+        {
+          "mr": "विशेषतः ज्ञान आणि तत्त्व साक्षात्कार हे शब्द अशा अवस्थेसाठी वापरले जातात जिथे बुद्धी (धी:) आनंदाच्या परम अवस्थेत मग्न असते. या अनुभवाचे मूळ रोजच्या जीवनातील साक्षात्काराच्या क्षणांमध्ये शोधले जाऊ शकते — परंतु त्याची पराकाष्ठा समाधीच्या अवस्थेत होते.",
+          "en": "Specifically, the words Jnana and Tattva Sakshatkara are used for the state where the intellect (Dhi/Buddhi) is immersed in the supreme state of Ananda. The roots of this experience can be traced in the ordinary moments of recognition in daily life — but its ultimate expression is in the state of Samadhi."
+        }
+      ],
+      "insight": {
+        "mr": "ज्ञान म्हणजे केवळ बौद्धिक माहिती नाही — ते एक थेट, तीव्र, वैयक्तिक साक्षात्कार आहे. बुद्ध म्हणजे ज्याला 'बोध' किंवा 'ज्ञान' प्राप्त झाले आहे असा. बोधी म्हणजे ज्ञान — आणि बोधीवृक्षाखाली बुद्धांना तोच साक्षात्काराचा क्षण अनुभवास आला जो ज्ञानाचे सार आहे.",
+        "en": "Jnana is not mere intellectual knowledge — it is a direct, vivid, personal realisation. Buddha means \"one who has attained Bodha or Jnana.\" Bodhi means knowledge — and under the Bodhi tree, the Buddha experienced precisely that moment of direct realisation which is the essence of Jnana."
+      }
+    },
+    {
+      "type": "termBox",
+      "word": "तत्त्व साक्षात्कार",
+      "roman": "Tattva Sākṣātkāra",
+      "defMr": "<strong>तत्त्व</strong> = 'तत्-त्व' = त्या वस्तूचे स्वरूप / 'त्याचे-पण'. <strong>साक्षात्कार</strong> = 'आपल्याच डोळ्यांनी' = प्रत्यक्ष, तीव्र वैयक्तिक अनुभव. एकत्र: एखाद्या वस्तूच्या मूळ स्वरूपाचा थेट, तीव्र, वैयक्तिक अनुभव. हीच बुद्धीची (धी:) सर्वोच्च अवस्था.",
+      "defEn": "<strong>Tattva</strong> = \"tat-tva\" = \"that-ness\", the essential nature of a thing. <strong>Sakshatkara</strong> = \"with one's own eyes\" = a direct, vivid, personal experience. Together: the direct, vivid, personal experience of the essential nature of something. This is the highest state of the intellect (Dhi/Buddhi)."
+    },
+    {
+      "type": "concepts",
+      "items": [
+        {
+          "term": "ज्ञान",
+          "roman": "Jñāna",
+          "defMr": "साक्षात्काराचा क्षण; बुद्धी परमानंदात मग्न असण्याची अवस्था",
+          "defEn": "The moment of realisation; the state where intellect is immersed in supreme bliss"
+        },
+        {
+          "term": "तत्त्व",
+          "roman": "Tattva",
+          "defMr": "एखाद्या वस्तूचे मूळ स्वरूप — 'तत्-त्व' म्हणजे 'त्याचे-पण'",
+          "defEn": "The essential nature of a thing — \"tat-tva\" meaning \"that-ness\""
+        },
+        {
+          "term": "बुद्धी / धी:",
+          "roman": "Buddhi / Dhī",
+          "defMr": "आकलनशक्ती — ज्ञानाच्या क्षणाला जबाबदार असलेली बुद्धिशक्ती",
+          "defEn": "The intellect — the cognitive faculty responsible for the moment of Jnana"
+        },
+        {
+          "term": "बोध / बोधी",
+          "roman": "Bodha / Bodhi",
+          "defMr": "ज्ञानाचाच पर्यायी शब्द; बुद्ध म्हणजे ज्याला बोध प्राप्त झाला",
+          "defEn": "Synonym for Jnana; Buddha means \"one who has attained Bodha\""
+        }
+      ]
+    },
+    {
+      "type": "curiosity",
+      "mr": "इंग्रजी <em>know</em> आणि <em>knowledge</em> हे शब्द \"gno-\" या मूळापासून आले आहेत — जे संस्कृत <strong>'ज्ञा'</strong> धातूशी थेट जुळते. आपण <em>knowledge</em> \"नॉलेज\" असा उच्चार करतो, पण लेखन <em>kn</em>-owledge असे असते, कारण मूळ 'gno' आहे! याच मूळापासून आलेले इतर इंग्रजी शब्द: <em>gnosis, agnostic, prognosis, cognize, recognize</em> — आणि भारतीय: <em>ज्ञान, विज्ञान, प्रज्ञान</em>.",
+      "en": "The English words <em>know</em> and <em>knowledge</em> come from the root \"gno-\" — which directly connects to the Sanskrit root <strong>'jñā'</strong>. We pronounce it \"nowledge\" but write <em>kn</em>-owledge because the original root is 'gno'! Other English words from this same root: <em>gnosis, agnostic, prognosis, cognize, recognize</em> — and from Indian tradition: <em>jnana, vijnana, prajnana</em>."
+    },
+    {
+      "type": "activity",
+      "mr": [
+        "एखाद्या मित्राच्या संमतीने — त्याच्या डोळ्यांवर पट्टी बांधा, हात पुढे करायला सांगा, आणि त्याच्या तळहातावर एक सफरचंद ठेवा. तो वस्तू हाताळताना, स्पर्श करताना, गंध घेताना पहा — आणि \"सफरचंद\" हे ओळखण्याचा अचूक क्षण शोधण्याचा प्रयत्न करा. त्या क्षणी त्याच्या चेहऱ्यावरील भाव बघा!",
+        "आवडती मिठाई खाताना सावधपणे लक्ष द्या — मिठाई तोंडात टाकण्यापूर्वी आणि टाकल्यानंतर — गोडवा जाणवण्याचा नेमका क्षण कोणता? तो क्षण पकडण्याचा प्रयत्न करा.",
+        "एखादे शब्दकोडे किंवा गणिताचे कोडे सोडवा. उत्तर सापडण्याच्या क्षणी काय जाणवते? त्या क्षणाचे वर्णन करण्याचा प्रयत्न करा."
+      ],
+      "en": [
+        "With a friend's consent — blindfold them, ask them to extend their hand, and place an apple in their palm. Watch as they handle it, touch it, smell it — and try to identify the precise moment of recognition. Watch their facial expression at that exact moment!",
+        "While eating a favourite sweet, pay close attention — before and after placing it in your mouth — what is the exact moment when sweetness is recognised? Try to catch that moment.",
+        "Solve a word puzzle or math problem. What do you feel at the moment the answer arrives? Try to describe that moment."
+      ]
+    },
+    {
+      "type": "phase2",
+      "mr": "तैत्तिरीय उपनिषद आणि अमरकोश यांतील ज्ञानाची व्याख्या, बुद्धी-धी:-प्रज्ञा यांचे सूक्ष्म भेद, आणि आधुनिक संज्ञानविज्ञानाशी तुलना",
+      "en": "Definitions of Jnana in the Taittiriya Upanishad and Amarakosha, the subtle distinctions between Buddhi, Dhi and Prajna, and comparison with modern cognitive science"
+    }
+  ],
+  "nav": {
+    "prev": { "id": "02", "titleMr": "आनंदाच्या उच्च मर्यादांचा शोध", "titleEn": "In Search of Supreme Joy" },
+    "next": { "id": "04", "titleMr": "ज्ञानाच्या अवस्थेची पर्यायी नावे", "titleEn": "Alternate Names for the State of Jnana" }
+  }
+}
