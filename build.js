@@ -139,11 +139,11 @@ function svgFlow(inf) {
     : Math.max(n - 2, 0);
 
   const PALETTE = [
-    { fill: '#F0E8D8', stroke: '#DDD0BC' },
-    { fill: '#E8D8C4', stroke: '#C4956A' },
-    { fill: '#FDF1EA', stroke: '#F4874B' },
-    { fill: '#D4500A', stroke: '#B03A06' },
-    { fill: '#FDFAF0', stroke: '#B8860B' },
+    { fill: '#ECEFF1', stroke: '#D5DDE2' },
+    { fill: '#DDE4E8', stroke: '#8FA8B8' },
+    { fill: '#FEF5EC', stroke: '#F0A050' },
+    { fill: '#E67E22', stroke: '#C45E10' },
+    { fill: '#F4F6F7', stroke: '#546E7A' },
   ];
 
   const boxes = steps.map((s, i) => {
@@ -158,28 +158,28 @@ function svgFlow(inf) {
 
   const arrows = steps.slice(0, -1).map((_, i) => {
     const x1 = boxes[i].x + boxes[i].w, x2 = boxes[i + 1].x;
-    const col = i >= hiIdx ? '#B8860B' : '#D4500A';
+    const col = i >= hiIdx ? '#546E7A' : '#E67E22';
     const sw  = i === hiIdx - 1 ? '2' : '1.5';
     return `        <line x1="${x1}" y1="94" x2="${x2}" y2="94" stroke="${col}" stroke-width="${sw}" marker-end="url(#arrF)"/>`;
   }).join('\n');
 
   const exRect = inf.examples
-    ? `        <rect x="20" y="170" width="660" height="80" rx="8" fill="#F0E8D8" stroke="#DDD0BC" stroke-width="1"/>`
+    ? `        <rect x="20" y="170" width="660" height="80" rx="8" fill="#ECEFF1" stroke="#D5DDE2" stroke-width="1"/>`
     : '';
 
   function layer(lang) {
     const isMr = lang === 'mr';
     const ff = isMr ? FF.mr : FF.en;
     const out = [];
-    out.push(`          <text font-family="${ff}" font-size="13" fill="#9E7B5A" text-anchor="middle" x="350" y="22">${isMr ? inf.titleMr : inf.titleEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="13" fill="#7F8C8D" text-anchor="middle" x="350" y="22">${isMr ? inf.titleMr : inf.titleEn}</text>`);
 
     boxes.forEach((b, i) => {
       const s = steps[i];
       const labels = isMr ? s.mr : s.en;
       const subs   = isMr ? (s.subMr || []) : (s.subEn || []);
-      const tFill  = b.hi ? '#FFFFFF' : (i === n - 1 ? '#B8860B' : '#5C3A1E');
-      const sFill  = b.hi ? '#FDF1EA' : '#9E7B5A';
-      const smFill = b.hi ? '#FDF1EA' : '#6B4423';
+      const tFill  = b.hi ? '#FFFFFF' : (i === n - 1 ? '#546E7A' : '#2C3E50');
+      const sFill  = b.hi ? '#FEF5EC' : '#7F8C8D';
+      const smFill = b.hi ? '#FEF5EC' : '#34495E';
       const fs     = b.hi ? 15 : 11;
 
       labels.forEach((line, li) => {
@@ -197,12 +197,12 @@ function svgFlow(inf) {
     if (inf.examples) {
       const head  = isMr ? inf.examples.headMr : inf.examples.headEn;
       const items = isMr ? inf.examples.mr     : inf.examples.en;
-      out.push(`          <text font-family="${ff}" font-size="11" font-weight="600" fill="#5C3A1E" x="36" y="192">${head}</text>`);
+      out.push(`          <text font-family="${ff}" font-size="11" font-weight="600" fill="#2C3E50" x="36" y="192">${head}</text>`);
       items.forEach((ex, i) => {
-        out.push(`          <text font-family="${ff}" font-size="10" fill="#6B4423" x="36" y="${212 + i * 16}">${ex}</text>`);
+        out.push(`          <text font-family="${ff}" font-size="10" fill="#34495E" x="36" y="${212 + i * 16}">${ex}</text>`);
       });
     }
-    out.push(`          <text font-family="${ff}" font-size="10" fill="#9E7B5A" text-anchor="middle" x="350" y="305" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="10" fill="#7F8C8D" text-anchor="middle" x="350" y="305" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
     return out.join('\n');
   }
 
@@ -210,10 +210,10 @@ function svgFlow(inf) {
         <title>${inf.titleMr}</title>
         <defs>
           <marker id="arrF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-            <path d="M2 1L8 5L2 9" fill="none" stroke="#D4500A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 1L8 5L2 9" fill="none" stroke="#E67E22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </marker>
         </defs>
-        <rect width="700" height="320" fill="#FAF6EE"/>
+        <rect width="700" height="320" fill="#F8FAFB"/>
 ${rects}
 ${arrows}
 ${exRect}
@@ -234,9 +234,9 @@ ${layer('en')}
 function svgWheel(inf) {
   const Q_COL = {
     green:   { fill: '#E1F5EE', stroke: '#2A9D6B', head: '#0F6E56', sub: '#5a9a7a', line: '#2A9D6B' },
-    gold:    { fill: '#FAEEDA', stroke: '#B8860B', head: '#8B6400', sub: '#c4956a', line: '#B8860B' },
+    gold:    { fill: '#EEF2F4', stroke: '#546E7A', head: '#3D5A6C', sub: '#c4956a', line: '#546E7A' },
     purple:  { fill: '#EEEDFF', stroke: '#7B68CC', head: '#534AB7', sub: '#8a80cc', line: '#7B68CC' },
-    saffron: { fill: '#FDF1EA', stroke: '#D4500A', head: '#8B4010', sub: '#c4956a', line: '#D4500A' },
+    saffron: { fill: '#FEF5EC', stroke: '#E67E22', head: '#7B4A00', sub: '#c4956a', line: '#E67E22' },
   };
   const Q_POS = {
     'top-left':     { x:20,  y:32,  w:220, h:90,  lx1:240, ly1:77,  lx2:298, ly2:130 },
@@ -259,11 +259,11 @@ function svgWheel(inf) {
     const isMr = lang === 'mr';
     const ff = isMr ? FF.mr : FF.en;
     const out = [];
-    out.push(`          <text font-family="${ff}" font-size="12" fill="#9E7B5A" text-anchor="middle" x="350" y="20">${isMr ? inf.titleMr : inf.titleEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="12" fill="#7F8C8D" text-anchor="middle" x="350" y="20">${isMr ? inf.titleMr : inf.titleEn}</text>`);
     const ctr = inf.center;
     out.push(`          <text font-family="${ff}" font-size="18" font-weight="600" fill="#FFFFFF" text-anchor="middle" x="350" y="156">${isMr ? ctr.mr : ctr.en}</text>`);
-    out.push(`          <text font-family="${FF.en}" font-size="12" font-style="italic" fill="#FDF1EA" text-anchor="middle" x="350" y="173">${ctr.roman}</text>`);
-    out.push(`          <text font-family="${ff}" font-size="9" fill="#FDF1EA" text-anchor="middle" x="350" y="189">${isMr ? ctr.subMr : ctr.subEn}</text>`);
+    out.push(`          <text font-family="${FF.en}" font-size="12" font-style="italic" fill="#FEF5EC" text-anchor="middle" x="350" y="173">${ctr.roman}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="9" fill="#FEF5EC" text-anchor="middle" x="350" y="189">${isMr ? ctr.subMr : ctr.subEn}</text>`);
     quads.forEach(q => {
       const p = Q_POS[q.position]; const c = Q_COL[q.color] || Q_COL.gold;
       const tx = p.x + 16;
@@ -271,17 +271,17 @@ function svgWheel(inf) {
       out.push(`          <text font-family="${ff}" font-size="10" font-weight="600" fill="${c.head}" x="${tx}" y="${p.y + 20}">${isMr ? q.headMr : q.headEn}</text>`);
       out.push(`          <text font-family="${FF.en}" font-size="9" font-style="italic" fill="${c.sub}" x="${tx}" y="${p.y + 33}">${isMr ? q.subMr : q.subEn}</text>`);
       items.forEach((item, i) => {
-        out.push(`          <text font-family="${ff}" font-size="10" fill="#2C1810" x="${tx}" y="${p.y + 50 + i * 16}">${item}</text>`);
+        out.push(`          <text font-family="${ff}" font-size="10" fill="#1A252F" x="${tx}" y="${p.y + 50 + i * 16}">${item}</text>`);
       });
     });
-    out.push(`          <text font-family="${ff}" font-size="10" fill="#9E7B5A" text-anchor="middle" x="350" y="308" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="10" fill="#7F8C8D" text-anchor="middle" x="350" y="308" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
     return out.join('\n');
   }
 
   return `      <svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" role="img">
         <title>${inf.titleMr}</title>
-        <rect width="700" height="320" fill="#FAF6EE"/>
-        <circle cx="350" cy="162" r="52" fill="#D4500A" stroke="#B03A06" stroke-width="1.5"/>
+        <rect width="700" height="320" fill="#F8FAFB"/>
+        <circle cx="350" cy="162" r="52" fill="#E67E22" stroke="#C45E10" stroke-width="1.5"/>
 ${structure}
 ${lines}
         <g data-lang="mr">
@@ -303,51 +303,51 @@ function svgBars(inf) {
   const boxW = Math.floor((640 - (n - 1) * 10) / n);
   const startX = 30;
   const STATE_COL = [
-    { fill: '#F0E8D8', stroke: '#DDD0BC' },
-    { fill: '#E8D8C4', stroke: '#C4956A' },
-    { fill: '#FDF1EA', stroke: '#D4500A' },
-    { fill: '#D4500A', stroke: '#B03A06' },
+    { fill: '#ECEFF1', stroke: '#D5DDE2' },
+    { fill: '#DDE4E8', stroke: '#8FA8B8' },
+    { fill: '#FEF5EC', stroke: '#E67E22' },
+    { fill: '#E67E22', stroke: '#C45E10' },
   ];
-  const BAR_COL = ['#8B5E3C', '#C4956A', '#F4874B', '#D4500A'];
+  const BAR_COL = ['#546E7A', '#8FA8B8', '#F0A050', '#E67E22'];
 
   const stateRects = states.map((s, i) => {
     const x = startX + i * (boxW + 10);
     const hi = s.highlight;
     const col = hi ? STATE_COL[3] : STATE_COL[Math.min(i, STATE_COL.length - 2)];
-    return `        <rect x="${x}" y="${hi ? 34 : 44}" width="${boxW}" height="${hi ? 92 : 72}" rx="8" fill="${hi ? '#D4500A' : col.fill}" stroke="${hi ? '#B03A06' : col.stroke}" stroke-width="${hi ? 1.5 : 1}"/>`;
+    return `        <rect x="${x}" y="${hi ? 34 : 44}" width="${boxW}" height="${hi ? 92 : 72}" rx="8" fill="${hi ? '#E67E22' : col.fill}" stroke="${hi ? '#C45E10' : col.stroke}" stroke-width="${hi ? 1.5 : 1}"/>`;
   }).join('\n');
 
   const barRects = states.map((s, i) => {
     const x = startX + i * (boxW + 10);
     const hi = s.highlight;
     const bw = hi ? boxW : (s.barWidth || Math.round(boxW * (i + 1) / (n + 0.5)));
-    const bc = hi ? '#D4500A' : (BAR_COL[Math.min(i, BAR_COL.length - 1)]);
-    return `        <rect x="${x}" y="168" width="${boxW}" height="18" rx="4" fill="#DDD0BC"/>\n        <rect x="${x}" y="168" width="${bw}" height="18" rx="4" fill="${bc}"/>`;
+    const bc = hi ? '#E67E22' : (BAR_COL[Math.min(i, BAR_COL.length - 1)]);
+    return `        <rect x="${x}" y="168" width="${boxW}" height="18" rx="4" fill="#D5DDE2"/>\n        <rect x="${x}" y="168" width="${bw}" height="18" rx="4" fill="${bc}"/>`;
   }).join('\n');
 
   const arrows = states.slice(0, -1).map((_, i) => {
     const x1 = startX + i * (boxW + 10) + boxW;
     const x2 = startX + (i + 1) * (boxW + 10);
-    return `        <line x1="${x1}" y1="80" x2="${x2}" y2="80" stroke="#D4500A" stroke-width="${i === n - 2 ? 2 : 1.5}" marker-end="url(#arrB)"/>`;
+    return `        <line x1="${x1}" y1="80" x2="${x2}" y2="80" stroke="#E67E22" stroke-width="${i === n - 2 ? 2 : 1.5}" marker-end="url(#arrB)"/>`;
   }).join('\n');
 
   const callRect = inf.callout
-    ? `        <rect x="30" y="210" width="640" height="64" rx="8" fill="#FDFAF0" stroke="#B8860B" stroke-width="1"/>`
+    ? `        <rect x="30" y="210" width="640" height="64" rx="8" fill="#F4F6F7" stroke="#546E7A" stroke-width="1"/>`
     : '';
 
   function layer(lang) {
     const isMr = lang === 'mr';
     const ff = isMr ? FF.mr : FF.en;
     const out = [];
-    out.push(`          <text font-family="${ff}" font-size="13" fill="#9E7B5A" text-anchor="middle" x="350" y="22">${isMr ? inf.titleMr : inf.titleEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="13" fill="#7F8C8D" text-anchor="middle" x="350" y="22">${isMr ? inf.titleMr : inf.titleEn}</text>`);
     states.forEach((s, i) => {
       const x  = startX + i * (boxW + 10);
       const cx = x + boxW / 2;
       const hi = s.highlight;
       const y0 = hi ? 34 : 44;
-      const tF = hi ? '#FFFFFF' : (i === 2 ? '#D4500A' : '#5C3A1E');
-      const sF = hi ? '#FDF1EA' : '#9E7B5A';
-      const smF= hi ? '#FDF1EA' : '#6B4423';
+      const tF = hi ? '#FFFFFF' : (i === 2 ? '#E67E22' : '#2C3E50');
+      const sF = hi ? '#FEF5EC' : '#7F8C8D';
+      const smF= hi ? '#FEF5EC' : '#34495E';
       const name = isMr ? s.mr : s.en;
       out.push(`          <text font-family="${ff}" font-size="14" font-weight="600" fill="${tF}" text-anchor="middle" x="${cx}" y="${y0 + 26}">${name}</text>`);
       if (s.roman) out.push(`          <text font-family="${FF.en}" font-size="11" font-style="italic" fill="${sF}" text-anchor="middle" x="${cx}" y="${y0 + 43}">${s.roman}</text>`);
@@ -356,20 +356,20 @@ function svgBars(inf) {
       if (sub)  out.push(`          <text font-family="${ff}" font-size="10" fill="${smF}" text-anchor="middle" x="${cx}" y="${y0 + (s.roman ? 62 : 50)}">${sub}</text>`);
       if (sub2) out.push(`          <text font-family="${ff}" font-size="10" fill="${smF}" text-anchor="middle" x="${cx}" y="${y0 + (s.roman ? 77 : 65)}">${sub2}</text>`);
     });
-    out.push(`          <text font-family="${ff}" font-size="11" fill="#9E7B5A" x="30" y="150">${isMr ? inf.barLabelMr : inf.barLabelEn}</text>`);
-    if (inf.showInfinity) out.push(`          <text font-family="${FF.en}" font-size="13" font-weight="600" fill="#D4500A" x="675" y="183">&#x221e;</text>`);
+    out.push(`          <text font-family="${ff}" font-size="11" fill="#7F8C8D" x="30" y="150">${isMr ? inf.barLabelMr : inf.barLabelEn}</text>`);
+    if (inf.showInfinity) out.push(`          <text font-family="${FF.en}" font-size="13" font-weight="600" fill="#E67E22" x="675" y="183">&#x221e;</text>`);
     if (inf.callout) {
       const lines = isMr ? inf.callout.mr : inf.callout.en;
-      out.push(`          <text font-family="${ff}" font-size="12" font-weight="600" fill="#B8860B" x="50" y="231">${lines[0]}</text>`);
+      out.push(`          <text font-family="${ff}" font-size="12" font-weight="600" fill="#546E7A" x="50" y="231">${lines[0]}</text>`);
       lines.slice(1).forEach((line, li) => {
-        out.push(`          <text font-family="${ff}" font-size="11" fill="${li === 0 ? '#5C3A1E' : '#6B4423'}" x="50" y="${250 + li * 16}">${line}</text>`);
+        out.push(`          <text font-family="${ff}" font-size="11" fill="${li === 0 ? '#2C3E50' : '#34495E'}" x="50" y="${250 + li * 16}">${line}</text>`);
       });
       const right = isMr ? inf.callout.mrRight : inf.callout.enRight;
       if (right) right.forEach((line, li) => {
-        out.push(`          <text font-family="${li === 0 ? FF.en : ff}" font-size="${li === 0 ? 12 : 11}" font-weight="${li === 0 ? 600 : 'normal'}" fill="${li === 0 ? '#D4500A' : '#6B4423'}" x="390" y="${250 + li * 16}">${line}</text>`);
+        out.push(`          <text font-family="${li === 0 ? FF.en : ff}" font-size="${li === 0 ? 12 : 11}" font-weight="${li === 0 ? 600 : 'normal'}" fill="${li === 0 ? '#E67E22' : '#34495E'}" x="390" y="${250 + li * 16}">${line}</text>`);
       });
     }
-    out.push(`          <text font-family="${ff}" font-size="10" fill="#9E7B5A" text-anchor="middle" x="350" y="307" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="10" fill="#7F8C8D" text-anchor="middle" x="350" y="307" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
     return out.join('\n');
   }
 
@@ -377,10 +377,10 @@ function svgBars(inf) {
         <title>${inf.titleMr}</title>
         <defs>
           <marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-            <path d="M2 1L8 5L2 9" fill="none" stroke="#D4500A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 1L8 5L2 9" fill="none" stroke="#E67E22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </marker>
         </defs>
-        <rect width="700" height="320" fill="#FAF6EE"/>
+        <rect width="700" height="320" fill="#F8FAFB"/>
 ${stateRects}
 ${arrows}
 ${barRects}
