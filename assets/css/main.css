@@ -104,7 +104,7 @@ body {
 }
 .topbar-title .en {
   font-family: 'Crimson Pro', serif;
-  font-size: 15px; color: var(--brown-pale);
+  font-size: 16px; color: var(--brown-pale);
   font-style: italic; white-space: nowrap;
 }
 
@@ -184,7 +184,7 @@ body {
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 .sb-section-label .en {
-  font-size: 13px; color: rgba(255,255,255,0.78);
+  font-size: 14px; color: rgba(255,255,255,0.78);
   font-style: italic; margin-top: 1px;
 }
 
@@ -229,7 +229,7 @@ body {
   display: block; line-height: 1.4;
 }
 .sb-art-titles .en-t {
-  font-size: 13px; color: rgba(255,255,255,0.65);
+  font-size: 14px; color: rgba(255,255,255,0.65);
   font-style: italic; display: block;
 }
 .sb-art-link.active .sb-art-titles .mr-t,
@@ -283,10 +283,10 @@ body {
   font-size: 32px; font-weight: 600;
   color: var(--gold-light); line-height: 1.3;
 }
-.home-hero .en-sub {
+.home-hero h1[data-lang="en"] {
   font-family: 'Crimson Pro', serif;
-  font-size: 20px; font-weight: 300; font-style: italic;
-  color: var(--brown-pale); display: block; margin-top: 6px;
+  font-size: 28px; font-weight: 300; font-style: italic;
+  color: var(--gold-light);
 }
 .hero-divider {
   width: 52px; height: 3px;
@@ -363,7 +363,7 @@ html[lang="en"] .sb-art-titles .mr-t { display: none; }
 
   .home-hero { padding: 40px 24px 44px; }
   .home-hero h1 { font-size: 26px; }
-  .home-hero .en-sub { font-size: 16px; }
+  .home-hero h1[data-lang="en"] { font-size: 22px; }
   .home-grid { grid-template-columns: 1fr; }
 }
 
