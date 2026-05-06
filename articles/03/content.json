@@ -42,47 +42,111 @@
       "captionEn": "That one moment of realisation — when the intellect is immersed in supreme bliss — that is Jnana.",
       "steps": [
         {
-          "mr": ["बाह्य", "उद्दीपन"],
-          "en": ["External", "Trigger"],
+          "mr": [
+            "बाह्य",
+            "उद्दीपन"
+          ],
+          "en": [
+            "External",
+            "Trigger"
+          ],
           "roman": "Trigger",
-          "subMr": ["सफरचंद · मिठाई", "कोडे · संगीत"],
-          "subEn": ["Apple · Sweet", "Puzzle · Music"]
+          "subMr": [
+            "सफरचंद · मिठाई",
+            "कोडे · संगीत"
+          ],
+          "subEn": [
+            "Apple · Sweet",
+            "Puzzle · Music"
+          ]
         },
         {
-          "mr": ["इंद्रिय", "अनुभव"],
-          "en": ["Sensory", "Experience"],
+          "mr": [
+            "इंद्रिय",
+            "अनुभव"
+          ],
+          "en": [
+            "Sensory",
+            "Experience"
+          ],
           "roman": "Indriya Anubhava",
-          "subMr": ["स्पर्श · गंध · स्वाद", "दृष्टी · श्रवण"],
-          "subEn": ["Touch · Smell · Taste", "Sight · Hearing"]
+          "subMr": [
+            "स्पर्श · गंध · स्वाद",
+            "दृष्टी · श्रवण"
+          ],
+          "subEn": [
+            "Touch · Smell · Taste",
+            "Sight · Hearing"
+          ]
         },
         {
-          "mr": ["बुद्धीचे", "आकलन"],
-          "en": ["Intellect's", "Comprehension"],
+          "mr": [
+            "बुद्धीचे",
+            "आकलन"
+          ],
+          "en": [
+            "Intellect's",
+            "Comprehension"
+          ],
           "roman": "Buddhi / Dhi",
-          "subMr": ["ओळख · तुलना", "विश्लेषण"],
-          "subEn": ["Recognition · Compare", "Analysis"]
+          "subMr": [
+            "ओळख · तुलना",
+            "विश्लेषण"
+          ],
+          "subEn": [
+            "Recognition · Compare",
+            "Analysis"
+          ]
         },
         {
-          "mr": ["ज्ञान"],
-          "en": ["Jñāna"],
+          "mr": [
+            "ज्ञान"
+          ],
+          "en": [
+            "Jñāna"
+          ],
           "roman": "Jñāna",
-          "subMr": ["साक्षात्काराचा", "अचूक क्षण"],
-          "subEn": ["The Exact Moment", "of Recognition"],
+          "subMr": [
+            "साक्षात्काराचा",
+            "अचूक क्षण"
+          ],
+          "subEn": [
+            "The Exact Moment",
+            "of Recognition"
+          ],
           "highlight": true
         },
         {
-          "mr": ["आनंद"],
-          "en": ["Ānanda"],
+          "mr": [
+            "आनंद"
+          ],
+          "en": [
+            "Ānanda"
+          ],
           "roman": "Ānanda",
-          "subMr": ["आनंदाची लाट", "सुरू होते"],
-          "subEn": ["The wave of", "joy begins"]
+          "subMr": [
+            "आनंदाची लाट",
+            "सुरू होते"
+          ],
+          "subEn": [
+            "The wave of",
+            "joy begins"
+          ]
         }
       ],
       "examples": {
         "headMr": "ज्ञानाच्या क्षणाची उदाहरणे:",
         "headEn": "Examples of the Jnana moment:",
-        "mr": ["🍎  डोळ्यांवर पट्टी असताना सफरचंद हाताळून ओळखणे — ओळखीचा अचूक क्षण", "🍬  मिठाई जिभेवर ठेवताना गोडवा जाणवण्याचा पहिला क्षण", "💡  कोडे एका झटक्यात सुटणे — प्रेरणेचा क्षण"],
-        "en": ["🍎  Blindfolded: handling an apple and recognising it — the precise moment of knowing", "🍬  The first instant of tasting sweetness as sugar touches the taste buds", "💡  A puzzle solved in a flash — the moment of inspiration"]
+        "mr": [
+          "🍎  डोळ्यांवर पट्टी असताना सफरचंद हाताळून ओळखणे — ओळखीचा अचूक क्षण",
+          "🍬  मिठाई जिभेवर ठेवताना गोडवा जाणवण्याचा पहिला क्षण",
+          "💡  कोडे एका झटक्यात सुटणे — प्रेरणेचा क्षण"
+        ],
+        "en": [
+          "🍎  Blindfolded: handling an apple and recognising it — the precise moment of knowing",
+          "🍬  The first instant of tasting sweetness as sugar touches the taste buds",
+          "💡  A puzzle solved in a flash — the moment of inspiration"
+        ]
       }
     },
     {
@@ -174,13 +238,28 @@
       ]
     },
     {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
       "type": "phase2",
       "mr": "तैत्तिरीय उपनिषद आणि अमरकोश यांतील ज्ञानाची व्याख्या, बुद्धी-धी:-प्रज्ञा यांचे सूक्ष्म भेद, आणि आधुनिक संज्ञानविज्ञानाशी तुलना",
       "en": "Definitions of Jnana in the Taittiriya Upanishad and Amarakosha, the subtle distinctions between Buddhi, Dhi and Prajna, and comparison with modern cognitive science"
     }
   ],
   "nav": {
-    "prev": { "id": "02", "titleMr": "आनंदाच्या उच्च मर्यादांचा शोध", "titleEn": "In Search of Supreme Joy" },
-    "next": { "id": "04", "titleMr": "ज्ञानाच्या अवस्थेची पर्यायी नावे", "titleEn": "Alternate Names for the State of Jnana" }
+    "prev": {
+      "id": "02",
+      "titleMr": "आनंदाच्या उच्च मर्यादांचा शोध",
+      "titleEn": "In Search of Supreme Joy"
+    },
+    "next": {
+      "id": "04",
+      "titleMr": "ज्ञानाच्या अवस्थेची पर्यायी नावे",
+      "titleEn": "Alternate Names for the State of Jnana"
+    }
   }
 }

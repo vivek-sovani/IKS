@@ -48,8 +48,14 @@
           "headEn": "Knowledge-root words",
           "subMr": "From root 'jñā' / 'vid'",
           "subEn": "From root 'jñā' / 'vid'",
-          "itemsMr": ["ज्ञान · वेद · विदुः · बोध", "प्रज्ञान · विज्ञान"],
-          "itemsEn": ["Jnana · Veda · Vidu · Bodha", "Prajnana · Vijnana"]
+          "itemsMr": [
+            "ज्ञान · वेद · विदुः · बोध",
+            "प्रज्ञान · विज्ञान"
+          ],
+          "itemsEn": [
+            "Jnana · Veda · Vidu · Bodha",
+            "Prajnana · Vijnana"
+          ]
         },
         {
           "position": "top-right",
@@ -58,8 +64,14 @@
           "headEn": "Luminosity names",
           "subMr": "Luminosity names",
           "subEn": "Descriptions of light",
-          "itemsMr": ["ज्योतिः · भाति · तेजस्वी", "सुवर्णज्योतिः · भास"],
-          "itemsEn": ["Jyotiḥ · Bhāti · Tejasvī", "Suvarṇajyotiḥ · Bhāsa"]
+          "itemsMr": [
+            "ज्योतिः · भाति · तेजस्वी",
+            "सुवर्णज्योतिः · भास"
+          ],
+          "itemsEn": [
+            "Jyotiḥ · Bhāti · Tejasvī",
+            "Suvarṇajyotiḥ · Bhāsa"
+          ]
         },
         {
           "position": "bottom-left",
@@ -68,8 +80,16 @@
           "headEn": "Immortality & peace",
           "subMr": "Immortality & peace",
           "subEn": "Qualities of the state",
-          "itemsMr": ["अमृतम् · अक्षर · अनंतम्", "सत्यम् · शांतिः · समृद्धम्", "आपो ज्योतिः रसः अमृतम्"],
-          "itemsEn": ["Amṛtam · Akṣara · Anantam", "Satyam · Śāntiḥ · Samṛddham", "Āpo jyotiḥ rasaḥ amṛtam"]
+          "itemsMr": [
+            "अमृतम् · अक्षर · अनंतम्",
+            "सत्यम् · शांतिः · समृद्धम्",
+            "आपो ज्योतिः रसः अमृतम्"
+          ],
+          "itemsEn": [
+            "Amṛtam · Akṣara · Anantam",
+            "Satyam · Śāntiḥ · Samṛddham",
+            "Āpo jyotiḥ rasaḥ amṛtam"
+          ]
         },
         {
           "position": "bottom-right",
@@ -78,8 +98,16 @@
           "headEn": "Yoga-shastra synonyms",
           "subMr": "Yoga shastra synonyms",
           "subEn": "From Haṭha Yoga Pradīpikā",
-          "itemsMr": ["समाधी · राजयोग · तुरीय", "सहज · जीवनमुक्ती · अद्वैत", "निरंजनम् · परंपदम्"],
-          "itemsEn": ["Samādhi · Rājayoga · Turīya", "Sahaja · Jīvanmukti · Advaita", "Nirañjanam · Paraṃpadam"]
+          "itemsMr": [
+            "समाधी · राजयोग · तुरीय",
+            "सहज · जीवनमुक्ती · अद्वैत",
+            "निरंजनम् · परंपदम्"
+          ],
+          "itemsEn": [
+            "Samādhi · Rājayoga · Turīya",
+            "Sahaja · Jīvanmukti · Advaita",
+            "Nirañjanam · Paraṃpadam"
+          ]
         }
       ]
     },
@@ -191,13 +219,28 @@
       ]
     },
     {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
       "type": "phase2",
       "mr": "कठोपनिषद आणि तैत्तिरीय आरण्यकातील मूळ श्लोक, हठयोगप्रदीपिकेतील संपूर्ण नामसंकलन, आणि रामकृष्ण-रमण-श्रीरंग यांच्या अनुभवांचे तुलनात्मक विश्लेषण",
       "en": "Original verses from the Katha Upanishad and Taittiriya Aranyaka, the complete name-compilation from Hatha Yoga Pradipika, and comparative analysis of the experiences of Ramakrishna, Ramana, and Srirang"
     }
   ],
   "nav": {
-    "prev": { "id": "03", "titleMr": "ज्ञान — परमावस्थेचा सिद्धांत", "titleEn": "Jnana — Theory of the Supreme State" },
-    "next": { "id": "05", "titleMr": "अमर्यादित आनंदाचे परिणाम", "titleEn": "Effects of Unlimited Bliss" }
+    "prev": {
+      "id": "03",
+      "titleMr": "ज्ञान — परमावस्थेचा सिद्धांत",
+      "titleEn": "Jnana — Theory of the Supreme State"
+    },
+    "next": {
+      "id": "05",
+      "titleMr": "अमर्यादित आनंदाचे परिणाम",
+      "titleEn": "Effects of Unlimited Bliss"
+    }
   }
 }

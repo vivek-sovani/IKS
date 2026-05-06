@@ -183,6 +183,13 @@
       ]
     },
     {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/article-01-slides.pdf",
+      "srcEn": "slides/article-01-slides-en.pdf"
+    },
+    {
       "type": "phase2",
       "mr": "तैत्तिरीय उपनिषदातील आनंदमीमांसा, मूळ संस्कृत श्लोकांचा विस्तृत अभ्यास, आणि आधुनिक विज्ञानाशी तुलना",
       "en": "Taittiriya Upanishad's Ananda Mimamsa, detailed study of original Sanskrit shlokas, and comparison with modern neuroscience"

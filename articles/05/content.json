@@ -62,8 +62,16 @@
           "headEn": "Introvertive Path",
           "subMr": "आतून शोध",
           "subEn": "Inner exploration",
-          "itemsMr": ["पद्धती · साधने", "ध्यान · समाधी", "पुन्हा पुन्हा अनुभव"],
-          "itemsEn": ["Methods · Tools", "Dhyāna · Samādhi", "Reproducible experience"]
+          "itemsMr": [
+            "पद्धती · साधने",
+            "ध्यान · समाधी",
+            "पुन्हा पुन्हा अनुभव"
+          ],
+          "itemsEn": [
+            "Methods · Tools",
+            "Dhyāna · Samādhi",
+            "Reproducible experience"
+          ]
         },
         {
           "position": "top-right",
@@ -72,8 +80,16 @@
           "headEn": "Extrovertive Path",
           "subMr": "बाहेरून शोध",
           "subEn": "Outer exploration",
-          "itemsMr": ["निसर्गाचे निरीक्षण", "सृष्टीशी संबंध", "वैज्ञानिक दृष्टी"],
-          "itemsEn": ["Observing nature", "Connection to cosmos", "Scientific vision"]
+          "itemsMr": [
+            "निसर्गाचे निरीक्षण",
+            "सृष्टीशी संबंध",
+            "वैज्ञानिक दृष्टी"
+          ],
+          "itemsEn": [
+            "Observing nature",
+            "Connection to cosmos",
+            "Scientific vision"
+          ]
         },
         {
           "position": "bottom-left",
@@ -82,8 +98,16 @@
           "headEn": "Institutions & Training",
           "subMr": "सर्वांपर्यंत पोहोचवणे",
           "subEn": "Making it accessible",
-          "itemsMr": ["गुरु-शिष्य परंपरा", "आश्रम · विद्यापीठ", "आंतरपिढीगत प्रयत्न"],
-          "itemsEn": ["Guru-Shishya tradition", "Ashrama · Universities", "Inter-generational effort"]
+          "itemsMr": [
+            "गुरु-शिष्य परंपरा",
+            "आश्रम · विद्यापीठ",
+            "आंतरपिढीगत प्रयत्न"
+          ],
+          "itemsEn": [
+            "Guru-Shishya tradition",
+            "Ashrama · Universities",
+            "Inter-generational effort"
+          ]
         },
         {
           "position": "bottom-right",
@@ -92,8 +116,16 @@
           "headEn": "The Knowledge Texts",
           "subMr": "लिखित वारसा",
           "subEn": "Written heritage",
-          "itemsMr": ["संहिता · उपनिषदे", "पुराणे · इतिहास", "तंत्र · दर्शने"],
-          "itemsEn": ["Saṃhitās · Upanishads", "Purāṇas · Itihāsa", "Tantras · Darśanas"]
+          "itemsMr": [
+            "संहिता · उपनिषदे",
+            "पुराणे · इतिहास",
+            "तंत्र · दर्शने"
+          ],
+          "itemsEn": [
+            "Saṃhitās · Upanishads",
+            "Purāṇas · Itihāsa",
+            "Tantras · Darśanas"
+          ]
         }
       ]
     },
@@ -171,13 +203,28 @@
       ]
     },
     {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
       "type": "phase2",
       "mr": "आनंदाच्या शोधानंतर निर्माण झालेल्या संस्थांचे विस्तृत विश्लेषण, अंतर्मुखी व बहिर्मुखी मार्गांचे शास्त्रशुद्ध वर्णन, आणि भारतीय ज्ञानग्रंथांच्या मालिकेचा कालक्रमानुसार आढावा",
       "en": "Detailed analysis of the institutions created after the discovery of Ananda, systematic description of introvertive and extrovertive paths, and a chronological survey of the sequence of Indian knowledge texts"
     }
   ],
   "nav": {
-    "prev": { "id": "04", "titleMr": "ज्ञानाच्या अवस्थेची पर्यायी नावे", "titleEn": "Alternate Names for the State of Jnana" },
-    "next": { "id": "06", "titleMr": "योग व विद्या", "titleEn": "Yoga and Vidya" }
+    "prev": {
+      "id": "04",
+      "titleMr": "ज्ञानाच्या अवस्थेची पर्यायी नावे",
+      "titleEn": "Alternate Names for the State of Jnana"
+    },
+    "next": {
+      "id": "06",
+      "titleMr": "योग व विद्या",
+      "titleEn": "Yoga and Vidya"
+    }
   }
 }

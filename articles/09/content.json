@@ -103,8 +103,16 @@
           "headEn": "Daily Cycle",
           "subMr": "सूर्याशी सुसंगत",
           "subEn": "Aligned with Sun",
-          "itemsMr": ["झोप-जागृती", "संप्रेरक लय", "पचन आणि पोषण"],
-          "itemsEn": ["Sleep-wakefulness", "Hormonal rhythm", "Digestion & nourishment"]
+          "itemsMr": [
+            "झोप-जागृती",
+            "संप्रेरक लय",
+            "पचन आणि पोषण"
+          ],
+          "itemsEn": [
+            "Sleep-wakefulness",
+            "Hormonal rhythm",
+            "Digestion & nourishment"
+          ]
         },
         {
           "position": "top-right",
@@ -113,8 +121,16 @@
           "headEn": "Monthly Cycle",
           "subMr": "चंद्राशी सुसंगत",
           "subEn": "Aligned with Moon",
-          "itemsMr": ["भरती-ओहोटी", "जैविक लय", "२७ दिवसांचे नक्षत्र चक्र"],
-          "itemsEn": ["Tidal rhythms", "Biological rhythms", "27-day sidereal cycle"]
+          "itemsMr": [
+            "भरती-ओहोटी",
+            "जैविक लय",
+            "२७ दिवसांचे नक्षत्र चक्र"
+          ],
+          "itemsEn": [
+            "Tidal rhythms",
+            "Biological rhythms",
+            "27-day sidereal cycle"
+          ]
         },
         {
           "position": "bottom-left",
@@ -123,8 +139,16 @@
           "headEn": "Annual Cycle",
           "subMr": "ऋतूंशी सुसंगत",
           "subEn": "Aligned with Seasons",
-          "itemsMr": ["ऋतुचर्या", "आहार बदल", "प्रजनन काळ"],
-          "itemsEn": ["Seasonal regimen", "Dietary changes", "Reproductive season"]
+          "itemsMr": [
+            "ऋतुचर्या",
+            "आहार बदल",
+            "प्रजनन काळ"
+          ],
+          "itemsEn": [
+            "Seasonal regimen",
+            "Dietary changes",
+            "Reproductive season"
+          ]
         },
         {
           "position": "bottom-right",
@@ -133,8 +157,16 @@
           "headEn": "Cosmic Cycle",
           "subMr": "ऋतम्-सत्यम् शी सुसंगत",
           "subEn": "Aligned with Rtam-Satyam",
-          "itemsMr": ["ब्रह्मांडीय लय", "ऋतम्-सत्यम् चे प्रकटीकरण", "सनातन क्रम"],
-          "itemsEn": ["Cosmic rhythm", "Manifestation of Rtam-Satyam", "Eternal order"]
+          "itemsMr": [
+            "ब्रह्मांडीय लय",
+            "ऋतम्-सत्यम् चे प्रकटीकरण",
+            "सनातन क्रम"
+          ],
+          "itemsEn": [
+            "Cosmic rhythm",
+            "Manifestation of Rtam-Satyam",
+            "Eternal order"
+          ]
         }
       ]
     },
@@ -201,13 +233,28 @@
       ]
     },
     {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
       "type": "phase2",
       "mr": "अंतर्गत चक्रांच्या सखोल अध्ययनात अष्टांग हृदय सूत्रस्थान (अध्याय २ — दिनचर्या, अध्याय ३ — ऋतुचर्या), दर्शन उपनिषद, तैत्तिरीय आरण्यक आणि चरक संहिता यांमधून शरीर, विश्व आणि ऋतम्-सत्यम् यांचा परस्पर संबंध विस्तृतपणे मांडला जाईल.",
       "en": "Advanced reading will explore inner cycles through Ashtanga Hridaya Sutrasthana (Chapter 2 — Dinacharya, Chapter 3 — Ritucharya), Darshana Upanishad, Taittiriya Aranyaka, and Charaka Samhita — examining in depth the relationship between body, cosmos, and Rtam-Satyam."
     }
   ],
   "nav": {
-    "prev": { "id": "08", "titleMr": "धर्म", "titleEn": "Dharma — Maintaining Natural Order" },
-    "next": { "id": "10", "titleMr": "जीवनचक्र व आनंद", "titleEn": "Life Cycle for Ultimate Bliss" }
+    "prev": {
+      "id": "08",
+      "titleMr": "धर्म",
+      "titleEn": "Dharma — Maintaining Natural Order"
+    },
+    "next": {
+      "id": "10",
+      "titleMr": "जीवनचक्र व आनंद",
+      "titleEn": "Life Cycle for Ultimate Bliss"
+    }
   }
 }

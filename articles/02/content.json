@@ -95,10 +95,24 @@
         }
       ],
       "callout": {
-        "mr": ["आनंदमीमांसा — तैत्तिरीय उपनिषद", "परिपूर्ण मनुष्याचा आनंद = मूळ एकक (1x)", "प्रत्येक उच्च अवस्था = मागीलपेक्षा 100 पट अधिक"],
-        "en": ["Ānanda Mīmāṃsā — Taittiriya Upanishad", "Perfect man's joy = base unit (1×)", "Each higher state = 100× greater than previous"],
-        "mrRight": ["Brahman's bliss = 10²⁰ × human joy", "ब्रह्माचा आनंद = मूळ एककापेक्षा 10²⁰ पट"],
-        "enRight": ["Brahman's bliss = 10²⁰ × human joy", "The bliss at the ultimate peak of existence"]
+        "mr": [
+          "आनंदमीमांसा — तैत्तिरीय उपनिषद",
+          "परिपूर्ण मनुष्याचा आनंद = मूळ एकक (1x)",
+          "प्रत्येक उच्च अवस्था = मागीलपेक्षा 100 पट अधिक"
+        ],
+        "en": [
+          "Ānanda Mīmāṃsā — Taittiriya Upanishad",
+          "Perfect man's joy = base unit (1×)",
+          "Each higher state = 100× greater than previous"
+        ],
+        "mrRight": [
+          "Brahman's bliss = 10²⁰ × human joy",
+          "ब्रह्माचा आनंद = मूळ एककापेक्षा 10²⁰ पट"
+        ],
+        "enRight": [
+          "Brahman's bliss = 10²⁰ × human joy",
+          "The bliss at the ultimate peak of existence"
+        ]
       }
     },
     {
@@ -190,13 +204,28 @@
       ]
     },
     {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
       "type": "phase2",
       "mr": "तैत्तिरीय उपनिषदातील आनंदमीमांसेचे मूळ संस्कृत श्लोक, सात अवस्थांचे विस्तृत विवेचन, आणि आधुनिक तंत्रिकाविज्ञानाशी तुलना",
       "en": "Original Sanskrit verses of the Ananda Mimamsa, detailed commentary on the seven states of bliss, and comparison with modern neuroscience on consciousness"
     }
   ],
   "nav": {
-    "prev": { "id": "01", "titleMr": "आनंद", "titleEn": "Ananda — The Nature of Joy" },
-    "next": { "id": "03", "titleMr": "ज्ञान — परमावस्थेचा सिद्धांत", "titleEn": "Jnana — Theory of the Supreme State" }
+    "prev": {
+      "id": "01",
+      "titleMr": "आनंद",
+      "titleEn": "Ananda — The Nature of Joy"
+    },
+    "next": {
+      "id": "03",
+      "titleMr": "ज्ञान — परमावस्थेचा सिद्धांत",
+      "titleEn": "Jnana — Theory of the Supreme State"
+    }
   }
 }

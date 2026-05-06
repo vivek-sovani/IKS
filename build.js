@@ -395,6 +395,28 @@ ${layer('en')}
       </svg>`;
 }
 
+// ── Slide viewer block ────────────────────────────────────────────────────────
+function renderSlides(b, id) {
+  return `
+    <div class="slide-viewer" id="slides-${id}"
+         data-pdf-mr="${b.srcMr || ''}"
+         data-pdf-en="${b.srcEn || ''}">
+      <div class="slide-header">
+        <div class="slide-label">सादरीकरण</div>
+        <div class="slide-controls">
+          <div class="zoom-bar">
+            <button class="zoom-btn" onclick="IKS.zoomSlides(this,-0.25)">−</button>
+            <span class="zoom-pct">100%</span>
+            <button class="zoom-btn" onclick="IKS.zoomSlides(this,+0.25)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-track">
+        <div class="slide-inner"></div>
+      </div>
+    </div>`;
+}
+
 // ── Infographic dispatcher ────────────────────────────────────────────────────
 function renderInfographic(b) {
   let svg = '';
@@ -413,7 +435,7 @@ ${svg}
 }
 
 // ── Block dispatcher ──────────────────────────────────────────────────────────
-function renderBlock(b) {
+function renderBlock(b, id) {
   switch (b.type) {
     case 'section':     return renderSection(b);
     case 'termBox':     return renderTermBox(b);
@@ -422,6 +444,7 @@ function renderBlock(b) {
     case 'curiosity':   return renderCuriosity(b);
     case 'activity':    return renderActivity(b);
     case 'phase2':      return renderPhase2(b);
+    case 'slides':      return renderSlides(b, id);
     default:            return `\n    <!-- unknown block: ${b.type} -->`;
   }
 }
@@ -456,7 +479,8 @@ function renderNav(nav) {
 
 // ── Full page ─────────────────────────────────────────────────────────────────
 function page(c, sec, id) {
-  const body = (c.body || []).map(renderBlock).join('\n');
+  const body      = (c.body || []).map(b => renderBlock(b, id)).join('\n');
+  const hasSlides = (c.body || []).some(b => b.type === 'slides');
   const desc = c.metaDesc || (c.summary && c.summary.mr ? c.summary.mr.slice(0, 160) : '');
 
   return `<!DOCTYPE html>
@@ -469,6 +493,7 @@ function page(c, sec, id) {
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
+${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>' : ''}
 </head>
 <body>
 
@@ -542,6 +567,7 @@ ${renderNav(c.nav)}
 </main>
 
 <script src="/IKS/assets/js/nav.js"></script>
+${hasSlides ? '<script src="/IKS/assets/js/slides.js"></script>' : ''}
 <script>
   fetch('/IKS/shared/sidebar.html')
     .then(r => r.text())
@@ -549,6 +575,7 @@ ${renderNav(c.nav)}
       document.getElementById('sidebar').innerHTML = html;
       IKS.init();
       IKS.setActiveArticle('${id}');
+      ${hasSlides ? 'if (IKS.initSlides) IKS.initSlides();' : ''}
     });
 </script>
 </body>

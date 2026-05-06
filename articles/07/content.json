@@ -98,40 +98,100 @@
       "captionEn": "Rig Veda 10.190: From darkness, through tapas, Rtam-Satyam arose — from which the cycles of creation emerged",
       "steps": [
         {
-          "mr": ["तमस्", "अव्यक्त"],
-          "en": ["Darkness", "Unmanifest"],
+          "mr": [
+            "तमस्",
+            "अव्यक्त"
+          ],
+          "en": [
+            "Darkness",
+            "Unmanifest"
+          ],
           "roman": "Tamas",
-          "subMr": ["अंधकार", "काहीही नाही"],
-          "subEn": ["Dark void", "Nothing yet"]
+          "subMr": [
+            "अंधकार",
+            "काहीही नाही"
+          ],
+          "subEn": [
+            "Dark void",
+            "Nothing yet"
+          ]
         },
         {
-          "mr": ["तपस्", "ऊर्जा"],
-          "en": ["Tapas", "Energy"],
+          "mr": [
+            "तपस्",
+            "ऊर्जा"
+          ],
+          "en": [
+            "Tapas",
+            "Energy"
+          ],
           "roman": "Tapas",
-          "subMr": ["तीव्र साधना", "उर्जाशक्ती"],
-          "subEn": ["Intense energy", "Creative force"]
+          "subMr": [
+            "तीव्र साधना",
+            "उर्जाशक्ती"
+          ],
+          "subEn": [
+            "Intense energy",
+            "Creative force"
+          ]
         },
         {
-          "mr": ["ऋतम्-सत्यम्", "नैसर्गिक क्रम"],
-          "en": ["Rtam-Satyam", "Natural Order"],
+          "mr": [
+            "ऋतम्-सत्यम्",
+            "नैसर्गिक क्रम"
+          ],
+          "en": [
+            "Rtam-Satyam",
+            "Natural Order"
+          ],
           "roman": "Ṛtam-Satyam",
-          "subMr": ["सृष्टीची पहिली", "अभिव्यक्ती"],
-          "subEn": ["First expression", "of creation"],
+          "subMr": [
+            "सृष्टीची पहिली",
+            "अभिव्यक्ती"
+          ],
+          "subEn": [
+            "First expression",
+            "of creation"
+          ],
           "highlight": true
         },
         {
-          "mr": ["चक्रे", "वर्ष, दिवस-रात्र"],
-          "en": ["Cycles", "Year, Day-Night"],
+          "mr": [
+            "चक्रे",
+            "वर्ष, दिवस-रात्र"
+          ],
+          "en": [
+            "Cycles",
+            "Year, Day-Night"
+          ],
           "roman": "Ṛtu-Chakra",
-          "subMr": ["सूर्य, चंद्र", "ऋतू"],
-          "subEn": ["Sun, Moon", "Seasons"]
+          "subMr": [
+            "सूर्य, चंद्र",
+            "ऋतू"
+          ],
+          "subEn": [
+            "Sun, Moon",
+            "Seasons"
+          ]
         },
         {
-          "mr": ["सृष्टी", "स्वर्ग-पृथ्वी"],
-          "en": ["Creation", "Heaven-Earth"],
+          "mr": [
+            "सृष्टी",
+            "स्वर्ग-पृथ्वी"
+          ],
+          "en": [
+            "Creation",
+            "Heaven-Earth"
+          ],
           "roman": "Sṛṣṭi",
-          "subMr": ["संपूर्ण विश्व", "प्रकट"],
-          "subEn": ["Entire universe", "Manifest"]
+          "subMr": [
+            "संपूर्ण विश्व",
+            "प्रकट"
+          ],
+          "subEn": [
+            "Entire universe",
+            "Manifest"
+          ]
         }
       ]
     },
@@ -183,13 +243,28 @@
       ]
     },
     {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
       "type": "phase2",
       "mr": "ऋतम्-सत्यम् या संकल्पनेचे सखोल अध्ययन ऋग्वेद १०.१९०, छांदोग्य उपनिषद ८.३.५, आणि बृहदारण्यक उपनिषद २.३.२ यांमधून केले जाईल. ऋतम् आणि धर्म यांचा परस्पर संबंध, तसेच वैदिक देवतांच्या संदर्भात ऋतम् चा अर्थ — यांवर विस्तृत विवेचन उपलब्ध होईल.",
       "en": "Advanced reading will explore Rtam-Satyam through Rig Veda 10.190, Chandogya Upanishad 8.3.5, and Brihadaranyaka Upanishad 2.3.2. The relationship between Rtam and Dharma, and the significance of Rtam in the context of Vedic deities, will be examined in depth."
     }
   ],
   "nav": {
-    "prev": { "id": "06", "titleMr": "योग व विद्या", "titleEn": "Yoga and Vidya" },
-    "next": { "id": "08", "titleMr": "धर्म", "titleEn": "Dharma — Maintaining Natural Order" }
+    "prev": {
+      "id": "06",
+      "titleMr": "योग व विद्या",
+      "titleEn": "Yoga and Vidya"
+    },
+    "next": {
+      "id": "08",
+      "titleMr": "धर्म",
+      "titleEn": "Dharma — Maintaining Natural Order"
+    }
   }
 }

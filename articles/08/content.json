@@ -88,8 +88,16 @@
           "headEn": "Non-Interference",
           "subMr": "नैसर्गिक क्रम राखणे",
           "subEn": "Letting nature proceed",
-          "itemsMr": ["हस्तक्षेप टाळणे", "चक्र पूर्ण होऊ देणे", "विकार टाळणे"],
-          "itemsEn": ["Avoiding interference", "Letting cycles complete", "Preventing disturbance"]
+          "itemsMr": [
+            "हस्तक्षेप टाळणे",
+            "चक्र पूर्ण होऊ देणे",
+            "विकार टाळणे"
+          ],
+          "itemsEn": [
+            "Avoiding interference",
+            "Letting cycles complete",
+            "Preventing disturbance"
+          ]
         },
         {
           "position": "top-right",
@@ -98,8 +106,16 @@
           "headEn": "Active Support",
           "subMr": "नैसर्गिक प्रक्रियेस मदत",
           "subEn": "Helping natural process",
-          "itemsMr": ["पाणी देणे", "संरक्षण करणे", "पोषण करणे"],
-          "itemsEn": ["Watering", "Protection", "Nourishment"]
+          "itemsMr": [
+            "पाणी देणे",
+            "संरक्षण करणे",
+            "पोषण करणे"
+          ],
+          "itemsEn": [
+            "Watering",
+            "Protection",
+            "Nourishment"
+          ]
         },
         {
           "position": "bottom-left",
@@ -108,8 +124,16 @@
           "headEn": "Restoration",
           "subMr": "बिघडलेले चक्र दुरुस्त करणे",
           "subEn": "Repairing broken cycles",
-          "itemsMr": ["विकार दूर करणे", "संतुलन पुनर्प्रस्थापित करणे", "नुकसान भरून काढणे"],
-          "itemsEn": ["Removing disturbances", "Rebalancing", "Repairing damage"]
+          "itemsMr": [
+            "विकार दूर करणे",
+            "संतुलन पुनर्प्रस्थापित करणे",
+            "नुकसान भरून काढणे"
+          ],
+          "itemsEn": [
+            "Removing disturbances",
+            "Rebalancing",
+            "Repairing damage"
+          ]
         },
         {
           "position": "bottom-right",
@@ -118,8 +142,16 @@
           "headEn": "Adharma — Opposing Acts",
           "subMr": "चक्रात विकार आणणे",
           "subEn": "Introducing disturbance",
-          "itemsMr": ["सूर्यप्रकाश नाकारणे", "मुळापासून कापणे", "अनुचित हस्तक्षेप"],
-          "itemsEn": ["Denying sunlight", "Cutting at roots", "Inappropriate interference"]
+          "itemsMr": [
+            "सूर्यप्रकाश नाकारणे",
+            "मुळापासून कापणे",
+            "अनुचित हस्तक्षेप"
+          ],
+          "itemsEn": [
+            "Denying sunlight",
+            "Cutting at roots",
+            "Inappropriate interference"
+          ]
         }
       ]
     },
@@ -190,13 +222,28 @@
       ]
     },
     {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
       "type": "phase2",
       "mr": "धर्माच्या सखोल अध्ययनात महाभारत (१२.११०), बृहदारण्यक उपनिषद (१.४.१४), वाल्मीकी रामायण आणि अन्य शास्त्रग्रंथांमधून धर्माचे वेगवेगळे संदर्भ आणि अर्थ पाहिले जातील. वैयक्तिक धर्म, सामाजिक धर्म आणि सनातन धर्म यांच्यातील सूक्ष्म भेद विशदपणे मांडले जातील.",
       "en": "Advanced reading will explore the many dimensions of Dharma through Mahabharata (12.110), Brihadaranyaka Upanishad (1.4.14), Valmiki Ramayana, and other primary sources. The subtle distinctions between individual Dharma, social Dharma, and Sanatan Dharma will be examined in depth."
     }
   ],
   "nav": {
-    "prev": { "id": "07", "titleMr": "ऋतम् व सत्यम्", "titleEn": "Rtam and Satyam — Natural Order" },
-    "next": { "id": "09", "titleMr": "अंतर्गत चक्रे", "titleEn": "Inner Cycles and Cosmic Connection" }
+    "prev": {
+      "id": "07",
+      "titleMr": "ऋतम् व सत्यम्",
+      "titleEn": "Rtam and Satyam — Natural Order"
+    },
+    "next": {
+      "id": "09",
+      "titleMr": "अंतर्गत चक्रे",
+      "titleEn": "Inner Cycles and Cosmic Connection"
+    }
   }
 }

@@ -77,8 +77,16 @@
           "headEn": "Jnana Yoga",
           "subMr": "ज्ञानाचा मार्ग",
           "subEn": "Path of Knowledge",
-          "itemsMr": ["बुद्धी", "विवेक", "साक्षात्कार"],
-          "itemsEn": ["Intellect", "Discernment", "Realization"]
+          "itemsMr": [
+            "बुद्धी",
+            "विवेक",
+            "साक्षात्कार"
+          ],
+          "itemsEn": [
+            "Intellect",
+            "Discernment",
+            "Realization"
+          ]
         },
         {
           "position": "top-right",
@@ -87,8 +95,16 @@
           "headEn": "Karma Yoga",
           "subMr": "कर्माचा मार्ग",
           "subEn": "Path of Action",
-          "itemsMr": ["निःस्वार्थ कृती", "यज्ञ", "सेवा"],
-          "itemsEn": ["Selfless Action", "Yajna", "Service"]
+          "itemsMr": [
+            "निःस्वार्थ कृती",
+            "यज्ञ",
+            "सेवा"
+          ],
+          "itemsEn": [
+            "Selfless Action",
+            "Yajna",
+            "Service"
+          ]
         },
         {
           "position": "bottom-left",
@@ -97,8 +113,16 @@
           "headEn": "Bhakti Yoga",
           "subMr": "भक्तीचा मार्ग",
           "subEn": "Path of Devotion",
-          "itemsMr": ["भाव", "प्रेम", "समर्पण"],
-          "itemsEn": ["Devotion", "Love", "Surrender"]
+          "itemsMr": [
+            "भाव",
+            "प्रेम",
+            "समर्पण"
+          ],
+          "itemsEn": [
+            "Devotion",
+            "Love",
+            "Surrender"
+          ]
         },
         {
           "position": "bottom-right",
@@ -107,8 +131,16 @@
           "headEn": "Dhyana Yoga",
           "subMr": "ध्यानाचा मार्ग",
           "subEn": "Path of Meditation",
-          "itemsMr": ["एकाग्रता", "आत्मावलोकन", "समाधी"],
-          "itemsEn": ["Concentration", "Self-reflection", "Samadhi"]
+          "itemsMr": [
+            "एकाग्रता",
+            "आत्मावलोकन",
+            "समाधी"
+          ],
+          "itemsEn": [
+            "Concentration",
+            "Self-reflection",
+            "Samadhi"
+          ]
         }
       ]
     },
@@ -177,13 +209,28 @@
       ]
     },
     {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
       "type": "phase2",
       "mr": "योग आणि विद्यांच्या विविधतांना अधिक स्पष्टीकरणाची गरज आहे — परंतु त्यासाठी पुढील अध्यायांपर्यंत थांबावे लागेल. आत्तासाठी, मुख्य मुद्दा हा आहे की अमर्यादित आनंद किंवा ज्ञान/समाधीची अवस्था प्राप्त करण्याची प्रक्रिया 'योग' किंवा 'विद्या' या व्यापक शब्दाने संबोधली जाते.",
       "en": "The diversities of Yoga and Vidya require further elaboration — but that must wait for future chapters. For now, the core point is: the process of attaining the state of unlimited bliss or Jnana/Samadhi is broadly referred to as Yoga or Vidya."
     }
   ],
   "nav": {
-    "prev": { "id": "05", "titleMr": "अमर्यादित आनंदाचे परिणाम", "titleEn": "Effects of Unlimited Bliss" },
-    "next": { "id": "07", "titleMr": "ऋतम् व सत्यम्", "titleEn": "Rtam and Satyam — Natural Order" }
+    "prev": {
+      "id": "05",
+      "titleMr": "अमर्यादित आनंदाचे परिणाम",
+      "titleEn": "Effects of Unlimited Bliss"
+    },
+    "next": {
+      "id": "07",
+      "titleMr": "ऋतम् व सत्यम्",
+      "titleEn": "Rtam and Satyam — Natural Order"
+    }
   }
 }

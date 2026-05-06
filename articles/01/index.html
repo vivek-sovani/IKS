@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 </head>
 <body>
 
@@ -189,7 +190,7 @@
       </p>
       <div class="insight-block">
       <p data-lang="mr">
-        ज्ञानेंद्रिये आणि कर्मेंद्रिये हे आनंदाचे उत्पादक नाहीत — ते केवळ आपल्यात आधीपासून असलेल्या आनंदाला जागृत करणारी साधने आहेत. आनंद ही आपली मूळ अवस्था आहे.
+        ज्ञानेंद्रिये आणि कर्मेंद्रिये हे आनंदाचे उत्पादक नाहीत — ते केवळ आपल्यात आधीपासून असलेल्या आनंदाला जागृत करणारे साधन आहेत. आनंद ही आपली मूळ अवस्था आहे.
       </p>
       <p data-lang="en" style="display:none;">
         The senses and organs of action do not produce joy — they merely awaken the joy that already exists within us. Ananda is our natural, original state.
@@ -212,7 +213,7 @@
       <h2 data-lang="mr">ऋषींचे संतुलित दर्शन — इंद्रियज आणि इंद्रियातीत आनंद<span class="en-h">The Sages' Balanced Vision — Sensory and Trans-Sensory Joy</span></h2>
       <h2 data-lang="en" style="display:none;">The Sages' Balanced Vision — Sensory and Trans-Sensory Joy</h2>
       <p data-lang="mr">
-        भारतीय ऋषींवर एक आरोप केला जातो — ते केवळ पारलौकिक आनंदाबद्दलच सांगतात, आणि ऐहिक गोष्टींकडे दुर्लक्ष करतात. पण हे अगदीच चुकीचे आहे. ऋषींनी हे स्पष्टपणे ओळखले की इंद्रियातीत आनंद श्रेष्ठ असला तरी, इंद्रियांच्या जगात राहताना त्या जगाचे नियम पाळावे लागतात. म्हणूनच भारतीय वारशामध्ये इंद्रियज सुखाचेही आदरपूर्वक उत्सव आहेत.
+        भारतीय ऋषींवर एक आरोप केला जातो — ते केवळ परलौकिक आनंदाबद्दलच सांगतात, आणि ऐहिक गोष्टींकडे दुर्लक्ष करतात. पण हे अगदीच चुकीचे आहे. ऋषींनी हे स्पष्टपणे ओळखले की इंद्रियातीत आनंद श्रेष्ठ असला तरी, इंद्रियांच्या जगात राहताना त्या जगाचे नियम पाळावे लागतात. म्हणूनच भारतीय वारशामध्ये इंद्रियज सुखाचेही आदरपूर्वक उत्सव आहेत.
       </p>
       <p data-lang="en" style="display:none;">
         The Indian sages are sometimes accused of being otherworldly — concerned only with the next life, ignoring this one. But this is entirely mistaken. The sages clearly recognised that even though trans-sensory bliss is supreme, living in the sensory world requires honouring its laws. This is why Indian heritage respectfully celebrates sensory joy as well.
@@ -272,6 +273,24 @@
       </ol>
     </div>
 
+    <div class="slide-viewer" id="slides-01"
+         data-pdf-mr="slides/article-01-slides.pdf"
+         data-pdf-en="slides/article-01-slides-en.pdf">
+      <div class="slide-header">
+        <div class="slide-label">सादरीकरण</div>
+        <div class="slide-controls">
+          <div class="zoom-bar">
+            <button class="zoom-btn" onclick="IKS.zoomSlides(this,-0.25)">−</button>
+            <span class="zoom-pct">100%</span>
+            <button class="zoom-btn" onclick="IKS.zoomSlides(this,+0.25)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-track">
+        <div class="slide-inner"></div>
+      </div>
+    </div>
+
     <div class="phase2-teaser">
       <div class="phase2-icon">📖</div>
       <div>
@@ -297,6 +316,7 @@
 </main>
 
 <script src="/IKS/assets/js/nav.js"></script>
+<script src="/IKS/assets/js/slides.js"></script>
 <script>
   fetch('/IKS/shared/sidebar.html')
     .then(r => r.text())
@@ -304,6 +324,7 @@
       document.getElementById('sidebar').innerHTML = html;
       IKS.init();
       IKS.setActiveArticle('01');
+      if (IKS.initSlides) IKS.initSlides();
     });
 </script>
 </body>

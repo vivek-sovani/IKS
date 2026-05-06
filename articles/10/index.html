@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 </head>
 <body>
 
@@ -294,6 +295,24 @@
       </ol>
     </div>
 
+    <div class="slide-viewer" id="slides-10"
+         data-pdf-mr="slides/slides-mr.pdf"
+         data-pdf-en="slides/slides-en.pdf">
+      <div class="slide-header">
+        <div class="slide-label">सादरीकरण</div>
+        <div class="slide-controls">
+          <div class="zoom-bar">
+            <button class="zoom-btn" onclick="IKS.zoomSlides(this,-0.25)">−</button>
+            <span class="zoom-pct">100%</span>
+            <button class="zoom-btn" onclick="IKS.zoomSlides(this,+0.25)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-track">
+        <div class="slide-inner"></div>
+      </div>
+    </div>
+
     <div class="phase2-teaser">
       <div class="phase2-icon">📖</div>
       <div>
@@ -324,6 +343,7 @@
 </main>
 
 <script src="/IKS/assets/js/nav.js"></script>
+<script src="/IKS/assets/js/slides.js"></script>
 <script>
   fetch('/IKS/shared/sidebar.html')
     .then(r => r.text())
@@ -331,6 +351,7 @@
       document.getElementById('sidebar').innerHTML = html;
       IKS.init();
       IKS.setActiveArticle('10');
+      if (IKS.initSlides) IKS.initSlides();
     });
 </script>
 </body>

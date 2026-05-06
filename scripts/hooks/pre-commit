@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# pre-commit hook: auto-compress staged PDF files to 200 DPI
+# Install: bash scripts/install-hooks.sh
+
+set -e
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+# Find PDFs that are staged (added or modified)
+staged=$(git diff --cached --name-only --diff-filter=ACM | grep -i '\.pdf$' || true)
+
+if [ -z "$staged" ]; then
+  exit 0
+fi
+
+# Check ghostscript is available
+if ! command -v gs &>/dev/null; then
+  echo "⚠  Ghostscript (gs) not found — skipping PDF compression."
+  echo "   Install with: brew install ghostscript"
+  exit 0
+fi
+
+echo "Compressing PDFs to 200 DPI..."
+for pdf in $staged; do
+  full="$REPO_ROOT/$pdf"
+  if [ -f "$full" ]; then
+    python3 "$REPO_ROOT/scripts/compress_pdf.py" "$full"
+    git add "$full"
+  fi
+done

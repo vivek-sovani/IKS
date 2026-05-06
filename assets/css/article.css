@@ -155,6 +155,136 @@
   text-align: center;
 }
 
+/* ── Zoom controls (shared) ─────────────────────────── */
+.zoom-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: var(--ivory-dark);
+  border-bottom: 1px solid var(--border-light);
+}
+.zoom-btn {
+  width: 26px; height: 26px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--ivory);
+  color: var(--text-secondary);
+  font-size: 16px; line-height: 1;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.zoom-btn:hover {
+  background: var(--saffron-pale);
+  border-color: var(--saffron-light);
+}
+.zoom-pct {
+  font-size: 12px;
+  color: var(--text-muted);
+  min-width: 36px;
+  text-align: center;
+  font-family: monospace;
+}
+
+/* ── Slide viewer (PDF.js-based, bilingual) ─────────── */
+.slide-viewer {
+  margin: 32px 0;
+  border: 1px solid var(--border-light);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.slide-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  background: var(--ivory-dark);
+  border-bottom: 1px solid var(--border-light);
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.slide-label {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+.slide-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.slide-lang-btns {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.slide-lang-btn {
+  padding: 4px 11px;
+  font-size: 12px;
+  border: none;
+  background: var(--ivory);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.slide-lang-btn + .slide-lang-btn {
+  border-left: 1px solid var(--border);
+}
+.slide-lang-btn.active {
+  background: var(--saffron);
+  color: #fff;
+}
+.slide-track {
+  overflow-x: auto;
+  overflow-y: auto;
+  min-height: 300px;
+  background: #3d3530;
+  padding: 16px;
+  cursor: grab;
+  scroll-behavior: smooth;
+  /* horizontal scroll snap for clean page navigation */
+  scroll-snap-type: x proximity;
+}
+.slide-track:active { cursor: grabbing; }
+.slide-inner {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+}
+.slide-page {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+.slide-page canvas {
+  display: block;
+  border-radius: 3px;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.45);
+}
+.slide-loading,
+.slide-unavail {
+  color: rgba(255,255,255,0.45);
+  font-size: 13px;
+  font-style: italic;
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+/* zoom-bar is shared; override background inside slide-header */
+.slide-header .zoom-bar {
+  background: transparent;
+  border-bottom: none;
+  padding: 0;
+}
+
+@media (max-width: 600px) {
+  .slide-track { padding: 10px; }
+  .slide-inner { gap: 10px; }
+}
+
 /* ── SPECIAL BLOCKS ─────────────────────────────────── */
 
 /* Sanskrit Term box */

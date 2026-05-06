@@ -64,40 +64,100 @@
       "captionEn": "The Indian life cycle connects the four states — Turiya, Wakefulness, Dream, Deep Sleep — with cosmic cycles",
       "steps": [
         {
-          "mr": ["ब्राह्म मुहूर्त", "पहाटे उठणे"],
-          "en": ["Brahma Muhurta", "Pre-dawn rising"],
+          "mr": [
+            "ब्राह्म मुहूर्त",
+            "पहाटे उठणे"
+          ],
+          "en": [
+            "Brahma Muhurta",
+            "Pre-dawn rising"
+          ],
           "roman": "Brahma Muhūrta",
-          "subMr": ["सूर्योदयापूर्वी", "४८ मिनिटे"],
-          "subEn": ["48 minutes", "before sunrise"]
+          "subMr": [
+            "सूर्योदयापूर्वी",
+            "४८ मिनिटे"
+          ],
+          "subEn": [
+            "48 minutes",
+            "before sunrise"
+          ]
         },
         {
-          "mr": ["तुरीय", "समाधी"],
-          "en": ["Turiya", "Samadhi"],
+          "mr": [
+            "तुरीय",
+            "समाधी"
+          ],
+          "en": [
+            "Turiya",
+            "Samadhi"
+          ],
           "roman": "Turīya",
-          "subMr": ["आत्मसुखाचा", "आनंद"],
-          "subEn": ["Joy of", "atma-sukha"],
+          "subMr": [
+            "आत्मसुखाचा",
+            "आनंद"
+          ],
+          "subEn": [
+            "Joy of",
+            "atma-sukha"
+          ],
           "highlight": true
         },
         {
-          "mr": ["यज्ञ व संध्या", "सूर्यार्घ्य"],
-          "en": ["Yajna & Sandhya", "Arghya to Sun"],
+          "mr": [
+            "यज्ञ व संध्या",
+            "सूर्यार्घ्य"
+          ],
+          "en": [
+            "Yajna & Sandhya",
+            "Arghya to Sun"
+          ],
           "roman": "Yajña-Sandhyā",
-          "subMr": ["विहित विधी", "कर्तव्य"],
-          "subEn": ["Prescribed", "rituals"]
+          "subMr": [
+            "विहित विधी",
+            "कर्तव्य"
+          ],
+          "subEn": [
+            "Prescribed",
+            "rituals"
+          ]
         },
         {
-          "mr": ["धर्म-अर्थ-काम", "दिवसाचे कार्य"],
-          "en": ["Dharma-Artha-Kama", "Daytime work"],
+          "mr": [
+            "धर्म-अर्थ-काम",
+            "दिवसाचे कार्य"
+          ],
+          "en": [
+            "Dharma-Artha-Kama",
+            "Daytime work"
+          ],
           "roman": "Trivarga",
-          "subMr": ["व्यवसाय", "उपजीविका"],
-          "subEn": ["Vocation", "Livelihood"]
+          "subMr": [
+            "व्यवसाय",
+            "उपजीविका"
+          ],
+          "subEn": [
+            "Vocation",
+            "Livelihood"
+          ]
         },
         {
-          "mr": ["सुषुप्ती", "गहन निद्रा"],
-          "en": ["Sushupti", "Deep Sleep"],
+          "mr": [
+            "सुषुप्ती",
+            "गहन निद्रा"
+          ],
+          "en": [
+            "Sushupti",
+            "Deep Sleep"
+          ],
           "roman": "Suṣupti",
-          "subMr": ["विश्रांती", "पुनरुज्जीवन"],
-          "subEn": ["Rest &", "renewal"]
+          "subMr": [
+            "विश्रांती",
+            "पुनरुज्जीवन"
+          ],
+          "subEn": [
+            "Rest &",
+            "renewal"
+          ]
         }
       ]
     },
@@ -164,13 +224,28 @@
       ]
     },
     {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
       "type": "phase2",
       "mr": "तुरीय अवस्था आणि जीवनचक्र यांच्या सखोल अध्ययनात श्रीमद्भगवद्गीता, श्रीमद्भागवतम् (१०.७०), याज्ञवल्क्यस्मृती, अष्टांग हृदय सूत्रस्थान आणि मांडूक्य उपनिषद यांमधून विस्तृत विवेचन केले जाईल. चार अवस्थांचा न्यूरोसायन्स दृष्टिकोनातून अभ्यास देखील मांडला जाईल.",
       "en": "Advanced reading will explore the Turiya state and the life cycle through Bhagavad Gita, Srimad Bhagavatam (10.70), Yajnavalkya Smriti, Ashtanga Hridaya Sutrasthana, and Mandukya Upanishad. A neuroscience perspective on the four states will also be presented."
     }
   ],
   "nav": {
-    "prev": { "id": "09", "titleMr": "अंतर्गत चक्रे", "titleEn": "Inner Cycles and Cosmic Connection" },
-    "next": { "id": "11", "titleMr": "चौथी अवस्था — तुरीय", "titleEn": "The Fourth State — Turiya" }
+    "prev": {
+      "id": "09",
+      "titleMr": "अंतर्गत चक्रे",
+      "titleEn": "Inner Cycles and Cosmic Connection"
+    },
+    "next": {
+      "id": "11",
+      "titleMr": "चौथी अवस्था — तुरीय",
+      "titleEn": "The Fourth State — Turiya"
+    }
   }
 }
