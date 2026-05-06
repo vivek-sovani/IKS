@@ -280,6 +280,14 @@
   border-bottom: none;
   padding: 0;
 }
+.open-pdf-btn {
+  margin-left: 6px;
+  border-left: 1px solid var(--border-light) !important;
+  padding-left: 8px !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @media (max-width: 600px) {
   .slide-track { padding: 10px; }

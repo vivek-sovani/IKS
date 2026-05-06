@@ -159,6 +159,15 @@
     _loadViewer(viewer, lang);
   }
 
+  // ── Public: open PDF in new tab ───────────────────────────────────────────
+
+  function openSlidesPdf(btn) {
+    var viewer = btn.closest('.slide-viewer');
+    var lang   = (IKS && IKS.getLang) ? IKS.getLang() : 'mr';
+    var url    = lang === 'en' ? viewer.dataset.pdfEn : viewer.dataset.pdfMr;
+    if (url) window.open(url, '_blank');
+  }
+
   // ── Public: zoom ──────────────────────────────────────────────────────────
 
   async function zoomSlides(btn, delta) {
@@ -276,5 +285,6 @@
   IKS.initSlides      = initSlides;
   IKS.switchSlideLang = switchSlideLang;
   IKS.zoomSlides      = zoomSlides;
+  IKS.openSlidesPdf   = openSlidesPdf;
 
 })();
