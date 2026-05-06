@@ -18,7 +18,7 @@
 
   const PDFJS_WORKER = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
   const ZOOM_MIN     = 0.5;
-  const ZOOM_MAX     = 2.0;
+  const ZOOM_MAX     = 3.0;
 
   // Per-viewer state keyed by element id
   const _state = {};
@@ -32,7 +32,7 @@
     pdfjsLib.GlobalWorkerOptions.workerSrc = PDFJS_WORKER;
 
     document.querySelectorAll('.slide-viewer').forEach(function (viewer) {
-      _setupDragScroll(viewer.querySelector('.slide-track'));
+      _setupInteraction(viewer);
       var lang = (IKS && IKS.getLang) ? IKS.getLang() : 'mr';
       _loadViewer(viewer, lang);
     });
@@ -62,7 +62,7 @@
       return;
     }
 
-    // Already showing this exact PDF — just re-render (zoom change)
+    // Already showing this exact PDF — just re-render (zoom change / resize)
     if (_state[id] && _state[id].url === url) {
       viewer.style.display = '';
       _renderPages(id);
@@ -81,18 +81,20 @@
       // Abort if a newer request has superseded this one
       if (_loading[id] !== url) return;
 
-      // Compute base scale: fit the slide width to the track's inner width
+      // Store native page width for scale computations (avoids repeated getPage calls)
       var firstPage = await pdf.getPage(1);
       var nativeVP  = firstPage.getViewport({ scale: 1.0 });
-      var trackPad  = 32; // 2 × 16px padding
-      var trackW    = (viewer.querySelector('.slide-track').clientWidth || 640) - trackPad;
+      var track     = viewer.querySelector('.slide-track');
+      var trackW    = _trackInnerWidth(track);
       var baseScale = trackW / nativeVP.width;
 
       _state[id] = {
-        pdf:       pdf,
-        url:       url,
-        baseScale: baseScale,
-        zoom:      (_state[id] && _state[id].zoom) || 1.0
+        pdf:         pdf,
+        url:         url,
+        nativeW:     nativeVP.width,   // stored; no need to re-fetch page 1 later
+        nativeH:     nativeVP.height,
+        baseScale:   baseScale,
+        zoom:        (_state[id] && _state[id].zoom) || 1.0
       };
       delete _loading[id];
 
@@ -112,11 +114,16 @@
   async function _renderPages(id) {
     var viewer = document.getElementById(id);
     if (!viewer) return;
+    var track = viewer.querySelector('.slide-track');
     var inner = viewer.querySelector('.slide-inner');
     var state = _state[id];
     if (!state) return;
 
-    var scale = (state.baseScale || 1.0) * state.zoom;
+    // Always recompute baseScale from the live track width (handles resize / font changes)
+    var trackW      = _trackInnerWidth(track);
+    state.baseScale = trackW / state.nativeW;
+
+    var scale = state.baseScale * state.zoom;
     inner.innerHTML = '';
 
     for (var i = 1; i <= state.pdf.numPages; i++) {
@@ -135,11 +142,12 @@
       page.render({ canvasContext: canvas.getContext('2d'), viewport: viewport });
     }
 
-    // Fit track height to first page + padding
+    // Set track height to exactly fit one page (no more, no less)
     var firstCanvas = inner.querySelector('.slide-page canvas');
     if (firstCanvas) {
-      viewer.querySelector('.slide-track').style.height =
-        (firstCanvas.height + 32) + 'px';
+      var cs   = getComputedStyle(track);
+      var padV = parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom);
+      track.style.height = (firstCanvas.height + padV) + 'px';
     }
   }
 
@@ -164,21 +172,14 @@
     await _renderPages(id);
   }
 
-  // ── Helpers ───────────────────────────────────────────────────────────────
+  // ── Interaction: drag-scroll (desktop) + pinch-zoom (mobile) ─────────────
 
-  function _syncLangButtons(viewer, lang) {
-    viewer.querySelectorAll('.slide-lang-btn').forEach(function (b) {
-      b.classList.toggle('active', b.dataset.lang === lang);
-    });
-  }
-
-  function _updateZoomDisplay(viewer, z) {
-    var pct = viewer.querySelector('.zoom-pct');
-    if (pct) pct.textContent = Math.round(z * 100) + '%';
-  }
-
-  function _setupDragScroll(track) {
+  function _setupInteraction(viewer) {
+    var track = viewer.querySelector('.slide-track');
+    var id    = viewer.id;
     if (!track) return;
+
+    // ── Desktop drag-scroll ───────────────────────────────────────────────
     var dragging = false, startX, scrollLeft;
     track.addEventListener('mousedown', function (e) {
       dragging   = true;
@@ -193,6 +194,80 @@
       if (!dragging) return;
       track.scrollLeft = scrollLeft - (e.pageX - track.offsetLeft - startX) * 1.2;
     });
+
+    // ── Mobile pinch-zoom ─────────────────────────────────────────────────
+    // Strategy: live visual feedback via CSS transform during pinch;
+    // re-render at new zoom on touchend (avoids per-frame PDF.js re-render).
+    var pinching = false, pinchDist0 = 0, pinchZoom0 = 1;
+
+    track.addEventListener('touchstart', function (e) {
+      if (e.touches.length === 2) {
+        pinching   = true;
+        pinchDist0 = _touchDist(e.touches);
+        pinchZoom0 = (_state[id] && _state[id].zoom) || 1.0;
+        e.preventDefault(); // prevent browser native zoom
+      }
+    }, { passive: false });
+
+    track.addEventListener('touchmove', function (e) {
+      if (!pinching || e.touches.length < 2) return;
+      var ratio = _touchDist(e.touches) / pinchDist0;
+      var z     = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN,
+                    Math.round(pinchZoom0 * ratio * 100) / 100));
+      // Live visual scale on the inner container (no re-render yet — too slow)
+      var inner = viewer.querySelector('.slide-inner');
+      inner.style.transformOrigin = '0 0';
+      inner.style.transform       = 'scale(' + (z / pinchZoom0) + ')';
+      // Update state + display so button % is in sync
+      if (_state[id]) {
+        _state[id].zoom = z;
+        _updateZoomDisplay(viewer, z);
+      }
+      e.preventDefault();
+    }, { passive: false });
+
+    track.addEventListener('touchend', function (e) {
+      if (!pinching) return;
+      if (e.touches.length < 2) {
+        pinching = false;
+        // Reset transform, then re-render at the committed zoom
+        var inner = viewer.querySelector('.slide-inner');
+        inner.style.transform = '';
+        _renderPages(id);
+      }
+    });
+  }
+
+  // ── Helpers ───────────────────────────────────────────────────────────────
+
+  /**
+   * Returns the usable inner width of the track element (total width minus
+   * horizontal padding). Uses getBoundingClientRect for accuracy on mobile
+   * (clientWidth can be stale if layout hasn't settled).
+   */
+  function _trackInnerWidth(track) {
+    var cs   = getComputedStyle(track);
+    var padH = parseFloat(cs.paddingLeft) + parseFloat(cs.paddingRight);
+    var w    = (track.getBoundingClientRect().width || track.clientWidth || 640) - padH;
+    return w > 20 ? w : 600;
+  }
+
+  function _touchDist(touches) {
+    return Math.hypot(
+      touches[0].clientX - touches[1].clientX,
+      touches[0].clientY - touches[1].clientY
+    );
+  }
+
+  function _syncLangButtons(viewer, lang) {
+    viewer.querySelectorAll('.slide-lang-btn').forEach(function (b) {
+      b.classList.toggle('active', b.dataset.lang === lang);
+    });
+  }
+
+  function _updateZoomDisplay(viewer, z) {
+    var pct = viewer.querySelector('.zoom-pct');
+    if (pct) pct.textContent = Math.round(z * 100) + '%';
   }
 
   // ── Attach to IKS global ──────────────────────────────────────────────────

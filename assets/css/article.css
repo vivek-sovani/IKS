@@ -238,19 +238,20 @@
 }
 .slide-track {
   overflow-x: auto;
-  overflow-y: auto;
-  min-height: 300px;
+  overflow-y: hidden;            /* no vertical bleed of adjacent pages */
   background: #3d3530;
   padding: 16px;
   cursor: grab;
-  scroll-behavior: smooth;
-  /* horizontal scroll snap for clean page navigation */
-  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch; /* iOS momentum scrolling */
+  scroll-snap-type: x mandatory; /* clean full-page snap */
+  touch-action: pan-x;           /* native swipe; JS intercepts 2-finger pinch */
+  /* height is set dynamically by slides.js to match one page exactly */
 }
 .slide-track:active { cursor: grabbing; }
 .slide-inner {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   gap: 16px;
   align-items: flex-start;
 }
@@ -283,6 +284,8 @@
 @media (max-width: 600px) {
   .slide-track { padding: 10px; }
   .slide-inner { gap: 10px; }
+  /* Zoom buttons slightly larger for touch targets */
+  .zoom-btn { min-width: 36px; min-height: 36px; font-size: 18px; }
 }
 
 /* ── SPECIAL BLOCKS ─────────────────────────────────── */
