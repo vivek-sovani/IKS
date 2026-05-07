@@ -1,0 +1,45 @@
+# Image / Infographic Prompts for Article 12 — वैदिक चक्र संकल्पना / Vedic Cycle Concepts
+
+## Prompt 1: Mechanism Diagram (for NotebookLM or Canva)
+
+**Style**: Clean educational infographic, Indian cultural aesthetic, four-quadrant wheel design, saffron, gold, green and purple color palette.
+
+**Content**: A mandala-style wheel diagram with "तुरीय / Sahasrara" glowing at the center in gold. Four quadrants radiating outward, each with a different color and tradition label:
+- TOP-LEFT (green): "योग परंपरा" — list: मूलाधार → स्वाधिष्ठान → मणिपूर → अनाहत → विशुद्धी → आज्ञा → सहस्रार
+- TOP-RIGHT (gold): "वैदिक परंपरा" — list: भू → भुवः → सुवः → महः → जनः → तपः → सत्यम्
+- BOTTOM-LEFT (purple): "सांख्य दर्शन" — label: "२४ तत्त्वे / 24 Principles"
+- BOTTOM-RIGHT (saffron): "तंत्र शास्त्र" — label: "३६ तत्त्वे / 36 Principles"
+
+Curved arrows from each quadrant pointing toward the center. Subtitle: "मार्ग वेगळे — गंतव्य एक / Different Paths — One Destination". Devanagari script labels.
+
+---
+
+## Prompt 2: Philosophical Illustration (Midjourney / DALL-E)
+
+**Prompt**: "A magnificent lotus with seven petals representing the seven chakras, rising from the base of the spine to the crown of the head. Each petal glows with a different sacred color — red, orange, yellow, green, blue, indigo, violet — and is labeled in Sanskrit: Muladhara, Svadhishthana, Manipura, Anahata, Vishuddhi, Ajna, Sahasrara. At the crown, the Sahasrara petal transforms into pure white light expanding outward. Background: deep indigo night sky with the Milky Way. Indian Tanjore painting style with gold leaf detail, sacred geometry borders."
+
+---
+
+## Prompt 3: Slide Deck Cover (Google Slides / Canva)
+
+**For a presentation slide**:
+- Background: Deep indigo (#1A1040) with a subtle seven-chakra column motif
+- Title (large, gold): "वैदिक चक्र संकल्पना"
+- Subtitle (medium, ivory): "Vedic Cycle Concepts"
+- Sub-subtitle (smaller, saffron): "Article 12 | भारतीय ज्ञानप्रणाली व वारसा"
+- Visual element: A simplified spine/chakra column on the right with seven glowing dots
+- Footer: "Elements of Indian Knowledge Systems"
+
+---
+
+## Prompt 4: WhatsApp Share Card
+
+**Size**: 1080 × 1080 px
+**Background**: Gradient from deep indigo (#1A1040) to dark purple (#4A1080)
+**Central image**: A simplified seven-chakra column (spine with seven glowing points)
+**Quote below** (Devanagari, white):
+"मूलाधार ते सहस्रार —
+सगळ्या परंपरांचा
+गंतव्य एकच."
+**Below quote** (smaller, gold): "— भारतीय ज्ञानप्रणाली"
+**Bottom** (small, ivory italic): "vivek-sovani.github.io/IKS · Article 12"

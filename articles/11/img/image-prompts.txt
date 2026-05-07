@@ -1,0 +1,44 @@
+# Image / Infographic Prompts for Article 11 — चौथी अवस्था — तुरीय / The Fourth State — Turiya
+
+## Prompt 1: Mechanism Diagram (for NotebookLM or Canva)
+
+**Style**: Clean educational infographic, Indian cultural aesthetic, saffron and ivory color palette, white background.
+
+**Content**: A vertical bar chart or staircase diagram showing the four states of consciousness as ascending levels of inner depth. From left to right:
+1. "जागृती (Wakefulness)" — shortest bar, label "बाह्य संपर्क पूर्ण / Full sensory contact", color: teal/green.
+2. "स्वप्न (Dream)" — medium bar, label "अंशतः आंतरिक / Partially internal", color: gold.
+3. "सुषुप्ती (Deep Sleep)" — taller bar, label "विश्रांती / Rest", color: purple.
+4. "तुरीय / समाधी (Turiya)" — tallest bar with an infinity symbol at top, highlighted in saffron, label "परम आनंद / Supreme Bliss".
+
+An arrow on the left side pointing upward labeled "आंतरिक खोली / Depth of Inner Awareness". Below the chart: a small EEG-wave icon with text "आधुनिक विज्ञान पुष्टी देते / Confirmed by Modern Science". Devanagari labels throughout.
+
+---
+
+## Prompt 2: Philosophical Illustration (Midjourney / DALL-E)
+
+**Prompt**: "A yogi in deep Samadhi, sitting in lotus position on the banks of a river at pre-dawn. The body appears almost translucent — neither asleep nor fully awake — glowing faintly from within. Around the yogi, four concentric rings represent the four states: outermost ring (wakefulness) has sense-organ symbols; second ring (dream) shows floating memories; third ring (deep sleep) shows darkness and peace; innermost ring (Turiya) is pure golden light. Indian miniature painting style, saffron, ivory and deep brown palette, no text, sacred atmosphere."
+
+---
+
+## Prompt 3: Slide Deck Cover (Google Slides / Canva)
+
+**For a presentation slide**:
+- Background: Deep brown (#5C3A1E) with subtle neural/spinal cord motif in the background
+- Title (large, gold): "चौथी अवस्था — तुरीय"
+- Subtitle (medium, ivory): "The Fourth State — Turiya"
+- Sub-subtitle (smaller, saffron): "Article 11 | भारतीय ज्ञानप्रणाली व वारसा"
+- Visual element: Four concentric circles on the right — labeled जागृती, स्वप्न, सुषुप्ती, तुरीय — innermost glowing gold
+- Footer: "Elements of Indian Knowledge Systems"
+
+---
+
+## Prompt 4: WhatsApp Share Card
+
+**Size**: 1080 × 1080 px
+**Background**: Gradient from deep brown (#5C3A1E) to midnight black
+**Central quote** (large Devanagari, white):
+"न जागरो न निद्रा —
+न जीवित न मृत्यू.
+तुरीय — चौथी अवस्था."
+**Below quote** (smaller, gold): "— शंकराचार्य, योगतारावली"
+**Bottom** (small, ivory italic): "vivek-sovani.github.io/IKS · Article 11"

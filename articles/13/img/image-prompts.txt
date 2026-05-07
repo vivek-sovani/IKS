@@ -1,0 +1,48 @@
+# Image / Infographic Prompts for Article 13 — पुरुष–प्रकृती, सृष्टी–स्थिती–लय / Purusha-Prakriti, Creation-Preservation-Dissolution
+
+## Prompt 1: Mechanism Diagram (for NotebookLM or Canva)
+
+**Style**: Clean educational infographic, circular cycle diagram, saffron and gold color palette, ivory background.
+
+**Content**: A circular flow diagram showing the complete inner cycle. Five nodes arranged in a circle:
+1. TOP: "जागृती / Wakefulness" — full circle, green, "मूलाधार"
+2. TOP-RIGHT: "आरोहण / Ascending" — half-filled arc, arrow pointing clockwise, label "इंद्रिये शांत होतात / Senses quiet — लय"
+3. RIGHT: "समाधी / Samadhi" — golden glowing circle (highlighted), "सहस्रार — केवळ पुरुष"
+4. BOTTOM-RIGHT: "अवरोहण / Descending" — half-filled arc, arrow pointing clockwise, label "इंद्रिये जागृत होतात / Senses reawaken — सृष्टी"
+5. BOTTOM-LEFT: "जागृती / Return" — full circle, green, label "समत्वाने परत / Return with equanimity"
+
+Center of the circle: the Yin-Yang style symbol with "पुरुष" (white/light) and "प्रकृती" (dark) halves.
+Below the circle: "यत् पिण्डे तत् ब्रह्मांडे" in large Devanagari script.
+
+---
+
+## Prompt 2: Philosophical Illustration (Midjourney / DALL-E)
+
+**Prompt**: "A cosmic visualization showing a human body in meditation at the center, with the spinal cord glowing as a luminous axis mundi. Above the meditating figure, the universe expands — galaxies, stars, solar systems — all in the same spiral pattern as the kundalini energy rising. Below, the earth and roots. The entire composition forms a double helix. Three concentric rings labeled Srishti (creation), Sthiti (preservation), Laya (dissolution) surround the figure. Colors: deep cosmic blue and black with saffron, gold and white light accents. Style: sacred geometry meets Indian spiritual art."
+
+---
+
+## Prompt 3: Slide Deck Cover (Google Slides / Canva)
+
+**For a presentation slide**:
+- Background: Cosmic deep blue-black (#050A1F) with subtle galaxy texture
+- Title (large, gold): "पुरुष–प्रकृती"
+- Subtitle (medium, ivory): "सृष्टी–स्थिती–लय"
+- English subtitle (smaller, saffron): "Purusha-Prakriti · Creation-Preservation-Dissolution"
+- Sub-subtitle: "Article 13 | भारतीय ज्ञानप्रणाली व वारसा"
+- Visual element: A circular cycle diagram on the right with three arcs labeled सृष्टी, स्थिती, लय
+- Footer: "Elements of Indian Knowledge Systems"
+
+---
+
+## Prompt 4: WhatsApp Share Card
+
+**Size**: 1080 × 1080 px
+**Background**: Gradient from deep cosmic blue (#050A1F) to dark saffron (#8B3000)
+**Central image**: A simple circle with arrow showing the cycle: जागृती → समाधी → जागृती, with "सृष्टी-स्थिती-लय" labels
+**Quote below** (Devanagari, white):
+"यत् पिण्डे तत् ब्रह्मांडे —
+जे शरीरात आहे
+तेच विश्वातही आहे."
+**Below quote** (smaller, gold): "— भारतीय ज्ञानप्रणाली"
+**Bottom** (small, ivory italic): "vivek-sovani.github.io/IKS · Article 13"

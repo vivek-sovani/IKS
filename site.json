@@ -10,83 +10,405 @@
       "numMr": "०",
       "nameMr": "मध्यवर्ती संकल्पना",
       "nameEn": "Central Concepts",
-      "articles": ["01","02","03","04","05","06"]
+      "articles": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06"
+      ]
     },
     {
       "id": "c1",
       "numMr": "१",
       "nameMr": "जीवनाची चक्रे",
       "nameEn": "Cycles of Life",
-      "articles": ["07","08","09","10","11","12","13"]
+      "articles": [
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13"
+      ]
     },
     {
       "id": "c2",
       "numMr": "२",
       "nameMr": "अव्यक्त, व्यक्त व आंतरव्यक्तीक चक्रे",
       "nameEn": "Unmanifest, Manifest & Inter-Personal Cycles",
-      "articles": ["14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33"]
+      "articles": [
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33"
+      ]
     },
     {
       "id": "c3",
       "numMr": "३",
       "nameMr": "चक्रांच्या संरक्षणासाठी संस्था",
       "nameEn": "Institutions for Protecting the Cycles",
-      "articles": ["34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53"]
+      "articles": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53"
+      ]
     }
   ],
   "articles": {
-    "01": { "titleMr": "आनंद", "titleEn": "Ananda — The Nature of Joy", "section": "c0", "status": "published" },
-    "02": { "titleMr": "आनंदाच्या उच्च मर्यादांचा शोध", "titleEn": "In Search of Supreme Joy", "section": "c0", "status": "published" },
-    "03": { "titleMr": "ज्ञान — परमावस्थेचा सिद्धांत", "titleEn": "Jnana — Theory of Supreme State", "section": "c0", "status": "published" },
-    "04": { "titleMr": "ज्ञानाच्या अवस्थेची पर्यायी नावे", "titleEn": "Alternate Names for the State of Jnana", "section": "c0", "status": "published" },
-    "05": { "titleMr": "अमर्यादित आनंदाचे परिणाम", "titleEn": "Effects of Unlimited Bliss", "section": "c0", "status": "published" },
-    "06": { "titleMr": "योग व विद्या", "titleEn": "Yoga and Vidya", "section": "c0", "status": "published" },
-    "07": { "titleMr": "ऋतम् व सत्यम्", "titleEn": "Rtam and Satyam — Natural Order", "section": "c1", "status": "published" },
-    "08": { "titleMr": "धर्म", "titleEn": "Dharma — Maintaining Natural Order", "section": "c1", "status": "published" },
-    "09": { "titleMr": "अंतर्गत चक्रे", "titleEn": "Inner Cycles and Cosmic Connection", "section": "c1", "status": "published" },
-    "10": { "titleMr": "जीवनचक्र व आनंद", "titleEn": "Life Cycle for Ultimate Bliss", "section": "c1", "status": "published" },
-    "11": { "titleMr": "चौथी अवस्था — तुरीय", "titleEn": "The Fourth State — Turiya", "section": "c1", "status": "draft" },
-    "12": { "titleMr": "वैदिक चक्र संकल्पना", "titleEn": "Vedic Cycle Concepts", "section": "c1", "status": "draft" },
-    "13": { "titleMr": "पुरुष–प्रकृती, सृष्टी–स्थिती–लय", "titleEn": "Purusha-Prakriti, Creation-Preservation-Dissolution", "section": "c1", "status": "draft" },
-    "14": { "titleMr": "मानवी शरीराबद्दलचा भारतीय दृष्टिकोन", "titleEn": "Indian View of the Human Body", "section": "c2", "status": "draft" },
-    "15": { "titleMr": "अंतःकरण", "titleEn": "Antahkarana — Inner Instrument", "section": "c2", "status": "draft" },
-    "16": { "titleMr": "प्राण आणि नाडी", "titleEn": "Prana and Nadis", "section": "c2", "status": "draft" },
-    "17": { "titleMr": "पुरुष आणि प्रकृती", "titleEn": "Purusha and Prakriti", "section": "c2", "status": "draft" },
-    "18": { "titleMr": "अव्यक्त अर्धचक्र", "titleEn": "Unmanifest Half-Cycle", "section": "c2", "status": "draft" },
-    "19": { "titleMr": "ज्ञानयोग, कर्मयोग, भक्तियोग", "titleEn": "Three Paths of Yoga", "section": "c2", "status": "draft" },
-    "20": { "titleMr": "व्यक्त अर्धचक्र", "titleEn": "Manifest Half-Cycle", "section": "c2", "status": "draft" },
-    "21": { "titleMr": "आत्मगुण", "titleEn": "Atmaguna — Qualities of the Self", "section": "c2", "status": "draft" },
-    "22": { "titleMr": "वाक्, वेद व विद्या", "titleEn": "Vak, Veda and Vidya", "section": "c2", "status": "draft" },
-    "23": { "titleMr": "कर्म, कल्प, कला", "titleEn": "Karma, Kalpa and Kala", "section": "c2", "status": "draft" },
-    "24": { "titleMr": "अंतर्गत चक्रांची पूर्णता", "titleEn": "Completion of Inner Cycles", "section": "c2", "status": "draft" },
-    "25": { "titleMr": "गुरु व शिष्य", "titleEn": "Guru and Shishya", "section": "c2", "status": "draft" },
-    "26": { "titleMr": "विद्या, कला, यज्ञ, कर्म", "titleEn": "Vidya, Kala, Yajna, Karma", "section": "c2", "status": "draft" },
-    "27": { "titleMr": "विज्ञान", "titleEn": "Vijnana — Applied Knowledge", "section": "c2", "status": "draft" },
-    "28": { "titleMr": "विद्या आणि योग", "titleEn": "Vidya and Yoga", "section": "c2", "status": "draft" },
-    "29": { "titleMr": "वेदांमधील देवता", "titleEn": "Vedic Deities", "section": "c2", "status": "draft" },
-    "30": { "titleMr": "पिंडांडामधील देवता", "titleEn": "Deities in Pindanda", "section": "c2", "status": "draft" },
-    "31": { "titleMr": "ब्रह्मांडामधील देवता", "titleEn": "Deities in Brahmanda", "section": "c2", "status": "draft" },
-    "32": { "titleMr": "देवतांची एकसंध संकल्पना", "titleEn": "Unified Concept of Deities", "section": "c2", "status": "draft" },
-    "33": { "titleMr": "पुनर्रचनेच्या समस्या", "titleEn": "Problems of Reconstruction", "section": "c2", "status": "draft" },
-    "34": { "titleMr": "धर्मासाठी संस्था निर्माण", "titleEn": "Creating Institutions for Dharma", "section": "c3", "status": "draft" },
-    "35": { "titleMr": "अध्यापन पद्धती व शैली", "titleEn": "Teaching Methods and Styles", "section": "c3", "status": "draft" },
-    "36": { "titleMr": "१४ विद्या आणि ६४ कला", "titleEn": "14 Vidyas and 64 Kalas", "section": "c3", "status": "draft" },
-    "37": { "titleMr": "कर्मकांड व ज्ञानकांड", "titleEn": "Karmakanda and Jnanakanda", "section": "c3", "status": "draft" },
-    "38": { "titleMr": "वेदांग", "titleEn": "Vedangas — Six Limbs of the Veda", "section": "c3", "status": "draft" },
-    "39": { "titleMr": "शिक्षा, व्याकरण, छंद", "titleEn": "Shiksha, Vyakarana, Chhanda", "section": "c3", "status": "draft" },
-    "40": { "titleMr": "निरुक्त, ज्योतिष, कल्प", "titleEn": "Nirukta, Jyotisha, Kalpa", "section": "c3", "status": "draft" },
-    "41": { "titleMr": "चार वेद आणि उपवेद", "titleEn": "Four Vedas and Upavedas", "section": "c3", "status": "draft" },
-    "42": { "titleMr": "षड्दर्शने", "titleEn": "The Six Darshanas", "section": "c3", "status": "draft" },
-    "43": { "titleMr": "तंत्र व आगम", "titleEn": "Tantra and Agama", "section": "c3", "status": "draft" },
-    "44": { "titleMr": "दैनंदिन जीवनातील तंत्रे", "titleEn": "Tantras in Daily Life", "section": "c3", "status": "draft" },
-    "45": { "titleMr": "पुरुषार्थ आणि आश्रम", "titleEn": "Purusharthas and Ashrama", "section": "c3", "status": "draft" },
-    "46": { "titleMr": "नित्यकर्म", "titleEn": "Nityakarma — Daily Practice", "section": "c3", "status": "draft" },
-    "47": { "titleMr": "उत्सव", "titleEn": "Utsava — Festivals", "section": "c3", "status": "draft" },
-    "48": { "titleMr": "संस्कार", "titleEn": "Samskaras — Rites of Refinement", "section": "c3", "status": "draft" },
-    "49": { "titleMr": "अभिरुची आणि मनोरंजन", "titleEn": "Rasa and Kala — Taste and Arts", "section": "c3", "status": "draft" },
-    "50": { "titleMr": "मंदिर संस्था", "titleEn": "Temple Institution — Devalaya", "section": "c3", "status": "draft" },
-    "51": { "titleMr": "तीर्थ आणि क्षेत्र", "titleEn": "Tirtha and Kshetra — Sacred Sites", "section": "c3", "status": "draft" },
-    "52": { "titleMr": "राष्ट्र आणि राजा", "titleEn": "Rashtra and Raja — Nation and Ruler", "section": "c3", "status": "draft" },
-    "53": { "titleMr": "देश म्हणजे व्यक्तिभूत दैवी शक्ती", "titleEn": "Nation as Embodied Divine Power", "section": "c3", "status": "draft" }
+    "01": {
+      "titleMr": "आनंद",
+      "titleEn": "Ananda — The Nature of Joy",
+      "section": "c0",
+      "status": "published"
+    },
+    "02": {
+      "titleMr": "आनंदाच्या उच्च मर्यादांचा शोध",
+      "titleEn": "In Search of Supreme Joy",
+      "section": "c0",
+      "status": "published"
+    },
+    "03": {
+      "titleMr": "ज्ञान — परमावस्थेचा सिद्धांत",
+      "titleEn": "Jnana — Theory of Supreme State",
+      "section": "c0",
+      "status": "published"
+    },
+    "04": {
+      "titleMr": "ज्ञानाच्या अवस्थेची पर्यायी नावे",
+      "titleEn": "Alternate Names for the State of Jnana",
+      "section": "c0",
+      "status": "published"
+    },
+    "05": {
+      "titleMr": "अमर्यादित आनंदाचे परिणाम",
+      "titleEn": "Effects of Unlimited Bliss",
+      "section": "c0",
+      "status": "published"
+    },
+    "06": {
+      "titleMr": "योग व विद्या",
+      "titleEn": "Yoga and Vidya",
+      "section": "c0",
+      "status": "published"
+    },
+    "07": {
+      "titleMr": "ऋतम् व सत्यम्",
+      "titleEn": "Rtam and Satyam — Natural Order",
+      "section": "c1",
+      "status": "published"
+    },
+    "08": {
+      "titleMr": "धर्म",
+      "titleEn": "Dharma — Maintaining Natural Order",
+      "section": "c1",
+      "status": "published"
+    },
+    "09": {
+      "titleMr": "अंतर्गत चक्रे",
+      "titleEn": "Inner Cycles and Cosmic Connection",
+      "section": "c1",
+      "status": "published"
+    },
+    "10": {
+      "titleMr": "जीवनचक्र व आनंद",
+      "titleEn": "Life Cycle for Ultimate Bliss",
+      "section": "c1",
+      "status": "published"
+    },
+    "11": {
+      "titleMr": "चौथी अवस्था — तुरीय",
+      "titleEn": "The Fourth State — Turiya",
+      "section": "c1",
+      "status": "published"
+    },
+    "12": {
+      "titleMr": "वैदिक चक्र संकल्पना",
+      "titleEn": "Vedic Cycle Concepts",
+      "section": "c1",
+      "status": "published"
+    },
+    "13": {
+      "titleMr": "पुरुष–प्रकृती, सृष्टी–स्थिती–लय",
+      "titleEn": "Purusha-Prakriti, Creation-Preservation-Dissolution",
+      "section": "c1",
+      "status": "published"
+    },
+    "14": {
+      "titleMr": "मानवी शरीराबद्दलचा भारतीय दृष्टिकोन",
+      "titleEn": "Indian View of the Human Body",
+      "section": "c2",
+      "status": "draft"
+    },
+    "15": {
+      "titleMr": "अंतःकरण",
+      "titleEn": "Antahkarana — Inner Instrument",
+      "section": "c2",
+      "status": "draft"
+    },
+    "16": {
+      "titleMr": "प्राण आणि नाडी",
+      "titleEn": "Prana and Nadis",
+      "section": "c2",
+      "status": "draft"
+    },
+    "17": {
+      "titleMr": "पुरुष आणि प्रकृती",
+      "titleEn": "Purusha and Prakriti",
+      "section": "c2",
+      "status": "draft"
+    },
+    "18": {
+      "titleMr": "अव्यक्त अर्धचक्र",
+      "titleEn": "Unmanifest Half-Cycle",
+      "section": "c2",
+      "status": "draft"
+    },
+    "19": {
+      "titleMr": "ज्ञानयोग, कर्मयोग, भक्तियोग",
+      "titleEn": "Three Paths of Yoga",
+      "section": "c2",
+      "status": "draft"
+    },
+    "20": {
+      "titleMr": "व्यक्त अर्धचक्र",
+      "titleEn": "Manifest Half-Cycle",
+      "section": "c2",
+      "status": "draft"
+    },
+    "21": {
+      "titleMr": "आत्मगुण",
+      "titleEn": "Atmaguna — Qualities of the Self",
+      "section": "c2",
+      "status": "draft"
+    },
+    "22": {
+      "titleMr": "वाक्, वेद व विद्या",
+      "titleEn": "Vak, Veda and Vidya",
+      "section": "c2",
+      "status": "draft"
+    },
+    "23": {
+      "titleMr": "कर्म, कल्प, कला",
+      "titleEn": "Karma, Kalpa and Kala",
+      "section": "c2",
+      "status": "draft"
+    },
+    "24": {
+      "titleMr": "अंतर्गत चक्रांची पूर्णता",
+      "titleEn": "Completion of Inner Cycles",
+      "section": "c2",
+      "status": "draft"
+    },
+    "25": {
+      "titleMr": "गुरु व शिष्य",
+      "titleEn": "Guru and Shishya",
+      "section": "c2",
+      "status": "draft"
+    },
+    "26": {
+      "titleMr": "विद्या, कला, यज्ञ, कर्म",
+      "titleEn": "Vidya, Kala, Yajna, Karma",
+      "section": "c2",
+      "status": "draft"
+    },
+    "27": {
+      "titleMr": "विज्ञान",
+      "titleEn": "Vijnana — Applied Knowledge",
+      "section": "c2",
+      "status": "draft"
+    },
+    "28": {
+      "titleMr": "विद्या आणि योग",
+      "titleEn": "Vidya and Yoga",
+      "section": "c2",
+      "status": "draft"
+    },
+    "29": {
+      "titleMr": "वेदांमधील देवता",
+      "titleEn": "Vedic Deities",
+      "section": "c2",
+      "status": "draft"
+    },
+    "30": {
+      "titleMr": "पिंडांडामधील देवता",
+      "titleEn": "Deities in Pindanda",
+      "section": "c2",
+      "status": "draft"
+    },
+    "31": {
+      "titleMr": "ब्रह्मांडामधील देवता",
+      "titleEn": "Deities in Brahmanda",
+      "section": "c2",
+      "status": "draft"
+    },
+    "32": {
+      "titleMr": "देवतांची एकसंध संकल्पना",
+      "titleEn": "Unified Concept of Deities",
+      "section": "c2",
+      "status": "draft"
+    },
+    "33": {
+      "titleMr": "पुनर्रचनेच्या समस्या",
+      "titleEn": "Problems of Reconstruction",
+      "section": "c2",
+      "status": "draft"
+    },
+    "34": {
+      "titleMr": "धर्मासाठी संस्था निर्माण",
+      "titleEn": "Creating Institutions for Dharma",
+      "section": "c3",
+      "status": "draft"
+    },
+    "35": {
+      "titleMr": "अध्यापन पद्धती व शैली",
+      "titleEn": "Teaching Methods and Styles",
+      "section": "c3",
+      "status": "draft"
+    },
+    "36": {
+      "titleMr": "१४ विद्या आणि ६४ कला",
+      "titleEn": "14 Vidyas and 64 Kalas",
+      "section": "c3",
+      "status": "draft"
+    },
+    "37": {
+      "titleMr": "कर्मकांड व ज्ञानकांड",
+      "titleEn": "Karmakanda and Jnanakanda",
+      "section": "c3",
+      "status": "draft"
+    },
+    "38": {
+      "titleMr": "वेदांग",
+      "titleEn": "Vedangas — Six Limbs of the Veda",
+      "section": "c3",
+      "status": "draft"
+    },
+    "39": {
+      "titleMr": "शिक्षा, व्याकरण, छंद",
+      "titleEn": "Shiksha, Vyakarana, Chhanda",
+      "section": "c3",
+      "status": "draft"
+    },
+    "40": {
+      "titleMr": "निरुक्त, ज्योतिष, कल्प",
+      "titleEn": "Nirukta, Jyotisha, Kalpa",
+      "section": "c3",
+      "status": "draft"
+    },
+    "41": {
+      "titleMr": "चार वेद आणि उपवेद",
+      "titleEn": "Four Vedas and Upavedas",
+      "section": "c3",
+      "status": "draft"
+    },
+    "42": {
+      "titleMr": "षड्दर्शने",
+      "titleEn": "The Six Darshanas",
+      "section": "c3",
+      "status": "draft"
+    },
+    "43": {
+      "titleMr": "तंत्र व आगम",
+      "titleEn": "Tantra and Agama",
+      "section": "c3",
+      "status": "draft"
+    },
+    "44": {
+      "titleMr": "दैनंदिन जीवनातील तंत्रे",
+      "titleEn": "Tantras in Daily Life",
+      "section": "c3",
+      "status": "draft"
+    },
+    "45": {
+      "titleMr": "पुरुषार्थ आणि आश्रम",
+      "titleEn": "Purusharthas and Ashrama",
+      "section": "c3",
+      "status": "draft"
+    },
+    "46": {
+      "titleMr": "नित्यकर्म",
+      "titleEn": "Nityakarma — Daily Practice",
+      "section": "c3",
+      "status": "draft"
+    },
+    "47": {
+      "titleMr": "उत्सव",
+      "titleEn": "Utsava — Festivals",
+      "section": "c3",
+      "status": "draft"
+    },
+    "48": {
+      "titleMr": "संस्कार",
+      "titleEn": "Samskaras — Rites of Refinement",
+      "section": "c3",
+      "status": "draft"
+    },
+    "49": {
+      "titleMr": "अभिरुची आणि मनोरंजन",
+      "titleEn": "Rasa and Kala — Taste and Arts",
+      "section": "c3",
+      "status": "draft"
+    },
+    "50": {
+      "titleMr": "मंदिर संस्था",
+      "titleEn": "Temple Institution — Devalaya",
+      "section": "c3",
+      "status": "draft"
+    },
+    "51": {
+      "titleMr": "तीर्थ आणि क्षेत्र",
+      "titleEn": "Tirtha and Kshetra — Sacred Sites",
+      "section": "c3",
+      "status": "draft"
+    },
+    "52": {
+      "titleMr": "राष्ट्र आणि राजा",
+      "titleEn": "Rashtra and Raja — Nation and Ruler",
+      "section": "c3",
+      "status": "draft"
+    },
+    "53": {
+      "titleMr": "देश म्हणजे व्यक्तिभूत दैवी शक्ती",
+      "titleEn": "Nation as Embodied Divine Power",
+      "section": "c3",
+      "status": "draft"
+    }
   }
 }
