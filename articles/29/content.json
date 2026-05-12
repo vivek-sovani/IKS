@@ -1,0 +1,174 @@
+{
+  "id": "29",
+  "section": "c2",
+  "titleMr": "वेदांमधील देवता",
+  "titleEn": "Vedic Deities",
+  "readingTime": "५",
+  "readingTimeEn": "5",
+  "summary": {
+    "mr": "जीवनाच्या चक्रांची चर्चा देवांचा उल्लेख केल्याशिवाय पूर्ण होऊ शकत नाही. ऋषींनी त्यांचे अनुभव मानवी, प्राणी, नैसर्गिक शक्ती आणि रूपकात्मक अशा अनेक प्रकारांनी व्यक्त केले — यामुळे अनेकदा गोंधळ होतो. भारतीय ज्ञान परंपरेत देवतांचे ज्ञान दोन संदर्भांत मिळते: पिंडांड (शरीर) आणि ब्रह्मांड (विश्व).",
+    "en": "The discussion of cycles of life cannot be complete without mention of the devas. Rishis expressed their experiences in human, animal, natural-force, and metaphorical forms — creating frequent confusion. In Indian knowledge tradition, understanding of deities comes in two primary contexts: pindanda (the body) and brahmanda (the cosmos)."
+  },
+  "body": [
+    {
+      "type": "section",
+      "headMr": "देवतांचे स्वरूप — एक गोंधळ",
+      "headEn": "The Nature of Deities — A Confusion",
+      "paragraphs": [
+        {
+          "mr": "वेदांमध्ये स्तुती केलेले देव आणि त्यांचा विस्तार पुराण आणि इतिहासात कथा आणि रूपकांच्या रूपात आढळतो. ऋषी कधीकधी अनुभवाचे वर्णन मानवी रूपात करतात — देवांना मानवासारखे डोके, हात, पाय आहेत आणि त्यांच्याकडे शस्त्रे, वाहने आणि इतर साहित्य आहे.",
+          "en": "The devas praised in the Vedas and their expansion in the Puranas and Itihasas appear in the form of stories and metaphors. Rishis sometimes describe their experiences in human form — devas have heads, hands, feet like humans, and possess weapons, vehicles, and other equipment."
+        },
+        {
+          "mr": "कधीकधी अनुभवांचे वर्णन प्राणी आणि वनस्पतींच्या रूपात केले जाते — घोडे, अश्व, गाय, बैल, औषधी, वनस्पती. कधीकधी निर्जीव वस्तूंच्या रूपात — अग्नी, वायु, सूर्य, चंद्रमा, वज्र, पर्जन्य, सरस्वती नदी. कधीकधी या संज्ञांशी संबंधित रूपक किंवा कथांच्या रूपात.",
+          "en": "Sometimes experiences are described in the form of animals and plants — horses, cows, bulls, medicinal herbs, plants. Sometimes as inanimate phenomena — Agni, Vayu, Sun, Moon, vajra, Parjanya, the river Sarasvati. Sometimes in the form of metaphors or narratives associated with these names."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "headMr": "देवतांबद्दलचे प्रश्न",
+      "headEn": "Questions About the Deities",
+      "paragraphs": [
+        {
+          "mr": "यामुळे अनेकदा गोंधळ निर्माण होतो. देवतांचे स्वरूप काय आहे? त्या निसर्गाच्या शक्ती आहेत का? की ते मानवासारखे आहेत? ते आपल्यामध्ये आहेत की आपल्याबाहेर आहेत? ते रूपक आहेत का? की मूर्त स्वरूप आहेत? ते खरे आहेत का? अशी रूपे खरोखर आहेत का?",
+          "en": "This frequently creates confusion. What is the nature of the deities? Are they natural forces? Or are they human-like? Are they within us or outside us? Are they metaphors? Or do they have concrete forms? Are they real? Do such forms actually exist?"
+        },
+        {
+          "mr": "असे आणि इतर अनेक प्रश्न अतिशय सामान्यतः आढळतात. यास्काचार्य यांनी निरुक्तात स्पष्ट केले आहे की देवांचे महाभाष्यात एकेक देवतेची देखील अनेक नामधेये असतात — हे त्यांच्या कर्मप्रधानतेमुळे आहे. एकाच आत्म्याचे अनेक देव म्हणजे विविध प्रकटीकरणे आहेत.",
+          "en": "Such questions are extremely common. Yaska in the Nirukta clarifies that even a single deity has many names — this is due to the centrality of karma (function/action). Many devas are manifestations of the same underlying atman."
+        }
+      ]
+    },
+    {
+      "type": "termBox",
+      "word": "देव",
+      "roman": "Deva",
+      "defMr": "दिव् या धातूपासून निर्माण — अर्थ: तेज किंवा प्रकाश. देव तेजस्वी रूपांत अनुभवले जातात. ते ज्योती, प्रकाशमानता, दानशीलता आणि स्वर्गलोकाशी (द्यौस्) संबंधित आहेत. देव हे ऋषींच्या अनुभवाचे विषय आहेत — मंत्र हे ऋषींचे दर्शन आहेत.",
+      "defEn": "From the root div — meaning radiance or light. Devas are experienced in luminous forms. They are associated with light, brilliance, generosity, and the celestial realm (dyaus). Devas are the objects of rishis' experience — mantras are the rishis' visions (mantrā rishidarshana)."
+    },
+    {
+      "type": "infographic",
+      "svgType": "wheel",
+      "titleMr": "देवतांच्या अनुभवाचे चार प्रकार",
+      "titleEn": "Four Forms of Expressing Deva Experience",
+      "captionMr": "ऋषींनी त्यांचे अनुभव चार वेगळ्या प्रकारांनी व्यक्त केले — सर्व खरे, परंतु वेगळ्या स्तरावर.",
+      "captionEn": "Rishis expressed their experiences in four different ways — all valid, but at different levels.",
+      "center": {
+        "mr": "देव",
+        "en": "Deva",
+        "roman": "Deva",
+        "subMr": "ऋषी-अनुभव",
+        "subEn": "Rishi Experience"
+      },
+      "quadrants": [
+        {
+          "position": "top-left",
+          "color": "saffron",
+          "headMr": "मानवी रूप",
+          "headEn": "Human Form",
+          "subMr": "अँथ्रोपोमॉर्फिक",
+          "subEn": "Anthropomorphic",
+          "itemsMr": ["हात, पाय, डोळे", "शस्त्रे, वाहने", "भावना, संवाद"],
+          "itemsEn": ["hands, feet, eyes", "weapons, vehicles", "emotions, dialogue"]
+        },
+        {
+          "position": "top-right",
+          "color": "green",
+          "headMr": "प्राणी-वनस्पती रूप",
+          "headEn": "Animal-Plant Form",
+          "subMr": "नैसर्गिक जीव",
+          "subEn": "Natural beings",
+          "itemsMr": ["घोडे, गाय, बैल", "औषधी वनस्पती", "पक्षी, मंडूक"],
+          "itemsEn": ["horses, cow, bull", "medicinal plants", "birds, frog"]
+        },
+        {
+          "position": "bottom-left",
+          "color": "purple",
+          "headMr": "नैसर्गिक शक्ती",
+          "headEn": "Natural Forces",
+          "subMr": "पंचमहाभूते",
+          "subEn": "Elemental forces",
+          "itemsMr": ["अग्नी, वायु, सूर्य", "चंद्र, पर्जन्य", "नदी, आकाश"],
+          "itemsEn": ["Agni, Vayu, Surya", "Chandra, Parjanya", "river, sky"]
+        },
+        {
+          "position": "bottom-right",
+          "color": "gold",
+          "headMr": "रूपक-कथा",
+          "headEn": "Metaphor-Narrative",
+          "subMr": "प्रतीकात्मक",
+          "subEn": "Symbolic",
+          "itemsMr": ["युद्धकथा, विजय", "सृष्टी-लयाचे प्रसंग", "आध्यात्मिक रूपके"],
+          "itemsEn": ["battle, victory", "creation-dissolution", "spiritual metaphors"]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "headMr": "दोन प्रमुख संदर्भ",
+      "headEn": "Two Primary Contexts",
+      "paragraphs": [
+        {
+          "mr": "देवांच्या स्वरूपाविषयी बोध भारतीय ज्ञानप्रणालीमध्ये दोन प्रमुख संदर्भांमध्ये मिळतो. पहिली मानवी शरीर आणि त्याच्या विविध कार्यांशी किंवा अवयवांशी संबंधित — पिंडांड. दुसरी नैसर्गिक घटना आणि दैनंदिन जीवनातील घटनांशी संबंधित — ब्रह्मांड.",
+          "en": "Understanding of devas in the Indian knowledge tradition comes in two primary contexts. The first is related to the human body and its various functions and organs — pindanda. The second is related to natural phenomena and events of daily life — brahmanda."
+        },
+        {
+          "mr": "आपण प्रथम या दोन्ही प्रकारच्या बोधाकडे पाहू आणि नंतर हे दोन्ही कसे सुसंगत आहेत ते पाहू. हे समजून घेतल्यावर देवतांच्या विविध रूपांबद्दलचा गोंधळ दूर होतो आणि त्यांची एकसंध संकल्पना स्पष्ट होते.",
+          "en": "We will first look at both types of understanding and then see how they are mutually consistent. Once understood, the confusion about the various forms of deities is resolved and their unified concept becomes clear."
+        }
+      ]
+    },
+    {
+      "type": "concepts",
+      "items": [
+        {
+          "term": "पिंडांड",
+          "roman": "Piṇḍāṇḍa",
+          "defMr": "पिंड (शरीर) + अंड (अंडे/सूक्ष्म विश्व); मानवी शरीराचा संदर्भ — देवता शरीरातील अवयव आणि कार्यांशी संबंधित",
+          "defEn": "Pinda (body) + anda (egg/microcosm); reference to the human body — deities related to bodily organs and functions"
+        },
+        {
+          "term": "ब्रह्मांड",
+          "roman": "Brahmāṇḍa",
+          "defMr": "ब्रह्म (विश्व) + अंड (अंडे/महाकाय विश्व); विश्वाचा संदर्भ — देवता नैसर्गिक शक्ती आणि घटनांशी संबंधित",
+          "defEn": "Brahma (universal) + anda (egg/macrocosm); reference to the cosmos — deities related to natural forces and phenomena"
+        }
+      ]
+    },
+    {
+      "type": "curiosity",
+      "mr": "यास्काचार्य यांनी निरुक्तात (७.४) सांगितले: 'महाभाष्यात देवतायाः एक आत्मा बहुधा स्तूयते' — एकाच देवतेचा एक आत्मा विविध प्रकारे स्तुतिला जातो. म्हणजे ३३ कोटी देव म्हणजे ३३ कोटी वेगळे देव नाहीत — एकाच दिव्य अनुभवाचे ३३ कोटी पैलू आहेत!",
+      "en": "Yaska in the Nirukta (7.4) states: 'mahābhāṣyāt devatāyāḥ eka ātmā bahudhā stūyate' — the single atman of a deity is praised in many ways. So '33 crore devas' doesn't mean 33 crore separate beings — it means 33 crore facets of the same divine experience!"
+    },
+    {
+      "type": "activity",
+      "mr": [
+        "वेदांमधील एखाद्या देवतेचे — उदा. अग्नी, इंद्र, सरस्वती — दोन भिन्न रूपे शोधा: एक मानवी/रूपकात्मक, एक नैसर्गिक शक्तीचे. दोन्हींमध्ये एकच 'कार्य' काय आहे?",
+        "तुमच्या शरीरात एखादी क्रिया होते तेव्हा — श्वास घेणे, पाहणे, बोलणे — त्या क्रियेमागील 'शक्ती' कुठून येते असे तुम्हाला वाटते? त्याला देवता म्हणायला काय हरकत आहे?",
+        "पिंडांड-ब्रह्मांड हा विचार करा: तुमच्या शरीरातील कुठलीही प्रक्रिया आणि विश्वातील कुठलीही प्रक्रिया यात साम्य शोधा."
+      ],
+      "en": [
+        "Find two different forms of a Vedic deity — e.g. Agni, Indra, Sarasvati: one human/metaphorical, one as natural force. What single 'function' runs through both?",
+        "When an action occurs in your body — breathing, seeing, speaking — where does that 'force' come from? What prevents us from calling that force a deity?",
+        "Consider the pindanda-brahmanda principle: find a parallel between any process in your body and any process in the universe."
+      ]
+    },
+    {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
+      "type": "phase2",
+      "mr": "सखोल अध्ययनात: यास्काचार्य निरुक्त आणि देवतांचे वर्गीकरण; ऋग्वेदातील देव-स्तोत्रांचे मूळ स्वरूप; पौराणिक कथांचे आध्यात्मिक अर्थ; आधुनिक दार्शनिकांनी (विवेकानंद, अरविंद) मांडलेले देवता विचार.",
+      "en": "Advanced reading will cover: Yaska's Nirukta and classification of deities; original character of Rigvedic hymns; spiritual meanings of Puranic narratives; understanding of deities as presented by modern thinkers (Vivekananda, Aurobindo)."
+    }
+  ],
+  "nav": {
+    "prev": { "id": "28", "titleMr": "विद्या आणि योग", "titleEn": "Vidya and Yoga" },
+    "next": { "id": "30", "titleMr": "पिंडांडामधील देवता", "titleEn": "Deities in Pindanda" }
+  }
+}
