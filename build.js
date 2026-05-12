@@ -138,11 +138,11 @@ function svgFlow(inf) {
     ? steps.findIndex(s => s.highlight)
     : Math.max(n - 2, 0);
 
-  const PALETTE = [
+  const HI_PALETTE  = { fill: '#D4500A', stroke: '#B03A06' };
+  const STD_PALETTE = [
     { fill: '#F0E8D8', stroke: '#DDD0BC' },
     { fill: '#E8D8C4', stroke: '#C4956A' },
     { fill: '#FDF1EA', stroke: '#F4874B' },
-    { fill: '#D4500A', stroke: '#B03A06' },
     { fill: '#FDFAF0', stroke: '#B8860B' },
   ];
 
@@ -152,7 +152,7 @@ function svgFlow(inf) {
   });
 
   const rects = boxes.map((b, i) => {
-    const col = b.hi ? PALETTE[3] : PALETTE[i % (PALETTE.length - 1)];
+    const col = b.hi ? HI_PALETTE : STD_PALETTE[i % STD_PALETTE.length];
     return `        <rect x="${b.x}" y="${b.y}" width="${b.w}" height="${b.h}" rx="8" fill="${col.fill}" stroke="${col.stroke}" stroke-width="${b.hi ? 2 : 1}"/>`;
   }).join('\n');
 
@@ -177,7 +177,7 @@ function svgFlow(inf) {
       const s = steps[i];
       const labels = isMr ? s.mr : s.en;
       const subs   = isMr ? (s.subMr || []) : (s.subEn || []);
-      const tFill  = b.hi ? '#FFFFFF' : (i === n - 1 ? '#B8860B' : '#5C3A1E');
+      const tFill  = b.hi ? '#FFFFFF' : '#5C3A1E';
       const sFill  = b.hi ? '#FDF1EA' : '#9E7B5A';
       const smFill = b.hi ? '#FDF1EA' : '#6B4423';
       const fs     = b.hi ? 15 : 11;
