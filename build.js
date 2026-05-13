@@ -478,6 +478,10 @@ function renderNav(nav) {
     </a>\n`;
   }
   html += '  </div>\n';
+  html += `\n  <footer class="art-footer-band">
+    <span class="footer-note">भारतीय ज्ञानप्रणाली व वारसा — Elements of Indian Knowledge Systems</span>
+    <a class="footer-home" href="/IKS/">← मुखपृष्ठ / Home</a>
+  </footer>\n`;
   return html;
 }
 
@@ -529,30 +533,27 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
 <!-- MAIN -->
 <main class="main">
 
-  <!-- ARTICLE HEADER -->
-  <div class="art-header">
+  <!-- ARTICLE TOPBAR — breadcrumb + font size -->
+  <div class="art-topbar">
     <div class="breadcrumb">
       <a href="/IKS/">मुखपृष्ठ / Home</a>
       <span>›</span>
       <span data-lang="mr">चक्र ${sec.numMr || ''} — ${sec.nameMr || ''}</span>
       <span data-lang="en" style="display:none;">Chapter ${sec.numMr || ''} — ${sec.nameEn || ''}</span>
     </div>
+    <div class="fs-toggle">
+      <button class="fs-btn active" data-fs-btn="md" onclick="IKS.setFontSize('md')" title="Default text">A</button>
+      <button class="fs-btn" data-fs-btn="lg" onclick="IKS.setFontSize('lg')" title="Larger text">A+</button>
+      <button class="fs-btn" data-fs-btn="xl" onclick="IKS.setFontSize('xl')" title="Largest text">A++</button>
+    </div>
+  </div>
+
+  <!-- ARTICLE HEADER — title band -->
+  <div class="art-header">
     <div class="art-num-badge">लेख / Article ${id}</div>
     <h1 data-lang="mr">${c.titleMr}</h1>
     <h1 data-lang="en" style="display:none;">${c.titleEn}</h1>
     <div class="en-title" data-lang="mr">${c.titleEn}</div>
-    <div class="art-meta">
-      <div class="art-meta-left">
-        <span class="reading-time">${c.readingTime || '৫'} मिनिटे / ${c.readingTimeEn || '5'} min</span>
-        <span class="art-section-tag" data-lang="mr">${sec.nameMr || ''}</span>
-        <span class="art-section-tag" data-lang="en" style="display:none;">${sec.nameEn || ''}</span>
-      </div>
-      <div class="fs-toggle">
-        <button class="fs-btn active" data-fs-btn="md" onclick="IKS.setFontSize('md')" title="Default text">A</button>
-        <button class="fs-btn" data-fs-btn="lg" onclick="IKS.setFontSize('lg')" title="Larger text">A+</button>
-        <button class="fs-btn" data-fs-btn="xl" onclick="IKS.setFontSize('xl')" title="Largest text">A++</button>
-      </div>
-    </div>
   </div>
 
   <!-- ARTICLE BODY -->

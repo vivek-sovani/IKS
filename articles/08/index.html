@@ -40,30 +40,27 @@
 <!-- MAIN -->
 <main class="main">
 
-  <!-- ARTICLE HEADER -->
-  <div class="art-header">
+  <!-- ARTICLE TOPBAR — breadcrumb + font size -->
+  <div class="art-topbar">
     <div class="breadcrumb">
       <a href="/IKS/">मुखपृष्ठ / Home</a>
       <span>›</span>
       <span data-lang="mr">चक्र १ — जीवनाची चक्रे</span>
       <span data-lang="en" style="display:none;">Chapter १ — Cycles of Life</span>
     </div>
+    <div class="fs-toggle">
+      <button class="fs-btn active" data-fs-btn="md" onclick="IKS.setFontSize('md')" title="Default text">A</button>
+      <button class="fs-btn" data-fs-btn="lg" onclick="IKS.setFontSize('lg')" title="Larger text">A+</button>
+      <button class="fs-btn" data-fs-btn="xl" onclick="IKS.setFontSize('xl')" title="Largest text">A++</button>
+    </div>
+  </div>
+
+  <!-- ARTICLE HEADER — title band -->
+  <div class="art-header">
     <div class="art-num-badge">लेख / Article 08</div>
     <h1 data-lang="mr">धर्म</h1>
     <h1 data-lang="en" style="display:none;">Dharma — Maintaining Natural Order</h1>
     <div class="en-title" data-lang="mr">Dharma — Maintaining Natural Order</div>
-    <div class="art-meta">
-      <div class="art-meta-left">
-        <span class="reading-time">५ मिनिटे / 5 min</span>
-        <span class="art-section-tag" data-lang="mr">जीवनाची चक्रे</span>
-        <span class="art-section-tag" data-lang="en" style="display:none;">Cycles of Life</span>
-      </div>
-      <div class="fs-toggle">
-        <button class="fs-btn active" data-fs-btn="md" onclick="IKS.setFontSize('md')" title="Default text">A</button>
-        <button class="fs-btn" data-fs-btn="lg" onclick="IKS.setFontSize('lg')" title="Larger text">A+</button>
-        <button class="fs-btn" data-fs-btn="xl" onclick="IKS.setFontSize('xl')" title="Largest text">A++</button>
-      </div>
-    </div>
   </div>
 
   <!-- ARTICLE BODY -->
@@ -351,6 +348,11 @@
       <span class="nav-art-title" data-lang="en" style="display:none;">9. Inner Cycles and Cosmic Connection</span>
     </a>
   </div>
+
+  <footer class="art-footer-band">
+    <span class="footer-note">भारतीय ज्ञानप्रणाली व वारसा — Elements of Indian Knowledge Systems</span>
+    <a class="footer-home" href="/IKS/">← मुखपृष्ठ / Home</a>
+  </footer>
 
 </main>
 
