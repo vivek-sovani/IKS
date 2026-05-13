@@ -1,0 +1,190 @@
+{
+  "id": "52",
+  "section": "c3",
+  "titleMr": "राष्ट्र आणि राजा",
+  "titleEn": "Rashtra and Raja — Nation and Ruler",
+  "readingTime": "५",
+  "readingTimeEn": "5",
+  "summary": {
+    "mr": "भारतीय विचारपरंपरेत राष्ट्र ही केवळ एक भौगोलिक किंवा राजकीय संकल्पना नाही — ते एक धर्म-संरक्षणाची संस्था आहे. राजाचे कार्य म्हणजे धर्म चक्राचे संरक्षण करणे — समाजातील प्रत्येक घटकाला आनंदाच्या परमावस्थेपर्यंत पोहोचण्याचे स्वातंत्र्य देणे. राजनीती हे एक विज्ञान आहे जे धर्मावर आधारित आहे.",
+    "en": "In the Indian tradition, a Rashtra is not merely a geographical or political concept — it is an institution for protecting dharma. The king's function is to protect the dharma-cycle — to ensure that every member of society has the freedom to reach the supreme state of Ananda. Rajniti is a science grounded in dharma."
+  },
+  "body": [
+    {
+      "type": "section",
+      "headMr": "राज्य का असते?",
+      "headEn": "Why Does a State Exist?",
+      "paragraphs": [
+        {
+          "mr": "आपण एखाद्या गावाचे चित्र काढूया. गावात शेतकरी आहेत, कारागीर आहेत, शिक्षक आहेत, वैद्य आहेत. प्रत्येकजण आपापले काम करतो. पण जर दुसऱ्या गावचे लोक त्यांच्यावर आक्रमण करायला आले, तर? जर पाणीपुरवठ्यावरून वाद झाला, तर? या समस्यांचे निराकरण करण्यासाठी एक व्यवस्था हवी — ती म्हणजे **राज्यव्यवस्था**.",
+          "en": "Let us picture a village. The village has farmers, artisans, teachers, and physicians. Everyone does their work. But what if people from another village came to attack them? What if there was a dispute over water supply? A system is needed to resolve these problems — that is the **Rajya-vyavastha** (state system)."
+        },
+        {
+          "mr": "भारतीय विचारात राज्याचे उद्दिष्ट अत्यंत स्पष्ट आहे — **धर्म-संरक्षण**. म्हणजे समाजातील प्रत्येक व्यक्तीला, प्रत्येक जीवाला त्याच्या स्वभावानुसार जगण्याचे, त्याच्या चक्रांना पूर्ण करण्याचे स्वातंत्र्य देणे. जेव्हा हे स्वातंत्र्य धोक्यात येते, तेव्हा राज्य हस्तक्षेप करते. **राजा** हा या संरक्षण-यंत्रणेचा प्रमुख आहे.",
+          "en": "In Indian thought, the purpose of the state is very clear — **Dharma-Samrakshana** (protection of dharma). This means giving every person, every being in society the freedom to live according to their nature, to complete their cycles. When this freedom is threatened, the state intervenes. The **Raja** (king) is the head of this protection system."
+        }
+      ]
+    },
+    {
+      "type": "termBox",
+      "word": "राष्ट्र",
+      "roman": "Rāṣṭra",
+      "defMr": "रा + ष्ट्र = जे प्रकाशित करते किंवा चमकते ते. अथर्ववेदात राष्ट्र म्हणजे लोक, भूमी आणि त्यांची एकत्रित शक्ती. राष्ट्र ही एक जिवंत सत्ता आहे — ती केवळ नकाशावरील रेषा नाही.",
+      "defEn": "Rā + ṣṭra = that which illuminates or shines. In the Atharvaveda, Rashtra means the people, the land, and their combined strength. Rashtra is a living entity — not merely lines on a map."
+    },
+    {
+      "type": "section",
+      "headMr": "राजाचे गुण — धर्माचा रक्षक",
+      "headEn": "Qualities of the Raja — Protector of Dharma",
+      "paragraphs": [
+        {
+          "mr": "भारतीय राजनीतीशास्त्रात (कौटिल्याचे अर्थशास्त्र, शुक्रनीती, मनुस्मृती) राजाच्या गुणांचे विस्तृत वर्णन आहे. राजा हा **धर्माचा अवतार** असतो — तो स्वतः पहिल्यांदा धर्म आचरण करतो आणि नंतर प्रजेला आचरण करण्यास प्रोत्साहित करतो. 'यथा राजा तथा प्रजा' — राजा जसा वागतो, प्रजा तशी वागते.",
+          "en": "Indian political science (Kautilya's Arthashastra, Shukraniti, Manusmriti) describes the qualities of a king in detail. The king is an **avatar of Dharma** — he first practices dharma himself and then inspires the people to practice it. 'Yathā Rājā Tathā Prajā' — as the king behaves, so the people behave."
+        },
+        {
+          "mr": "कौटिल्याच्या अर्थशास्त्रात राजाचे **सात अंग** (सप्तांग) सांगितले आहेत — **स्वामी** (राजा स्वतः), **अमात्य** (मंत्री), **जनपद** (प्रजा आणि भूमी), **दुर्ग** (किल्ले), **कोश** (खजिना), **दंड** (सेना) आणि **मित्र** (मित्र राज्ये). हे सात अंग एकत्र मिळून राष्ट्र-यंत्र चालवतात.",
+          "en": "In Kautilya's Arthashastra, the **seven limbs** (Saptanga) of the king are described — **Swami** (the king himself), **Amatya** (ministers), **Janapada** (the people and land), **Durga** (forts), **Kosha** (treasury), **Danda** (army), and **Mitra** (allied states). These seven limbs together run the Rashtra-yantra."
+        }
+      ],
+      "insight": {
+        "mr": "राजा प्रजेसाठी आहे, प्रजा राजासाठी नाही. 'प्रजासुखे सुखं राज्ञः, प्रजानां च हिते हितम्' — प्रजेच्या सुखात राजाचे सुख आहे, प्रजेच्या कल्याणात राजाचे कल्याण आहे. (कौटिल्य अर्थशास्त्र १.१९.३४)",
+        "en": "The king exists for the people, not the people for the king. 'Prajāsukhe sukhaṃ rājñaḥ, prajānāṃ ca hite hitam' — In the happiness of the subjects lies the happiness of the king; in the welfare of the subjects lies the welfare of the king. (Kautilya Arthashastra 1.19.34)"
+      }
+    },
+    {
+      "type": "infographic",
+      "svgType": "wheel",
+      "titleMr": "राज्याचे सप्तांग — कौटिल्य अर्थशास्त्र",
+      "titleEn": "Saptanga of the State — Kautilya's Arthashastra",
+      "captionMr": "राजा हा सप्तांगाचा केंद्र आहे — सर्व अंगे धर्म-संरक्षणासाठी एकत्र कार्य करतात.",
+      "captionEn": "The Raja is the center of the Saptanga — all limbs work together for dharma-protection.",
+      "center": {
+        "mr": "स्वामी",
+        "en": "Swāmi",
+        "roman": "The Rāja",
+        "subMr": "धर्माचा अवतार",
+        "subEn": "Avatar of Dharma"
+      },
+      "quadrants": [
+        {
+          "position": "top-left",
+          "color": "saffron",
+          "headMr": "अमात्य / कोश",
+          "headEn": "Amatya / Kosha",
+          "subMr": "मंत्री — खजिना",
+          "subEn": "Ministers — Treasury",
+          "itemsMr": ["नीती निर्मिती", "अर्थव्यवस्था", "प्रशासन"],
+          "itemsEn": ["Policy-making", "Economy", "Administration"]
+        },
+        {
+          "position": "top-right",
+          "color": "gold",
+          "headMr": "जनपद / मित्र",
+          "headEn": "Janapada / Mitra",
+          "subMr": "प्रजा — मित्र राज्ये",
+          "subEn": "People — Allied States",
+          "itemsMr": ["नागरिक", "भूमी", "मुत्सद्देगिरी"],
+          "itemsEn": ["Citizens", "Territory", "Diplomacy"]
+        },
+        {
+          "position": "bottom-left",
+          "color": "purple",
+          "headMr": "दुर्ग / दंड",
+          "headEn": "Durga / Danda",
+          "subMr": "किल्ले — सेना",
+          "subEn": "Forts — Army",
+          "itemsMr": ["संरक्षण", "शक्ती", "सुरक्षितता"],
+          "itemsEn": ["Defense", "Power", "Security"]
+        },
+        {
+          "position": "bottom-right",
+          "color": "green",
+          "headMr": "धर्म / न्याय",
+          "headEn": "Dharma / Justice",
+          "subMr": "नैतिक आधार",
+          "subEn": "Ethical foundation",
+          "itemsMr": ["न्यायदान", "दंडनीती", "समता"],
+          "itemsEn": ["Justice", "Punishment policy", "Equity"]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "headMr": "राजनीती — धर्मावर आधारित विज्ञान",
+      "headEn": "Rajniti — A Science Grounded in Dharma",
+      "paragraphs": [
+        {
+          "mr": "कौटिल्याचे **अर्थशास्त्र** (इ. स. पूर्व ३०० च्या सुमारास) हे जगातील सर्वात प्राचीन आणि व्यापक राजनीती-ग्रंथांपैकी एक आहे. त्यात राज्यशासन, अर्थव्यवस्था, कायदा, युद्धनीती, मुत्सद्देगिरी, हेरगिरी — या सर्व विषयांचे विस्तृत विवेचन आहे. परंतु या सर्वांचा आधार एकच आहे — **धर्म**.",
+          "en": "Kautilya's **Arthashastra** (circa 300 BCE) is one of the world's oldest and most comprehensive texts on statecraft. It contains detailed discussion of governance, economy, law, military strategy, diplomacy, and intelligence — but the foundation of all of these is one — **Dharma**."
+        },
+        {
+          "mr": "राजनीतीत **चतुरुपाय** (चार उपाय) सांगितले आहेत — **साम** (संवाद, समझोता), **दाम** (आर्थिक प्रोत्साहन), **दंड** (शिक्षा) आणि **भेद** (फूट पाडणे). कोणता उपाय कधी वापरायचा हे राजाच्या विवेकावर अवलंबून आहे. सर्वात श्रेष्ठ राजा तो जो **साम**ाने समस्या सोडवतो — दंड हा अंतिम पर्याय आहे.",
+          "en": "Statecraft describes **Chatur-upaya** (four means) — **Sama** (dialogue, conciliation), **Dana** (economic incentive), **Danda** (punishment), and **Bheda** (division/sowing dissent). Which means to use when depends on the king's wisdom. The greatest king is one who resolves problems through **Sama** — Danda is the last resort."
+        }
+      ]
+    },
+    {
+      "type": "concepts",
+      "items": [
+        {
+          "term": "दंडनीती",
+          "roman": "Daṇḍanīti",
+          "defMr": "दंड + नीती = शिक्षेचे शास्त्र. न्यायदानाची व्यवस्था — जी धर्माचे उल्लंघन केल्यास योग्य शिक्षा देते. अत्याधिक दंड किंवा अपुरा दंड — दोन्ही अधर्म.",
+          "defEn": "Danda + Niti = science of punishment. The system of justice — which gives appropriate punishment when dharma is violated. Excessive punishment or insufficient punishment — both are adharma."
+        },
+        {
+          "term": "अर्थशास्त्र",
+          "roman": "Arthaśāstra",
+          "defMr": "अर्थ (साधने, अर्थव्यवस्था) + शास्त्र = अर्थ-साधनांचे शास्त्र. कौटिल्यकृत ग्रंथ जो राज्यशासन, अर्थव्यवस्था आणि राजनीतीचे संपूर्ण शास्त्र मांडतो.",
+          "defEn": "Artha (resources, economy) + Shastra = science of material resources. Kautilya's text that presents the complete science of statecraft, economics, and policy."
+        },
+        {
+          "term": "राजधर्म",
+          "roman": "Rājadharma",
+          "defMr": "राजाचा विशिष्ट धर्म. प्रजेचे संरक्षण, न्यायदान आणि धर्म-प्रसार हे राजधर्माचे मुख्य घटक. महाभारतातील शांतिपर्वात राजधर्माचे विस्तृत विवेचन.",
+          "defEn": "The specific dharma of the king. Protection of subjects, administration of justice, and spread of dharma are the main components of Rajadharma. Detailed discussion in the Shanti Parva of the Mahabharata."
+        },
+        {
+          "term": "साम-दाम-दंड-भेद",
+          "roman": "Sāma-dāma-daṇḍa-bheda",
+          "defMr": "राजनीतीतील चार उपाय — संवाद, प्रोत्साहन, शिक्षा आणि फूट. साम हा श्रेष्ठ, दंड हा अंतिम पर्याय.",
+          "defEn": "Four means in statecraft — conciliation, incentive, punishment, and division. Sama is superior; Danda is the last resort."
+        }
+      ]
+    },
+    {
+      "type": "curiosity",
+      "mr": "अशोक सम्राटाने (इ. स. पूर्व २७३–२३२) कलिंग युद्धानंतर स्वतःच्या विजयाबद्दल पश्चात्ताप केला आणि 'धम्म विजय' (धर्म-विजय) हा नवा मार्ग स्वीकारला. त्यांनी शिलालेखांवर लिहिले: 'सर्व मानवांचे कल्याण हेच माझे कार्य आहे.' अशोकाचे हे धोरण आधुनिक मानवाधिकार आणि अहिंसेच्या तत्त्वांपेक्षा दोन हजार वर्षे आधीचे आहे!",
+      "en": "Emperor Ashoka (273–232 BCE), after the Kalinga War, repented his conquest and adopted a new path of 'Dhamma Vijaya' (dharma-victory). He inscribed on pillars: 'The welfare of all beings is my work.' This policy of Ashoka predates modern human rights and principles of non-violence by two thousand years!"
+    },
+    {
+      "type": "activity",
+      "mr": [
+        "एखाद्या समकालीन राजकीय नेत्याचे निर्णय घेऊन त्यांचे 'साम-दाम-दंड-भेद' या चौकटीत विश्लेषण करा. त्या नेत्याने कोणता उपाय कधी वापरला? कोणता वापरायला हवा होता?",
+        "कौटिल्याचे 'प्रजासुखे सुखं राज्ञः' हे सूत्र आधुनिक लोकशाहीत कसे दिसते? निवडून आलेला प्रतिनिधी या सूत्राप्रमाणे वागतो का? उदाहरणे शोधा.",
+        "'धर्म-आधारित राज्य' आणि 'धर्म-निरपेक्ष राज्य' यातील फरक काय? भारतीय अर्थाने 'धर्म' आणि 'रिलिजन' यात फरक आहे — तो फरक स्पष्ट करा."
+      ],
+      "en": [
+        "Take decisions made by a contemporary political leader and analyze them within the 'Sama-Dana-Danda-Bheda' framework. Which means did the leader use when? Which should have been used?",
+        "How does Kautilya's formula 'Prajasukhe Sukham Rajnah' manifest in modern democracy? Does an elected representative act according to this maxim? Find examples.",
+        "What is the difference between a 'Dharma-based state' and a 'secular state'? In the Indian sense, there is a difference between 'Dharma' and 'Religion' — clarify that difference."
+      ]
+    },
+    {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
+      "type": "phase2",
+      "mr": "सखोल अध्ययनात: कौटिल्याचे अर्थशास्त्र (विशेषतः पुस्तक १ — राजाचे गुण आणि प्रशिक्षण); महाभारताचे शांतिपर्व (राजधर्म अनुशासन); मनुस्मृतीचा सातवा अध्याय (राजधर्म); आणि Patrick Olivelle यांचे अर्थशास्त्राचे आधुनिक भाषांतर.",
+      "en": "Advanced reading: Kautilya's Arthashastra (especially Book 1 — qualities and training of the king); Mahabharata's Shanti Parva (Rajadharma Anushasana); seventh chapter of Manusmriti (Rajadharma); and Patrick Olivelle's modern translation of the Arthashastra."
+    }
+  ],
+  "nav": {
+    "prev": { "id": "51", "titleMr": "तीर्थ आणि क्षेत्र", "titleEn": "Tirtha and Kshetra — Sacred Sites" },
+    "next": { "id": "53", "titleMr": "देश म्हणजे व्यक्तिभूत दैवी शक्ती", "titleEn": "Nation as Embodied Divine Power" }
+  }
+}
