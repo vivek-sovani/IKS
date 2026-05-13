@@ -1,0 +1,185 @@
+{
+  "id": "42",
+  "section": "c3",
+  "titleMr": "षड्दर्शने",
+  "titleEn": "The Six Darshanas",
+  "readingTime": "७",
+  "readingTimeEn": "7",
+  "summary": {
+    "mr": "षड्दर्शने म्हणजे भारतीय तत्त्वज्ञानाच्या सहा प्रमुख प्रणाली. लोकायत, बौद्ध, जैन (नास्तिक) आणि सांख्य-योग, न्याय-वैशेषिक, मीमांसा-वेदान्त (आस्तिक) — या सर्वांचे दृष्टिकोन वेगळे असले तरी अंतिम उद्दिष्ट एकच आहे — दुःखाचा अंत आणि मोक्षप्राप्ती.",
+    "en": "The Six Darshanas are the six major systems of Indian philosophy. Lokayata, Buddhism, Jainism (Nastika) and Samkhya-Yoga, Nyaya-Vaisheshika, Mimamsa-Vedanta (Astika) — though their approaches differ, they all share the same ultimate aim — end of suffering and attainment of moksha."
+  },
+  "body": [
+    {
+      "type": "section",
+      "headMr": "दर्शन म्हणजे काय?",
+      "headEn": "What is Darshana?",
+      "paragraphs": [
+        {
+          "mr": "'इक्ष' म्हणजे 'पाहणे' आणि 'अन्वेष' म्हणजे काळजीपूर्वक पाहणे, चिंतन किंवा अनुभूती. त्याचप्रमाणे, **'दर्शन'** हा शब्द 'दृष्टी', 'दृष्टिकोन' किंवा 'अवलोकन' या अर्थाने वापरला जातो — सत्य प्राप्त करण्याचे साधन म्हणून. तो एक सावध आणि गंभीर विचार आहे — जो प्रामुख्याने आत्म्याच्या किंवा जगाच्या स्वरूपाबद्दल असतो.",
+          "en": "'Iksha' means 'to see', and 'anvisha' means careful seeing, contemplation, or intuition. Similarly, **'Darshana'** is used in the sense of 'vision', 'perspective', or 'observation' — as a means of obtaining truth. It is a careful and serious inquiry — primarily about the nature of the self or the world."
+        },
+        {
+          "mr": "**'आन्वीक्षिकी'** ही अशी मार्गदर्शक शास्त्र-शाखा मानली जाते जी वेदांचा, कर्मांचा, व्यावसायिक आचारांचा, कायद्याचा आणि न्यायशास्त्राचा योग्य वापर आणि अर्थ लावण्याचे निकष ठरवते. आन्वीक्षिकेच्या प्रकाशातच भारतीय जीवनातील इतर सर्व आचार, उपक्रम आणि कृत्ये निश्चित केली जातात.",
+          "en": "**'Anvikshiki'** is considered a guiding branch of science that sets the standards for the proper use and interpretation of the Vedas, actions, professional practices, law, and logic. All other practices, initiatives, and actions in Indian life are determined in the light of Anvikshiki."
+        },
+        {
+          "mr": "अनेक 'दर्शने' आहेत — त्यांपैकी प्रसिद्ध सहा दर्शनांना **'षड्दर्शन'** म्हणतात. या सर्व तत्त्वज्ञान प्रणालींमधील विविधता ही त्यांच्या दृष्टिकोनामुळे निर्माण झाली आहे — म्हणजे अस्तित्वाच्या प्रश्नांकडे ते कोणत्या दृष्टिकोनातून पाहतात आणि त्या आधारावर तत्त्वज्ञानाची रचना कशी करतात, यावर ते अवलंबून आहे.",
+          "en": "There are many 'darshanas' — the famous six among them are called **'Shaddarshana'** (Six Darshanas). The diversity among these philosophical systems arises from their perspectives — meaning they differ in the angle from which they approach questions of existence and how they construct their philosophy on that basis."
+        }
+      ]
+    },
+    {
+      "type": "termBox",
+      "word": "षड्दर्शन",
+      "roman": "Ṣaḍdarśana",
+      "defMr": "षट् (सहा) + दर्शन (दृष्टिकोन). भारतीय तत्त्वज्ञानाच्या सहा प्रमुख प्रणाली. तीन नास्तिक (वेदप्रमाण न मानणारे) — लोकायत, बौद्ध, जैन; आणि तीन आस्तिक (वेदप्रमाण मानणारे) — सांख्य-योग, न्याय-वैशेषिक, मीमांसा-वेदान्त.",
+      "defEn": "Shat (six) + Darshana (perspective). Six major systems of Indian philosophy. Three Nastika (not accepting Vedic authority) — Lokayata, Buddhist, Jain; and three Astika (accepting Vedic authority) — Samkhya-Yoga, Nyaya-Vaisheshika, Mimamsa-Vedanta."
+    },
+    {
+      "type": "section",
+      "headMr": "नास्तिक दर्शने — लोकायत, बौद्ध, जैन",
+      "headEn": "Nastika Darshanas — Lokayata, Buddhist, Jain",
+      "paragraphs": [
+        {
+          "mr": "**लोकायत** किंवा **चार्वाक** ही अशी तत्त्वज्ञान प्रणाली आहे जी दैनंदिन मानवी अस्तित्वाच्या दृष्टिकोनातून अत्यंत व्यावहारिक दृष्टिकोन घेते. ती कोणतीही गोष्ट 'सत्य' म्हणून मान्य करत नाही जोपर्यंत ती प्रत्यक्ष जाणवत नाही. चार्वाक फक्त 'प्रत्यक्ष' या एकाच प्रमाणाला मानतो. त्याला इंद्रियांच्या आनंदाव्यतिरिक्त दुसरा कोणताही आनंद ज्ञात नाही. चार्वाक म्हणतो — **'शुद्ध तुपाचा स्वाद आणि आरोग्याचा आनंद उपभोग, जरी त्यासाठी कर्ज करावे लागले तरी चालेल.'**",
+          "en": "**Lokayata** or **Charvaka** is a philosophical system that takes an extremely practical viewpoint from the perspective of everyday human existence. It does not accept anything as 'true' unless directly perceived. Charvaka accepts only 'pratyaksha' (direct perception) as the sole means of knowledge. It knows no joy other than sensory pleasure. Charvaka says — **'Enjoy the taste of pure ghee and the joy of health, even if you have to borrow for it.'**"
+        },
+        {
+          "mr": "**बौद्ध मत** सत्य समजण्यासाठी केवळ प्रत्यक्ष अनुभूती पुरेशी नाही असे मानते; अनुमान देखील तितकेच ग्राह्य आहे. त्यांच्या मते, या जगातील सर्व गोष्टी 'अनित्य' (क्षणभंगुर) आहेत. ही क्षणभंगुरतेने भरलेली जीवनप्रक्रिया 'दुःख' (दुःखाच्या अवस्थेने) व्यापलेली असते. बौद्ध तत्त्वज्ञानाच्या चार प्रमुख शाखा आहेत — माध्यमिक, योगाचार, सौत्रांतिक आणि वैभाषिक.",
+          "en": "**Buddhist philosophy** holds that direct experience alone is insufficient for understanding truth; inference is equally valid. According to them, all things in this world are 'anitya' (impermanent). This process of life filled with impermanence is permeated by 'duhkha' (the state of suffering). Buddhist philosophy has four major schools — Madhyamika, Yogachara, Sautrantika, and Vaibhashika."
+        },
+        {
+          "mr": "**जैन मत** बौद्धांचा 'क्षणिकवाद' नाकारते. जैन मानतात की सत्य (वास्तव) पूर्णपणे निश्चित करता येत नाही; अनेक दृष्टिकोन असू शकतात. म्हणूनच, एकाच गोष्टीबद्दल 'असे असू शकते' असे म्हणणेच योग्य — हाच **'स्याद्वाद'** सिद्धांत आहे. जैन आचारसंहितेत पाच मुख्य तत्त्वे सांगितली आहेत — **अहिंसा, सत्य, अस्तेय, ब्रह्मचर्य आणि अपरिग्रह**.",
+          "en": "**Jain philosophy** rejects the Buddhist 'kshanikavada' (momentariness). Jains believe that truth (reality) cannot be fully determined; multiple perspectives are possible. Therefore, saying 'it may be so' about any one thing is most appropriate — this is the **'Syadvada'** doctrine. The Jain code of conduct specifies five main principles — **Ahimsa, Satya, Asteya, Brahmacharya, and Aparigraha**."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "headMr": "आस्तिक दर्शने — सांख्य, योग, न्याय, वैशेषिक",
+      "headEn": "Astika Darshanas — Samkhya, Yoga, Nyaya, Vaisheshika",
+      "paragraphs": [
+        {
+          "mr": "**सांख्य** आणि **योग** या जुन्या तत्त्वज्ञान प्रणाली आहेत ज्या मानवी शरीराचे आणि मनाचे व्यवस्थित वर्गीकरण करून त्याचे वर्णन करतात. सांख्य मतानुसार शरीराच्या शारीरिक आणि मानसिक रचनेचे तेवीस घटक आहेत आणि त्यांचे मूळ कारण 'प्रकृती' (चोविसावे तत्त्व) आहे. 'पुरुष' हा प्रकृतीपेक्षा भिन्न असून तिचा निःशब्द साक्षीदार आहे.",
+          "en": "**Samkhya** and **Yoga** are ancient philosophical systems that systematically classify and describe the human body and mind. According to Samkhya, there are twenty-three components of the physical and mental structure of the body, and their root cause is 'Prakriti' (the twenty-fourth principle). 'Purusha' is distinct from Prakriti and its silent witness."
+        },
+        {
+          "mr": "आपल्या जीवनातील दुःखाचे मूळ कारण म्हणजे आपल्याला या सत्याची जाणीव न होणे. जेव्हा माणूस जाणतो की त्याचे खरे स्वरूप 'पुरुष' आहे — जो प्रकृतीपासून वेगळा आणि स्वतंत्र आहे — तेव्हा त्याला दुःखबंधनातून मुक्ती मिळते. **योग** हे त्याच दुःखापासून सुटण्यासाठी प्रत्यक्ष आचरण आणि साधना करण्याची प्रक्रिया सांगतो. पतंजलींचे 'अष्टांगयोग' हे त्याच उद्देशासाठी प्रसिद्ध साधनांपैकी एक आहे.",
+          "en": "The root cause of suffering in our life is the lack of awareness of this truth. When a person knows that his true nature is 'Purusha' — which is separate and independent from Prakriti — he attains liberation from the bondage of suffering. **Yoga** describes the process of direct practice and sadhana for escaping from that very suffering. Patanjali's 'Ashtanga Yoga' is one of the famous means for this purpose."
+        },
+        {
+          "mr": "**न्याय** आणि **वैशेषिक** ही देखील जुन्या तत्त्वज्ञान प्रणाली आहेत ज्यांचा पाया तर्क आणि अनुमानावर आधारित आहे. त्यांचा विश्वास आहे की आपण स्वतःचे आणि जगाचे सत्य ज्ञान तर्कशुद्ध विचारांद्वारे समजू शकतो. न्याय दर्शनाचे लक्ष मुख्यतः 'प्रमाण' वर असते — म्हणजे ज्ञान मिळवण्याच्या साधनांवर आणि अनुमान प्रक्रियेवर. वैशेषिक दर्शनाचे लक्ष 'प्रमेय' वर असते — म्हणजे वस्तूंच्या वास्तविक स्वरूपावर. वैशेषिक मत वस्तूंना त्यांच्या घटक भागांमध्ये विभागून प्रत्येक वस्तूचा 'विशेष' गुणधर्म शोधण्यावर भर देते. असे करत करत शेवटी ते 'परमाणू' (अणू) च्या अस्तित्वाचे अनुमान काढते.",
+          "en": "**Nyaya** and **Vaisheshika** are also ancient philosophical systems based on logic and inference. They believe we can understand the true knowledge of ourselves and the world through rational thought. Nyaya focuses primarily on 'pramana' — the means of obtaining knowledge and the process of inference. Vaisheshika focuses on 'prameya' — the actual nature of objects. The Vaisheshika school emphasizes dividing objects into their component parts and finding the 'vishesa' (distinguishing property) of each. Proceeding in this way, it eventually infers the existence of 'paramanu' (atoms)."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "headMr": "मीमांसा आणि वेदान्त",
+      "headEn": "Mimamsa and Vedanta",
+      "paragraphs": [
+        {
+          "mr": "**मीमांसा** ही अशी तत्त्वज्ञान प्रणाली आहे जी अस्तित्वाच्या प्रश्नांकडे वेद आणि कर्मयज्ञांच्या दृष्टिकोनातून पाहते. मीमांसा मत आपल्या तत्त्वचिंतनासाठी वेदांच्या ग्रंथांचा मोठ्या प्रमाणावर वापर करते. जरी प्रत्यक्ष निरीक्षण किंवा अनुमान ही सत्य मिळवण्याची साधने असली, तरी काही वेळा आपल्या मर्यादांमुळे दोन्ही शक्य नसते. अशा वेळी ज्यांना अनुभव आला आहे त्यांच्या साक्षीवर विश्वास ठेवावा लागतो. 'पूर्व मीमांसा' ही विशेषतः वेदांतील 'मंत्रवाक्ये' — संहिता आणि ब्राह्मण ग्रंथांवर — आधारित आहे.",
+          "en": "**Mimamsa** is a philosophical system that approaches questions of existence through the perspective of the Vedas and karma yajnas. The Mimamsa school extensively uses the texts of the Vedas for its philosophical inquiry. Although direct observation or inference are means of obtaining truth, sometimes due to our limitations neither is possible. At such times one must rely on the testimony of those who have had direct experience. 'Purva Mimamsa' is based specifically on the 'mantra-vakyas' in the Vedas — the Samhita and Brahmana texts."
+        },
+        {
+          "mr": "'उत्तर मीमांसा' म्हणजेच **'वेदान्त'** हे आपले तत्त्वज्ञान उपनिषदांवर आधारित करते. ते उपनिषदांमध्ये वर्णिलेल्या परमावस्थेच्या अनुभवांच्या साक्षीवर आपले तत्त्वज्ञान उभे करते. वेदान्त ही भारतीय जीवनातील अत्यंत प्रभावशाली विचारप्रणाली असून तिच्या अनेक उपशाखा आहेत.",
+          "en": "'Uttara Mimamsa' or **'Vedanta'** bases its philosophy on the Upanishads. It builds its philosophy on the testimony of the experiences of the supreme state described in the Upanishads. Vedanta is the most influential school of thought in Indian life and has many sub-schools."
+        },
+        {
+          "mr": "वेदान्ताच्या तीन प्रमुख शाळा आहेत. **अद्वैत तत्त्वज्ञान** — जे शंकराचार्यांनी प्रतिपादित केले — असे सांगते की हे जग भासमान आहे, आणि केवळ 'ब्रह्म' — म्हणजे आत्मा — हेच सत्य आहे. **द्वैत तत्त्वज्ञान** याच्या नेमक्या उलट मतावर आधारित आहे — म्हणजेच 'ब्रह्म' हे जग आणि जीव (व्यक्त आत्मा) यांच्यापेक्षा वेगळे आहे. **विशिष्टाद्वैत तत्त्वज्ञान** या दोन्हींच्या दरम्यान संतुलन साधते — ते म्हणते की 'प्रकृती' आणि 'जीव' हे 'ब्रह्म'चे गुणधर्म आहेत, आणि 'ब्रह्म' हा त्यांचा नियंत्रक आहे.",
+          "en": "Vedanta has three major schools. **Advaita philosophy** — as propounded by Shankaracharya — states that this world is illusory, and only 'Brahma' — the Atman — is real. **Dvaita philosophy** is based on the exact opposite view — that 'Brahma' is distinct from the world and the jiva (individual soul). **Vishishtadvaita philosophy** balances between the two — it states that 'Prakriti' and 'jiva' are attributes of 'Brahma', and 'Brahma' is their controller."
+        }
+      ],
+      "insight": {
+        "mr": "जरी प्रत्येक प्रणालीची साधने वेगळी असली, तरी सर्वांचे अंतिम उद्दिष्ट एकच आहे — दुःखाचा अंत करून शांती, समाधान आणि आनंद प्राप्त करणे. हीच अवस्था 'मोक्ष' म्हणून ओळखली जाते. सर्व दर्शने एकाच ध्येयाकडे वेगवेगळ्या मार्गांनी जातात.",
+        "en": "Though each system has different means, they all share the same ultimate aim — ending suffering and attaining peace, contentment, and joy. This state is known as 'Moksha'. All darshanas travel toward the same destination by different paths."
+      }
+    },
+    {
+      "type": "infographic",
+      "svgType": "bars",
+      "titleMr": "षड्दर्शन — नास्तिक ते आस्तिक",
+      "titleEn": "Six Darshanas — Nastika to Astika",
+      "captionMr": "सर्व दर्शने मोक्षाच्या एकाच ध्येयाकडे वेगवेगळ्या मार्गांनी जातात.",
+      "captionEn": "All darshanas travel toward the single goal of moksha by different paths.",
+      "barLabelMr": "वेदप्रामाण्य",
+      "barLabelEn": "Vedic authority",
+      "showInfinity": false,
+      "states": [
+        {
+          "mr": "लोकायत",
+          "en": "Lokayata",
+          "roman": "Cārvāka",
+          "subMr": "केवळ प्रत्यक्ष प्रमाण",
+          "subEn": "Only direct perception",
+          "barWidth": 40
+        },
+        {
+          "mr": "बौद्ध + जैन",
+          "en": "Buddhist + Jain",
+          "roman": "Nāstika",
+          "subMr": "अनुमान + स्याद्वाद",
+          "subEn": "Inference + Syadvada",
+          "barWidth": 80
+        },
+        {
+          "mr": "सांख्य-योग · न्याय-वैशेषिक",
+          "en": "Samkhya-Yoga · Nyaya-Vaisheshika",
+          "roman": "Āstika",
+          "subMr": "तर्क + अनुभव + वेद",
+          "subEn": "Logic + experience + Veda",
+          "highlight": true,
+          "barWidth": 130
+        },
+        {
+          "mr": "मीमांसा-वेदान्त",
+          "en": "Mimamsa-Vedanta",
+          "roman": "Uttara",
+          "subMr": "वेद + उपनिषद",
+          "subEn": "Veda + Upanishad",
+          "barWidth": 170
+        }
+      ],
+      "callout": {
+        "mr": ["सर्वांचे ध्येय:", "दुःखाचा अंत", "मोक्षप्राप्ती"],
+        "en": ["Common aim:", "End of suffering", "Attainment of Moksha"]
+      }
+    },
+    {
+      "type": "curiosity",
+      "mr": "माधवाचार्यांनी रचलेल्या **'सर्वदर्शनसंग्रह'** या ग्रंथात सर्व प्रमुख भारतीय तत्त्वज्ञान प्रणालींचे एकत्र सादरीकरण आहे — चार्वाकापासून वेदान्तापर्यंत. विशेष म्हणजे या ग्रंथात प्रत्येक प्रणालीला तिचे स्वतःचे सर्वोत्तम युक्तिवाद दिले जातात — कोणाचीही थट्टा केली जात नाही! हे वैचारिक सहिष्णुतेचे अद्भुत उदाहरण आहे.",
+      "en": "Madhavacharya's **'Sarvadarshana-Samgraha'** presents all major Indian philosophical systems together — from Charvaka to Vedanta. Remarkably, in this text each system is given its own best arguments — no one is ridiculed! This is a wonderful example of intellectual tolerance."
+    },
+    {
+      "type": "activity",
+      "mr": [
+        "खालील प्रश्न स्वतःला विचारा: 'माझ्या जीवनात काय खरे महत्त्वाचे आहे?' — तुमचे उत्तर कोणत्या दर्शनाशी जवळ आहे? चार्वाकाशी (इंद्रिय सुख), बौद्धाशी (क्षणभंगुरता जाणून वर्तमानात राहणे), की वेदान्ताशी (आत्मस्वरूप जाणून घेणे)?",
+        "सांख्य मत सांगते की आपल्या दुःखाचे कारण म्हणजे आपण स्वतःला प्रकृतीशी ओळखतो — म्हणजे शरीर, मन, भावनांशी. एकदा बसून विचार करा: 'माझे खरे स्वरूप काय आहे? मी माझे विचार आहे का? मी माझ्या भावना आहे का? की या सर्वांचा साक्षीदार आहे?'",
+        "जैन 'स्याद्वाद' म्हणतो — 'असे असू शकते.' एखाद्या सध्याच्या वादाच्या विषयाबद्दल (कौटुंबिक किंवा सामाजिक) दोन्ही बाजू समान न्यायाने लिहा. प्रत्येक बाजूचे तर्क खरे असण्याची शक्यता आहे का?"
+      ],
+      "en": [
+        "Ask yourself: 'What is truly important in my life?' — Which darshana does your answer resemble? Charvaka (sensory pleasure), Buddhist (knowing impermanence and living in the present), or Vedanta (knowing one's true self)?",
+        "Samkhya philosophy says that the cause of our suffering is identifying ourselves with Prakriti — body, mind, emotions. Sit for a moment and reflect: 'What is my true nature? Am I my thoughts? Am I my emotions? Or am I the witness of all these?'",
+        "Jain 'Syadvada' says — 'It may be so.' On some current topic of debate (family or social), write both sides with equal fairness. Is it possible that the arguments of each side are true?"
+      ]
+    },
+    {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
+      "type": "phase2",
+      "mr": "सखोल अध्ययनात: माधवाचार्यांच्या सर्वदर्शनसंग्रहाचे उतारे; पतंजली योगसूत्रांचे विवेचन; शंकराचार्यांचे 'ब्रह्मसूत्र भाष्य'; रामानुजाचार्यांचे 'श्री भाष्य'; आणि या सहा दर्शनांची आधुनिक जगातील तुलना.",
+      "en": "Advanced reading covers: passages from Madhavacharya's Sarvadarshana-Samgraha; commentary on Patanjali's Yoga Sutras; Shankaracharya's 'Brahmasutra Bhashya'; Ramanujacharya's 'Shri Bhashya'; and a comparison of these six darshanas with modern philosophical schools."
+    }
+  ],
+  "nav": {
+    "prev": { "id": "41", "titleMr": "चार वेद आणि उपवेद", "titleEn": "Four Vedas and Upavedas" },
+    "next": { "id": "43", "titleMr": "तंत्र व आगम", "titleEn": "Tantra and Agama" }
+  }
+}
