@@ -1,0 +1,195 @@
+{
+  "id": "36",
+  "section": "c3",
+  "titleMr": "१४ विद्या आणि ६४ कला",
+  "titleEn": "14 Vidyas and 64 Kalas",
+  "readingTime": "५",
+  "readingTimeEn": "5",
+  "summary": {
+    "mr": "विद्या हे शिक्षणाचे मुख्य माध्यम आहे. भारतीय विद्वानांनी ज्ञानाचे शास्त्रशुद्ध वर्गीकरण केले — ४ वेद, ६ वेदांग आणि ४ उपांगांसह चतुर्दश विद्या. त्याशिवाय कौटिल्याने चार विद्यांची पद्धत — आन्वीक्षिकी, त्रयी, वार्ता आणि दंडनीती — मांडली. ६४ कला या कौशल्यावर आधारित असून त्यातील शेवटची कला म्हणजे आत्मविद्या — अंतर्गत परमानंद शोधण्याची कला.",
+    "en": "Vidya is the primary medium of education. Indian scholars gave a systematic classification of knowledge — the fourteen vidyas comprising 4 Vedas, 6 Vedangas, and 4 Upangas. Additionally, Kautilya presented the fourfold system — Anvikshiki, Trayee, Varta, and Dandaniti. The 64 Kalas are skill-based, and the last among them is Atmavidya — the art of seeking inner supreme bliss."
+  },
+  "body": [
+    {
+      "type": "section",
+      "headMr": "विद्या — शिक्षणाची मुख्य संकल्पना",
+      "headEn": "Vidya — The Core Concept of Education",
+      "paragraphs": [
+        {
+          "mr": "विद्या हे शिक्षणाचे मुख्य माध्यम आहे. त्यामुळे विद्या हा शब्द शिक्षणासाठी सामान्य संज्ञा बनला आहे. विद्यांचे व्यवस्थित वर्गीकरण प्रथम अथर्ववेदाच्या परिशिष्टात (उपसंहार) आढळते. तेथे वेदांच्या, त्यांच्या उपसंहारांच्या, त्यांच्या शाखांच्या — अंगांच्या — उपवेदांच्या याद्या वर्णन केल्या आहेत. या वर्गीकरणाची पद्धत स्मृतींनी चतुर्दशविद्या अर्थात चौदा विद्यांची पद्धत म्हणून औपचारिक केली.",
+          "en": "Vidya is the primary medium of education. Hence the word Vidya has become the general term for education. The systematic classification of Vidyas is first found in the Parishishta (appendix) of the Atharvaveda. There, lists of Vedas, their appendices, their branches — the Angas — and Upavedas are described. The Smritis formalized this classification as the Chaturdasha Vidya, the system of fourteen Vidyas."
+        },
+        {
+          "mr": "पाणिनीय धातुपाठानुसार: विद् + क्तिन् = विद्या — 'ज्ञानाद्वारे प्राप्त करणे' हा मूळ अर्थ. विद्या ही केवळ बौद्धिक माहिती नव्हे — ती साक्षात्काराकडे नेणारा मार्ग आहे.",
+          "en": "According to Panini's Dhatu-patha: vid + ktin = Vidya — 'to obtain through knowledge' is the original meaning. Vidya is not merely intellectual information — it is the path that leads to direct realization."
+        }
+      ]
+    },
+    {
+      "type": "termBox",
+      "word": "चतुर्दश विद्या",
+      "roman": "Caturdaśa Vidyā",
+      "defMr": "चौदा विद्या: ४ वेद + ६ वेदांग + ४ उपांग. याज्ञवल्क्यस्मृतीनुसार: 'पुराणन्यायमीमांसा धर्मशास्त्राङ्गमिश्रिताः। वेदाः स्थानानि विद्यानां धर्मस्य च चतुर्दश॥' — ज्ञानाची चौदा निवासस्थाने.",
+      "defEn": "The fourteen Vidyas: 4 Vedas + 6 Vedangas + 4 Upangas. According to Yajnavalkya Smriti: 'Purāṇa-nyāya-mīmāṃsā dharmaśāstrāṅgamiśritāḥ / Vedāḥ sthānāni vidyānāṃ dharmasya ca caturdaśa' — fourteen abodes of knowledge."
+    },
+    {
+      "type": "section",
+      "headMr": "चतुर्दश विद्यांची रचना",
+      "headEn": "Structure of the Fourteen Vidyas",
+      "paragraphs": [
+        {
+          "mr": "या चौदा विद्यांमध्ये हे समाविष्ट आहेत: **४ वेद** — ऋग्वेद, यजुर्वेद, सामवेद आणि अथर्ववेद. **६ वेदांग** — शिक्षा, व्याकरण, छंद, निरुक्त, ज्योतिष आणि कल्प. **४ उपांग** — इतिहास आणि पुराणे; धर्मशास्त्रे; न्याय; आणि मीमांसा तत्त्वज्ञान.",
+          "en": "These fourteen Vidyas include: **4 Vedas** — Rigveda, Yajurveda, Samaveda, and Atharvaveda. **6 Vedangas** — Shiksha, Vyakarana, Chhanda, Nirukta, Jyotisha, and Kalpa. **4 Upangas** — Itihas and Puranas; Dharmashastra; Nyaya; and Mimamsa philosophy."
+        },
+        {
+          "mr": "कधीकधी ४ उपवेद किंवा सहायक शास्त्रे, प्रत्येक वेदासाठी एक अशी, जोडली जातात. मग संख्या अठरा होते. ऋग्वेदाचे आयुर्वेद, यजुर्वेदाचे धनुर्वेद, सामवेदाचे गांधर्ववेद आणि अथर्ववेदाचे अर्थशास्त्र.",
+          "en": "Sometimes 4 Upavedas or auxiliary texts, one for each Veda, are added, making the count eighteen. Rigveda's Ayurveda, Yajurveda's Dhanurveda, Samaveda's Gandharvaveda, and Atharvaveda's Arthashastra."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "headMr": "कौटिल्याची चार विद्यांची पद्धत",
+      "headEn": "Kautilya's Fourfold Classification",
+      "paragraphs": [
+        {
+          "mr": "महाभारत आणि कौटिल्याच्या अर्थशास्त्रात विद्या चतुर्विध (चार प्रकारच्या) असल्याचे सांगितले आहे. या चतुर्विध वर्गीकरणाचे क्षेत्र वर वर्णन केलेल्यापेक्षा अधिक व्यापक आहे:",
+          "en": "The Mahabharata and Kautilya's Arthashastra state that Vidya is chaturvidha (fourfold). This fourfold classification covers a broader field than the one described above:"
+        },
+        {
+          "mr": "**आन्वीक्षिकी** — सांख्य आणि योगासारखी आत्म-चिंतनशील तत्त्वज्ञान पद्धती. या पद्धती आपल्याला धर्म-अधर्म यामधील भेद 'पाहण्याची' किंवा ओळखण्याची क्षमता देतात. त्यामुळे व्यक्तीचे विचार, शब्द आणि कृती धर्माच्या मार्गावर राहतात. **त्रयी** — वेद आणि त्यांची सहायक शास्त्रे; त्यात चौथा वेद म्हणजे अथर्ववेद आणि इतिहास देखील समाविष्ट आहे. त्रयीमध्ये संबंधित यज्ञ, स्वरशास्त्र, व्याकरण, छंदशास्त्र, गणित, ज्योतिष आणि संभवतः आयुर्वेद आणि युद्धकला देखील समाविष्ट आहेत.",
+          "en": "**Anvikshiki** — self-reflective philosophical methods like Sankhya and Yoga. These methods give one the capacity to 'see' or recognize the difference between dharma and adharma. This keeps a person's thoughts, words, and actions on the path of dharma. **Trayee** — the Vedas and their auxiliary texts; this includes the fourth Veda, Atharvaveda, and Itihas. Trayee includes related yajnas, phonetics, grammar, prosody, mathematics, astronomy, and possibly Ayurveda and the art of war."
+        },
+        {
+          "mr": "**वार्ता** (जे वृत्ती-व्यवसायांशी संबंधित आहे) — व्यावसायिक कौशल्ये जसे की शेती, पशुपालन आणि वाणिज्य. त्यात उत्पादन, प्रक्रिया आणि विविध वस्तूंच्या वितरणाशी संबंधित कौशल्ये आणि तांत्रिक ज्ञान देखील समाविष्ट होते. संपत्तीत धान्य, गुरेढोरे, सोने, वन संपदा आणि मानवी संसाधने समाविष्ट होती. **दंडनीती** — दंड हा संरक्षणात्मक कायदा आहे आणि त्याला चालवण्याचे शास्त्र म्हणजे दंडनीती; मूलतः राज्यशास्त्र. दंडाला अधिक खोल अर्थ आहे — मेरुदंड, जो व्यक्त, अव्यक्त आणि धर्माच्या चक्रांच्या पूर्णतेचे प्राथमिक साधन आहे.",
+          "en": "**Varta** (related to livelihoods and professions) — professional skills such as agriculture, animal husbandry, and commerce. It also included skills and technical knowledge related to production, processing, and distribution of various goods. Wealth included grain, livestock, gold, forest resources, and human resources. **Dandaniti** — danda is the protective law, and the science of administering it is dandaniti; fundamentally, statecraft. Danda has a deeper meaning — the spine (Merudanda), which is the primary instrument for the completion of the manifest, unmanifest, and dharma cycles."
+        }
+      ]
+    },
+    {
+      "type": "infographic",
+      "svgType": "flow",
+      "titleMr": "चतुर्विध विद्या",
+      "titleEn": "Fourfold Classification of Vidya",
+      "captionMr": "कौटिल्याच्या अर्थशास्त्रानुसार — आत्म्यापासून समाजापर्यंत ज्ञानाचे चार क्षेत्रे.",
+      "captionEn": "According to Kautilya's Arthashastra — four domains of knowledge from self to society.",
+      "steps": [
+        {
+          "mr": ["आन्वीक्षिकी"],
+          "en": ["Anvikshiki"],
+          "roman": "Ānvīkṣikī",
+          "subMr": ["सांख्य-योग", "आत्म-चिंतन"],
+          "subEn": ["Sankhya-Yoga", "Self-reflection"]
+        },
+        {
+          "mr": ["त्रयी"],
+          "en": ["Trayee"],
+          "roman": "Trayī",
+          "subMr": ["वेद-इतिहास", "धर्माचे रक्षण"],
+          "subEn": ["Vedas-Itihas", "Protecting dharma"],
+          "highlight": true
+        },
+        {
+          "mr": ["वार्ता"],
+          "en": ["Varta"],
+          "roman": "Vārtā",
+          "subMr": ["शेती-व्यापार", "अर्थव्यवस्था"],
+          "subEn": ["Agriculture-Trade", "Economy"]
+        },
+        {
+          "mr": ["दंडनीती"],
+          "en": ["Dandaniti"],
+          "roman": "Daṇḍanīti",
+          "subMr": ["राज्यशास्त्र", "न्याय-संरक्षण"],
+          "subEn": ["Statecraft", "Justice & protection"]
+        }
+      ],
+      "examples": {
+        "headMr": "लक्ष्य:",
+        "headEn": "Goal:",
+        "mr": ["धर्म-अर्थ-काम-मोक्ष"],
+        "en": ["Dharma-Artha-Kama-Moksha"]
+      }
+    },
+    {
+      "type": "section",
+      "headMr": "६४ कला — कौशल्यावर आधारित ज्ञान",
+      "headEn": "64 Kalas — Skill-Based Knowledge",
+      "paragraphs": [
+        {
+          "mr": "कला मुख्यतः कौशल्य-आधारित आहेत, विद्यांच्या मौखिक स्वरूपाच्या विरुद्ध. कला सामान्यतः १६ किंवा ६४ संख्येने ओळखल्या जातात. १६ किंवा त्याच्या गुणाकारांचे महत्त्व आधीच वर्णन केले आहे. तथापि, ६४ कलांची यादी ग्रंथानुसार बदलते.",
+          "en": "Kalas are primarily skill-based, in contrast to the oral nature of Vidyas. Kalas are commonly known by the count of 16 or 64. The significance of 16 and its multiples has already been described. However, the list of 64 Kalas varies by text."
+        },
+        {
+          "mr": "या यादीत सामान्यतः आढळणारे विषय आहेत: संगीत (वाद्ये आणि त्यांची निर्मिती), नृत्य, रेखाचित्र, चित्रकला, मूर्तिकला, त्यांच्याशी संबंधित सौंदर्यप्रसाधने आणि उपकरणे (सुगंधी, हार, रंग), अंतर्गत सजावट आणि सौंदर्यशास्त्र (राहण्याच्या खोल्या, पलंग, दरवाजे), दागिने आणि अलंकाराशी संबंधित (रत्ने आणि अलंकरण), पाकशास्त्र, सुतारकाम, यंत्रशास्त्र, धातुशास्त्र, रसायनशास्त्र, मनोरंजनाची कला (खेळांची रचना, ते खेळणे, अनुकरण).",
+          "en": "Subjects commonly found in this list are: music (instruments and their making), dance, drawing, painting, sculpture, related beauty and adornment (perfumes, garlands, colors), interior decoration and aesthetics (living rooms, beds, doors), jewelry and ornamentation (gems and adornment), cooking, carpentry, mechanics, metallurgy, chemistry, entertainment arts (designing games, playing them, imitation)."
+        },
+        {
+          "mr": "असेही म्हटले जाते की यादीतील ६४ वी किंवा १६ वी — शेवटची कला ही **आत्मविद्या** किंवा अंतर्गत परमानंद शोधण्याची कला आहे. अशा प्रकारे ६४ कलांमध्येही ज्ञानाच्या क्रमविकासातील शेवटची परिणती ही आत्मसाक्षात्कार आहे.",
+          "en": "It is also said that the 64th or 16th — the last Kala — is **Atmavidya** or the art of seeking inner supreme bliss. Thus even within the 64 Kalas, the final culmination in the progression of knowledge is self-realization."
+        }
+      ],
+      "insight": {
+        "mr": "विद्या आणि कला यांचे मिळून एकत्रित ध्येय एकच आहे — साक्षात्कार आणि समृद्धी. आन्वीक्षिकी आत्म्याला दिशा दाखवते, त्रयी धर्माचे रक्षण करते, वार्ता समाजाची संपत्ती निर्माण करते, दंडनीती न्याय राखते आणि ६४ कला दैनंदिन जीवनाला सुंदर बनवतात. शेवटी सर्वांचे लक्ष्य आत्मविद्या — आनंद.",
+        "en": "Together, Vidya and Kala share one combined goal — realization and prosperity. Anvikshiki shows the Atman the direction, Trayee protects dharma, Varta creates society's wealth, Dandaniti maintains justice, and the 64 Kalas make daily life beautiful. Ultimately, the goal of all is Atmavidya — ananda."
+      }
+    },
+    {
+      "type": "concepts",
+      "items": [
+        {
+          "term": "वेदांग",
+          "roman": "Vedāṅga",
+          "defMr": "वेदांचे सहा अंग — शिक्षा (उच्चार), व्याकरण (व्याकरण), छंद (मेट्रिक्स), निरुक्त (व्युत्पत्ती), ज्योतिष (खगोलशास्त्र) आणि कल्प (विधी). अभिव्यक्तीच्या विविध घटकांचा सखोल अभ्यास.",
+          "defEn": "Six limbs of the Vedas — Shiksha (phonetics), Vyakarana (grammar), Chhanda (metrics), Nirukta (etymology), Jyotisha (astronomy), Kalpa (ritual). Deep study of various elements of expression."
+        },
+        {
+          "term": "आन्वीक्षिकी",
+          "roman": "Ānvīkṣikī",
+          "defMr": "सांख्य, योग आणि लोकायत यासारखी आत्म-चिंतनशील तत्त्वज्ञान पद्धती. धर्म-अधर्म यामधील भेद पाहण्याची क्षमता देते. राजाला विशेषतः आवश्यक.",
+          "defEn": "Self-reflective philosophical methods like Sankhya, Yoga, and Lokayata. Gives the capacity to see the difference between dharma and adharma. Especially necessary for the king."
+        },
+        {
+          "term": "वार्ता",
+          "roman": "Vārtā",
+          "defMr": "व्यावसायिक कौशल्यांशी संबंधित विद्या — शेती, पशुपालन आणि वाणिज्य. धान्य, गुरेढोरे, सोने, वन संपदा आणि मानवी संसाधने निर्माण करणाऱ्या अर्थव्यवस्थेचा कणा.",
+          "defEn": "Knowledge related to professional skills — agriculture, animal husbandry, and commerce. The backbone of the economy that creates grain, livestock, gold, forest resources, and human resources."
+        }
+      ]
+    },
+    {
+      "type": "curiosity",
+      "mr": "शुक्रनीतीमध्ये ३२ विद्यांची यादी दिली आहे: ४ वेद, ४ उपवेद, ६ वेदांग, ६ दर्शने, इतिहास, पुराण, स्मृती, नास्तिक मत, अर्थशास्त्र, कामशास्त्र, शिल्पशास्त्र, अलंकारशास्त्र, काव्य, देशभाषा, अवसरोक्ती, यवनमत! यात ग्रीक तत्त्वज्ञान (यवनमत) देखील होते — भारताच्या ज्ञानविश्वाची व्यापकता दर्शवते.",
+      "en": "The Shukraniti lists 32 Vidyas: 4 Vedas, 4 Upavedas, 6 Vedangas, 6 Darshanas, Itihas, Purana, Smriti, Nastika mata, Arthashastra, Kamashastra, Shilpashastra, Alankarashastra, Kavya, Desha-bhasha, Avasarokti, and Yavanamata (Greek philosophy)! Even Greek philosophy was included — showing the breadth of India's knowledge universe."
+    },
+    {
+      "type": "activity",
+      "mr": [
+        "चतुर्दश विद्यांची यादी पाहा. आजच्या विद्यापीठीय अभ्यासक्रमांशी तुलना करा — कोणती विद्या आजही शिकवली जाते? कोणती गमावली? का?",
+        "कौटिल्याच्या चार विद्यांपैकी आन्वीक्षिकी आज कोणत्या रूपात अस्तित्वात आहे? तत्त्वज्ञान, मानसशास्त्र की योगशास्त्र? त्यांचे आधुनिक समकक्ष शोधा.",
+        "तुम्ही ज्या एखाद्या कलेत निपुण आहात ती ६४ कलांच्या यादीत आहे का? त्या कलेत अंतिम कौशल्य मिळवण्याचा अनुभव कसा असतो — त्यात आत्मविद्येचे काही अंश दिसते का?"
+      ],
+      "en": [
+        "Look at the list of fourteen Vidyas. Compare with today's university curricula — which Vidya is still taught? Which is lost? Why?",
+        "In what form does Anvikshiki, among Kautilya's four Vidyas, exist today? Philosophy, psychology, or the science of yoga? Find their modern equivalents.",
+        "Is the art in which you are skilled present in the list of 64 Kalas? What is the experience of achieving ultimate mastery in that art — do you see any elements of Atmavidya in it?"
+      ]
+    },
+    {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
+      "type": "phase2",
+      "mr": "सखोल अध्ययनात: अथर्ववेद परिशिष्टातील मूळ वर्गीकरण; कौटिल्याच्या अर्थशास्त्रातील विद्यांचे विस्तृत विवेचन; वात्स्यायनाच्या कामसूत्रातील ६४ कलांची पूर्ण यादी; आयुर्वेद, धनुर्वेद, गांधर्ववेद आणि अर्थशास्त्र — उपवेदांचे स्वतंत्र शास्त्र म्हणून विकास.",
+      "en": "Advanced reading will cover: the original classification in the Atharvaveda Parishishta; detailed treatment of Vidyas in Kautilya's Arthashastra; the complete list of 64 Kalas in Vatsyayana's Kamasutra; Ayurveda, Dhanurveda, Gandharvaveda, and Arthashastra — development as independent sciences (Upavedas)."
+    }
+  ],
+  "nav": {
+    "prev": { "id": "35", "titleMr": "अध्यापन पद्धती व शैली", "titleEn": "Teaching Methods and Styles" },
+    "next": { "id": "37", "titleMr": "कर्मकांड व ज्ञानकांड", "titleEn": "Karmakanda and Jnanakanda" }
+  }
+}
