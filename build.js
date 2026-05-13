@@ -46,9 +46,14 @@ const FF = {
   en: `'Crimson Pro',Georgia,serif`,
 };
 
+/** Convert **word** → <strong>word</strong> in paragraph text */
+function inlineMd(text) {
+  return text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+}
+
 /** Bilingual <p> pair */
 function biP(mr, en) {
-  return `      <p data-lang="mr">\n        ${mr}\n      </p>\n      <p data-lang="en" style="display:none;">\n        ${en}\n      </p>`;
+  return `      <p data-lang="mr">\n        ${inlineMd(mr)}\n      </p>\n      <p data-lang="en" style="display:none;">\n        ${inlineMd(en)}\n      </p>`;
 }
 
 // ── Block renderers ───────────────────────────────────────────────────────────
@@ -68,8 +73,8 @@ function renderTermBox(b) {
   return `
     <div class="term-box">
       <div class="term-word">${b.word} <span class="term-roman">${b.roman}</span></div>
-      <div class="term-def" data-lang="mr">${b.defMr}</div>
-      <div class="term-def" data-lang="en" style="display:none;">${b.defEn}</div>
+      <div class="term-def" data-lang="mr">${inlineMd(b.defMr)}</div>
+      <div class="term-def" data-lang="en" style="display:none;">${inlineMd(b.defEn)}</div>
     </div>`;
 }
 
@@ -78,8 +83,8 @@ function renderConcepts(b) {
         <div class="concept-card">
           <div class="c-term">${c.term}</div>
           <div class="c-roman">${c.roman}</div>
-          <div class="c-def" data-lang="mr">${c.defMr}</div>
-          <div class="c-def" data-lang="en" style="display:none;">${c.defEn}</div>
+          <div class="c-def" data-lang="mr">${inlineMd(c.defMr)}</div>
+          <div class="c-def" data-lang="en" style="display:none;">${inlineMd(c.defEn)}</div>
         </div>`).join('');
   return `
     <div class="content-sec">
@@ -100,7 +105,7 @@ ${biP(b.mr, b.en)}
 }
 
 function renderActivity(b) {
-  const li = arr => arr.map(i => `        <li>${i}</li>`).join('\n');
+  const li = arr => arr.map(i => `        <li>${inlineMd(i)}</li>`).join('\n');
   return `
     <div class="activity-box">
       <div class="box-label" data-lang="mr">कृती — स्वतः अनुभवा</div>
