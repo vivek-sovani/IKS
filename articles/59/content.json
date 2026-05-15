@@ -1,0 +1,122 @@
+{
+  "id": "59",
+  "section": "c4",
+  "titleMr": "उपयोजन २ — व्यसन, नैराश्य आणि जीवनशैली आजारांसाठी एकात्मिक आरोग्य प्रणाली",
+  "titleEn": "Application 2 — Integrative Healthcare for Addiction, Depression and Lifestyle Diseases",
+  "readingTime": "५",
+  "readingTimeEn": "5",
+  "summary": {
+    "mr": "IKS दृष्टिकोनातून व्यसन म्हणजे दम (स्वसंयम) नाही, नैराश्य म्हणजे तमोगुण बाहुल्य, ताण म्हणजे आयास. या सर्वांचे मूळ कारण धर्मक्षतिजा — दैनंदिन जीवनचक्र विस्कळीत होणे. आचारयोजना मूळ कारणांपासून सुरू करायला हवी.",
+    "en": "From an IKS perspective, addiction means absence of dama (self-restraint), depression means predominance of tamas, and stress means ayasa (straining). The root cause of all these is dharma-kshati — disruption of the daily life-cycle. An action plan must begin from the root causes."
+  },
+  "body": [
+    {
+      "type": "section",
+      "headMr": "समस्या विधान",
+      "headEn": "Problem Statement",
+      "paragraphs": [
+        {
+          "mr": "तुमचा ग्राहक हा आरोग्यसेवा पुरवठादार असून, जीवनशैलीसंबंधी आजारांवर उपचार करण्यासाठी भारतीय ज्ञानपरंपरा (IKS) आणि वारसा-तत्त्वे वापरून एकात्मिक आरोग्यपद्धती लागू करू इच्छितो. या हेतूसाठी, नियमित आहारोपचार आणि औषधोपचारांसोबत योग्य जीवनशैली-आचारयोजना तयार करण्याकरिता वारसा-सल्लागार म्हणून आपली मदत मागवली आहे. भारतीय तत्त्वांशी सुसंगत अशा जीवनशैली-आचारयोजनेची व्यापक रचना व तत्त्वे निश्चित करणे ही अपेक्षित जबाबदारी आहे.",
+          "en": "Your client is a healthcare provider who wishes to implement an integrative healthcare system — using Indian Knowledge Systems (IKS) and heritage principles — for treating lifestyle-related diseases. For this purpose, your assistance is sought as a heritage consultant to develop an appropriate lifestyle action plan alongside regular dietary and medical treatments. The expected responsibility is to define the broad structure and principles of a lifestyle action plan consistent with Indian principles."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "headMr": "IKS विश्लेषण",
+      "headEn": "IKS Analysis",
+      "paragraphs": [
+        {
+          "mr": "विश्लेषणाची सुरुवात या समस्येशी निगडित भारतीय घटक ओळखण्यापासून करतो. हे थेट क्लेश किंवा दुःख म्हणून ओळखले जाऊ शकते — त्यामुळे सुख, शांती, संतोष यांचा शोध घेतला जातो. व्यसन म्हणजे स्वतःवरील नियंत्रणाचा अभाव — एखादी आसक्ती सोडता न येणे — हे संयमाच्या हरवण्याचे लक्षण आहे. नैराश्य किंवा उदासीनता हे तमोगुणाची आठवण करून देतात — जडत्व आणि अंधकार. ताण म्हणजे आयास — 'अनायास' हा आत्मगुण न पाळल्यामुळे निर्माण होणारा नियमविरोधी स्थितीचा संकेत.",
+          "en": "Let us begin the analysis by identifying Indian elements related to this problem. These can be directly recognised as klesha or duhkha — prompting a search for sukha, shanti, and santosa. Addiction means the absence of self-control — the inability to release an attachment — a symptom of the loss of dama (restraint). Depression or despondency recalls tamas — heaviness and darkness. Stress means ayasa — a sign of a state contrary to dharma arising from not practising the atmaguna of 'anayasa' (effortlessness)."
+        },
+        {
+          "mr": "वरील सर्व गोष्टींमुळे धर्माची हानी झाल्याचे दिसून येते — आणि त्यामुळे दैनंदिन जीवनचक्र विस्कळीत होणे हे साहजिकच अपेक्षित ठरते. जीवनशैली-आचारयोजनेची रचना व उपाययोजना मूळ कारणांपासून सुरू व्हायला हवी.",
+          "en": "All the above indicate that dharma has been harmed — and consequently, disruption of the daily life-cycle is naturally expected. The design and implementation of the lifestyle action plan should begin from the root causes."
+        }
+      ]
+    },
+    {
+      "type": "concepts",
+      "items": [
+        {
+          "term": "दम",
+          "roman": "Dama",
+          "defMr": "स्वसंयम — इंद्रियांवर नियंत्रण. व्यसन म्हणजे दमाचा अभाव. आत्मगुणांपैकी एक महत्त्वाचा गुण.",
+          "defEn": "Self-restraint — control over the senses. Addiction is the absence of dama. One of the key atmaguna qualities."
+        },
+        {
+          "term": "तमोगुण",
+          "roman": "Tamoguna",
+          "defMr": "तीन गुणांपैकी जडत्व व निष्क्रियतेचा गुण. नैराश्यात तमोगुण अनावश्यक प्रमाणात प्रभावी होतो.",
+          "defEn": "The quality of heaviness and inertia among the three gunas. In depression, tamas becomes dominant beyond what is appropriate."
+        },
+        {
+          "term": "अनायास",
+          "roman": "Anāyāsa",
+          "defMr": "आत्मगुणांपैकी एक — प्रयत्नविरहित सहजता. ताण हा अनायासाचा विरोध आहे. धर्माचे पालन होत असताना अनायास अनुभवास येतो.",
+          "defEn": "One of the atmaguna qualities — effortless ease. Stress is the opposite of anayasa. Anayasa is experienced when dharma is being observed."
+        },
+        {
+          "term": "सात्त्विक आहार",
+          "roman": "Sāttvika Āhāra",
+          "defMr": "सत्त्वगुण वाढवणारा आहार. जाणीवपूर्वक इंद्रियानुभव असे असावेत की ज्यामुळे साऋत्त्विकता वृद्धिंगत होईल आणि तम व/किंवा रज कमी होतील.",
+          "defEn": "Diet that enhances the sattva quality. Conscious sensory experiences should be such that they enhance sattvikness and reduce tamas and/or rajas."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "headMr": "आचारयोजनेचे घटक",
+      "headEn": "Components of the Action Plan",
+      "paragraphs": [
+        {
+          "mr": "धर्मक्षती हेच मूळ कारण ओळखतो — म्हणूनच नियमित दैनंदिन जीवनचक्र पुनर्वसनाचा एक महत्त्वाचा घटक ठरू शकतो. ब्रह्मचर्याश्रमात धर्माचे पालन करणे म्हणजे धर्मबुद्धी आणि संयम — म्हणजेच इंद्रियसंयम — यांचे आकलन असते. त्यामुळे या उद्देशासाठी विशिष्ट सराव — उदा. पुरुषार्थ अध्यायात वर्णन केलेला 'जा-विराम' प्रयोग — उपयुक्त ठरू शकतो.",
+          "en": "We identify dharma-kshati as the root cause — hence restoring a regular daily life-cycle can be an important component of rehabilitation. Observing dharma in the brahmacharya ashrama involves the cultivation of dharma-buddhi (dharmic discernment) and dama (restraint — meaning indriya-samyama). Hence specific practices for this purpose — e.g., the 'ja-virama' (go-stop) experiment described in the chapter on Purusharthas — can prove useful."
+        },
+        {
+          "mr": "आहार आणि जाणीवपूर्वक केलेले इंद्रियानुभव असे असावेत की ज्यामुळे साऋत्त्विकता वृद्धिंगत होईल आणि तम व/किंवा रज कमी होतील. धर्माचे जाणीवपूर्वक आकलन आणि निर्णयक्षमता (बुद्धी) दृढ करण्याच्या पद्धतींचा अवलंब करता येईल. ही जरी विशिष्ट धोरणे असली, तरी प्रत्यक्ष आचार योजना तयार करण्यासाठी आयुर्वेद, योग आणि संबंधित शास्त्रांचा अधिक सखोल अभ्यास आवश्यक आहे.",
+          "en": "Diet and conscious sensory experiences should be such that they enhance sattvikness and reduce tamas and/or rajas. Methods for the conscious cultivation of dharmic discernment and decision-making capacity (buddhi) can be adopted. Though these are specific strategies, for developing an actual action plan, a more in-depth study of Ayurveda, yoga, and related shastras is necessary."
+        }
+      ],
+      "insight": {
+        "mr": "धर्माचे पालन होत असताना एक विशिष्ट आत्मगुण अनुभवास येतो — अनायास. जिथे प्रयत्न हरवतो आणि कृती सहजपणे घडते तिथे धर्म आहे. व्यसन, नैराश्य आणि ताण हे या सहजतेचे अभाव आहेत — हे त्यांच्या मूळ कारणाकडे जाण्याचा मार्ग दाखवते.",
+        "en": "When dharma is being observed, a specific atmaguna is experienced — anayasa (effortlessness). Where effort dissolves and action happens naturally, there is dharma. Addiction, depression, and stress are absences of this ease — which points the way toward understanding their root cause."
+      }
+    },
+    {
+      "type": "curiosity",
+      "mr": "आधुनिक विज्ञानाने 'gut-brain axis' शोधली आहे — आतडे आणि मेंदू यांचा थेट संबंध. आयुर्वेदाने हजारो वर्षांपूर्वी आहाराचा मनावरील प्रभाव ओळखला होता — 'आहारशुद्धौ सत्त्वशुद्धिः' (छांदोग्योपनिषद ७.२६.२). आहार शुद्ध झाल्यावर सत्त्व शुद्ध होते.",
+      "en": "Modern science has discovered the 'gut-brain axis' — a direct connection between the gut and the brain. Ayurveda recognised the impact of diet on the mind thousands of years ago — 'āhāraśuddhau sattvaśuddhiḥ' (Chandogyopanishad 7.26.2). When food is pure, sattva becomes pure."
+    },
+    {
+      "type": "activity",
+      "mr": [
+        "व्यसन, नैराश्य आणि ताण यापैकी एखाद्या समस्येचा अनुभव असलेल्या व्यक्तीच्या जीवनात 'जा-विराम' प्रयोग कसा उपयुक्त ठरू शकेल? हा प्रयोग समजावून सांगा — आणि तो व्यावहारिकरित्या कसा करावा याची एक योजना तयार करा.",
+        "तुमच्या दैनंदिन जीवनात सात्त्विकता वाढवणारे आणि कमी करणारे घटक कोणते? आहार, झोप, संगीत, संगत, व्यायाम — यापैकी प्रत्येकाचा त्रिगुणाच्या दृष्टीने विचार करा.",
+        "IKS चौकट वापरून एखाद्या जीवनशैली आजाराचे विश्लेषण करा — हृदयविकार, मधुमेह, किंवा निद्रानाश. मूळ कारण कोणते? कोणत्या आत्मगुणाचा अभाव आहे? आचारयोजना कशी असावी?"
+      ],
+      "en": [
+        "How could the 'ja-virama' (go-stop) experiment be useful in the life of a person experiencing addiction, depression, or stress? Explain the experiment — and create a plan for how it could be practically applied.",
+        "What factors in your daily life increase and decrease sattvikness? Examine each of diet, sleep, music, company, and exercise from the perspective of trigunas.",
+        "Use the IKS framework to analyse a lifestyle disease — heart disease, diabetes, or insomnia. What is the root cause? What atmaguna is absent? What should the action plan look like?"
+      ]
+    },
+    {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
+      "type": "phase2",
+      "mr": "सखोल अध्ययनात: आयुर्वेदातील त्रिदोष आणि मानसिक रोगांचे विवेचन; योगसूत्रांमधील क्लेश-प्रकरण; अष्टांग योगातील यम-नियम आणि त्यांचा मानसिक आरोग्याशी संबंध; आणि आधुनिक मानसशास्त्रातील CBT (Cognitive Behavioral Therapy) आणि IKS दृष्टिकोनाचा तौलनिक अभ्यास.",
+      "en": "Advanced Reading: The treatment of tridosha and mental diseases in Ayurveda; the klesha-prakarana in Yogasutras; the relationship of yama-niyama in Ashtanga Yoga with mental health; and a comparative study of modern psychology's CBT (Cognitive Behavioral Therapy) and the IKS perspective."
+    }
+  ],
+  "nav": {
+    "prev": { "id": "58", "titleMr": "उपयोजन १ — महाकाव्यासाठी तंत्रज्ञान", "titleEn": "Application 1 — Technology for Mahakaavya" },
+    "next": { "id": "60", "titleMr": "उपयोजन ३ — नवरात्री बाहुल्यांची परंपरा", "titleEn": "Application 3 — Navaratri Golu Tradition" }
+  }
+}

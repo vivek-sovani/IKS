@@ -1,0 +1,130 @@
+{
+  "id": "58",
+  "section": "c4",
+  "titleMr": "उपयोजन १ — महाकाव्यासाठी तंत्रज्ञान मूल्यमापन",
+  "titleEn": "Application 1 — Evaluating Technology for Mahakaavya",
+  "readingTime": "५",
+  "readingTimeEn": "5",
+  "summary": {
+    "mr": "एखाद्या आंतरराष्ट्रीय रामायण संग्रहालयाला श्लोक पठणासाठी मजकूर-ते-ध्वनी तंत्रज्ञान हवे आहे. IKS चौकटीनुसार या तंत्रज्ञानाचे मूल्यमापन कसे करावे? रस, भाव आणि आत्मगुण — या स्तरांवरील मूल्यमापन म्हणजे केवळ उच्चार-शुद्धतेपलीकडे जाणे.",
+    "en": "An international Ramayana museum needs text-to-speech technology for shloka recitation. How to evaluate this technology using the IKS framework? Evaluating at the levels of rasa, bhava, and atmaguna — means going beyond mere pronunciation accuracy."
+  },
+  "body": [
+    {
+      "type": "section",
+      "headMr": "समस्या विधान",
+      "headEn": "Problem Statement",
+      "paragraphs": [
+        {
+          "mr": "तुमचा ग्राहक एक आंतरराष्ट्रीय रामायण संग्रहालय विकसित करीत आहे, ज्यामधील नियोजित तांत्रिक प्रदर्शनीय वस्तूंमध्ये रामायण पठण करणारे साधन समाविष्ट आहे. हे साधन अभ्यागताने मागितलेला वाल्मीकी रामायणातील कोणताही श्लोक स्पष्ट आणि योग्य उच्चारांसह पठण करण्यास सक्षम असले पाहिजे. बहुधा हे साधन मजकूर-ते-ध्वनी रूपांतरणासाठी अत्याधुनिक यंत्राधारित शिक्षण तंत्रज्ञानाचा वापर करेल.",
+          "en": "Your client is developing an international Ramayana museum, where the planned technical exhibits include a device for Ramayana recitation. The device must be capable of reciting any shloka from the Valmiki Ramayana requested by the visitor, with clear and correct pronunciation. The device will likely use state-of-the-art machine learning technology for text-to-speech conversion."
+        },
+        {
+          "mr": "आपण वारसा-सल्लागार आहात. तुमच्याकडून अशी मदत मागितली आहे की स्पर्धात्मक तंत्रज्ञानाचे मूल्यमापन करण्यासाठी भारतीय ज्ञानपरंपरा (IKS) आणि वारसा तत्त्वांवर आधारित वैज्ञानिक पद्धती विकसित करता यावी.",
+          "en": "You are a heritage consultant. You are being asked to help develop a scientific methodology — based on Indian Knowledge Systems (IKS) and heritage principles — for evaluating competing technologies."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "headMr": "IKS विश्लेषण",
+      "headEn": "IKS Analysis",
+      "paragraphs": [
+        {
+          "mr": "या प्रकरणाशी संबंधित महत्त्वाचे भारतीय घटक प्रथम लक्षात घेतो. वाल्मीकी रामायण हे इतिहास आणि काव्य आहे — त्यामुळे ते रसभरित आहे. तपासल्या जाणाऱ्या तंत्रज्ञानातून शब्द निर्माण होतात — श्लोकाच्या संदर्भात. त्यांचे उच्चारण (शिक्षा), व्याकरण (व्याकरणम्), छंद आणि लय यांचा समावेश होतो. काव्याचा अंतिम उद्देश म्हणजे वाल्मीकींच्या मूळ अभिप्रेत भावनेनुसार श्रोत्यामध्ये मूळ भाव जागृत करणे — ज्यामुळे एक पूर्ण आत्मीय चक्र पूर्ण होते.",
+          "en": "Let us first note the important Indian elements related to this case. The Valmiki Ramayana is Itihasa and Kavya — hence it is suffused with rasa. The technology being tested generates words — in the context of shlokas. This encompasses their pronunciation (shiksha), grammar (vyakarana), meter (chhanda), and rhythm (laya). The ultimate purpose of the kavya is to awaken the original bhava in the listener as per Valmiki's original intent — thereby completing a full inner cycle."
+        },
+        {
+          "mr": "सुचवलेल्या उपायांमध्ये प्रत्येक घटकाचे मूल्यमापन कसे करावे यासाठीच्या पद्धती आपण पुढे पाहू. व्याकरण आणि ध्वनी-शास्त्र: योग्य उच्चारण तसेच छंदाची शुद्धता यांची पडताळणी तज्ज्ञ मूल्यांकनकर्त्यांद्वारे प्रत्यक्ष तपासता येऊ शकते. मात्र रस आणि भाव यांचा प्रश्न अधिक गहन आहे.",
+          "en": "Let us look ahead at methods for evaluating each element in the proposed solution. Grammar and phonology: the correctness of pronunciation and purity of meter can be directly verified by expert evaluators. But the question of rasa and bhava is more profound."
+        }
+      ]
+    },
+    {
+      "type": "infographic",
+      "svgType": "bars",
+      "titleMr": "मूल्यमापनाचे स्तर",
+      "titleEn": "Levels of Evaluation",
+      "captionMr": "उच्चार-शुद्धतेपासून आत्मगुणापर्यंत — मूल्यमापनाचे आरोही स्तर.",
+      "captionEn": "From pronunciation accuracy to atmaguna — ascending levels of evaluation.",
+      "barLabelMr": "सखोलता",
+      "barLabelEn": "Depth",
+      "states": [
+        {
+          "mr": "शिक्षा व छंद",
+          "en": "Shiksha & Chhanda",
+          "roman": "Śikṣā",
+          "subMr": "उच्चार, लय",
+          "subEn": "Pronunciation, meter",
+          "barWidth": 50
+        },
+        {
+          "mr": "रस व भाव",
+          "en": "Rasa & Bhava",
+          "roman": "Rasa",
+          "subMr": "भावनात्मक प्रभाव",
+          "subEn": "Emotional impact",
+          "barWidth": 100
+        },
+        {
+          "mr": "आत्मगुण",
+          "en": "Atmaguna",
+          "roman": "Ātmaguṇa",
+          "subMr": "दीर्घकाळ टिकणारा",
+          "subEn": "Enduring inner change",
+          "highlight": true,
+          "barWidth": 150
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "headMr": "मूल्यमापन पद्धती",
+      "headEn": "Evaluation Methods",
+      "paragraphs": [
+        {
+          "mr": "श्लोक पठणात रस किती प्रकट होतो किंवा कोणते भाव जागृत होतात याचे मापन करण्यासाठी, वापरकर्त्यांच्या प्रत्यक्ष अनुभवांच्या आधारे चाचण्या आखल्या जाऊ शकतात. सर्वात कठीण गोष्ट म्हणजे वाल्मीकींचा मूळ हेतू समजून घेणे. काव्यसंहितेच्या आकलनातून हे जाणवते की काव्याची सुंदरता अनुभवल्याशिवाय राहू नये, परंतु मनात दीर्घकाळ टिकून राहणारा प्रभाव हा रामाचे आत्मगुण असला पाहिजे.",
+          "en": "To measure how much rasa manifests in the shloka recitation, or which bhavas are awakened, tests can be designed based on the actual experiences of users. The most difficult thing is to understand Valmiki's original intent. From the assessment of the kavya-samhita, it is evident that the beauty of the kavya must be experienced, but the enduring influence in the mind should be the atmaguna of Rama."
+        },
+        {
+          "mr": "बहुतेक श्रोते फक्त पहिल्या टप्प्यावर — म्हणजे उच्चार व छंदाच्या शुद्धतेवर — समाधानी राहतील. पण जसजशी स्पर्धा वाढेल आणि यंत्राधारित शिक्षण तंत्रज्ञान सर्वत्र उपलब्ध होईल, तसतसे लक्ष या अधिक सूक्ष्म आणि सखोल पैलूंवर केंद्रित होईल.",
+          "en": "Most listeners will be satisfied at the first level — pronunciation and purity of meter. But as competition increases and machine learning technology becomes universally available, attention will focus on these more subtle and profound aspects."
+        }
+      ]
+    },
+    {
+      "type": "curiosity",
+      "mr": "वाल्मीकींनी क्रौंच पक्ष्याच्या विरहाने व्यथित होऊन प्रथम श्लोक उच्चारला — 'मा निषाद...'. हा 'शोक' श्लोक बनला असे सांगितले जाते. काव्याचा जन्म रसापासून झाला. त्यामुळे काव्याचे मूल्यमापन करताना रस हा निकष प्राथमिक आहे — उच्चार-शुद्धता हे साधन आहे, साध्य नाही.",
+      "en": "Valmiki, distressed by the grief of a kraunch bird, uttered the first shloka — 'Ma nishada...'. This 'shoka' (grief) is said to have become a shloka (verse). Kavya was born from rasa. Therefore, when evaluating kavya, rasa is the primary criterion — pronunciation accuracy is the means, not the end."
+    },
+    {
+      "type": "activity",
+      "mr": [
+        "तुम्ही 'AI-आवाज' आणि 'मानवी आवाज' यात फरक करू शकता का? कोणत्या गोष्टी त्यांना वेगळे करतात? हा फरक IKS दृष्टिकोनातून — रस, भाव, आत्मगुण — कसा स्पष्ट करता येईल?",
+        "वाल्मीकी रामायणातील कोणताही श्लोक किंवा काव्यरचना ऐका — एकदा यांत्रिक पठणात आणि एकदा पारंपरिक शिकलेल्या व्यक्तीकडून. दोन्हींमधील रस-अनुभव तुलना करा.",
+        "या प्रकरणातून 'घटकनिष्ठ पद्धत' समजली का? इतर कोणत्या क्षेत्रात — संगीत, शिक्षण, स्थापत्य — असे मूल्यमापन करता येईल? एक उदाहरण तयार करा."
+      ],
+      "en": [
+        "Can you distinguish between an 'AI voice' and a 'human voice'? What makes them different? How can this difference be articulated from an IKS perspective — rasa, bhava, atmaguna?",
+        "Listen to any shloka or poetic composition from the Valmiki Ramayana — once in mechanical recitation and once from a traditionally trained person. Compare the rasa-experience between the two.",
+        "Did this case study help you understand the 'component-based method'? In what other fields — music, education, architecture — can such evaluation be applied? Create one example."
+      ]
+    },
+    {
+      "type": "slides",
+      "titleMr": "सादरीकरण — स्लाइड्स",
+      "titleEn": "Presentation Slides",
+      "srcMr": "slides/slides-mr.pdf",
+      "srcEn": "slides/slides-en.pdf"
+    },
+    {
+      "type": "phase2",
+      "mr": "सखोल अध्ययनात: वाल्मीकी रामायण — बालकांड आणि उत्तरकांडातील काव्यशास्त्र प्रसंग; भरत मुनींचे नाट्यशास्त्र — रस-सूत्र आणि भावप्रकरण; आधुनिक ध्वनिशास्त्र (acoustics) आणि मेंदूतील भाषा-प्रक्रियेचा IKS दृष्टिकोनाशी तौलनिक अभ्यास.",
+      "en": "Advanced Reading: Valmiki Ramayana — the kavyashastra passages in Balakanda and Uttarakanda; Bharata Muni's Natyashastra — rasa-sutra and bhava-prakarana; and a comparative study of modern acoustics and neural language processing with the IKS perspective."
+    }
+  ],
+  "nav": {
+    "prev": { "id": "57", "titleMr": "उपसंहार — समीक्षा मॉडेल", "titleEn": "Conclusion — The SaMIKSHA Model" },
+    "next": { "id": "59", "titleMr": "उपयोजन २ — एकात्मिक आरोग्य प्रणाली", "titleEn": "Application 2 — Integrative Healthcare" }
+  }
+}
