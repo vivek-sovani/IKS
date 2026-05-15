@@ -414,11 +414,13 @@ body {
 /* ── LANGUAGE VISIBILITY ────────────────────────────── */
 html[lang="mr"] .topbar-title .en,
 html[lang="mr"] .sb-section-label .en,
-html[lang="mr"] .sb-art-titles .en-t { display: none; }
+html[lang="mr"] .sb-art-titles .en-t,
+html[lang="mr"] .sb-art-num .en-t { display: none; }
 
 html[lang="en"] .topbar-title .mr,
 html[lang="en"] .sb-section-label .mr,
-html[lang="en"] .sb-art-titles .mr-t { display: none; }
+html[lang="en"] .sb-art-titles .mr-t,
+html[lang="en"] .sb-art-num .mr-t { display: none; }
 
 /* ── RESPONSIVE ─────────────────────────────────────── */
 @media (max-width: 860px) {
