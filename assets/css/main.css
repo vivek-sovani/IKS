@@ -218,6 +218,8 @@ body {
   border-left: 2px solid transparent;
 }
 .sb-art-link:hover { background: rgba(0,0,0,0.05); }
+.sb-art-link.coming-soon { opacity: 0.42; cursor: default; pointer-events: none; }
+.sb-art-link.coming-soon .sb-art-num { color: var(--text-muted); }
 .sb-art-link.active {
   background: var(--saffron-pale);
   border-left-color: var(--saffron);
