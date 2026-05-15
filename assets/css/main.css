@@ -307,6 +307,22 @@ body {
   border: 1px solid rgba(255,255,255,0.1);
   padding: 3px 10px; border-radius: 20px; font-style: italic;
 }
+.hero-links {
+  margin-top: 28px;
+}
+.hero-link-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.7);
+  padding: 7px 18px; border-radius: 20px;
+  text-decoration: none; font-size: 13px;
+  transition: background 0.18s, color 0.18s;
+}
+.hero-link-btn:hover {
+  background: rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.95);
+}
 
 /* Band 2 — Knowledge Cycles */
 .home-sections-band {
@@ -365,6 +381,8 @@ body {
 .c1 .sec-card-badge { background: #E1F5EE; color: #0F6E56; }
 .c2 .sec-card-badge { background: #FAECE7; color: #D4500A; }
 .c3 .sec-card-badge { background: #FFF3DC; color: #B8860B; }
+.c4.sec-card { border-top: 3px solid #6B7A8D; }
+.c4 .sec-card-badge { background: #EEF0F4; color: #4A5568; }
 .sec-card h3 {
   font-family: 'Noto Sans Devanagari', sans-serif;
   font-size: 15px; font-weight: 600;
