@@ -12,8 +12,8 @@
   "body": [
     {
       "type": "section",
-      "headMr": "अनुभव एका व्यक्तीकडून दुसऱ्यापर्यंत",
-      "headEn": "Transmitting Experience Person to Person",
+      "headMr": "🤝 अनुभव एका व्यक्तीकडून दुसऱ्यापर्यंत",
+      "headEn": "🤝 Transmitting Experience Person to Person",
       "paragraphs": [
         {
           "mr": "भाषा माहीत नसतानाही संगीताचा परिणाम का होतो? एखाद्या महान कलाकाराचे चित्र पाहताना आपल्याला त्याचा आनंद का जाणवतो? की एखाद्या शिक्षकाच्या शब्दांनी मन उंचावते? या सर्व घटनांमागे एकच तत्त्व आहे — अनुभव एका व्यक्तीकडून दुसऱ्यापर्यंत पोहोचण्याची प्रक्रिया.",
@@ -34,8 +34,8 @@
     },
     {
       "type": "section",
-      "headMr": "विद्या — अनुभव→शब्द→अनुभव",
-      "headEn": "Vidya — Experience→Word→Experience",
+      "headMr": "📖 विद्या — अनुभव→शब्द→अनुभव",
+      "headEn": "📖 Vidya — Experience→Word→Experience",
       "paragraphs": [
         {
           "mr": "विद्येचे वाचिक स्वरूपाचे आंतरव्यक्तीक चक्र पाच टप्प्यांमध्ये पूर्ण होते. पहिल्या दोन टप्प्यांत द्रष्ट्याच्या ठिकाणी घटना घडतात. चौथ्या आणि पाचव्या टप्प्यांत साधकाच्या ठिकाणी. तिसरा टप्पा हे द्रष्ट्यापासून साधकापर्यंतचे संक्रमण आहे.",
@@ -49,8 +49,8 @@
     },
     {
       "type": "section",
-      "headMr": "कला — अनुभव→कर्म→अनुभव",
-      "headEn": "Kala — Experience→Karma→Experience",
+      "headMr": "🎭 कला — अनुभव→कर्म→अनुभव",
+      "headEn": "🎭 Kala — Experience→Karma→Experience",
       "paragraphs": [
         {
           "mr": "सर्व विद्यांचे एक सामान्य लक्षण आहे — त्यांचा विस्तार प्रामुख्याने शब्दाच्या माध्यमाने होतो. परंतु वाणी हे केवळ एक कर्मेंद्रिय आहे. इतर इंद्रियांद्वारे — हस्त, पाद, मुखमंडलावरील भाव — देखील अभिव्यक्ती होऊ शकते. वाणीव्यतिरिक्त पद्धतींसाठी विद्येचा समानार्थी म्हणजे कला.",
@@ -75,8 +75,8 @@
     },
     {
       "type": "section",
-      "headMr": "यज्ञ — सर्व कर्मांचा आदर्श नमुना",
-      "headEn": "Yajna — The Ideal Model for All Actions",
+      "headMr": "🔥 यज्ञ — सर्व कर्मांचा आदर्श नमुना",
+      "headEn": "🔥 Yajna — The Ideal Model for All Actions",
       "paragraphs": [
         {
           "mr": "यज्ञ हे दैनंदिन जीवनातील चक्रांच्या पूर्णतेचे सर्वोत्कृष्ट प्रतिनिधित्व आहे. भारतीय परंपरेतील सर्व क्रियाकलापांसाठी हा एक आदर्श नमुना आहे. त्यात व्यक्तिगत चक्रे आणि आंतरव्यक्तीक चक्रे — दोन्हींची पूर्णता समाविष्ट आहे.",
@@ -98,8 +98,8 @@
     },
     {
       "type": "section",
-      "headMr": "आरशाचे रूपक — बाह्य विधी आणि आंतरिक अर्पण",
-      "headEn": "The Mirror Metaphor — External Ritual and Inner Offering",
+      "headMr": "🪞 आरशाचे रूपक — बाह्य विधी आणि आंतरिक अर्पण",
+      "headEn": "🪞 The Mirror Metaphor — External Ritual and Inner Offering",
       "paragraphs": [
         {
           "mr": "मानसिक रूपाने देवांना अर्पण करताना ते बाहेरूनही का करावे असे वाटते? श्रीरंग महागुरू आरशाचे उदाहरण देऊन हे स्पष्ट करतात. आपला चेहरा आपलाच भाग असला तरी आपल्याला तो बाहेर प्रक्षेपित करून आरशात बघायचा असतो. या अनुभवाचा आपण आनंद घेतो. परंतु आरशात दिसणारे आपल्याशिवाय दुसरे कोणी आहे असे कधी मानत नाही.",
@@ -153,20 +153,20 @@
     },
     {
       "type": "curiosity",
-      "mr": "यज्ञाचे उच्चारण 'युजस्' पासून आले आहे. 'युज् = जोडणे' — हाच योगाचा मूळ शब्द! यज्ञ आणि योग — दोन्ही एकाच धातूमधून. यज्ञ म्हणजे बाहेरील कृतींद्वारे आंतरिक जोडणी करणे; योग म्हणजे ध्यानाद्वारे ती जोडणी करणे.",
-      "en": "The word yajna comes from 'yujas' — from root 'yuj = to connect,' the same root as yoga! Yajna and yoga — both from the same root. Yajna means creating inner connection through outer actions; yoga means creating that same connection through meditation."
+      "mr": "🌟 यज्ञाचे उच्चारण 'युजस्' पासून आले आहे. 'युज् = जोडणे' — हाच योगाचा मूळ शब्द! यज्ञ आणि योग — दोन्ही एकाच धातूमधून. यज्ञ म्हणजे बाहेरील कृतींद्वारे आंतरिक जोडणी करणे; योग म्हणजे ध्यानाद्वारे ती जोडणी करणे.",
+      "en": "🌟 The word yajna comes from 'yujas' — from root 'yuj = to connect,' the same root as yoga! Yajna and yoga — both from the same root. Yajna means creating inner connection through outer actions; yoga means creating that same connection through meditation."
     },
     {
       "type": "activity",
       "mr": [
-        "आजच्या दिवशी एक साधी कृती निवडा — जेवण बनवणे, एखाद्याशी संवाद करणे किंवा दुसऱ्यासाठी काहीतरी करणे. ती कृती करताना 'हे यज्ञ आहे — आंतरिक शक्तींना अर्पण' या भावनेत करा. अनुभव कसा वेगळा वाटतो?",
-        "एखादे संगीत किंवा कलाकृती निवडा जी तुम्हाला खूप आवडते. ती का आवडते? कलावंताने कोणता अनुभव मांडण्याचा प्रयत्न केला असेल? त्या अनुभवाशी तुमचा कोणता संबंध आहे?",
-        "तुमच्या आयुष्यातील एखाद्या शिक्षकाचे स्मरण करा. त्यांची 'विद्या' — त्यांचे शब्द — तुमच्यापर्यंत काय पोहोचवत होते?"
+        "🙏 आजच्या दिवशी एक साधी कृती निवडा — जेवण बनवणे, एखाद्याशी संवाद करणे किंवा दुसऱ्यासाठी काहीतरी करणे. ती कृती करताना 'हे यज्ञ आहे — आंतरिक शक्तींना अर्पण' या भावनेत करा. अनुभव कसा वेगळा वाटतो?",
+        "🎵 एखादे संगीत किंवा कलाकृती निवडा जी तुम्हाला खूप आवडते. ती का आवडते? कलावंताने कोणता अनुभव मांडण्याचा प्रयत्न केला असेल? त्या अनुभवाशी तुमचा कोणता संबंध आहे?",
+        "👩‍🏫 तुमच्या आयुष्यातील एखाद्या शिक्षकाचे स्मरण करा. त्यांची 'विद्या' — त्यांचे शब्द — तुमच्यापर्यंत काय पोहोचवत होते?"
       ],
       "en": [
-        "Today choose a simple action — cooking a meal, having a conversation, doing something for another. Perform it in the spirit of yajna — an offering to the inner forces. How does the experience feel different?",
-        "Choose a piece of music or artwork you deeply love. Why does it move you? What experience was the artist trying to convey? What is your connection to that experience?",
-        "Recall a teacher from your life whose 'vidya' — whose words — transmitted something essential to you. What did their words carry beyond their literal meaning?"
+        "🙏 Today choose a simple action — cooking a meal, having a conversation, doing something for another. Perform it in the spirit of yajna — an offering to the inner forces. How does the experience feel different?",
+        "🎵 Choose a piece of music or artwork you deeply love. Why does it move you? What experience was the artist trying to convey? What is your connection to that experience?",
+        "👩‍🏫 Recall a teacher from your life whose 'vidya' — whose words — transmitted something essential to you. What did their words carry beyond their literal meaning?"
       ]
     },
     {
