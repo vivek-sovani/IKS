@@ -73,8 +73,18 @@
           "headEn": "Himalaya (Crown)",
           "subMr": "ज्ञानी-योगींचे निवासस्थान",
           "subEn": "Abode of Jnanis and Yogis",
-          "itemsMr": ["बद्रीनाथ", "केदारनाथ", "कैलास", "मानससरोवर"],
-          "itemsEn": ["Badrinath", "Kedarnath", "Kailash", "Mansarovar"]
+          "itemsMr": [
+            "बद्रीनाथ",
+            "केदारनाथ",
+            "कैलास",
+            "मानससरोवर"
+          ],
+          "itemsEn": [
+            "Badrinath",
+            "Kedarnath",
+            "Kailash",
+            "Mansarovar"
+          ]
         },
         {
           "position": "top-right",
@@ -83,8 +93,18 @@
           "headEn": "River Triad (Nadis)",
           "subMr": "इडा-पिंगला-सुषुम्ना",
           "subEn": "Ida-Pingala-Sushumna",
-          "itemsMr": ["सिंधू (इडा)", "गंगा (पिंगला)", "सरस्वती (सुषुम्ना)", "नर्मदा (कटिबंध)"],
-          "itemsEn": ["Sindhu (Ida)", "Ganga (Pingala)", "Sarasvati (Sushumna)", "Narmada (girdle)"]
+          "itemsMr": [
+            "सिंधू (इडा)",
+            "गंगा (पिंगला)",
+            "सरस्वती (सुषुम्ना)",
+            "नर्मदा (कटिबंध)"
+          ],
+          "itemsEn": [
+            "Sindhu (Ida)",
+            "Ganga (Pingala)",
+            "Sarasvati (Sushumna)",
+            "Narmada (girdle)"
+          ]
         },
         {
           "position": "bottom-right",
@@ -93,8 +113,18 @@
           "headEn": "South (Dance)",
           "subMr": "कला व वास्तुशिल्प केंद्र",
           "subEn": "Centre of Arts and Architecture",
-          "itemsMr": ["चिदंबरम", "श्रीरंगम", "बेलूर-हळेबीडू", "तंजावूर"],
-          "itemsEn": ["Chidambaram", "Srirangam", "Belur-Halebidu", "Thanjavur"]
+          "itemsMr": [
+            "चिदंबरम",
+            "श्रीरंगम",
+            "बेलूर-हळेबीडू",
+            "तंजावूर"
+          ],
+          "itemsEn": [
+            "Chidambaram",
+            "Srirangam",
+            "Belur-Halebidu",
+            "Thanjavur"
+          ]
         },
         {
           "position": "bottom-left",
@@ -103,8 +133,18 @@
           "headEn": "Sacred Centers (Body)",
           "subMr": "भ्रूमध्य-हृदय-कटि",
           "subEn": "Bhrumadya-Heart-Waist",
-          "itemsMr": ["वाराणसी (भ्रूमध्य)", "कुरुक्षेत्र (वक्ष)", "प्रयाग (हृदय)", "नर्मदा (कटि)"],
-          "itemsEn": ["Varanasi (bhrumadya)", "Kurukshetra (chest)", "Prayag (heart)", "Narmada (waist)"]
+          "itemsMr": [
+            "वाराणसी (भ्रूमध्य)",
+            "कुरुक्षेत्र (वक्ष)",
+            "प्रयाग (हृदय)",
+            "नर्मदा (कटि)"
+          ],
+          "itemsEn": [
+            "Varanasi (bhrumadya)",
+            "Kurukshetra (chest)",
+            "Prayag (heart)",
+            "Narmada (waist)"
+          ]
         }
       ]
     },
@@ -155,7 +195,15 @@
     }
   ],
   "nav": {
-    "prev": { "id": "52", "titleMr": "राष्ट्र आणि राजा", "titleEn": "Rashtra and Raja — Nation and Ruler" },
-    "next": { "id": "54", "titleMr": "त्रिगुण", "titleEn": "Trigunas — Three Qualities of Existence" }
+    "prev": {
+      "id": "52",
+      "titleMr": "राष्ट्र आणि राजा",
+      "titleEn": "Rashtra and Raja — Nation and Ruler"
+    },
+    "next": {
+      "id": "57",
+      "titleMr": "उपसंहार — समीक्षा मॉडेल",
+      "titleEn": "Conclusion — The SaMIKSHA Model"
+    }
   }
 }

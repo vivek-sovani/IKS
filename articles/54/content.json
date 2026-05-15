@@ -1,6 +1,7 @@
 {
   "id": "54",
   "section": "c2",
+  "appendix": true,
   "titleMr": "त्रिगुण",
   "titleEn": "Trigunas — Three Qualities of Existence",
   "readingTime": "५",
@@ -73,8 +74,16 @@
           "headEn": "Sattva",
           "subMr": "संतुलन",
           "subEn": "Balance",
-          "itemsMr": ["प्रकाश, जाणीव", "यो‌ग्य निर्णय", "विष्णू — स्थिती"],
-          "itemsEn": ["Light, awareness", "Right discernment", "Vishnu — preservation"]
+          "itemsMr": [
+            "प्रकाश, जाणीव",
+            "यो‌ग्य निर्णय",
+            "विष्णू — स्थिती"
+          ],
+          "itemsEn": [
+            "Light, awareness",
+            "Right discernment",
+            "Vishnu — preservation"
+          ]
         },
         {
           "position": "top-right",
@@ -83,8 +92,16 @@
           "headEn": "Rajas",
           "subMr": "सक्रियता",
           "subEn": "Activity",
-          "itemsMr": ["उत्साह, जोम", "सृजन, आरंभ", "ब्रह्मा — सृष्टी"],
-          "itemsEn": ["Energy, drive", "Creation, initiation", "Brahma — creation"]
+          "itemsMr": [
+            "उत्साह, जोम",
+            "सृजन, आरंभ",
+            "ब्रह्मा — सृष्टी"
+          ],
+          "itemsEn": [
+            "Energy, drive",
+            "Creation, initiation",
+            "Brahma — creation"
+          ]
         },
         {
           "position": "bottom-left",
@@ -93,8 +110,16 @@
           "headEn": "Tamas",
           "subMr": "निष्क्रियता",
           "subEn": "Inertia",
-          "itemsMr": ["जडत्व, विश्राम", "विरोध, संपुष्टात", "महेश्वर — लय"],
-          "itemsEn": ["Heaviness, rest", "Resistance, dissolution", "Maheshvara — dissolution"]
+          "itemsMr": [
+            "जडत्व, विश्राम",
+            "विरोध, संपुष्टात",
+            "महेश्वर — लय"
+          ],
+          "itemsEn": [
+            "Heaviness, rest",
+            "Resistance, dissolution",
+            "Maheshvara — dissolution"
+          ]
         },
         {
           "position": "bottom-right",
@@ -103,8 +128,16 @@
           "headEn": "Right Context",
           "subMr": "प्रत्येक गुण योग्य क्षणी",
           "subEn": "Each guna in its moment",
-          "itemsMr": ["धर्म → सत्त्व", "अर्थ → रजस्", "काम → तमस्"],
-          "itemsEn": ["Dharma → Sattva", "Artha → Rajas", "Kama → Tamas"]
+          "itemsMr": [
+            "धर्म → सत्त्व",
+            "अर्थ → रजस्",
+            "काम → तमस्"
+          ],
+          "itemsEn": [
+            "Dharma → Sattva",
+            "Artha → Rajas",
+            "Kama → Tamas"
+          ]
         }
       ]
     },
@@ -155,7 +188,15 @@
     }
   ],
   "nav": {
-    "prev": { "id": "53", "titleMr": "देश म्हणजे व्यक्तिभूत दैवी शक्ती", "titleEn": "Nation as Embodied Divine Power" },
-    "next": { "id": "55", "titleMr": "धर्म आणि शास्त्र", "titleEn": "Dharma and Shastra" }
+    "prev": {
+      "id": "33",
+      "titleMr": "पुनर्रचनेच्या समस्या",
+      "titleEn": "Problems of Reconstruction"
+    },
+    "next": {
+      "id": "55",
+      "titleMr": "धर्म आणि शास्त्र",
+      "titleEn": "Dharma and Shastra"
+    }
   }
 }

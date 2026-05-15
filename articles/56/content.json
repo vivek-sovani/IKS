@@ -1,6 +1,7 @@
 {
   "id": "56",
   "section": "c2",
+  "appendix": true,
   "titleMr": "कर्म पुनर्विचार — पाप व पुण्य",
   "titleEn": "Karma Reconsidered — Papa and Punya",
   "readingTime": "५",
@@ -128,7 +129,15 @@
     }
   ],
   "nav": {
-    "prev": { "id": "55", "titleMr": "धर्म आणि शास्त्र", "titleEn": "Dharma and Shastra" },
-    "next": { "id": "57", "titleMr": "उपसंहार — समीक्षा मॉडेल", "titleEn": "Conclusion — The SaMIKSHA Model" }
+    "prev": {
+      "id": "55",
+      "titleMr": "धर्म आणि शास्त्र",
+      "titleEn": "Dharma and Shastra"
+    },
+    "next": {
+      "id": "34",
+      "titleMr": "धर्मासाठी संस्था निर्माण",
+      "titleEn": "Creating Institutions for Dharma"
+    }
   }
 }

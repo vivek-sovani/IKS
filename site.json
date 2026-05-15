@@ -59,7 +59,10 @@
         "30",
         "31",
         "32",
-        "33"
+        "33",
+        "54",
+        "55",
+        "56"
       ]
     },
     {
@@ -88,6 +91,17 @@
         "51",
         "52",
         "53"
+      ]
+    },
+    {
+      "id": "c4",
+      "nameMr": "परिशिष्टे",
+      "nameEn": "Appendices",
+      "articles": [
+        "57",
+        "58",
+        "59",
+        "60"
       ]
     }
   ],
@@ -408,6 +422,48 @@
       "titleMr": "देश म्हणजे व्यक्तिभूत दैवी शक्ती",
       "titleEn": "Nation as Embodied Divine Power",
       "section": "c3",
+      "status": "published"
+    },
+    "54": {
+      "titleMr": "त्रिगुण",
+      "titleEn": "Trigunas — Three Qualities of Existence",
+      "section": "c2",
+      "status": "published"
+    },
+    "55": {
+      "titleMr": "धर्म आणि शास्त्र",
+      "titleEn": "Dharma and Shastra",
+      "section": "c2",
+      "status": "published"
+    },
+    "56": {
+      "titleMr": "कर्म पुनर्विचार — पाप व पुण्य",
+      "titleEn": "Karma Reconsidered — Papa and Punya",
+      "section": "c2",
+      "status": "published"
+    },
+    "57": {
+      "titleMr": "उपसंहार — समीक्षा मॉडेल",
+      "titleEn": "Conclusion — The SaMIKSHA Model",
+      "section": "c4",
+      "status": "published"
+    },
+    "58": {
+      "titleMr": "उपयोजन १ — महाकाव्यासाठी तंत्रज्ञान मूल्यमापन",
+      "titleEn": "Application 1 — Evaluating Technology for Mahakaavya",
+      "section": "c4",
+      "status": "published"
+    },
+    "59": {
+      "titleMr": "उपयोजन २ — व्यसन, नैराश्य व जीवनशैली आजारांसाठी एकात्मिक आरोग्य प्रणाली",
+      "titleEn": "Application 2 — Integrative Healthcare for Addiction and Lifestyle Diseases",
+      "section": "c4",
+      "status": "published"
+    },
+    "60": {
+      "titleMr": "उपयोजन ३ — नवरात्रीतील बाहुल्यांची परंपरा",
+      "titleEn": "Application 3 — Navaratri Golu Tradition",
+      "section": "c4",
       "status": "published"
     }
   }

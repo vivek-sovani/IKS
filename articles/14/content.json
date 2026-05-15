@@ -6,198 +6,172 @@
   "readingTime": "५",
   "readingTimeEn": "5",
   "summary": {
-    "mr": "मानवी शरीर हे केवळ हाडे-मांस-रक्त नाही — ते 'पिंड' आहे, म्हणजे अव्यक्त आणि व्यक्त चक्रांचे क्षेत्र. उपनिषदे आणि सांख्य दर्शनाने शरीराचे भौतिक घटकांपासून अनंत आनंदाच्या अवस्थेपर्यंत क्रमवार वर्णन केले आहे. हे वर्णन समजून घेतले तरच आपल्या 'पिंडावर' प्रभाव टाकण्याची द्वारे उघडतात.",
-    "en": "The human body is not merely bones, flesh, and blood — it is the 'Pinda', the very field in which the unmanifest and manifest cycles operate. The Upanishads and Sankhya philosophy describe the body in a systematic hierarchy from physical elements to the state of unlimited bliss. Understanding this framework reveals the gateways through which the body can be influenced."
+    "mr": "उपनिषदे आणि अथर्ववेद मानवी शरीराच्या विविध भागांचे भौतिकापासून असीम आनंदापर्यंत क्रमवार वर्णन करतात. सांख्य हे भारतीय परंपरेतील मानवी प्रणालींचे पहिले व्यवस्थित वर्गीकरण आहे. सांख्य पंचमहाभूतांपासून बनलेल्या भौतिक शाखेत, दहा इंद्रियांमध्ये आणि अंतःकरणात — मनस्, अहंकार, महत् (बुद्धी) — विभागतो.",
+    "en": "The Upanishads and Atharva Veda describe various parts of the human body in sequential order from physical to limitless bliss. Sankhya is the first shastra in Indian tradition to systematically classify human systems. Sankhya divides into the branch made from Pancha Mahabhutas, the ten Indriyas, and the Antahkarana — Manas, Ahamkara, Mahat (Buddhi)."
   },
   "body": [
     {
       "type": "section",
-      "headMr": "पिंड — चक्रांचे क्षेत्र",
-      "headEn": "Pinda — The Field of Cycles",
+      "headMr": "उपनिषदे आणि सांख्य — शरीराचे क्रमवार वर्णन",
+      "headEn": "Upanishads and Sankhya — Sequential Description of the Body",
       "paragraphs": [
         {
-          "mr": "या चक्रात आपण आनंद वाढवण्यासाठी नैसर्गिक चक्रे कशी तयार करायची याचा अभ्यास करतो. यात दोन अर्धचक्रे आहेत — 'व्यक्त' आणि 'अव्यक्त'. दोन्हींकडे वेगवेगळ्या पद्धतीने बघता येते, परंतु दोन्ही एकाच क्षेत्रात घडतात — मानवी शरीरात.",
-          "en": "In this cycle we study how to create natural cycles to enhance bliss. It involves two half-cycles — the 'manifest' and the 'unmanifest'. Each is approached differently, yet both occur in the same field — the human body."
+          "mr": "उपनिषदे आणि अथर्ववेदात मानवी शरीराचे विविध भाग वर्णन केले आहेत आणि त्यांची क्रमवारीही सांगितली आहे. हे वर्णन भौतिक भागापासून सुरू होते, शारीरिक क्रियांकडे जाते, नंतर उच्च मानसिक क्रियांकडे जाते, आणि शेवटी असीम आनंदाची अवस्था येते — जिथे दुसरे काहीच उरत नाही.",
+          "en": "The Upanishads and Atharva Veda describe various parts of the human body in sequential order. This description begins with physical components, moves to physical processes, then to higher mental processes, and culminates in the state of limitless bliss — where nothing else remains."
         },
         {
-          "mr": "मानवी शरीराला भारतीय परंपरेत 'पिंड' म्हणतात. 'यत् पिण्डे तत् ब्रह्मांडे' — जे पिंडात आहे, तेच ब्रह्मांडातही आहे. हा पिंड म्हणजे केवळ भौतिक शरीर नव्हे. हे ते क्षेत्र आहे ज्यात अव्यक्त आणि व्यक्त दोन्ही चक्रे चालतात. म्हणून या पिंडाचा — मानवी शरीराचा — भारतीय दृष्टिकोन समजून घेणे अत्यंत महत्त्वाचे आहे.",
-          "en": "In the Indian tradition, the human body is called 'Pinda'. 'Yat piṇḍe tat brahmāṇḍe' — what is in the Pinda is also in the universe. This Pinda is not merely the physical body. It is the field in which both the unmanifest and manifest cycles operate. Therefore, understanding the Indian view of the human body is of fundamental importance."
-        },
-        {
-          "mr": "उपनिषदे आणि अथर्ववेदात मानवी शरीराचे विविध भाग वर्णन केले आहेत. त्यांच्यातील क्रमवारीही सांगितली आहे. हे वर्णन भौतिक भागापासून सुरू होते, शारीरिक क्रियांकडे जाते, नंतर उच्च मानसिक क्रियांकडे जाते, आणि शेवटी असीम आनंदाची अवस्था येते. या अवस्थेत दुसरे काहीच उरत नाही.",
-          "en": "The Upanishads and Atharva Veda describe the various parts of the human body and their sequence. This description begins with physical components, moves to physiological processes, then to higher mental activities, and culminates in the state of unlimited bliss — where nothing else remains."
+          "mr": "सांख्य हे भारतीय परंपरेत मानवी प्रणालींचे वर्गीकरण करणारे पहिले शास्त्र आहे. सांख्य तीन शाखांमध्ये विभागते: (१) पंचमहाभूतांपासून बनलेली भौतिक आणि दैहिक शाखा; (२) गती आणि संवेदनांची शाखा — म्हणजे दहा इंद्रिये; (३) अंतःकरण — आंतरिक मानसिक प्रक्रिया — मनस्, अहंकार, महत् (बुद्धी). वेदांतात यात मनस्, बुद्धी, अहंकार, चित्त असे थोडे वेगळे नामकरण असले तरी त्याच मूळ प्रक्रिया आहेत.",
+          "en": "Sankhya is the first shastra in Indian tradition to systematically classify human systems. Sankhya divides into three branches: (1) the branch made of Pancha Mahabhutas — physical and corporeal parts; (2) the branch of movement and sensation — the ten Indriyas; (3) Antahkarana — inner mental processes — Manas, Ahamkara, Mahat (Buddhi). In Vedanta the naming differs slightly — Manas, Buddhi, Ahamkara, Chitta — but the same underlying functions are meant."
         }
       ]
-    },
-    {
-      "type": "section",
-      "headMr": "सांख्य दर्शन — शरीराचे पहिले व्यवस्थित वर्गीकरण",
-      "headEn": "Sankhya Philosophy — The First Systematic Classification",
-      "paragraphs": [
-        {
-          "mr": "सांख्य हे योगाचे पूर्वशास्त्र आहे. भारतीय परंपरेत मानवी प्रणालींचे वर्गीकरण करणारे हे पहिले शास्त्र आहे. सांख्य तत्त्वज्ञानात मानवी शरीराच्या रचनेच्या मुख्य शाखा सांगितल्या आहेत.",
-          "en": "Sankhya is the foundational philosophy of Yoga, and the first Indian system to classify human faculties systematically. Sankhya philosophy describes the main branches of the human body's structure."
-        },
-        {
-          "mr": "एक शाखा पंचमहाभूतांपासून बनलेल्या भौतिक घटकांची आहे — हाडे, त्वचा, स्नायू, रक्त इत्यादी. दुसरी शाखा गती आणि संवेदनांची आहे — म्हणजे दहा इंद्रिये: पाच ज्ञानेंद्रिये आणि पाच कर्मेंद्रिये. याशिवाय सांख्य आणखी एक महत्त्वाचा घटक मानते — अंतःकरण, म्हणजे मनस्, अहंकार आणि महत् (बुद्धी). वेदांतात यात चित्ताचीही भर पडते.",
-          "en": "One branch covers physical components made of the five elements (Pancha Mahabhutas) — bones, skin, muscles, blood, etc. A second branch covers movement and sensation — the ten Indriyas: five Jnanendriyas and five Karmendriyas. Beyond these, Sankhya recognises the Antahkarana — Manas, Ahamkara, and Mahat (Buddhi). Vedanta adds Chitta to this list."
-        },
-        {
-          "mr": "वेदांतातील इतर पद्धतींमध्ये यादी थोडी वेगळी असते — उदाहरणार्थ मनस्, बुद्धी, अहंकार आणि चित्त. कधीकधी बुद्धी आणि अहंकार यांचा स्वतंत्र उल्लेख केला जात नाही; त्यांना मनस् आणि बुद्धीच्या अंतर्गत मानले जाते. या अंतःकरणांचे स्वरूप काय आहे आणि ते एकत्र कसे काम करतात — यासाठी पुढील अध्यायात विस्तृत विवेचन आहे.",
-          "en": "In other Vedantic traditions, the list differs slightly — for example, Manas, Buddhi, Ahamkara, and Chitta. Sometimes Buddhi and Ahamkara are not mentioned separately, being subsumed under Manas and Buddhi. What these Antahkarana processes are and how they work together is explored in detail in the next chapter."
-        }
-      ],
-      "insight": {
-        "mr": "भारतीय परंपरेत शरीराचे वर्णन केवळ शरीरशास्त्राचे नाही — ते अनुभवशास्त्र आहे. प्रत्येक थर — भौतिक, प्राणिक, मानसिक, बौद्धिक, आनंदमय — हा प्रत्यक्ष अनुभवण्यायोग्य आहे. शरीरशास्त्र हे साधन आहे, साधना हे ध्येय.",
-        "en": "In the Indian tradition, the description of the body is not merely anatomy — it is a science of experience. Every layer — physical, vital, mental, intellectual, blissful — is directly experienceable. Anatomy is the instrument; practice is the goal."
-      }
     },
     {
       "type": "termBox",
       "word": "पंचकोश",
       "roman": "Pañcakośa",
-      "defMr": "पंच म्हणजे पाच, कोश म्हणजे थर किंवा आवरण. तैत्तिरीय उपनिषदात वर्णन केलेले पाच थर: अन्नमय (भौतिक), प्राणमय (प्राणशक्ती), मनोमय (मानसिक), विज्ञानमय (बुद्धिमत्ता) आणि आनंदमय (अनंत आनंद). सर्वांत आतला कोश म्हणजे आनंद.",
-      "defEn": "Pañca means five, Kośa means sheath or layer. The five layers described in the Taittiriya Upanishad: Annamaya (physical), Pranamaya (vital force), Manomaya (mental), Vijnanamaya (intellectual), and Anandamaya (bliss). The innermost layer is bliss itself."
+      "defMr": "तैत्तिरीय उपनिषदात वर्णन केलेले पाच थर: अन्नमय कोश (अन्न/भौतिक), प्राणमय कोश (प्राण/जीवनशक्ती), मनोमय कोश (मन), विज्ञानमय कोश (विवेक/बुद्धी), आनंदमय कोश (आनंद — सर्वांत आतला, परम आनंदाकडे निर्देश करतो). अथर्ववेद (शौनक) १०.२ मध्ये अन्न-प्राण-मनस् यांचे त्रिक, देवकोश आणि हिरण्यमय कोश यांचे वर्णन आहे.",
+      "defEn": "Five layers described in the Taittiriya Upanishad: Annamaya Kosha (food/matter), Pranamaya Kosha (prana/life-force), Manomaya Kosha (mind), Vijnanamaya Kosha (discernment/intellect), Anandamaya Kosha (bliss — innermost; points to the supreme state of bliss). Atharva Veda (Shaunaka) 10.2 describes the triad of anna-prana-manas, devakOsha, and hiranyamaya kosha."
     },
     {
       "type": "section",
-      "headMr": "पंचकोश — आंतरिक थरांची रचना",
-      "headEn": "Panchakosha — The Architecture of Inner Layers",
+      "headMr": "दहा इंद्रिये",
+      "headEn": "Ten Indriyas",
       "paragraphs": [
         {
-          "mr": "तैत्तिरीय उपनिषदाने मानवी अस्तित्वाचे पाच थरांमध्ये वर्णन केले आहे — पंचकोश. सर्वांत बाहेरचा अन्नमय कोश म्हणजे भौतिक शरीर — हाडे, मांस, रक्त. त्याच्या आत प्राणमय कोश — श्वास आणि शारीरिक क्रियांची शक्ती. त्याच्या आत मनोमय कोश — मन आणि भावना. आणखी आत विज्ञानमय कोश — बुद्धी आणि विवेक.",
-          "en": "The Taittiriya Upanishad describes the human being in five layers — Panchakosha. The outermost Annamaya Kosha is the physical body — bones, flesh, blood. Within it lies the Pranamaya Kosha — the force of breath and physiological activity. Within that is the Manomaya Kosha — mind and emotions. Deeper still is the Vijnanamaya Kosha — intellect and discernment."
-        },
-        {
-          "mr": "सर्वांत आत — सर्वांच्या केंद्रात — आनंदमय कोश आहे. हा आनंदाचा परम थर आहे. हे केवळ कवित्व नाही — हा अनुभवाचा सिद्धांत आहे. या पाच थरांमधून आत जाण्याचा मार्ग म्हणजे अव्यक्त आणि व्यक्त चक्रांचे साधन. शरीरावर प्रभाव टाकण्यासाठी कोणत्या थरात काम करायचे हे जाणून घेणे आवश्यक आहे.",
-          "en": "At the innermost core lies the Anandamaya Kosha — the layer of supreme bliss. This is not merely poetry — it is an experiential theory. The pathway inward through these five layers is the means for the unmanifest and manifest cycles. Knowing which layer to engage is essential for influencing the body."
-        },
-        {
-          "mr": "या पंचकोशाच्या चौकटीत मानवी शरीराचे तीन प्रकारात वर्गीकरण करता येते: स्थूल शरीर (भौतिक — अन्नमय), सूक्ष्म शरीर (दहा इंद्रिये, पाच प्राण, मन आणि बुद्धी — एकूण सतरा घटक) आणि कारण शरीर (आनंदमय थर). हे तीन शरीरे म्हणजे एकाच अस्तित्वाचे तीन दृष्टिकोन.",
-          "en": "Within the Panchakosha framework, the human body can be classified into three: the Sthula Sharira (gross/physical — Annamaya), the Sukshma Sharira (subtle — ten Indriyas, five Pranas, Manas, and Buddhi, totalling seventeen components), and the Karana Sharira (causal — the Anandamaya layer). These three bodies are three perspectives on a single existence."
+          "mr": "पाच ज्ञानेंद्रिये म्हणजे: दृष्टी, श्रवण, स्पर्श, रसना, घ्राण. पाच कर्मेंद्रिये म्हणजे: वाणी, हात, पाय, मलमूत्रविसर्जन, प्रजनन. ही दहा इंद्रिये मिळून बाह्य जगाशी आपला संवाद घडवतात. सांख्यकारिका (२७) सांगतो की मनस् हे अकरावे इंद्रिय आहे — ते संवेदन माहितीवर प्रक्रिया करते आणि कर्मेंद्रियांमागील इच्छाशक्ती आहे.",
+          "en": "Five Jnanendriyas: sight (drishti), hearing (shravana), touch (sparsha), taste (rasana), smell (ghrana). Five Karmendriyas: speech (vak), hands (hasta), feet (pada), elimination (payu), reproduction (upastha). Together these ten Indriyas mediate our interaction with the outer world. Sankhyakarika (27) states that Manas is the eleventh Indriya — it processes sense information and is the willing-power behind the Karmendriyas."
         }
       ]
     },
     {
+      "type": "section",
+      "headMr": "अंतःकरण — आंतरिक साधन",
+      "headEn": "Antahkarana — The Inner Instrument",
+      "paragraphs": [
+        {
+          "mr": "मनस् म्हणजे अकरावे इंद्रिय — ते संवेदन माहितीवर प्रक्रिया करते आणि कर्मेंद्रियांमागील इच्छाशक्ती आहे (सांख्यकारिका २७). बुद्धी (महत्) म्हणजे अंतिम निर्णय घेणारी शक्ती — मन पर्याय सुचवते, बुद्धी निर्णय घेते (सांख्यकारिका २३). अहंकार म्हणजे 'मी'ची भावना — निर्णय 'मी, माझे, माझे मित्र' यांच्यासाठी काय हितकारक आहे या दृष्टिकोनातून मार्गदर्शित होतात (वेदांतसार ६९).",
+          "en": "Manas is the eleventh Indriya — it processes sense information and is the willing-power behind the Karmendriyas (Sankhyakarika 27). Buddhi (Mahat) is the final decision-maker — the mind presents options, Buddhi decides (Sankhyakarika 23). Ahamkara is the 'I' sense — decisions are guided by what is beneficial to 'I, mine, my friends' (Vedantasara 69)."
+        },
+        {
+          "mr": "चित्त — वेदांतात — स्मृतीसाठी जबाबदार आहे. योगात चित्त हे संज्ञान, प्रत्यक्षीकरण, कल्पना, स्मृती आणि निद्रा यांसाठी जबाबदार इंद्रिय-चालक आहे (पातञ्जल योगसूत्र ६). चित्ताच्या अवस्था: मन्द, मूढ, विक्षिप्त, एकाग्र, निरुद्ध (पातञ्जल योगसूत्र १). आधुनिक विज्ञान भावनांचे केंद्र म्हणून अमिग्डालाची पुष्टी करते (पर्व्हेज इत्यादी, २००४).",
+          "en": "Chitta — in Vedanta — is responsible for memory. In Yoga, Chitta is the sense-driver responsible for cognition, perception, imagination, memory, and sleep (Patanjali YS 6). Chitta states: manda, mudha, vikshipta, ekagra, niruddha (Patanjali YS 1). Modern science confirms the emotion centre as the amygdala (Purves et al. 2004)."
+        }
+      ],
+      "insight": {
+        "mr": "भारतीय परंपरेत शरीराचे वर्णन केवळ शरीरशास्त्र नाही — ते अनुभवशास्त्र आहे. मनस्, बुद्धी, अहंकार आणि चित्त या प्रक्रिया केवळ तात्त्विक वर्गीकरण नाहीत — त्या प्रत्येक निर्णयात, प्रत्येक भावनेत अनुभवण्यायोग्य आहेत.",
+        "en": "In the Indian tradition, the description of the body is not merely anatomy — it is a science of experience. Manas, Buddhi, Ahamkara, and Chitta are not merely philosophical categories — they are experienceable in every decision, every emotion."
+      }
+    },
+    {
       "type": "termBox",
-      "word": "स्थूल आणि सूक्ष्म शरीर",
-      "roman": "Sthūla & Sūkṣma Śarīra",
-      "defMr": "स्थूल शरीर म्हणजे भौतिक शरीर — पंचमहाभूतांनी बनलेले. सूक्ष्म शरीर म्हणजे दहा इंद्रिये, पाच प्राण, मन आणि बुद्धी — एकूण सतरा घटक. स्थूल म्हणजे दिसणारे; सूक्ष्म म्हणजे न दिसणारे पण अनुभवण्यायोग्य.",
-      "defEn": "Sthula Sharira is the gross physical body — made of the five elements. Sukshma Sharira is the subtle body — comprising ten Indriyas, five Pranas, Manas, and Buddhi, totalling seventeen components. Sthula is visible; Sukshma is invisible yet experienceable."
+      "word": "अंतःकरण",
+      "roman": "Antaḥkaraṇa",
+      "defMr": "आंतरिक साधन — मनस्, बुद्धी, अहंकार आणि चित्त. मनस् इंद्रियांमधून माहिती गोळा करतो; बुद्धी निर्णय घेते; अहंकार 'मी'च्या भावनेद्वारे निर्णयाला रंग देतो; चित्त स्मृती व धारणा ठेवते.",
+      "defEn": "The inner instrument — Manas, Buddhi, Ahamkara, and Chitta. Manas gathers information from the senses; Buddhi decides; Ahamkara colours decisions through the sense of 'I'; Chitta holds memory and impressions."
     },
     {
       "type": "infographic",
       "svgType": "bars",
-      "titleMr": "पंचकोश — स्थूलापासून आनंदाकडे",
-      "titleEn": "Panchakosha — From Gross to Bliss",
-      "captionMr": "मानवी अस्तित्वाचे पाच थर — बाहेरच्या भौतिक थरापासून आत आनंदाच्या परम थरापर्यंत.",
-      "captionEn": "The five layers of the human being — from the outermost physical sheath inward to the supreme layer of bliss.",
+      "titleMr": "मानवी प्रणाली — भौतिकापासून आनंदापर्यंत",
+      "titleEn": "Human System — From Physical to Bliss",
+      "captionMr": "सांख्य आणि वेदांताने वर्णन केलेल्या मानवी प्रणालीचे थर — स्थूल भौतिकापासून परम आनंदाच्या आनंदमय कोशापर्यंत.",
+      "captionEn": "Layers of the human system as described by Sankhya and Vedanta — from the gross physical to the Anandamaya Kosha of supreme bliss.",
       "barLabelMr": "सूक्ष्मता",
       "barLabelEn": "Subtlety",
       "showInfinity": true,
       "states": [
         {
-          "mr": "अन्नमय कोश",
-          "en": "Annamaya Kosha",
+          "mr": "भौतिक (अन्नमय)",
+          "en": "Physical (Annamaya)",
           "roman": "Anna-maya",
-          "subMr": "भौतिक शरीर",
-          "subEn": "Physical body",
+          "subMr": "पंचमहाभूतांपासून बनलेले",
+          "subEn": "Made of Pancha Mahabhutas",
           "sub2Mr": "हाडे, मांस, रक्त",
           "sub2En": "Bones, flesh, blood",
           "barWidth": 60
         },
         {
-          "mr": "प्राणमय कोश",
-          "en": "Pranamaya Kosha",
-          "roman": "Prāṇa-maya",
-          "subMr": "प्राणशक्तीचा थर",
-          "subEn": "Vital force sheath",
-          "sub2Mr": "श्वास, रक्तसंचार",
-          "sub2En": "Breath, circulation",
-          "barWidth": 90
+          "mr": "दहा इंद्रिये",
+          "en": "Ten Indriyas",
+          "roman": "Daśa Indriya",
+          "subMr": "५ ज्ञान + ५ कर्म",
+          "subEn": "5 Jnana + 5 Karma",
+          "sub2Mr": "गती आणि संवेदन",
+          "sub2En": "Movement and sensation",
+          "barWidth": 100
         },
         {
-          "mr": "मनोमय कोश",
-          "en": "Manomaya Kosha",
-          "roman": "Mano-maya",
-          "subMr": "मानसिक थर",
-          "subEn": "Mental sheath",
-          "sub2Mr": "मन, भावना",
-          "sub2En": "Mind, emotions",
-          "barWidth": 120
-        },
-        {
-          "mr": "विज्ञानमय कोश",
-          "en": "Vijnanamaya Kosha",
-          "roman": "Vijñāna-maya",
-          "subMr": "बुद्धिमत्तेचा थर",
-          "subEn": "Intellectual sheath",
-          "sub2Mr": "बुद्धी, विवेक",
-          "sub2En": "Intellect, discernment",
-          "barWidth": 150
+          "mr": "अंतःकरण",
+          "en": "Antahkarana",
+          "roman": "Antaḥkaraṇa",
+          "subMr": "मनस्, बुद्धी, अहंकार, चित्त",
+          "subEn": "Manas, Buddhi, Ahamkara, Chitta",
+          "sub2Mr": "आंतरिक मानसिक प्रक्रिया",
+          "sub2En": "Inner mental processes",
+          "highlight": true,
+          "barWidth": 160
         },
         {
           "mr": "आनंदमय कोश",
           "en": "Anandamaya Kosha",
           "roman": "Ānanda-maya",
-          "subMr": "आनंदाचा परम थर",
-          "subEn": "Supreme bliss sheath",
-          "sub2Mr": "असीम आनंद",
-          "sub2En": "Unlimited bliss",
-          "highlight": true,
-          "barWidth": 180
+          "subMr": "असीम आनंद — परम अवस्था",
+          "subEn": "Limitless bliss — supreme state",
+          "sub2Mr": "सर्वांत आतला — दुसरे काहीच उरत नाही",
+          "sub2En": "Innermost — nothing else remains",
+          "barWidth": 210
         }
       ],
       "callout": {
-        "mr": ["तीन शरीरे:", "स्थूल (भौतिक)", "सूक्ष्म (१७ घटक)", "कारण (आनंद)"],
-        "en": ["Three bodies:", "Sthula (physical)", "Sukshma (17 parts)", "Karana (bliss)"]
+        "mr": ["संगणक साम्य:", "भौतिक = हार्डवेअर", "इंद्रिये = I/O", "प्राण = विद्युत प्रवाह", "चित्त = ऑपरेटिंग सिस्टम"],
+        "en": ["Computer analogy:", "Physical = hardware", "Indriyas = I/O", "Prana = electrical flow", "Chitta = operating system"]
       }
     },
     {
       "type": "concepts",
       "items": [
         {
-          "term": "पंचमहाभूते",
-          "roman": "Pañcamahābhūta",
-          "defMr": "पाच मूलभूत तत्त्वे: पृथ्वी, आप, तेजस्, वायु, आकाश. स्थूल शरीर यांनी बनलेले आहे.",
-          "defEn": "Five fundamental elements: Earth, Water, Fire, Air, Space. The gross physical body is composed of these."
+          "term": "मनस्",
+          "roman": "Manas",
+          "defMr": "अकरावे इंद्रिय. इंद्रियांमधून माहिती गोळा करते; कर्मेंद्रियांमागील इच्छाशक्ती आहे. पर्याय सुचवते, परंतु अंतिम निर्णय बुद्धी घेते. (सांख्यकारिका २७)",
+          "defEn": "The eleventh Indriya. It gathers information from the senses; is the willing-power behind the Karmendriyas. It presents options, but the final decision is made by Buddhi. (Sankhyakarika 27)"
         },
         {
-          "term": "ज्ञानेंद्रिये",
-          "roman": "Jñānendriya",
-          "defMr": "पाच संवेदन-अवयव: दृष्टी, श्रवण, स्पर्श, रसना, घ्राण. यांच्याद्वारे बाह्य जगाची माहिती घेतली जाते.",
-          "defEn": "Five organs of perception: sight, hearing, touch, taste, smell. Through these, information from the outer world is received."
+          "term": "बुद्धी",
+          "roman": "Buddhi",
+          "defMr": "महत् — अंतिम निर्णय घेणारी शक्ती. मन पर्याय सुचवते, बुद्धी निर्णय घेते. (सांख्यकारिका २३)",
+          "defEn": "Mahat — the final decision-maker. The mind presents options, Buddhi decides. (Sankhyakarika 23)"
         },
         {
-          "term": "कर्मेंद्रिये",
-          "roman": "Karmendriya",
-          "defMr": "पाच कर्म-अवयव: वाणी, हात, पाय, मलमूत्रविसर्जन, प्रजनन. यांच्याद्वारे जगात कृती केली जाते.",
-          "defEn": "Five organs of action: speech, hands, feet, elimination, reproduction. Through these, actions are carried out in the world."
+          "term": "अहंकार",
+          "roman": "Ahaṃkāra",
+          "defMr": "'मी'ची भावना — निर्णय 'मी, माझे, माझे मित्र' यांसाठी काय हितकारक आहे यादृष्टीने मार्गदर्शित होतात. (वेदांतसार ६९)",
+          "defEn": "The 'I' sense — decisions are guided by what is beneficial to 'I, mine, my friends'. (Vedantasara 69)"
         },
         {
-          "term": "अंतःकरण",
-          "roman": "Antaḥkaraṇa",
-          "defMr": "आंतरिक साधन: मनस्, बुद्धी, अहंकार आणि चित्त. इंद्रियांपलीकडे असलेल्या मानसिक प्रक्रियांचा समूह.",
-          "defEn": "The inner instrument: Manas, Buddhi, Ahamkara, and Chitta. The ensemble of mental processes beyond the physical Indriyas."
+          "term": "चित्त",
+          "roman": "Citta",
+          "defMr": "वेदांतात स्मृतीसाठी जबाबदार. योगात संज्ञान, प्रत्यक्षीकरण, कल्पना, स्मृती आणि निद्रा यांचे चालक. चित्तवृत्ती: मन्द, मूढ, विक्षिप्त, एकाग्र, निरुद्ध. (पातञ्जल यो.सू. १, ६)",
+          "defEn": "In Vedanta, responsible for memory. In Yoga, drives cognition, perception, imagination, memory, and sleep. Chitta states: manda, mudha, vikshipta, ekagra, niruddha. (Patanjali YS 1, 6)"
         }
       ]
     },
     {
       "type": "curiosity",
-      "mr": "आधुनिक न्यूरोसायन्सने शरीराच्या कार्याची तुलना संगणकाशी केली — हार्डवेअर (भौतिक शरीर), सॉफ्टवेअर (इंद्रिये), ऑपरेटिंग सिस्टम (चित्त). भारतीय परंपरेने हीच रचना हजारो वर्षांपूर्वी पंचकोशाच्या भाषेत मांडली होती! अन्नमय ते आनंदमय या प्रवासात आधुनिक विज्ञानाच्या प्रत्येक संकल्पनेचे प्रतिबिंब दिसते.",
-      "en": "Modern neuroscience compared the body's function to a computer — hardware (physical body), software (senses), operating system (Chitta). The Indian tradition had mapped this same architecture thousands of years ago in the language of the Panchakosha! In the journey from Annamaya to Anandamaya, reflections of modern scientific concepts are visible at every level."
+      "mr": "भारतीय शास्त्रांनी वर्णन केलेल्या अंतःकरण-रचनेची संगणक प्रणालीशी रंजक तुलना करता येते: भौतिक पैलू = हार्डवेअर (मदरबोर्ड, प्रोसेसर); शारीरिक प्रक्रिया = हार्डवेअरवर चालणारे सॉफ्टवेअर; इंद्रिये = इनपुट-आउटपुट (कीबोर्ड, माउस, मॉनिटर — हार्डवेअर आणि सॉफ्टवेअर दोन्ही); प्राण = प्रणालीतील विद्युत प्रवाह, संदेशांचा प्रवाह; मनस्, बुद्धी, अहंकार, भाव = विशिष्ट उद्देशांसाठी विशेष सॉफ्टवेअर अॅप्लिकेशन्स; चित्त = ऑपरेटिंग सिस्टम ज्यावर सर्व कार्यक्रम चालतात — वेगवेगळ्या कार्यक्रमांनुसार सिस्टमची अवस्था बदलते (हलका भार, जड भार किंवा अडकलेले) — या अवस्था म्हणजे चित्तवृत्ती.",
+      "en": "The Antahkarana structure described by Indian shastras maps onto a computer system in a remarkable way: physical aspects = hardware (motherboard, processor, silicon chips); physical processes = software running on the hardware; Indriyas = input/output (keyboard, mouse, monitor — both hardware and software aspects); Prana = electrical flow in circuits, message flow during programs; Manas, Buddhi, Ahamkara, Bhava = specialized software applications for specific purposes; Chitta = the operating system on which all programs run — as different programs run, the system state changes (light load, heavy load, or stuck) — these states are Chittavritti."
     },
     {
       "type": "activity",
       "mr": [
-        "पाच कोशांची यादी करा आणि प्रत्येकाशी संबंधित एक अनुभव आठवा. अन्नमय कोश: आपल्या श्वासाकडे लक्ष द्या. प्राणमय कोश: हृदयाचे ठोके अनुभवा. मनोमय कोश: एखादी आनंदाची आठवण आणा. विज्ञानमय कोश: एखादा कठीण निर्णय आठवा. आनंदमय कोश: विचार नसलेला एक शांत क्षण आठवा.",
-        "दहा इंद्रियांची यादी करा. आज तुम्ही कोणत्या इंद्रियाचा सर्वाधिक उपयोग केला? कोणत्या इंद्रियाचा सर्वात कमी? त्याचा तुमच्या अनुभवावर काय परिणाम झाला?",
-        "एका शांत ठिकाणी बसा. डोळे मिटा. लक्ष आधी बाहेरच्या आवाजांकडे (ज्ञानेंद्रिय). मग श्वासाकडे (प्राणमय). मग मनातील विचारांकडे (मनोमय). मग कोणता निर्णय घ्यायचा आहे त्याकडे (विज्ञानमय). शेवटी — कोणत्याही विचाराशिवाय — एक शांत क्षण अनुभवा (आनंदमय)."
+        "पाच ज्ञानेंद्रिये आणि पाच कर्मेंद्रिये यांची यादी करा. आज तुम्ही कोणत्या ज्ञानेंद्रियाचा सर्वाधिक उपयोग केला? त्याचा तुमच्या अनुभवावर काय परिणाम झाला?",
+        "एखादा निर्णय घेण्याचा प्रसंग आठवा. त्यावेळी मनस् (पर्याय सुचवणे), बुद्धी (निर्णय घेणे) आणि अहंकार ('माझे काय हितकारक') या तीन प्रक्रिया वेगळ्या ओळखता येतात का?",
+        "एका शांत ठिकाणी बसा. लक्ष आधी बाहेरच्या आवाजांकडे (ज्ञानेंद्रिय), मग श्वासाकडे (प्राणमय), मग मनातील विचारांकडे (मनोमय), मग कोणता निर्णय घ्यायचा त्याकडे (विज्ञानमय). शेवटी — कोणत्याही विचाराशिवाय — एक शांत क्षण अनुभवा (आनंदमय)."
       ],
       "en": [
-        "List the five Koshas and recall one experience associated with each. Annamaya: notice your breath. Pranamaya: feel your heartbeat. Manomaya: recall a joyful memory. Vijnanamaya: remember a difficult decision. Anandamaya: recall a moment of pure, thought-free stillness.",
-        "List all ten Indriyas. Which sense did you use most today? Which the least? What effect did this have on your experience of the day?",
-        "Sit quietly. Close your eyes. Direct attention first to external sounds (Jnana-indriya). Then to the breath (Pranamaya). Then to thoughts in the mind (Manomaya). Then to a decision you need to make (Vijnanamaya). Finally — without any thought — rest in a still moment (Anandamaya)."
+        "List the five Jnanendriyas and five Karmendriyas. Which Jnana-indriya did you use most today? What effect did that have on your experience?",
+        "Recall a situation where you had to make a decision. Can you separately identify the three processes at work: Manas (suggesting options), Buddhi (deciding), and Ahamkara ('what benefits me')?",
+        "Sit quietly. Direct attention first to external sounds (Jnana-indriya), then to the breath (Pranamaya), then to thoughts in the mind (Manomaya), then to a decision you need to make (Vijnanamaya). Finally — without any thought — rest in a still moment (Anandamaya)."
       ]
     },
     {
@@ -209,8 +183,8 @@
     },
     {
       "type": "phase2",
-      "mr": "सखोल अध्ययनात तैत्तिरीय उपनिषदाच्या ब्रह्मानंद वल्लीतून पंचकोशाचे विस्तृत विवेचन, सांख्यकारिकेतील शरीराचे वर्गीकरण, अथर्वशीर्षाचे संदर्भ आणि योगशास्त्रातील तीन शरीरांच्या (स्थूल, सूक्ष्म, कारण) सिद्धांताचा समावेश असेल.",
-      "en": "Advanced reading will include a detailed exposition of the Panchakosha from the Brahmananda Valli of the Taittiriya Upanishad, the body classification in the Sankhya Karika, references from the Atharva Veda, and the theory of the three bodies (Sthula, Sukshma, Karana) in Yoga philosophy."
+      "mr": "सखोल अध्ययनात तैत्तिरीय उपनिषदाच्या ब्रह्मानंद वल्लीतून पंचकोशाचे विस्तृत विवेचन, सांख्यकारिकेतील शरीराचे वर्गीकरण (श्लोक २३, २७), वेदांतसार (श्लोक ६९), पातञ्जल योगसूत्रांतील चित्ताचे विश्लेषण, आणि अथर्ववेद (शौनक) १०.२ चे संदर्भ असतील.",
+      "en": "Advanced reading will include a detailed exposition of the Panchakosha from the Brahmananda Valli of the Taittiriya Upanishad, the body classification in the Sankhya Karika (verses 23, 27), Vedantasara (verse 69), Patanjali's analysis of Chitta in the Yogasutras, and references from Atharva Veda (Shaunaka) 10.2."
     }
   ],
   "nav": {

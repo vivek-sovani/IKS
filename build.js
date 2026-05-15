@@ -46,6 +46,11 @@ const FF = {
   en: `'Crimson Pro',Georgia,serif`,
 };
 
+/** Convert Arabic numeral to Devanagari digit string */
+function toDevanagari(n) {
+  return String(n).replace(/\d/g, d => '०१२३४५६७८९'[d]);
+}
+
 /** Bilingual <p> pair */
 function biP(mr, en) {
   return `      <p data-lang="mr">\n        ${mr}\n      </p>\n      <p data-lang="en" style="display:none;">\n        ${en}\n      </p>`;
@@ -491,6 +496,13 @@ function page(c, sec, id) {
   const hasSlides = (c.body || []).some(b => b.type === 'slides');
   const desc = c.metaDesc || (c.summary && c.summary.mr ? c.summary.mr.slice(0, 160) : '');
 
+  // Article / Appendix badge
+  const artNum    = parseInt(id, 10);
+  const isAppendix = (c.appendix === true || c.section === 'c4');
+  const seqNum    = c.section === 'c4' ? artNum - 56 : (c.appendix ? artNum - 53 : artNum);
+  const badgeMr   = isAppendix ? `परिशिष्ट ${toDevanagari(seqNum)}` : `अध्याय ${toDevanagari(seqNum)}`;
+  const badgeEn   = isAppendix ? `Appendix ${seqNum}` : `Chapter ${seqNum}`;
+
   return `<!DOCTYPE html>
 <html lang="mr">
 <head>
@@ -550,7 +562,10 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
 
   <!-- ARTICLE HEADER — title band -->
   <div class="art-header">
-    <div class="art-num-badge">लेख / Article ${id}</div>
+    <div class="art-num-badge">
+      <span data-lang="mr">${badgeMr}</span>
+      <span data-lang="en" style="display:none;">${badgeEn}</span>
+    </div>
     <h1 data-lang="mr">${c.titleMr}</h1>
     <h1 data-lang="en" style="display:none;">${c.titleEn}</h1>
     <div class="en-title" data-lang="mr">${c.titleEn}</div>
