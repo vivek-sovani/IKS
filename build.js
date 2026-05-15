@@ -247,8 +247,8 @@ function svgWheel(inf) {
   const Q_POS = {
     'top-left':     { x:20,  y:32,  w:220, h:90,  lx1:240, ly1:77,  lx2:298, ly2:130 },
     'top-right':    { x:460, y:32,  w:222, h:90,  lx1:460, ly1:77,  lx2:402, ly2:130 },
-    'bottom-left':  { x:20,  y:202, w:220, h:100, lx1:240, ly1:247, lx2:298, ly2:194 },
-    'bottom-right': { x:460, y:202, w:222, h:100, lx1:460, ly1:247, lx2:402, ly2:194 },
+    'bottom-left':  { x:20,  y:228, w:220, h:96,  lx1:240, ly1:224, lx2:298, ly2:194 },
+    'bottom-right': { x:460, y:228, w:222, h:96,  lx1:460, ly1:224, lx2:402, ly2:194 },
   };
 
   const quads = inf.quadrants || [];
@@ -280,13 +280,13 @@ function svgWheel(inf) {
         out.push(`          <text font-family="${ff}" font-size="12" fill="#1C2535" x="${tx}" y="${p.y + 52 + i * 17}">${item}</text>`);
       });
     });
-    out.push(`          <text font-family="${ff}" font-size="12" fill="#6B7A8D" text-anchor="middle" x="350" y="308" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="12" fill="#6B7A8D" text-anchor="middle" x="350" y="336" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
     return out.join('\n');
   }
 
-  return `      <svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" role="img">
+  return `      <svg viewBox="0 0 700 348" xmlns="http://www.w3.org/2000/svg" role="img">
         <title>${inf.titleMr}</title>
-        <rect width="700" height="320" fill="#FAF7F3"/>
+        <rect width="700" height="348" fill="#FAF7F3"/>
         <circle cx="350" cy="162" r="52" fill="#D4500A" stroke="#B03A06" stroke-width="1.5"/>
 ${structure}
 ${lines}
