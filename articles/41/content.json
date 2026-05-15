@@ -13,7 +13,7 @@
     {
       "type": "section",
       "headMr": "चार वेद — अभिव्यक्तीचे चार टप्पे",
-      "headEn": "Four Vedas — Four Stages of Expression",
+      "headEn": "📜 Four Vedas — Four Stages of Expression",
       "paragraphs": [
         {
           "mr": "एखाद्या महान संगीतकाराचे उत्स्फूर्त गाणे ऐकले आहे का? काहीवेळा ते साध्या शब्दांत बोलतात, काहीवेळा हावभावांसह, काहीवेळा सुरांनी ओथंबलेल्या गीतात आणि काहीवेळा त्यांचे गाणे रोजच्या जगण्यावर प्रभाव पाडते. हेच अभिव्यक्तीचे चार टप्पे आहेत — आणि चार वेद त्यांचे प्रतिनिधित्व करतात.",
@@ -28,7 +28,7 @@
     {
       "type": "section",
       "headMr": "ऋग्वेद आणि यजुर्वेद",
-      "headEn": "Rigveda and Yajurveda",
+      "headEn": "🔥 Rigveda and Yajurveda",
       "paragraphs": [
         {
           "mr": "**ऋग्वेद** हा सर्व मंत्रांचा सर्वात मोठा भांडार आहे. खरे तर तो मंत्रांचा आदिस्रोत आहे. इतर सर्व वेदांतील मंत्र ऋग्वेदातूनच घेतलेले आहेत किंवा त्यावर आधारित आहेत. ऋग्वेदातील मंत्र हे ऋषींच्या साक्षात्काराचे उद्गीत प्रकटीकरण आहेत.",
@@ -43,7 +43,7 @@
     {
       "type": "section",
       "headMr": "सामवेद आणि अथर्ववेद",
-      "headEn": "Samaveda and Atharvaveda",
+      "headEn": "🎵 Samaveda and Atharvaveda",
       "paragraphs": [
         {
           "mr": "**सामवेदात** जवळजवळ पूर्णपणे ऋग्वेदासारखेच मंत्र आहेत, परंतु ते बहुसुरी गायनासह आहेत. गायनासाठी वाणी निर्मितीव्यतिरिक्त विस्तृत स्वरांकन आवश्यक आहे. अशाप्रकारे सामवेद ऋग्वेदाच्या मंत्रांना विस्तृतपणे स्वरबद्ध करतो. याचे सामान्यीकरण म्हणजे कोणत्याही मजकुराचे स्वरांकन किंवा संगीत, राग आणि ताल.",
@@ -65,7 +65,7 @@
     {
       "type": "section",
       "headMr": "चार उपवेद",
-      "headEn": "The Four Upavedas",
+      "headEn": "🌿 The Four Upavedas",
       "paragraphs": [
         {
           "mr": "**आयुर्वेद** हा ऋग्वेदाचा उपवेद आहे. वाणी किंवा मंत्राचा शारीरिक आवेग म्हणजे प्राण. तो ग्रोणीच्या प्रदेशापासून सुरू होतो. ऋग्वेद हा सर्व मंत्रांचा वेद आहे. त्याचा उपवेद आयुर्वेद हा प्राणाचाच अभ्यास आहे — 'आयु' म्हणजे प्राण. अशाप्रकारे आयुर्वेद आरोग्य आणि कल्याणाचे शास्त्र म्हणून विकसित झाले.",
@@ -98,40 +98,88 @@
       "captionEn": "Each Veda's Upaveda extends its spirit into practical life.",
       "steps": [
         {
-          "mr": ["ऋग्वेद", "→ आयुर्वेद"],
-          "en": ["Rigveda", "→ Ayurveda"],
+          "mr": [
+            "ऋग्वेद",
+            "→ आयुर्वेद"
+          ],
+          "en": [
+            "Rigveda",
+            "→ Ayurveda"
+          ],
           "roman": "Ṛgveda",
-          "subMr": ["मंत्रसंग्रह", "प्राण-आरोग्य"],
-          "subEn": ["Mantra treasury", "Prana-health"]
+          "subMr": [
+            "मंत्रसंग्रह",
+            "प्राण-आरोग्य"
+          ],
+          "subEn": [
+            "Mantra treasury",
+            "Prana-health"
+          ]
         },
         {
-          "mr": ["यजुर्वेद", "→ धनुर्वेद"],
-          "en": ["Yajurveda", "→ Dhanurveda"],
+          "mr": [
+            "यजुर्वेद",
+            "→ धनुर्वेद"
+          ],
+          "en": [
+            "Yajurveda",
+            "→ Dhanurveda"
+          ],
           "roman": "Yajurveda",
-          "subMr": ["यज्ञ-कर्म", "युद्धकला"],
-          "subEn": ["Yajna-action", "Martial arts"],
+          "subMr": [
+            "यज्ञ-कर्म",
+            "युद्धकला"
+          ],
+          "subEn": [
+            "Yajna-action",
+            "Martial arts"
+          ],
           "highlight": true
         },
         {
-          "mr": ["सामवेद", "→ गांधर्ववेद"],
-          "en": ["Samaveda", "→ Gandharvaveda"],
+          "mr": [
+            "सामवेद",
+            "→ गांधर्ववेद"
+          ],
+          "en": [
+            "Samaveda",
+            "→ Gandharvaveda"
+          ],
           "roman": "Sāmaveda",
-          "subMr": ["स्वरबद्ध गायन", "संगीतशास्त्र"],
-          "subEn": ["Melodic singing", "Music science"]
+          "subMr": [
+            "स्वरबद्ध गायन",
+            "संगीतशास्त्र"
+          ],
+          "subEn": [
+            "Melodic singing",
+            "Music science"
+          ]
         },
         {
-          "mr": ["अथर्ववेद", "→ अर्थशास्त्र"],
-          "en": ["Atharvaveda", "→ Arthashastra"],
+          "mr": [
+            "अथर्ववेद",
+            "→ अर्थशास्त्र"
+          ],
+          "en": [
+            "Atharvaveda",
+            "→ Arthashastra"
+          ],
           "roman": "Atharvaveda",
-          "subMr": ["रस-प्रभाव", "राज्यकला-शिल्प"],
-          "subEn": ["Rasa-effect", "Statecraft-art"]
+          "subMr": [
+            "रस-प्रभाव",
+            "राज्यकला-शिल्प"
+          ],
+          "subEn": [
+            "Rasa-effect",
+            "Statecraft-art"
+          ]
         }
       ]
     },
     {
       "type": "curiosity",
       "mr": "सामवेद हा भारतीय शास्त्रीय संगीताचा मूळ स्रोत मानला जातो. त्यातील सात स्वर — सा, रे, ग, म, प, ध, नि — सामवेदाच्या उच्चारणातून विकसित झाले असे मानले जाते. गीतेत भगवान श्रीकृष्ण म्हणतात, **'वेदानां सामवेदोऽस्मि'** — वेदांमध्ये मी सामवेद आहे (गीता १०.२२).",
-      "en": "The Samaveda is considered the original source of Indian classical music. The seven notes — Sa, Re, Ga, Ma, Pa, Dha, Ni — are believed to have evolved from the recitation of the Samaveda. In the Gita, Lord Krishna says, **'Vedanam Samavedo'smi'** — Among the Vedas I am the Samaveda (Gita 10.22)."
+      "en": "🌟 The Samaveda is considered the original source of Indian classical music. The seven notes — Sa, Re, Ga, Ma, Pa, Dha, Ni — are believed to have evolved from the recitation of the Samaveda. In the Gita, Lord Krishna says, **'Vedanam Samavedo'smi'** — Among the Vedas I am the Samaveda (Gita 10.22)."
     },
     {
       "type": "activity",
@@ -141,9 +189,9 @@
         "भारतीय संगीतातील सात स्वर (सा, रे, ग, म, प, ध, नि) एकदा गाऊन पहा. लक्षात घ्या की सातही स्वरांना एकत्र सांगितल्यावर एक पूर्णता जाणवते — हेच वेदांचे सात स्वरांचे तत्त्व."
       ],
       "en": [
-        "Try saying the same sentence or mantra in four different ways — once in plain speech (Rigveda style), once accompanied by an action (Yajurveda style), once sung with a melody (Samaveda style), and once wholeheartedly, with love (Atharvaveda style). How does the experience change each time?",
-        "If you work in a field like Ayurveda, music, or sculpture, consider — which Veda is this field's root connected to? How does that Veda's value manifest in the spirit of that field?",
-        "Sing all seven notes of Indian classical music (Sa, Re, Ga, Ma, Pa, Dha, Ni) once. Notice that when all seven are sung together, a sense of completeness is felt — this is the principle of the Vedas' seven notes."
+        "🗣️ Try saying the same sentence or mantra in four different ways — once in plain speech (Rigveda style), once accompanied by an action (Yajurveda style), once sung with a melody (Samaveda style), and once wholeheartedly, with love (Atharvaveda style). How does the experience change each time?",
+        "🌿 If you work in a field like Ayurveda, music, or sculpture, consider — which Veda is this field's root connected to? How does that Veda's value manifest in the spirit of that field?",
+        "🎵 Sing all seven notes of Indian classical music (Sa, Re, Ga, Ma, Pa, Dha, Ni) once. Notice that when all seven are sung together, a sense of completeness is felt — this is the principle of the Vedas' seven notes."
       ]
     },
     {
@@ -160,7 +208,15 @@
     }
   ],
   "nav": {
-    "prev": { "id": "40", "titleMr": "निरुक्त, ज्योतिष, कल्प", "titleEn": "Nirukta, Jyotisha, Kalpa" },
-    "next": { "id": "42", "titleMr": "षड्दर्शने", "titleEn": "The Six Darshanas" }
+    "prev": {
+      "id": "40",
+      "titleMr": "निरुक्त, ज्योतिष, कल्प",
+      "titleEn": "Nirukta, Jyotisha, Kalpa"
+    },
+    "next": {
+      "id": "42",
+      "titleMr": "षड्दर्शने",
+      "titleEn": "The Six Darshanas"
+    }
   }
 }

@@ -13,7 +13,7 @@
     {
       "type": "section",
       "headMr": "राजाची दोन राज्ये",
-      "headEn": "The King's Two Kingdoms",
+      "headEn": "👑 The King's Two Kingdoms",
       "paragraphs": [
         {
           "mr": "राजा आणि राष्ट्र या संकल्पनेमागील भारतीय भाववि‍श्व अत्यंत वैशिष्ट्यपूर्ण आहे. ऋग्वेदीय सूक्तामध्ये राजा त्रित्सदस्यू आपले राज्य दोन प्रकारचे असल्याचे वर्णन करतो — पृथ्वी आणि स्वर्ग. (ऋग्वेद ४.४२.१) म्हणजेच, एक म्हणजे इंद्रियांनी जाणवणारे भौतिक जग, आणि दुसरे म्हणजे ज्ञानाच्या आंतरिक अनुभवाचे राज्य.",
@@ -35,7 +35,7 @@
     {
       "type": "section",
       "headMr": "ब्रह्मदंड — शासनाचे आंतरिक तत्त्व",
-      "headEn": "Brahmadanda — The Inner Principle of Governance",
+      "headEn": "⚖️ Brahmadanda — The Inner Principle of Governance",
       "paragraphs": [
         {
           "mr": "धर्माचे पालन दंड किंवा राजदंडाद्वारे केले जाते. म्हणूनच, राज्यकारभाराला दंडनीती किंवा राजनीती असे नाव आहे. श्रीरंग महागुरूंना या विषयावर विशेष अंतर्दृष्टी होती. त्यांनी सांगितले की हा दंड म्हणजे काही वेगळा नसून ब्रह्मदंडच आहे — म्हणजे मणक्याचा कणा.",
@@ -60,32 +60,72 @@
       "captionEn": "Sama, Dama, Bheda, Danda — the king's four instruments. Each aims at establishing dharma and opening the brahmadanda.",
       "steps": [
         {
-          "mr": ["साम", "विनयाने पटवणे"],
-          "en": ["Sama", "Persuasion"],
+          "mr": [
+            "साम",
+            "विनयाने पटवणे"
+          ],
+          "en": [
+            "Sama",
+            "Persuasion"
+          ],
           "roman": "Sāma",
-          "subMr": ["श्रेष्ठ मार्ग"],
-          "subEn": ["Preferred path"]
+          "subMr": [
+            "श्रेष्ठ मार्ग"
+          ],
+          "subEn": [
+            "Preferred path"
+          ]
         },
         {
-          "mr": ["दाम", "लोभाने आकर्षित करणे"],
-          "en": ["Dama", "Incentive"],
+          "mr": [
+            "दाम",
+            "लोभाने आकर्षित करणे"
+          ],
+          "en": [
+            "Dama",
+            "Incentive"
+          ],
           "roman": "Dāma",
-          "subMr": ["स्वहिताची भूमिका"],
-          "subEn": ["Appeal to interest"]
+          "subMr": [
+            "स्वहिताची भूमिका"
+          ],
+          "subEn": [
+            "Appeal to interest"
+          ]
         },
         {
-          "mr": ["भेद", "विरोधकाच्या दुर्बलतेचा उपयोग"],
-          "en": ["Bheda", "Divide"],
+          "mr": [
+            "भेद",
+            "विरोधकाच्या दुर्बलतेचा उपयोग"
+          ],
+          "en": [
+            "Bheda",
+            "Divide"
+          ],
           "roman": "Bheda",
-          "subMr": ["रणनीतिक मार्ग"],
-          "subEn": ["Strategic approach"]
+          "subMr": [
+            "रणनीतिक मार्ग"
+          ],
+          "subEn": [
+            "Strategic approach"
+          ]
         },
         {
-          "mr": ["दंड", "शिक्षा — दम निर्माण"],
-          "en": ["Danda", "Discipline"],
+          "mr": [
+            "दंड",
+            "शिक्षा — दम निर्माण"
+          ],
+          "en": [
+            "Danda",
+            "Discipline"
+          ],
           "roman": "Daṇḍa",
-          "subMr": ["ब्रह्मदंड उन्मोचन"],
-          "subEn": ["Opening brahmadanda"],
+          "subMr": [
+            "ब्रह्मदंड उन्मोचन"
+          ],
+          "subEn": [
+            "Opening brahmadanda"
+          ],
           "highlight": true
         }
       ]
@@ -93,7 +133,7 @@
     {
       "type": "section",
       "headMr": "दंड म्हणजे प्रतिशोध नव्हे",
-      "headEn": "Danda Is Not Retribution",
+      "headEn": "🌱 Danda Is Not Retribution",
       "paragraphs": [
         {
           "mr": "भारतीयांनी कधीही शिक्षा ही तंतोतंत प्रतिशोध या अर्थाने मानली नाही. इष्ट परिणाम म्हणजे धर्माची स्थापना आणि ब्रह्मदंडातील सुषुम्ना मार्गाचा उलगडा. म्हणूनच, दंड किंवा उघड शिक्षेचा वापर असा रचला जातो की तो दम (स्वसंयम) निर्माण करतो. येथे पुन्हा दंड हा शब्द शिक्षेसाठी वापरणे मनोरंजक आहे, आणि भारतीय कल्पनेतील शिक्षेचे स्वरूप स्पष्ट करते.",
@@ -108,7 +148,7 @@
     {
       "type": "curiosity",
       "mr": "शब्दकल्पद्रुम कोशानुसार: दंडः — दंडयति अनेन इति दंडः (ज्याद्वारे शिस्त लावली जाते तो दंड) आणि दंडः — यद्वा, दाय्यति अनेन इति दमः (ज्याद्वारे संयम निर्माण होतो तो दम). शिस्त आणि संयम — दोन्ही एकाच शब्दात अंतर्भूत आहेत.",
-      "en": "According to Shabdakalpadrum: daṇḍaḥ — daṇḍayati anena iti daṇḍaḥ (that by which discipline is imposed) and daṇḍaḥ — yad vā, dāyyati anena iti damaḥ (that by which self-restraint is produced). Discipline and self-restraint — both are contained in the same word."
+      "en": "🌟 According to Shabdakalpadrum: daṇḍaḥ — daṇḍayati anena iti daṇḍaḥ (that by which discipline is imposed) and daṇḍaḥ — yad vā, dāyyati anena iti damaḥ (that by which self-restraint is produced). Discipline and self-restraint — both are contained in the same word."
     },
     {
       "type": "activity",
@@ -118,9 +158,9 @@
         "दंड म्हणजे प्रतिशोध नव्हे हे विधान आपल्या जीवनातील एखाद्या प्रसंगाशी जोडा. शिक्षेचा उद्देश दम निर्माण करणे असेल तर शिक्षेचे स्वरूप कसे बदलेल?"
       ],
       "en": [
-        "Find examples of sama, dama, bheda, and danda in your daily life. For instance: when motivating a child or colleague to do something, which instrument do you naturally reach for?",
-        "Observe a leader in your acquaintance — at home, at work, or in society. Which instrument do they use most? Which do they misuse?",
-        "Connect the statement 'danda is not retribution' to an incident from your own life. If punishment's purpose is to create dama (self-restraint), how would its form need to change?"
+        "🔍 Find examples of sama, dama, bheda, and danda in your daily life. For instance: when motivating a child or colleague to do something, which instrument do you naturally reach for?",
+        "👀 Observe a leader in your acquaintance — at home, at work, or in society. Which instrument do they use most? Which do they misuse?",
+        "🤔 Connect the statement 'danda is not retribution' to an incident from your own life. If punishment's purpose is to create dama (self-restraint), how would its form need to change?"
       ]
     },
     {
@@ -137,7 +177,15 @@
     }
   ],
   "nav": {
-    "prev": { "id": "51", "titleMr": "तीर्थ आणि क्षेत्र", "titleEn": "Tirtha and Kshetra — Sacred Sites" },
-    "next": { "id": "53", "titleMr": "देश म्हणजे व्यक्तिभूत दैवी शक्ती", "titleEn": "Nation as Embodied Divine Power" }
+    "prev": {
+      "id": "51",
+      "titleMr": "तीर्थ आणि क्षेत्र",
+      "titleEn": "Tirtha and Kshetra — Sacred Sites"
+    },
+    "next": {
+      "id": "53",
+      "titleMr": "देश म्हणजे व्यक्तिभूत दैवी शक्ती",
+      "titleEn": "Nation as Embodied Divine Power"
+    }
   }
 }

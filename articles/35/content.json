@@ -13,7 +13,7 @@
     {
       "type": "section",
       "headMr": "तीन मुलांची कथा",
-      "headEn": "The Story of Three Sons",
+      "headEn": "👨‍👦‍👦 The Story of Three Sons",
       "paragraphs": [
         {
           "mr": "रामदास शेट्टींची तीन मुले होती — सगळे बुद्धिमान आणि शिक्षित, पण आपला वेळ मित्रांबरोबर फिरून वाया घालवणारे. त्यांना जबाबदारीची जाणीव नव्हती आणि वय मात्र वाढत चालले होते. शेट्टी आई-वडील काळजीत होते — मुलांना योग्य मार्गावर आणण्याचे उपाय शोधत होते.",
@@ -36,7 +36,7 @@
     {
       "type": "section",
       "headMr": "तीन प्रकारच्या संहिता",
-      "headEn": "Three Types of Samhitas",
+      "headEn": "📚 Three Types of Samhitas",
       "paragraphs": [
         {
           "mr": "भारताचे ऋषी तपश्चर्येने मिळणाऱ्या संपत्तीची जाण ठेवत होते. त्यांना स्वतःमध्ये आनंदाची विशाल सुवर्ण खाण सापडली होती. त्यांचा मंत्र अंतर्गत धर्माने मिळणारा आनंद आणि बाह्य संपत्ती व इच्छांनी मिळणारा आनंद यातील संतुलन साधण्याचा होता. ही व्यवस्था संपूर्ण देशभर राबवायची असेल तर योग्य पद्धती, शिक्षण व प्रशिक्षणाच्या यंत्रणा आवश्यक होत्या.",
@@ -58,7 +58,7 @@
     {
       "type": "section",
       "headMr": "मित्र संहिता — पुराणांचा मार्ग",
-      "headEn": "Mitra Samhita — The Way of Puranas",
+      "headEn": "📖 Mitra Samhita — The Way of Puranas",
       "paragraphs": [
         {
           "mr": "काही लोक मोठ्या मुलाप्रमाणे या पद्धतीचे अनुसरण करतात. पण अनेकांना अशी पद्धत आवडत नाही. त्यांना लहान भावाप्रमाणे मार्गदर्शन करावे लागते. ते बंड करतात. थेट शिकवण्याऐवजी त्यांना कथा आणि दाखल्यांद्वारे योग्य मार्गावर आणावे लागते. पुराणे मित्राच्या भूमिकेत हे करतात.",
@@ -77,7 +77,7 @@
     {
       "type": "section",
       "headMr": "कांता संहिता — काव्याचा मार्ग",
-      "headEn": "Kanta Samhita — The Way of Kavya",
+      "headEn": "🎭 Kanta Samhita — The Way of Kavya",
       "paragraphs": [
         {
           "mr": "तिसरा मुलगा सगळ्या पद्धती झुगारून देतो. तो लोभ, मोह आणि अहंकाराच्या प्रभावाखाली असतो. श्रीरंग महागुरू म्हणायचे, 'जर एखादा हत्ती उन्मत्त असेल तर त्याला काबूत आणण्यासाठी प्रशिक्षित हत्ती आवश्यक असतो.' अशा व्यक्तीला नियंत्रणात आणण्यासाठी दृढतेची गरज असते — स्त्री आपल्या पतीवर नियंत्रण मिळवते त्याप्रमाणे. या तंत्राचा वापर करणारे काव्य 'कांता-संहिता' म्हणतात. ते प्रेम, दुःख इत्यादी रसांनी लोकांच्या मनाला आकर्षित करते आणि अखेरीस त्यांना शांत मनःस्थितीत आणते.",
@@ -102,33 +102,67 @@
       "captionEn": "A path for every learner — Prabhu, Mitra, and Kanta Samhita.",
       "steps": [
         {
-          "mr": ["प्रभु संहिता"],
-          "en": ["Prabhu Samhita"],
+          "mr": [
+            "प्रभु संहिता"
+          ],
+          "en": [
+            "Prabhu Samhita"
+          ],
           "roman": "Prabhu",
-          "subMr": ["वेद-उपनिषदे", "थेट आदेश"],
-          "subEn": ["Vedas-Upanishads", "Direct command"]
+          "subMr": [
+            "वेद-उपनिषदे",
+            "थेट आदेश"
+          ],
+          "subEn": [
+            "Vedas-Upanishads",
+            "Direct command"
+          ]
         },
         {
-          "mr": ["मित्र संहिता"],
-          "en": ["Mitra Samhita"],
+          "mr": [
+            "मित्र संहिता"
+          ],
+          "en": [
+            "Mitra Samhita"
+          ],
           "roman": "Mitra",
-          "subMr": ["पुराणे-इतिहास", "कथा-उदाहरणे"],
-          "subEn": ["Puranas-Itihas", "Stories & examples"],
+          "subMr": [
+            "पुराणे-इतिहास",
+            "कथा-उदाहरणे"
+          ],
+          "subEn": [
+            "Puranas-Itihas",
+            "Stories & examples"
+          ],
           "highlight": true
         },
         {
-          "mr": ["कांता संहिता"],
-          "en": ["Kanta Samhita"],
+          "mr": [
+            "कांता संहिता"
+          ],
+          "en": [
+            "Kanta Samhita"
+          ],
           "roman": "Kanta",
-          "subMr": ["काव्य-नाट्य", "रस-भावना"],
-          "subEn": ["Kavya-Natya", "Rasa & emotion"]
+          "subMr": [
+            "काव्य-नाट्य",
+            "रस-भावना"
+          ],
+          "subEn": [
+            "Kavya-Natya",
+            "Rasa & emotion"
+          ]
         }
       ],
       "examples": {
         "headMr": "लक्ष्य:",
         "headEn": "Goal:",
-        "mr": ["शांत रस — मोक्ष"],
-        "en": ["Shanta rasa — Moksha"]
+        "mr": [
+          "शांत रस — मोक्ष"
+        ],
+        "en": [
+          "Shanta rasa — Moksha"
+        ]
       }
     },
     {
@@ -157,7 +191,7 @@
     {
       "type": "curiosity",
       "mr": "रामायणातील ध्रुवाची कथा श्रीरंग महागुरूंनी कशी उलगडली? सुनीती = योग्य आचार, सुरुची = इंद्रिय सुख, धृती = धैर्यपूर्ण बुद्धी. ध्रुव = जो आत्म्यात स्थिर झाला. या तीन शब्दांचे अर्थ उमगले तर पुराणकथा केवळ कथा राहत नाही — ती आपल्या जीवनाचाच नकाशा बनते!",
-      "en": "How did Sridhara Mahaguru decode the Dhruva story? Suniti = right conduct, Suruchi = sensory pleasure, Dhriti = courageous steadiness of mind. Dhruva = one who became stable in the Atman. When you grasp the meaning of these three words, the Puranic story is no longer just a story — it becomes the map of your own life!"
+      "en": "🌟 How did Sridhara Mahaguru decode the Dhruva story? Suniti = right conduct, Suruchi = sensory pleasure, Dhriti = courageous steadiness of mind. Dhruva = one who became stable in the Atman. When you grasp the meaning of these three words, the Puranic story is no longer just a story — it becomes the map of your own life!"
     },
     {
       "type": "activity",
@@ -167,9 +201,9 @@
         "रामायण किंवा महाभारतातील एखाद्या प्रसंगाचे नाट्य किंवा चित्रपट रूपांतर पहा. त्यात कोणते रस प्रामुख्याने आहेत? शेवटी मन कोणत्या भावनेत स्थिरावते?"
       ],
       "en": [
-        "Which teaching method do you find most effective in your own life — direct instruction (Prabhu), a friend's example (Mitra), or story-drama-music (Kanta)? Why?",
-        "Choose a Puranic story — e.g., Prahlada, Dhruva, Ajamela. Find the Sanskrit meanings of the names of the main characters. When you understand those meanings, how does the spiritual meaning of the story unfold?",
-        "Watch a drama or film adaptation of an episode from the Ramayana or Mahabharata. Which rasas predominate? In what feeling does the mind settle at the end?"
+        "🎓 Which teaching method do you find most effective in your own life — direct instruction (Prabhu), a friend's example (Mitra), or story-drama-music (Kanta)? Why?",
+        "🔍 Choose a Puranic story — e.g., Prahlada, Dhruva, Ajamela. Find the Sanskrit meanings of the names of the main characters. When you understand those meanings, how does the spiritual meaning of the story unfold?",
+        "🎭 Watch a drama or film adaptation of an episode from the Ramayana or Mahabharata. Which rasas predominate? In what feeling does the mind settle at the end?"
       ]
     },
     {
@@ -186,7 +220,15 @@
     }
   ],
   "nav": {
-    "prev": { "id": "34", "titleMr": "धर्मासाठी संस्था निर्माण", "titleEn": "Creating Institutions for Dharma" },
-    "next": { "id": "36", "titleMr": "१४ विद्या आणि ६४ कला", "titleEn": "14 Vidyas and 64 Kalas" }
+    "prev": {
+      "id": "34",
+      "titleMr": "धर्मासाठी संस्था निर्माण",
+      "titleEn": "Creating Institutions for Dharma"
+    },
+    "next": {
+      "id": "36",
+      "titleMr": "१४ विद्या आणि ६४ कला",
+      "titleEn": "14 Vidyas and 64 Kalas"
+    }
   }
 }
