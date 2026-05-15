@@ -130,11 +130,13 @@
 .art-image {
   margin: 28px 0;
   border-radius: 8px;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: visible;
   border: 1px solid var(--border);
+  -webkit-overflow-scrolling: touch;
 }
 .art-image img, .art-image svg {
-  width: 100%; height: auto; display: block;
+  width: max(100%, 480px); height: auto; display: block;
 }
 .art-image figcaption {
   font-size: 13px; color: var(--text-muted);
@@ -475,13 +477,4 @@
   .nav-btn { max-width: 100%; width: 100%; }
   .nav-btn.right { text-align: left; }
 
-  /* SVG infographics: scroll horizontally below 480px rather than shrinking text */
-  .art-image {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-  .art-image svg {
-    min-width: 480px;
-    width: 480px;
-  }
 }
