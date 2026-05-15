@@ -467,7 +467,7 @@ function renderNav(nav) {
     html += `    <a class="nav-btn" href="/IKS/articles/${id}/">
       <span class="nav-dir" data-lang="mr">← मागील</span>
       <span class="nav-dir" data-lang="en" style="display:none;">← Previous</span>
-      <span class="nav-art-title" data-lang="mr">${+id}. ${titleMr}</span>
+      <span class="nav-art-title" data-lang="mr">${toDevanagari(+id)}. ${titleMr}</span>
       <span class="nav-art-title" data-lang="en" style="display:none;">${+id}. ${titleEn}</span>
     </a>\n`;
   } else if (nav.next) {
@@ -478,7 +478,7 @@ function renderNav(nav) {
     html += `    <a class="nav-btn right" href="/IKS/articles/${id}/">
       <span class="nav-dir" data-lang="mr">पुढील →</span>
       <span class="nav-dir" data-lang="en" style="display:none;">Next →</span>
-      <span class="nav-art-title" data-lang="mr">${+id}. ${titleMr}</span>
+      <span class="nav-art-title" data-lang="mr">${toDevanagari(+id)}. ${titleMr}</span>
       <span class="nav-art-title" data-lang="en" style="display:none;">${+id}. ${titleEn}</span>
     </a>\n`;
   }
