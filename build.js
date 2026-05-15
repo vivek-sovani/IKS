@@ -171,7 +171,7 @@ function svgFlow(inf) {
     const isMr = lang === 'mr';
     const ff = isMr ? FF.mr : FF.en;
     const out = [];
-    out.push(`          <text font-family="${ff}" font-size="13" fill="#9E7B5A" text-anchor="middle" x="350" y="22">${isMr ? inf.titleMr : inf.titleEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="15" fill="#9E7B5A" text-anchor="middle" x="350" y="22">${isMr ? inf.titleMr : inf.titleEn}</text>`);
 
     boxes.forEach((b, i) => {
       const s = steps[i];
@@ -180,29 +180,29 @@ function svgFlow(inf) {
       const tFill  = b.hi ? '#FFFFFF' : '#5C3A1E';
       const sFill  = b.hi ? '#FDF1EA' : '#9E7B5A';
       const smFill = b.hi ? '#FDF1EA' : '#6B4423';
-      const fs     = b.hi ? 15 : 11;
+      const fs     = b.hi ? 17 : 13;
 
       labels.forEach((line, li) => {
-        out.push(`          <text font-family="${ff}" font-size="${fs}" font-weight="600" fill="${tFill}" text-anchor="middle" x="${b.cx}" y="${b.y + 26 + li * 16}">${line}</text>`);
+        out.push(`          <text font-family="${ff}" font-size="${fs}" font-weight="600" fill="${tFill}" text-anchor="middle" x="${b.cx}" y="${b.y + 26 + li * 18}">${line}</text>`);
       });
       if (s.roman) {
-        out.push(`          <text font-family="${FF.en}" font-size="10" font-style="italic" fill="${sFill}" text-anchor="middle" x="${b.cx}" y="${b.y + 26 + labels.length * 16 + 2}">${s.roman}</text>`);
+        out.push(`          <text font-family="${FF.en}" font-size="12" font-style="italic" fill="${sFill}" text-anchor="middle" x="${b.cx}" y="${b.y + 26 + labels.length * 18 + 2}">${s.roman}</text>`);
       }
-      const subBase = b.y + 26 + labels.length * 16 + (s.roman ? 20 : 4);
+      const subBase = b.y + 26 + labels.length * 18 + (s.roman ? 20 : 4);
       subs.forEach((sub, si) => {
-        out.push(`          <text font-family="${ff}" font-size="9" fill="${smFill}" text-anchor="middle" x="${b.cx}" y="${subBase + si * 14}">${sub}</text>`);
+        out.push(`          <text font-family="${ff}" font-size="11" fill="${smFill}" text-anchor="middle" x="${b.cx}" y="${subBase + si * 15}">${sub}</text>`);
       });
     });
 
     if (inf.examples) {
       const head  = isMr ? inf.examples.headMr : inf.examples.headEn;
       const items = isMr ? inf.examples.mr     : inf.examples.en;
-      out.push(`          <text font-family="${ff}" font-size="11" font-weight="600" fill="#5C3A1E" x="36" y="192">${head}</text>`);
+      out.push(`          <text font-family="${ff}" font-size="13" font-weight="600" fill="#5C3A1E" x="36" y="192">${head}</text>`);
       items.forEach((ex, i) => {
-        out.push(`          <text font-family="${ff}" font-size="10" fill="#6B4423" x="36" y="${212 + i * 16}">${ex}</text>`);
+        out.push(`          <text font-family="${ff}" font-size="12" fill="#6B4423" x="36" y="${212 + i * 17}">${ex}</text>`);
       });
     }
-    out.push(`          <text font-family="${ff}" font-size="10" fill="#9E7B5A" text-anchor="middle" x="350" y="305" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="12" fill="#9E7B5A" text-anchor="middle" x="350" y="305" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
     return out.join('\n');
   }
 
@@ -260,22 +260,22 @@ function svgWheel(inf) {
     const isMr = lang === 'mr';
     const ff = isMr ? FF.mr : FF.en;
     const out = [];
-    out.push(`          <text font-family="${ff}" font-size="12" fill="#9E7B5A" text-anchor="middle" x="350" y="20">${isMr ? inf.titleMr : inf.titleEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="14" fill="#9E7B5A" text-anchor="middle" x="350" y="20">${isMr ? inf.titleMr : inf.titleEn}</text>`);
     const ctr = inf.center;
-    out.push(`          <text font-family="${ff}" font-size="18" font-weight="600" fill="#FFFFFF" text-anchor="middle" x="350" y="156">${isMr ? ctr.mr : ctr.en}</text>`);
-    out.push(`          <text font-family="${FF.en}" font-size="12" font-style="italic" fill="#FDF1EA" text-anchor="middle" x="350" y="173">${ctr.roman}</text>`);
-    out.push(`          <text font-family="${ff}" font-size="9" fill="#FDF1EA" text-anchor="middle" x="350" y="189">${isMr ? ctr.subMr : ctr.subEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle" x="350" y="156">${isMr ? ctr.mr : ctr.en}</text>`);
+    out.push(`          <text font-family="${FF.en}" font-size="13" font-style="italic" fill="#FDF1EA" text-anchor="middle" x="350" y="173">${ctr.roman}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="11" fill="#FDF1EA" text-anchor="middle" x="350" y="189">${isMr ? ctr.subMr : ctr.subEn}</text>`);
     quads.forEach(q => {
       const p = Q_POS[q.position]; const c = Q_COL[q.color] || Q_COL.gold;
       const tx = p.x + 16;
       const items = isMr ? q.itemsMr : q.itemsEn;
-      out.push(`          <text font-family="${ff}" font-size="10" font-weight="600" fill="${c.head}" x="${tx}" y="${p.y + 20}">${isMr ? q.headMr : q.headEn}</text>`);
-      out.push(`          <text font-family="${FF.en}" font-size="9" font-style="italic" fill="${c.sub}" x="${tx}" y="${p.y + 33}">${isMr ? q.subMr : q.subEn}</text>`);
+      out.push(`          <text font-family="${ff}" font-size="12" font-weight="600" fill="${c.head}" x="${tx}" y="${p.y + 20}">${isMr ? q.headMr : q.headEn}</text>`);
+      out.push(`          <text font-family="${FF.en}" font-size="11" font-style="italic" fill="${c.sub}" x="${tx}" y="${p.y + 34}">${isMr ? q.subMr : q.subEn}</text>`);
       items.forEach((item, i) => {
-        out.push(`          <text font-family="${ff}" font-size="10" fill="#2C1810" x="${tx}" y="${p.y + 50 + i * 16}">${item}</text>`);
+        out.push(`          <text font-family="${ff}" font-size="12" fill="#2C1810" x="${tx}" y="${p.y + 52 + i * 17}">${item}</text>`);
       });
     });
-    out.push(`          <text font-family="${ff}" font-size="10" fill="#9E7B5A" text-anchor="middle" x="350" y="308" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="12" fill="#9E7B5A" text-anchor="middle" x="350" y="308" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
     return out.join('\n');
   }
 
@@ -340,7 +340,7 @@ function svgBars(inf) {
     const isMr = lang === 'mr';
     const ff = isMr ? FF.mr : FF.en;
     const out = [];
-    out.push(`          <text font-family="${ff}" font-size="13" fill="#9E7B5A" text-anchor="middle" x="350" y="22">${isMr ? inf.titleMr : inf.titleEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="15" fill="#9E7B5A" text-anchor="middle" x="350" y="22">${isMr ? inf.titleMr : inf.titleEn}</text>`);
     states.forEach((s, i) => {
       const x  = startX + i * (boxW + 10);
       const cx = x + boxW / 2;
@@ -350,27 +350,27 @@ function svgBars(inf) {
       const sF = hi ? '#FDF1EA' : '#9E7B5A';
       const smF= hi ? '#FDF1EA' : '#6B4423';
       const name = isMr ? s.mr : s.en;
-      out.push(`          <text font-family="${ff}" font-size="14" font-weight="600" fill="${tF}" text-anchor="middle" x="${cx}" y="${y0 + 26}">${name}</text>`);
-      if (s.roman) out.push(`          <text font-family="${FF.en}" font-size="11" font-style="italic" fill="${sF}" text-anchor="middle" x="${cx}" y="${y0 + 43}">${s.roman}</text>`);
+      out.push(`          <text font-family="${ff}" font-size="16" font-weight="600" fill="${tF}" text-anchor="middle" x="${cx}" y="${y0 + 26}">${name}</text>`);
+      if (s.roman) out.push(`          <text font-family="${FF.en}" font-size="13" font-style="italic" fill="${sF}" text-anchor="middle" x="${cx}" y="${y0 + 45}">${s.roman}</text>`);
       const sub  = isMr ? s.subMr  : s.subEn;
       const sub2 = isMr ? s.sub2Mr : s.sub2En;
-      if (sub)  out.push(`          <text font-family="${ff}" font-size="10" fill="${smF}" text-anchor="middle" x="${cx}" y="${y0 + (s.roman ? 62 : 50)}">${sub}</text>`);
-      if (sub2) out.push(`          <text font-family="${ff}" font-size="10" fill="${smF}" text-anchor="middle" x="${cx}" y="${y0 + (s.roman ? 77 : 65)}">${sub2}</text>`);
+      if (sub)  out.push(`          <text font-family="${ff}" font-size="12" fill="${smF}" text-anchor="middle" x="${cx}" y="${y0 + (s.roman ? 64 : 50)}">${sub}</text>`);
+      if (sub2) out.push(`          <text font-family="${ff}" font-size="12" fill="${smF}" text-anchor="middle" x="${cx}" y="${y0 + (s.roman ? 79 : 65)}">${sub2}</text>`);
     });
-    out.push(`          <text font-family="${ff}" font-size="11" fill="#9E7B5A" x="30" y="150">${isMr ? inf.barLabelMr : inf.barLabelEn}</text>`);
-    if (inf.showInfinity) out.push(`          <text font-family="${FF.en}" font-size="13" font-weight="600" fill="#D4500A" x="675" y="183">&#x221e;</text>`);
+    out.push(`          <text font-family="${ff}" font-size="13" fill="#9E7B5A" x="30" y="150">${isMr ? inf.barLabelMr : inf.barLabelEn}</text>`);
+    if (inf.showInfinity) out.push(`          <text font-family="${FF.en}" font-size="15" font-weight="600" fill="#D4500A" x="675" y="183">&#x221e;</text>`);
     if (inf.callout) {
       const lines = isMr ? inf.callout.mr : inf.callout.en;
-      out.push(`          <text font-family="${ff}" font-size="12" font-weight="600" fill="#B8860B" x="50" y="231">${lines[0]}</text>`);
+      out.push(`          <text font-family="${ff}" font-size="14" font-weight="600" fill="#B8860B" x="50" y="231">${lines[0]}</text>`);
       lines.slice(1).forEach((line, li) => {
-        out.push(`          <text font-family="${ff}" font-size="11" fill="${li === 0 ? '#5C3A1E' : '#6B4423'}" x="50" y="${250 + li * 16}">${line}</text>`);
+        out.push(`          <text font-family="${ff}" font-size="13" fill="${li === 0 ? '#5C3A1E' : '#6B4423'}" x="50" y="${250 + li * 17}">${line}</text>`);
       });
       const right = isMr ? inf.callout.mrRight : inf.callout.enRight;
       if (right) right.forEach((line, li) => {
-        out.push(`          <text font-family="${li === 0 ? FF.en : ff}" font-size="${li === 0 ? 12 : 11}" font-weight="${li === 0 ? 600 : 'normal'}" fill="${li === 0 ? '#D4500A' : '#6B4423'}" x="390" y="${250 + li * 16}">${line}</text>`);
+        out.push(`          <text font-family="${li === 0 ? FF.en : ff}" font-size="${li === 0 ? 14 : 13}" font-weight="${li === 0 ? 600 : 'normal'}" fill="${li === 0 ? '#D4500A' : '#6B4423'}" x="390" y="${250 + li * 17}">${line}</text>`);
       });
     }
-    out.push(`          <text font-family="${ff}" font-size="10" fill="#9E7B5A" text-anchor="middle" x="350" y="307" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="12" fill="#9E7B5A" text-anchor="middle" x="350" y="307" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
     return out.join('\n');
   }
 
