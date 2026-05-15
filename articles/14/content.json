@@ -12,8 +12,8 @@
   "body": [
     {
       "type": "section",
-      "headMr": "उपनिषदे आणि सांख्य — शरीराचे क्रमवार वर्णन",
-      "headEn": "Upanishads and Sankhya — Sequential Description of the Body",
+      "headMr": "📜 उपनिषदे आणि सांख्य — शरीराचे क्रमवार वर्णन",
+      "headEn": "📜 Upanishads and Sankhya — Sequential Description of the Body",
       "paragraphs": [
         {
           "mr": "उपनिषदे आणि अथर्ववेदात मानवी शरीराचे विविध भाग वर्णन केले आहेत आणि त्यांची क्रमवारीही सांगितली आहे. हे वर्णन भौतिक भागापासून सुरू होते, शारीरिक क्रियांकडे जाते, नंतर उच्च मानसिक क्रियांकडे जाते, आणि शेवटी असीम आनंदाची अवस्था येते — जिथे दुसरे काहीच उरत नाही.",
@@ -34,8 +34,8 @@
     },
     {
       "type": "section",
-      "headMr": "दहा इंद्रिये",
-      "headEn": "Ten Indriyas",
+      "headMr": "🖐️ दहा इंद्रिये",
+      "headEn": "🖐️ Ten Indriyas",
       "paragraphs": [
         {
           "mr": "पाच ज्ञानेंद्रिये म्हणजे: दृष्टी, श्रवण, स्पर्श, रसना, घ्राण. पाच कर्मेंद्रिये म्हणजे: वाणी, हात, पाय, मलमूत्रविसर्जन, प्रजनन. ही दहा इंद्रिये मिळून बाह्य जगाशी आपला संवाद घडवतात. सांख्यकारिका (२७) सांगतो की मनस् हे अकरावे इंद्रिय आहे — ते संवेदन माहितीवर प्रक्रिया करते आणि कर्मेंद्रियांमागील इच्छाशक्ती आहे.",
@@ -45,8 +45,8 @@
     },
     {
       "type": "section",
-      "headMr": "अंतःकरण — आंतरिक साधन",
-      "headEn": "Antahkarana — The Inner Instrument",
+      "headMr": "🧠 अंतःकरण — आंतरिक साधन",
+      "headEn": "🧠 Antahkarana — The Inner Instrument",
       "paragraphs": [
         {
           "mr": "मनस् म्हणजे अकरावे इंद्रिय — ते संवेदन माहितीवर प्रक्रिया करते आणि कर्मेंद्रियांमागील इच्छाशक्ती आहे (सांख्यकारिका २७). बुद्धी (महत्) म्हणजे अंतिम निर्णय घेणारी शक्ती — मन पर्याय सुचवते, बुद्धी निर्णय घेते (सांख्यकारिका २३). अहंकार म्हणजे 'मी'ची भावना — निर्णय 'मी, माझे, माझे मित्र' यांच्यासाठी काय हितकारक आहे या दृष्टिकोनातून मार्गदर्शित होतात (वेदांतसार ६९).",
@@ -158,20 +158,20 @@
     },
     {
       "type": "curiosity",
-      "mr": "भारतीय शास्त्रांनी वर्णन केलेल्या अंतःकरण-रचनेची संगणक प्रणालीशी रंजक तुलना करता येते: भौतिक पैलू = हार्डवेअर (मदरबोर्ड, प्रोसेसर); शारीरिक प्रक्रिया = हार्डवेअरवर चालणारे सॉफ्टवेअर; इंद्रिये = इनपुट-आउटपुट (कीबोर्ड, माउस, मॉनिटर — हार्डवेअर आणि सॉफ्टवेअर दोन्ही); प्राण = प्रणालीतील विद्युत प्रवाह, संदेशांचा प्रवाह; मनस्, बुद्धी, अहंकार, भाव = विशिष्ट उद्देशांसाठी विशेष सॉफ्टवेअर अॅप्लिकेशन्स; चित्त = ऑपरेटिंग सिस्टम ज्यावर सर्व कार्यक्रम चालतात — वेगवेगळ्या कार्यक्रमांनुसार सिस्टमची अवस्था बदलते (हलका भार, जड भार किंवा अडकलेले) — या अवस्था म्हणजे चित्तवृत्ती.",
-      "en": "The Antahkarana structure described by Indian shastras maps onto a computer system in a remarkable way: physical aspects = hardware (motherboard, processor, silicon chips); physical processes = software running on the hardware; Indriyas = input/output (keyboard, mouse, monitor — both hardware and software aspects); Prana = electrical flow in circuits, message flow during programs; Manas, Buddhi, Ahamkara, Bhava = specialized software applications for specific purposes; Chitta = the operating system on which all programs run — as different programs run, the system state changes (light load, heavy load, or stuck) — these states are Chittavritti."
+      "mr": "🌟 भारतीय शास्त्रांनी वर्णन केलेल्या अंतःकरण-रचनेची संगणक प्रणालीशी रंजक तुलना करता येते: भौतिक पैलू = हार्डवेअर (मदरबोर्ड, प्रोसेसर); शारीरिक प्रक्रिया = हार्डवेअरवर चालणारे सॉफ्टवेअर; इंद्रिये = इनपुट-आउटपुट (कीबोर्ड, माउस, मॉनिटर — हार्डवेअर आणि सॉफ्टवेअर दोन्ही); प्राण = प्रणालीतील विद्युत प्रवाह, संदेशांचा प्रवाह; मनस्, बुद्धी, अहंकार, भाव = विशिष्ट उद्देशांसाठी विशेष सॉफ्टवेअर अॅप्लिकेशन्स; चित्त = ऑपरेटिंग सिस्टम ज्यावर सर्व कार्यक्रम चालतात — वेगवेगळ्या कार्यक्रमांनुसार सिस्टमची अवस्था बदलते (हलका भार, जड भार किंवा अडकलेले) — या अवस्था म्हणजे चित्तवृत्ती.",
+      "en": "🌟 The Antahkarana structure described by Indian shastras maps onto a computer system in a remarkable way: physical aspects = hardware (motherboard, processor, silicon chips); physical processes = software running on the hardware; Indriyas = input/output (keyboard, mouse, monitor — both hardware and software aspects); Prana = electrical flow in circuits, message flow during programs; Manas, Buddhi, Ahamkara, Bhava = specialized software applications for specific purposes; Chitta = the operating system on which all programs run — as different programs run, the system state changes (light load, heavy load, or stuck) — these states are Chittavritti."
     },
     {
       "type": "activity",
       "mr": [
-        "पाच ज्ञानेंद्रिये आणि पाच कर्मेंद्रिये यांची यादी करा. आज तुम्ही कोणत्या ज्ञानेंद्रियाचा सर्वाधिक उपयोग केला? त्याचा तुमच्या अनुभवावर काय परिणाम झाला?",
-        "एखादा निर्णय घेण्याचा प्रसंग आठवा. त्यावेळी मनस् (पर्याय सुचवणे), बुद्धी (निर्णय घेणे) आणि अहंकार ('माझे काय हितकारक') या तीन प्रक्रिया वेगळ्या ओळखता येतात का?",
-        "एका शांत ठिकाणी बसा. लक्ष आधी बाहेरच्या आवाजांकडे (ज्ञानेंद्रिय), मग श्वासाकडे (प्राणमय), मग मनातील विचारांकडे (मनोमय), मग कोणता निर्णय घ्यायचा त्याकडे (विज्ञानमय). शेवटी — कोणत्याही विचाराशिवाय — एक शांत क्षण अनुभवा (आनंदमय)."
+        "🖐️ पाच ज्ञानेंद्रिये आणि पाच कर्मेंद्रिये यांची यादी करा. आज तुम्ही कोणत्या ज्ञानेंद्रियाचा सर्वाधिक उपयोग केला? त्याचा तुमच्या अनुभवावर काय परिणाम झाला?",
+        "💭 एखादा निर्णय घेण्याचा प्रसंग आठवा. त्यावेळी मनस् (पर्याय सुचवणे), बुद्धी (निर्णय घेणे) आणि अहंकार ('माझे काय हितकारक') या तीन प्रक्रिया वेगळ्या ओळखता येतात का?",
+        "🧘 एका शांत ठिकाणी बसा. लक्ष आधी बाहेरच्या आवाजांकडे (ज्ञानेंद्रिय), मग श्वासाकडे (प्राणमय), मग मनातील विचारांकडे (मनोमय), मग कोणता निर्णय घ्यायचा त्याकडे (विज्ञानमय). शेवटी — कोणत्याही विचाराशिवाय — एक शांत क्षण अनुभवा (आनंदमय)."
       ],
       "en": [
-        "List the five Jnanendriyas and five Karmendriyas. Which Jnana-indriya did you use most today? What effect did that have on your experience?",
-        "Recall a situation where you had to make a decision. Can you separately identify the three processes at work: Manas (suggesting options), Buddhi (deciding), and Ahamkara ('what benefits me')?",
-        "Sit quietly. Direct attention first to external sounds (Jnana-indriya), then to the breath (Pranamaya), then to thoughts in the mind (Manomaya), then to a decision you need to make (Vijnanamaya). Finally — without any thought — rest in a still moment (Anandamaya)."
+        "🖐️ List the five Jnanendriyas and five Karmendriyas. Which Jnana-indriya did you use most today? What effect did that have on your experience?",
+        "💭 Recall a situation where you had to make a decision. Can you separately identify the three processes at work: Manas (suggesting options), Buddhi (deciding), and Ahamkara ('what benefits me')?",
+        "🧘 Sit quietly. Direct attention first to external sounds (Jnana-indriya), then to the breath (Pranamaya), then to thoughts in the mind (Manomaya), then to a decision you need to make (Vijnanamaya). Finally — without any thought — rest in a still moment (Anandamaya)."
       ]
     },
     {
