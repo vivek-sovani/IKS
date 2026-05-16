@@ -559,7 +559,7 @@ ${hasPhoto ? `  <!-- PHOTO PANEL (left on mobile / right-gutter on wide desktop)
   <div class="art-photo-panel">
     ${srcMr ? `<img class="art-photo-img" data-lang="mr" src="${srcMr}" alt="${c.titleMr}">` : ''}
     ${srcEn ? `<img class="art-photo-img" data-lang="en"${srcMr ? ' style="display:none"' : ''} src="${srcEn}" alt="${c.titleEn}">` : ''}
-    <div class="zoom-icon" id="zoom-icon" title="Click to zoom">🔍</div>
+    <div class="zoom-icon" id="zoom-icon">🔍 Zoom in</div>
   </div>
   <!-- Swipe hint (mobile only) -->
   <div class="art-panel-hint" id="art-panel-hint">
@@ -620,7 +620,7 @@ ${hasPhoto ? `<script>
       panel.addEventListener('click', function() {
         panel.classList.toggle('zoomed');
         var isZoomed = panel.classList.contains('zoomed');
-        if (zi) zi.textContent = isZoomed ? '🔍−' : '🔍';
+        if (zi) zi.textContent = isZoomed ? '🔍 Zoom out' : '🔍 Zoom in';
         var lay = document.querySelector('.art-photo-layout');
         if (lay && window.matchMedia('(max-width:860px)').matches) {
           lay.style.overflowX = isZoomed ? 'hidden' : '';

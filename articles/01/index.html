@@ -44,7 +44,7 @@
   <div class="art-photo-panel">
     <img class="art-photo-img" data-lang="mr" src="img/adhyay01-poster.jpg" alt="आनंद">
     <img class="art-photo-img" data-lang="en" style="display:none" src="img/adhyay01-poster-en.jpg" alt="Ananda — The Nature of Joy">
-    <div class="zoom-icon" id="zoom-icon" title="Click to zoom">🔍</div>
+    <div class="zoom-icon" id="zoom-icon">🔍 Zoom in</div>
   </div>
   <!-- Swipe hint (mobile only) -->
   <div class="art-panel-hint" id="art-panel-hint">
@@ -348,7 +348,7 @@
       panel.addEventListener('click', function() {
         panel.classList.toggle('zoomed');
         var isZoomed = panel.classList.contains('zoomed');
-        if (zi) zi.textContent = isZoomed ? '🔍−' : '🔍';
+        if (zi) zi.textContent = isZoomed ? '🔍 Zoom out' : '🔍 Zoom in';
         var lay = document.querySelector('.art-photo-layout');
         if (lay && window.matchMedia('(max-width:860px)').matches) {
           lay.style.overflowX = isZoomed ? 'hidden' : '';
