@@ -13,7 +13,7 @@
     {
       "type": "section",
       "headMr": "जीवनाचे चार मूल्ये — पुरुषार्थ",
-      "headEn": "Four Values of Life — Purusharthas",
+      "headEn": "🎯 Four Values of Life — Purusharthas",
       "paragraphs": [
         {
           "mr": "भारतीय जीवनदर्शन अत्यंत साधे होते. त्याचे ध्येय सुखाची वाढ करणे होते. या सुखाचे दोन प्रकार आहेत — इंद्रियजन्य आणि इंद्रियातीत. हे सुख स्वतःसाठी, आपल्या समाजासाठी आणि सर्व चेतन व अचेतन घटकांसाठी वाढवायचे होते. हे एक औपचारिक जीवन मूल्यांच्या संचाच्या रूपात संस्थाबद्ध केले गेले आहे — **पुरुषार्थ**. यांची संख्या चार आहे.",
@@ -39,7 +39,7 @@
     {
       "type": "section",
       "headMr": "ब्रह्मचर्य आश्रम — शिक्षणाचा टप्पा",
-      "headEn": "Brahmacharya Ashrama — The Stage of Learning",
+      "headEn": "📚 Brahmacharya Ashrama — The Stage of Learning",
       "paragraphs": [
         {
           "mr": "जीवनाचा हा पहिला टप्पा जेथे शिष्य परम (ब्रह्म) साक्षात्काराच्या मार्गावर असतो त्याला **ब्रह्मचर्य** म्हणतात. विद्यार्थ्यांच्या जीवनाच्या सुरुवातीच्या टप्प्यातच, भारतीयांनी विशेषतः नियंत्रित वातावरणाची रचना केली जेथे विद्यार्थ्यांच्या चुकीची निवड करण्याची शक्यता कमीत कमी केली जाते — **गुरुकुल**.",
@@ -58,7 +58,7 @@
     {
       "type": "section",
       "headMr": "गृहस्थ आश्रम — व्यक्त अवस्थेचे शिखर",
-      "headEn": "Grihastha Ashrama — The Peak of Manifest Life",
+      "headEn": "🏠 Grihastha Ashrama — The Peak of Manifest Life",
       "paragraphs": [
         {
           "mr": "जीवनाचा दुसरा टप्पा **गृहस्थाश्रम** म्हटला जातो. या टप्प्यात व्यक्ती योग्य जोडीदार शोधते आणि धर्मनिष्ठ व्यक्ती निर्माण करण्याच्या कार्यात स्वतःला वाहून घेते. गृहस्थाश्रमात व्यक्ती स्वतःच्या आणि कुटुंबाच्या मागण्या किंवा इच्छा (काम) पूर्ण करण्यासाठी संसाधने (अर्थ) एकत्र आणण्याच्या कार्यात गुंतलेली असते.",
@@ -81,7 +81,7 @@
     {
       "type": "section",
       "headMr": "वानप्रस्थ आणि संन्यास",
-      "headEn": "Vanaprastha and Sannyasa",
+      "headEn": "🌿 Vanaprastha and Sannyasa",
       "paragraphs": [
         {
           "mr": "काळांतराने गृहस्थाश्रम अंतर्मुख टप्प्याला मार्ग देतो. **वानप्रस्थाश्रमाच्या** टप्प्यात व्यक्ती कुटुंब, समुदाय आणि देशाची जबाबदारी पुढच्या पिढीकडे सोपवण्याची तयारी करते. जी आता गृहस्थाश्रमाचा टप्पा स्वीकारण्यास तयार आहे. हे केल्यानंतर व्यक्ती वानप्रस्थ म्हणून जंगलात जाऊन ब्रह्मचर्याचे जुने दिवस पुन्हा जगू शकते.",
@@ -102,33 +102,73 @@
       "captionEn": "Each Ashrama practices one aspect of the Purusharthas.",
       "steps": [
         {
-          "mr": ["ब्रह्मचर्य", "गुरुकुल"],
-          "en": ["Brahmacharya", "Gurukula"],
+          "mr": [
+            "ब्रह्मचर्य",
+            "गुरुकुल"
+          ],
+          "en": [
+            "Brahmacharya",
+            "Gurukula"
+          ],
           "roman": "Brahmacarya",
-          "subMr": ["विद्या, योग, धर्म-बुद्धी"],
-          "subEn": ["Vidya, yoga, dharma-buddhi"]
+          "subMr": [
+            "विद्या, योग, धर्म-बुद्धी"
+          ],
+          "subEn": [
+            "Vidya, yoga, dharma-buddhi"
+          ]
         },
         {
-          "mr": ["गृहस्थ", "व्यक्त शिखर"],
-          "en": ["Grihastha", "Manifest peak"],
+          "mr": [
+            "गृहस्थ",
+            "व्यक्त शिखर"
+          ],
+          "en": [
+            "Grihastha",
+            "Manifest peak"
+          ],
           "roman": "Gṛhastha",
-          "subMr": ["अर्थ, काम — धर्माच्या मर्यादेत"],
-          "subEn": ["Artha, kama — within dharma"],
+          "subMr": [
+            "अर्थ, काम — धर्माच्या मर्यादेत"
+          ],
+          "subEn": [
+            "Artha, kama — within dharma"
+          ],
           "highlight": true
         },
         {
-          "mr": ["वानप्रस्थ", "अंतर्मुखता"],
-          "en": ["Vanaprastha", "Turning inward"],
+          "mr": [
+            "वानप्रस्थ",
+            "अंतर्मुखता"
+          ],
+          "en": [
+            "Vanaprastha",
+            "Turning inward"
+          ],
           "roman": "Vānaprastha",
-          "subMr": ["जबाबदाऱ्या सोपवणे"],
-          "subEn": ["Handing over responsibilities"]
+          "subMr": [
+            "जबाबदाऱ्या सोपवणे"
+          ],
+          "subEn": [
+            "Handing over responsibilities"
+          ]
         },
         {
-          "mr": ["संन्यास", "परम मुक्ती"],
-          "en": ["Sannyasa", "Ultimate freedom"],
+          "mr": [
+            "संन्यास",
+            "परम मुक्ती"
+          ],
+          "en": [
+            "Sannyasa",
+            "Ultimate freedom"
+          ],
           "roman": "Saṃnyāsa",
-          "subMr": ["मोक्ष — ब्रह्मस्थिती"],
-          "subEn": ["Moksha — established in Brahman"]
+          "subMr": [
+            "मोक्ष — ब्रह्मस्थिती"
+          ],
+          "subEn": [
+            "Moksha — established in Brahman"
+          ]
         }
       ]
     },
@@ -163,8 +203,8 @@
     },
     {
       "type": "curiosity",
-      "mr": "'स्नातक' (Graduate) या आधुनिक शब्दाचे मूळ **'अवभृत स्नान'** या वैदिक संस्कारात आहे! यज्ञाच्या शेवटी किंवा गुरुकुलातील शिक्षण पूर्ण झाल्यावर डोक्यावर पाणी ओतले जाई — हे एका परिपूर्णतेचे चिन्ह होते. राजाच्या राज्याभिषेकातही हाच संस्कार असतो. आजही पदवीग्रहण समारंभास (Graduation) 'स्नातक समारंभ' म्हणतात!",
-      "en": "The origin of the modern word 'Snataka' (Graduate) lies in the Vedic sacrament of **'Avabhrita Snana'**! At the end of a yajna or on completing gurukula education, water was poured over the head — a mark of completeness. The same sacrament is part of a king's coronation. Even today, the graduation ceremony is called 'Snataka Samarambha'!"
+      "mr": "🌟 'स्नातक' (Graduate) या आधुनिक शब्दाचे मूळ **'अवभृत स्नान'** या वैदिक संस्कारात आहे! यज्ञाच्या शेवटी किंवा गुरुकुलातील शिक्षण पूर्ण झाल्यावर डोक्यावर पाणी ओतले जाई — हे एका परिपूर्णतेचे चिन्ह होते. राजाच्या राज्याभिषेकातही हाच संस्कार असतो. आजही पदवीग्रहण समारंभास (Graduation) 'स्नातक समारंभ' म्हणतात!",
+      "en": "🌟 The origin of the modern word 'Snataka' (Graduate) lies in the Vedic sacrament of **'Avabhrita Snana'**! At the end of a yajna or on completing gurukula education, water was poured over the head — a mark of completeness. The same sacrament is part of a king's coronation. Even today, the graduation ceremony is called 'Snataka Samarambha'!"
     },
     {
       "type": "activity",
@@ -174,9 +214,9 @@
         "एखादी आवडती गोष्ट जाणूनबुजून एक दिवस न करण्याचा प्रयत्न करा. (इंटरनेट, मिठाई, किंवा इतर काहीही.) हे 'नियंत्रण' करणे कठीण का जाते? यात काय शिकलात?"
       ],
       "en": [
-        "Which Ashrama are you currently in? What is its main aim? How successful are you in it? And how should you prepare for the next Ashrama? Reflect on this for a while.",
-        "Among the four Purusharthas, which do you spend the most time on today? Look at your weekly schedule and see how time is divided among Dharma, Artha, Kama, and Moksha. What changes are needed?",
-        "Try intentionally not doing one of your favorite things for a day (internet, sweets, or anything else). Why is this 'control' difficult? What did you learn from it?"
+        "🎯 Which Ashrama are you currently in? What is its main aim? How successful are you in it? And how should you prepare for the next Ashrama? Reflect on this for a while.",
+        "⚖️ Among the four Purusharthas, which do you spend the most time on today? Look at your weekly schedule and see how time is divided among Dharma, Artha, Kama, and Moksha. What changes are needed?",
+        "🧘 Try intentionally not doing one of your favorite things for a day (internet, sweets, or anything else). Why is this 'control' difficult? What did you learn from it?"
       ]
     },
     {
@@ -193,7 +233,15 @@
     }
   ],
   "nav": {
-    "prev": { "id": "44", "titleMr": "दैनंदिन जीवनातील तंत्रे", "titleEn": "Tantras in Daily Life" },
-    "next": { "id": "46", "titleMr": "नित्यकर्म", "titleEn": "Nityakarma — Daily Practice" }
+    "prev": {
+      "id": "44",
+      "titleMr": "दैनंदिन जीवनातील तंत्रे",
+      "titleEn": "Tantras in Daily Life"
+    },
+    "next": {
+      "id": "46",
+      "titleMr": "नित्यकर्म",
+      "titleEn": "Nityakarma — Daily Practice"
+    }
   }
 }

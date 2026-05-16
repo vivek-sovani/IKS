@@ -13,7 +13,7 @@
     {
       "type": "section",
       "headMr": "वेद — धर्माचे प्रमुख साधन",
-      "headEn": "The Vedas — Primary Means for Dharma",
+      "headEn": "📜 The Vedas — Primary Means for Dharma",
       "paragraphs": [
         {
           "mr": "आपण रोज काही ना काही कृती करतो — पूजा, यज्ञ, ध्यान किंवा साधना. या सर्व कृतींचा उद्देश काय असतो? भारतीय ज्ञान परंपरेनुसार, या सर्व कृती धर्म साध्य करण्यासाठी आहेत. आणि धर्म साध्य करण्याचे प्रमुख साधन म्हणजे वेद.",
@@ -39,7 +39,7 @@
     {
       "type": "section",
       "headMr": "संहिता आणि ब्राह्मण ग्रंथ — कर्म कांड",
-      "headEn": "Samhita and Brahmana — The Karma Kanda",
+      "headEn": "🔥 Samhita and Brahmana — The Karma Kanda",
       "paragraphs": [
         {
           "mr": "संहिता म्हणजे उद्गीत — मौखिक अभिव्यक्ती किंवा मंत्र. मंत्र आणि यज्ञ हे ज्ञान अवस्थेचे उद्गीत नैसर्गिक प्रकटीकरण आहेत. ते ऋषींच्या अंतर्ज्ञानातून उत्पन्न झाले आहेत.",
@@ -54,7 +54,7 @@
     {
       "type": "section",
       "headMr": "आरण्यक आणि उपनिषदे — ज्ञान कांड",
-      "headEn": "Aranyaka and Upanishads — The Jnana Kanda",
+      "headEn": "🧘 Aranyaka and Upanishads — The Jnana Kanda",
       "paragraphs": [
         {
           "mr": "आरण्यक आणि उपनिषदे ही अव्यक्त प्रक्रियेसाठी आहेत. येथेही यज्ञांचे वर्णन आहे, परंतु हे यज्ञ **ज्ञानयज्ञ** आहेत. ते प्रामुख्याने आंतरिक यज्ञावर लक्ष केंद्रित करतात.",
@@ -83,33 +83,73 @@
       "captionEn": "Samhita and Brahmana form Karma Kanda; Aranyaka and Upanishads form Jnana Kanda.",
       "steps": [
         {
-          "mr": ["संहिता", "मंत्रसंग्रह"],
-          "en": ["Samhita", "Mantra collection"],
+          "mr": [
+            "संहिता",
+            "मंत्रसंग्रह"
+          ],
+          "en": [
+            "Samhita",
+            "Mantra collection"
+          ],
           "roman": "Saṃhitā",
-          "subMr": ["ऋषींची मौखिक अभिव्यक्ती"],
-          "subEn": ["Oral expressions of rishis"]
+          "subMr": [
+            "ऋषींची मौखिक अभिव्यक्ती"
+          ],
+          "subEn": [
+            "Oral expressions of rishis"
+          ]
         },
         {
-          "mr": ["ब्राह्मण", "यज्ञ-उपयोग-पुस्तिका"],
-          "en": ["Brahmana", "Yajna user-manuals"],
+          "mr": [
+            "ब्राह्मण",
+            "यज्ञ-उपयोग-पुस्तिका"
+          ],
+          "en": [
+            "Brahmana",
+            "Yajna user-manuals"
+          ],
           "roman": "Brāhmaṇa",
-          "subMr": ["कर्म कांड — व्यक्त प्रक्रिया"],
-          "subEn": ["Karma Kanda — manifest process"],
+          "subMr": [
+            "कर्म कांड — व्यक्त प्रक्रिया"
+          ],
+          "subEn": [
+            "Karma Kanda — manifest process"
+          ],
           "highlight": true
         },
         {
-          "mr": ["आरण्यक", "ज्ञानयज्ञ"],
-          "en": ["Aranyaka", "Jnana yajnas"],
+          "mr": [
+            "आरण्यक",
+            "ज्ञानयज्ञ"
+          ],
+          "en": [
+            "Aranyaka",
+            "Jnana yajnas"
+          ],
           "roman": "Āraṇyaka",
-          "subMr": ["आंतरिक यज्ञाचे वर्णन"],
-          "subEn": ["Description of internal yajna"]
+          "subMr": [
+            "आंतरिक यज्ञाचे वर्णन"
+          ],
+          "subEn": [
+            "Description of internal yajna"
+          ]
         },
         {
-          "mr": ["उपनिषदे", "ज्ञान कांड"],
-          "en": ["Upanishads", "Jnana Kanda"],
+          "mr": [
+            "उपनिषदे",
+            "ज्ञान कांड"
+          ],
+          "en": [
+            "Upanishads",
+            "Jnana Kanda"
+          ],
           "roman": "Upaniṣad",
-          "subMr": ["अव्यक्त प्रक्रिया — आत्मज्ञान"],
-          "subEn": ["Unmanifest process — self-knowledge"]
+          "subMr": [
+            "अव्यक्त प्रक्रिया — आत्मज्ञान"
+          ],
+          "subEn": [
+            "Unmanifest process — self-knowledge"
+          ]
         }
       ]
     },
@@ -145,7 +185,7 @@
     {
       "type": "curiosity",
       "mr": "तैत्तिरीय आरण्यकात सांगितले आहे की 'ज्ञान यज्ञ करवते आणि कर्मेही करवते' — म्हणजे ज्ञान हेच सर्व कर्माचा मूळ स्रोत आहे. बाह्य यज्ञ हा आंतरिक ज्ञानाचे बाहेरील प्रकटीकरण आहे. म्हणूनच उपनिषदांना **वेदांत** — वेदाचा अंत/परिपूर्णता — असे म्हणतात.",
-      "en": "The Taittiriya Aranyaka states that 'jnana performs the yajna and also the karmas' — meaning jnana itself is the root source of all karma. The external yajna is the outer manifestation of inner jnana. This is why the Upanishads are called **Vedanta** — the end/culmination of the Veda."
+      "en": "🌟 The Taittiriya Aranyaka states that 'jnana performs the yajna and also the karmas' — meaning jnana itself is the root source of all karma. The external yajna is the outer manifestation of inner jnana. This is why the Upanishads are called **Vedanta** — the end/culmination of the Veda."
     },
     {
       "type": "activity",
@@ -155,9 +195,9 @@
         "गीतेतील श्लोक आठवा: 'सर्व कर्म ज्ञानात समाप्त होते.' आज केलेल्या कुठल्याही कृतीत — मग ती नोकरी असो, स्वयंपाक असो किंवा संभाषण — त्यात ज्ञान (जागरूकता) किती होती?"
       ],
       "en": [
-        "Perform a simple external action — like offering a flower to a deity or lighting a lamp. Do this action with complete awareness. Notice how much your mind is actually present in the action.",
-        "Now perform the same action mentally — in imagination. Offer the flower inwardly, light the lamp inwardly. Notice the difference between the external and internal action.",
-        "Recall the verse from the Gita: 'All karma is fulfilled in jnana.' Reflect on any action you performed today — whether work, cooking, or conversation — how much jnana (awareness) was present in it?"
+        "🌸 Perform a simple external action — like offering a flower to a deity or lighting a lamp. Do this action with complete awareness. Notice how much your mind is actually present in the action.",
+        "🧘 Now perform the same action mentally — in imagination. Offer the flower inwardly, light the lamp inwardly. Notice the difference between the external and internal action.",
+        "📖 Recall the verse from the Gita: 'All karma is fulfilled in jnana.' Reflect on any action you performed today — whether work, cooking, or conversation — how much jnana (awareness) was present in it?"
       ]
     },
     {
@@ -174,7 +214,15 @@
     }
   ],
   "nav": {
-    "prev": { "id": "36", "titleMr": "१४ विद्या आणि ६४ कला", "titleEn": "14 Vidyas and 64 Kalas" },
-    "next": { "id": "38", "titleMr": "वेदांग", "titleEn": "Vedangas — Six Limbs of the Veda" }
+    "prev": {
+      "id": "36",
+      "titleMr": "१४ विद्या आणि ६४ कला",
+      "titleEn": "14 Vidyas and 64 Kalas"
+    },
+    "next": {
+      "id": "38",
+      "titleMr": "वेदांग",
+      "titleEn": "Vedangas — Six Limbs of the Veda"
+    }
   }
 }

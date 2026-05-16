@@ -13,7 +13,7 @@
     {
       "type": "section",
       "headMr": "पुनर्रचना का कठीण आहे?",
-      "headEn": "Why is Reconstruction Difficult?",
+      "headEn": "🔍 Why is Reconstruction Difficult?",
       "paragraphs": [
         {
           "mr": "एक जमातीतील व्यक्तीने हत्ती पाहिला होता; बाकीच्यांनी कधी पाहिला नव्हता. 'दृष्टा' त्याचे वर्णन करू लागला: 'तो खूप उंच होता — पर्वतासारखा!' 'त्याचा रंग ढगासारखा काळा होता!' 'तो गाईसारखा हळू चालत होता, परंतु त्याचे पाय झाडांच्या खोडांसारखे होते!' 'त्याला पांढरे दात होते — आणि दोन शेपट्या, एक पुढे एक मागे!' जमातीच्या त्या व्यक्तीने कल्पनेत एक चित्र रेखाटले. ते चित्र कसे दिसले असेल? हीच पुनर्रचनेची समस्या आहे.",
@@ -28,7 +28,7 @@
     {
       "type": "section",
       "headMr": "पुराणांमध्ये केंद्रवर्ती ज्ञान",
-      "headEn": "Central Knowledge in the Puranas",
+      "headEn": "📚 Central Knowledge in the Puranas",
       "paragraphs": [
         {
           "mr": "आधीच्या अध्यायांमध्ये वर्णन केलेला ऊर्ध्वगामी व अधोगामी दिशांमधील प्रवास अव्यक्त व व्यक्त स्थिती कडे नेतो. जागृत-समाधी चक्राचे विद्याचा लय व सृष्टी म्हणूनही वर्णन करता येते, ज्यामुळे देवता व सर्व जगांचा नाश होऊन पुन्हा त्यांची निर्मिती होते.",
@@ -58,7 +58,7 @@
     {
       "type": "section",
       "headMr": "संदर्भाशिवाय अर्थाचा विपर्यास — E=mc² उदाहरण",
-      "headEn": "Distortion Without Context — The E=mc² Example",
+      "headEn": "⚠️ Distortion Without Context — The E=mc² Example",
       "paragraphs": [
         {
           "mr": "पुनर्रचनेचा मुख्य धोका म्हणजे संदर्भाशिवाय ज्ञानाचा अर्थ लावणे. कल्पना करा: आजपासून दोन हजार वर्षांनंतर भविष्यकाळातील कोणाला आजच्या भौतिकशास्त्राच्या पाठ्यपुस्तकाचे काही तुकडेच सापडले. त्यात 'E=mc²' असे लिहिलेले आहे. त्या माणसाला विजेचे, अणूचे, प्रकाशाचे ज्ञान नाही. तो म्हणेल: 'E, m, c ही तीन दैवी तत्त्वे आहेत ज्यांचा एकमेकांशी पवित्र संबंध आहे.' — हे चुकीचे आहे, परंतु संदर्भ हरवल्यावर हेच घडते.",
@@ -73,7 +73,7 @@
     {
       "type": "section",
       "headMr": "देवांची संख्या — एकापासून कोट्यापर्यंत",
-      "headEn": "The Count of Devas — From One to Crores",
+      "headEn": "🔢 The Count of Devas — From One to Crores",
       "paragraphs": [
         {
           "mr": "व्यक्त प्रक्रियेदरम्यान अनेक सुप्त शक्ती पुन्हा क्रियाशील होतात. एका अंदाजानुसार अशा ३३ शक्ती असतात. यातील प्रत्येकामध्ये पुन्हा अनंत इतर शक्ती असतात — त्यामुळे विविध गणनेनुसार ३३ हजार किंवा कोट्यावधी अशी संख्या मिळते. मुख्य ३३ गट: ८ वसु + ११ रुद्र + १२ आदित्य + इंद्र + प्रजापती (बृहदारण्यक उपनिषद ३.९.२).",
@@ -139,8 +139,18 @@
         }
       ],
       "callout": {
-        "mr": ["मूळ सत्य:", "एकं सद् विप्रा", "बहुधा वदन्ति", "(ऋ.वे. १.१६४.४६)"],
-        "en": ["Core truth:", "ekaṃ sad viprā", "bahudhā vadanti", "(RV 1.164.46)"]
+        "mr": [
+          "मूळ सत्य:",
+          "एकं सद् विप्रा",
+          "बहुधा वदन्ति",
+          "(ऋ.वे. १.१६४.४६)"
+        ],
+        "en": [
+          "Core truth:",
+          "ekaṃ sad viprā",
+          "bahudhā vadanti",
+          "(RV 1.164.46)"
+        ]
       }
     },
     {
@@ -169,7 +179,7 @@
     {
       "type": "curiosity",
       "mr": "बृहदारण्यक उपनिषदात (३.९.२) याज्ञवल्क्यांना विचारले जाते: 'खरोखर किती देव आहेत?' ते तेहतीस मुख्य गटांचे वर्णन करतात — आठ वसु, अकरा रुद्र, बारा आदित्य, इंद्र आणि प्रजापती. आणि शेवटी (३.९.९) ते म्हणतात: 'एकच देव आहे — प्राण.' तेहतीसाकडून एकाकडे जाण्याचा हा मार्ग पुनर्रचनेचे सारच सांगतो!",
-      "en": "In the Brihadaranyaka Upanishad (3.9.2), Yajnavalkya is asked: 'How many devas are there really?' He describes the thirty-three principal groups — eight Vasus, eleven Rudras, twelve Adityas, Indra, and Prajapati. And finally (3.9.9) he says: 'There is one deva — Prana.' The path from thirty-three back to one is itself the essence of reconstruction!"
+      "en": "🌟 In the Brihadaranyaka Upanishad (3.9.2), Yajnavalkya is asked: 'How many devas are there really?' He describes the thirty-three principal groups — eight Vasus, eleven Rudras, twelve Adityas, Indra, and Prajapati. And finally (3.9.9) he says: 'There is one deva — Prana.' The path from thirty-three back to one is itself the essence of reconstruction!"
     },
     {
       "type": "activity",
@@ -179,9 +189,9 @@
         "एखाद्या गोष्टीचा दीर्घकाळ अभ्यास केल्यावर तुम्हाला ती 'आतून' समजते — केवळ माहिती म्हणून नव्हे. त्या अनुभवाची आठवण करा. ऋषींना देवतांचे ज्ञान अशाच प्रत्यक्ष अनुभवाने होते — बाहेरून नव्हे."
       ],
       "en": [
-        "Read the Yajnavalkya dialogue from the Brihadaranyaka Upanishad (3.9.2 to 3.9.9). Try to work out for yourself the logical path by which he moves from 33 thousand down to one.",
-        "Choose a Puranic story — e.g. samudra-manthana, Ramayana's Lanka battle, Mahabharata's Kurukshetra. Try to connect the main events to the Vedic cycle — Agni→Indra→Surya→Soma.",
-        "Recall a time when long study gave you 'inner' understanding of something — not just information about it. Rishis knew the deities through exactly this kind of direct experience — not from the outside."
+        "📖 Read the Yajnavalkya dialogue from the Brihadaranyaka Upanishad (3.9.2 to 3.9.9). Try to work out for yourself the logical path by which he moves from 33 thousand down to one.",
+        "📜 Choose a Puranic story — e.g. samudra-manthana, Ramayana's Lanka battle, Mahabharata's Kurukshetra. Try to connect the main events to the Vedic cycle — Agni→Indra→Surya→Soma.",
+        "💡 Recall a time when long study gave you 'inner' understanding of something — not just information about it. Rishis knew the deities through exactly this kind of direct experience — not from the outside."
       ]
     },
     {

@@ -13,7 +13,7 @@
     {
       "type": "section",
       "headMr": "संगीत ऐकताना काय होते?",
-      "headEn": "What Happens When We Listen to Music?",
+      "headEn": "🎵 What Happens When We Listen to Music?",
       "paragraphs": [
         {
           "mr": "एखादी सुंदर रागदारी ऐकताना आपण काही क्षण सर्व काळजी विसरतो. मन शांत होते, एक प्रकारचा अनामिक आनंद येतो. हे फक्त 'मनोरंजन' आहे का? भारतीय विचारपरंपरेनुसार नाही — हे एक क्षणभर अनुभवलेले तुरीय-स्पर्शाचे दर्शन आहे. जेव्हा कानाला सुरेल ध्वनी ऐकू येतो, तेव्हा मन आत्म्याशी क्षणभर जोडते — आणि तोच आनंद आपल्याला जाणवतो.",
@@ -35,7 +35,7 @@
     {
       "type": "section",
       "headMr": "नऊ रस — भावनांचा विश्वकोश",
-      "headEn": "Nine Rasas — The Universe of Emotions",
+      "headEn": "🌈 Nine Rasas — The Universe of Emotions",
       "paragraphs": [
         {
           "mr": "भरतमुनींनी नाट्यशास्त्रात नऊ मूळ रसांचे वर्णन केले आहे. प्रत्येक रस एका मूळ भावनेतून (स्थायिभाव) निर्माण होतो. **शृंगार** (प्रेम), **हास्य** (हास्य), **करुण** (दुःख), **रौद्र** (क्रोध), **वीर** (उत्साह), **भयानक** (भय), **बीभत्स** (तिरस्कार), **अद्भुत** (विस्मय) आणि **शांत** (प्रशांती) — हे नऊ रस सर्व मानवी भावांचे सार आहेत.",
@@ -54,7 +54,7 @@
     {
       "type": "section",
       "headMr": "मनोरंजनम् — मनात रंग भरणे",
-      "headEn": "Manoranjanam — Filling the Mind with Colour",
+      "headEn": "🎨 Manoranjanam — Filling the Mind with Colour",
       "paragraphs": [
         {
           "mr": "मनोरंजन या आधुनिक शब्दाचा खरा अर्थ काय? **मनोरंजनम्** — मन + रंजन. रंजन म्हणजे रंगाची भावना, रंजित करणे. म्हणजे 'मनात रंग भरणे'. न्यूटनने आपल्या रंगचाकाच्या प्रयोगात दाखवले की सर्व रंग एकत्र आले की पांढरा प्रकाश निर्माण होतो — शुद्ध, निर्मळ, एकसंध. त्याचप्रमाणे आठ रसांचे संयोजन जेव्हा कलाकृतीत योग्यप्रकारे होते, तेव्हा नवव्या शांत रसाचा — शुद्ध चेतनेचा — उदय होतो.",
@@ -92,8 +92,16 @@
           "headEn": "Vira / Shringara",
           "subMr": "उत्साह — प्रेम",
           "subEn": "Heroism — Love",
-          "itemsMr": ["उत्साह", "रती", "साहस"],
-          "itemsEn": ["Enthusiasm", "Rati", "Courage"]
+          "itemsMr": [
+            "उत्साह",
+            "रती",
+            "साहस"
+          ],
+          "itemsEn": [
+            "Enthusiasm",
+            "Rati",
+            "Courage"
+          ]
         },
         {
           "position": "top-right",
@@ -102,8 +110,16 @@
           "headEn": "Adbhuta / Hasya",
           "subMr": "विस्मय — हास्य",
           "subEn": "Wonder — Laughter",
-          "itemsMr": ["आश्चर्य", "विनोद", "आनंद"],
-          "itemsEn": ["Wonder", "Humor", "Delight"]
+          "itemsMr": [
+            "आश्चर्य",
+            "विनोद",
+            "आनंद"
+          ],
+          "itemsEn": [
+            "Wonder",
+            "Humor",
+            "Delight"
+          ]
         },
         {
           "position": "bottom-left",
@@ -112,8 +128,16 @@
           "headEn": "Karuna / Bhayanaka",
           "subMr": "दुःख — भय",
           "subEn": "Grief — Terror",
-          "itemsMr": ["शोक", "त्रास", "विषाद"],
-          "itemsEn": ["Grief", "Anguish", "Sorrow"]
+          "itemsMr": [
+            "शोक",
+            "त्रास",
+            "विषाद"
+          ],
+          "itemsEn": [
+            "Grief",
+            "Anguish",
+            "Sorrow"
+          ]
         },
         {
           "position": "bottom-right",
@@ -122,15 +146,23 @@
           "headEn": "Raudra / Bibhatsa",
           "subMr": "क्रोध — तिरस्कार",
           "subEn": "Fury — Disgust",
-          "itemsMr": ["क्रोध", "घृणा", "विकृती"],
-          "itemsEn": ["Fury", "Revulsion", "Distortion"]
+          "itemsMr": [
+            "क्रोध",
+            "घृणा",
+            "विकृती"
+          ],
+          "itemsEn": [
+            "Fury",
+            "Revulsion",
+            "Distortion"
+          ]
         }
       ]
     },
     {
       "type": "section",
       "headMr": "साठ-चार कला — जीवनाच्या चक्राचे वाहक",
-      "headEn": "Sixty-Four Kalas — Vehicles of Life's Cycle",
+      "headEn": "🎭 Sixty-Four Kalas — Vehicles of Life's Cycle",
       "paragraphs": [
         {
           "mr": "रसाचा अनुभव देण्यासाठी अनेक माध्यमे वापरली जातात — संगीत, नृत्य, चित्रकला, शिल्पकला, काव्य, नाटक. भारतीय परंपरेत या सर्वांचे एकत्रित संकलन **साठ-चार कला** (चतुःषष्टी कला) म्हणून ओळखले जाते. गाणे, वाजवणे, नाचणे, चित्र काढणे, शिल्प घडवणे, फुलांची माळ बनवणे, स्वयंपाककला — हे सर्व कलांमध्ये समाविष्ट आहेत.",
@@ -173,8 +205,8 @@
     },
     {
       "type": "curiosity",
-      "mr": "'परमपद सोपान' हा फाशांचा खेळ केवळ मनोरंजन नाही — त्याची रचना प्रकृतीचे तत्त्व आणि आनंदाच्या सर्वोच्च अवस्थेपर्यंत पोहोचण्याचा मार्ग सतत आठवण करून देते. सिंधू खोऱ्याच्या लोथल येथे चौकोनी बुद्धिबळाचा तख्ता सापडला आहे — तेथील काही मोहरे आधुनिक बुद्धिबळाच्या मोहऱ्यांसारखे दिसतात. भारतात मनोरंजन केवळ 'टाइमपास' नव्हते — ते धर्माचे आणि आत्मज्ञानाचे माध्यम होते!",
-      "en": "'Paramapada Sopana' (Snakes and Ladders) is not mere entertainment — its design is a constant reminder of the principles of Prakriti and the path to the supreme state of Ananda. A square chessboard was found at the Lothal site of the Indus Valley — some of its pieces resemble modern chess pieces. In India, entertainment was never mere 'time-pass' — it was a medium for dharma and self-knowledge!"
+      "mr": "🌟 'परमपद सोपान' हा फाशांचा खेळ केवळ मनोरंजन नाही — त्याची रचना प्रकृतीचे तत्त्व आणि आनंदाच्या सर्वोच्च अवस्थेपर्यंत पोहोचण्याचा मार्ग सतत आठवण करून देते. सिंधू खोऱ्याच्या लोथल येथे चौकोनी बुद्धिबळाचा तख्ता सापडला आहे — तेथील काही मोहरे आधुनिक बुद्धिबळाच्या मोहऱ्यांसारखे दिसतात. भारतात मनोरंजन केवळ 'टाइमपास' नव्हते — ते धर्माचे आणि आत्मज्ञानाचे माध्यम होते!",
+      "en": "🌟 'Paramapada Sopana' (Snakes and Ladders) is not mere entertainment — its design is a constant reminder of the principles of Prakriti and the path to the supreme state of Ananda. A square chessboard was found at the Lothal site of the Indus Valley — some of its pieces resemble modern chess pieces. In India, entertainment was never mere 'time-pass' — it was a medium for dharma and self-knowledge!"
     },
     {
       "type": "activity",
@@ -184,9 +216,9 @@
         "स्वतः एखादी छोटी कला सराव करा — चित्र काढणे, एक श्लोक म्हणणे, किंवा एखादे वाद्य वाजवणे. त्या सरावात रस कुठे येतो — संपूर्ण प्रयत्नात की एखाद्या क्षणी?"
       ],
       "en": [
-        "Listen to a favorite musical composition (classical, devotional, or any other) with eyes closed. At which moment does the mind stop thinking and only listening remains? That moment is 'Rasodaya' from the Natyashastra — observe it.",
-        "Take the list of nine rasas and recall a Hindi, Marathi, or English film. Which rasas were present? Which rasa was most impactful? Did the film move toward Shanta Rasa at the end?",
-        "Practice a small art yourself — drawing, reciting a verse, or playing an instrument. Where does Rasa arise in that practice — throughout the effort or at a particular moment?"
+        "🎵 Listen to a favorite musical composition (classical, devotional, or any other) with eyes closed. At which moment does the mind stop thinking and only listening remains? That moment is 'Rasodaya' from the Natyashastra — observe it.",
+        "🎬 Take the list of nine rasas and recall a Hindi, Marathi, or English film. Which rasas were present? Which rasa was most impactful? Did the film move toward Shanta Rasa at the end?",
+        "🎨 Practice a small art yourself — drawing, reciting a verse, or playing an instrument. Where does Rasa arise in that practice — throughout the effort or at a particular moment?"
       ]
     },
     {
@@ -203,7 +235,15 @@
     }
   ],
   "nav": {
-    "prev": { "id": "48", "titleMr": "संस्कार", "titleEn": "Samskaras — Rites of Refinement" },
-    "next": { "id": "50", "titleMr": "मंदिर संस्था", "titleEn": "Temple Institution — Devalaya" }
+    "prev": {
+      "id": "48",
+      "titleMr": "संस्कार",
+      "titleEn": "Samskaras — Rites of Refinement"
+    },
+    "next": {
+      "id": "50",
+      "titleMr": "मंदिर संस्था",
+      "titleEn": "Temple Institution — Devalaya"
+    }
   }
 }

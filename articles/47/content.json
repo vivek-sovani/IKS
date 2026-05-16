@@ -13,7 +13,7 @@
     {
       "type": "section",
       "headMr": "ऋतूंची वार्षिक चक्रे",
-      "headEn": "Annual Cycles of the Seasons",
+      "headEn": "🍂 Annual Cycles of the Seasons",
       "paragraphs": [
         {
           "mr": "दिनचर्याप्रमाणेच पाक्षिक, मासिक आणि वार्षिक दिनचर्या देखील आहेत ज्या त्या वेळेच्या चक्रांशी संबंधित आहेत. वर्षाची सुरुवात वसंत ऋतूपासून होते जी सृष्टीच्या प्रारंभाप्रमाणे साजरी केली जाते. युगादी जी वर्षाच्या पहिल्या दिवशी साजरी केली जाते त्याचा अर्थ युग किंवा कालखंड किंवा सृष्टीची सुरुवात असा होतो.",
@@ -28,7 +28,7 @@
     {
       "type": "section",
       "headMr": "शरद व दीपावली — प्रकाशाचे सण",
-      "headEn": "Sharada and Dipavali — Festivals of Light",
+      "headEn": "🪔 Sharada and Dipavali — Festivals of Light",
       "paragraphs": [
         {
           "mr": "पावसाळ्यानंतर शरद ऋतू येतो. या ऋतूत काळे ढग जाऊन स्वच्छ निळे आकाश दिसते आणि तापमान कमी होऊ लागते. वसंत आणि शरद दोन्ही ऋतू साधारण सहा महिने अंतरावर असतात आणि विषुववृत्तांच्या जवळ असतात जेथे दिवस आणि रात्री समान असतात. या दोन्ही ऋतूंमध्ये नऊ दिवसांचे वसंत नवरात्र आणि शारदीय नवरात्र पाळले जाते जे पूजा आणि आनंद यासाठी समर्पित असते.",
@@ -73,8 +73,16 @@
           "headEn": "Vasanta (Spring)",
           "subMr": "सृष्टीचा प्रारंभ",
           "subEn": "Beginning of Creation",
-          "itemsMr": ["युगादी", "रामनवमी", "वसंत नवरात्र"],
-          "itemsEn": ["Yugadi", "Ram Navami", "Vasanta Navaratri"]
+          "itemsMr": [
+            "युगादी",
+            "रामनवमी",
+            "वसंत नवरात्र"
+          ],
+          "itemsEn": [
+            "Yugadi",
+            "Ram Navami",
+            "Vasanta Navaratri"
+          ]
         },
         {
           "position": "top-right",
@@ -83,8 +91,16 @@
           "headEn": "Varsha (Monsoon)",
           "subMr": "अंतर्मुख साधना",
           "subEn": "Inward Sadhana",
-          "itemsMr": ["देवशयनी एकादशी", "जन्माष्टमी", "श्रावण सोमवार"],
-          "itemsEn": ["Devashayani Ekadashi", "Janmashtami", "Shravana Somavara"]
+          "itemsMr": [
+            "देवशयनी एकादशी",
+            "जन्माष्टमी",
+            "श्रावण सोमवार"
+          ],
+          "itemsEn": [
+            "Devashayani Ekadashi",
+            "Janmashtami",
+            "Shravana Somavara"
+          ]
         },
         {
           "position": "bottom-right",
@@ -93,8 +109,16 @@
           "headEn": "Sharada (Autumn)",
           "subMr": "देवीपूजा व दीप",
           "subEn": "Devi Worship and Light",
-          "itemsMr": ["शारदीय नवरात्र", "दीपावली", "उत्थान द्वादशी"],
-          "itemsEn": ["Sharadiya Navaratri", "Dipavali", "Utthana Dvadashi"]
+          "itemsMr": [
+            "शारदीय नवरात्र",
+            "दीपावली",
+            "उत्थान द्वादशी"
+          ],
+          "itemsEn": [
+            "Sharadiya Navaratri",
+            "Dipavali",
+            "Utthana Dvadashi"
+          ]
         },
         {
           "position": "bottom-left",
@@ -103,15 +127,23 @@
           "headEn": "Hemanta-Shishira (Winter)",
           "subMr": "आध्यात्मिक साधना",
           "subEn": "Spiritual Practice",
-          "itemsMr": ["मकर संक्रांती", "महाशिवरात्री", "होळी"],
-          "itemsEn": ["Makara Sankranti", "Mahashivaratri", "Holi"]
+          "itemsMr": [
+            "मकर संक्रांती",
+            "महाशिवरात्री",
+            "होळी"
+          ],
+          "itemsEn": [
+            "Makara Sankranti",
+            "Mahashivaratri",
+            "Holi"
+          ]
         }
       ]
     },
     {
       "type": "section",
       "headMr": "काळाची चक्रे आणि शुभ संयोग",
-      "headEn": "Time Cycles and Auspicious Convergences",
+      "headEn": "⭐ Time Cycles and Auspicious Convergences",
       "paragraphs": [
         {
           "mr": "चांद्र दिनदर्शिकेत अनेक चक्रे असतात — साप्ताहिक (वार), पाक्षिक (तिथी/पक्ष), २७ दिवसांचे चक्र (नक्षत्र), मासिक (मास), वार्षिक (ज्यामध्ये १२ महिने, ६ ऋतू किंवा २ अयन असतात), ६०-वर्षांचे चक्र (६० संवत्सरांचा संच). प्रत्येक चक्रातील टप्पे विशिष्ट नैसर्गिक परिस्थितींशी जोडलेले असतात.",
@@ -126,7 +158,7 @@
     {
       "type": "curiosity",
       "mr": "मनोरंजनम् हा मनोरंजनासाठी समकालीन संस्कृत शब्द आहे. 'रंज' म्हणजे रंग भरणे — मनोरंजनम् म्हणजे 'मनात रंग भरणे'. न्यूटनच्या चाकाच्या प्रयोगाशी जोडा: चाक फिरवले की सर्व रंग मिळून पांढरे दिसतात. आठ रस (भावना) जेव्हा पूर्णपणे अनुभवले जातात तेव्हा नवव्या रसाचा — शांत रसाचा — उदय होतो, जसे स्वच्छ निळे आकाश.",
-      "en": "Manoranjanam is the Sanskrit word for entertainment — 'ranja' means to fill with colour, so manoranjanam means 'filling the mind with colour'. Connect this to Newton's colour-wheel experiment: spin the disc and all colours blend into white. When all eight rasas (emotions) are fully experienced, the ninth rasa — shanta (peace) — emerges, like a clear blue sky."
+      "en": "🌟 Manoranjanam is the Sanskrit word for entertainment — 'ranja' means to fill with colour, so manoranjanam means 'filling the mind with colour'. Connect this to Newton's colour-wheel experiment: spin the disc and all colours blend into white. When all eight rasas (emotions) are fully experienced, the ninth rasa — shanta (peace) — emerges, like a clear blue sky."
     },
     {
       "type": "activity",
@@ -136,9 +168,9 @@
         "या आठवड्यात प्रत्येक दिवसाच्या सुरुवातीला त्या दिवसाचा वार (सूर्य, चंद्र, मंगळ इ.) लक्षात घ्या. साप्ताहिक चक्राचा स्वतःवर काय परिणाम होतो हे निरीक्षण करा."
       ],
       "en": [
-        "Find out the next upcoming festival. Research which season, tithi, and nakshatra it falls on. Try to discover how it connects to natural cycles.",
-        "Pick one festival observed in your family. Ask an elder: what is it celebrated for, what are its rituals, and which shakti (devata) do those rituals aim to invoke?",
-        "This week, note the weekday (vara) at the start of each day — Sun, Moon, Mars, etc. Observe whether the weekly cycle has any perceptible effect on your own experience."
+        "🎉 Find out the next upcoming festival. Research which season, tithi, and nakshatra it falls on. Try to discover how it connects to natural cycles.",
+        "👴 Pick one festival observed in your family. Ask an elder: what is it celebrated for, what are its rituals, and which shakti (devata) do those rituals aim to invoke?",
+        "📅 This week, note the weekday (vara) at the start of each day — Sun, Moon, Mars, etc. Observe whether the weekly cycle has any perceptible effect on your own experience."
       ]
     },
     {
@@ -155,7 +187,15 @@
     }
   ],
   "nav": {
-    "prev": { "id": "46", "titleMr": "नित्यकर्म", "titleEn": "Nityakarma — Daily Practice" },
-    "next": { "id": "48", "titleMr": "संस्कार", "titleEn": "Samskaras — Rites of Refinement" }
+    "prev": {
+      "id": "46",
+      "titleMr": "नित्यकर्म",
+      "titleEn": "Nityakarma — Daily Practice"
+    },
+    "next": {
+      "id": "48",
+      "titleMr": "संस्कार",
+      "titleEn": "Samskaras — Rites of Refinement"
+    }
   }
 }

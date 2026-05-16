@@ -13,7 +13,7 @@
     {
       "type": "section",
       "headMr": "समस्या विधान",
-      "headEn": "Problem Statement",
+      "headEn": "❓ Problem Statement",
       "paragraphs": [
         {
           "mr": "तुमचा ग्राहक एक आंतरराष्ट्रीय रामायण संग्रहालय विकसित करीत आहे, ज्यामधील नियोजित तांत्रिक प्रदर्शनीय वस्तूंमध्ये रामायण पठण करणारे साधन समाविष्ट आहे. हे साधन अभ्यागताने मागितलेला वाल्मीकी रामायणातील कोणताही श्लोक स्पष्ट आणि योग्य उच्चारांसह पठण करण्यास सक्षम असले पाहिजे. बहुधा हे साधन मजकूर-ते-ध्वनी रूपांतरणासाठी अत्याधुनिक यंत्राधारित शिक्षण तंत्रज्ञानाचा वापर करेल.",
@@ -27,8 +27,8 @@
     },
     {
       "type": "section",
-      "headMr": "IKS विश्लेषण",
-      "headEn": "IKS Analysis",
+      "headMr": "🔍 IKS विश्लेषण",
+      "headEn": "🔍 IKS Analysis",
       "paragraphs": [
         {
           "mr": "या प्रकरणाशी संबंधित महत्त्वाचे भारतीय घटक प्रथम लक्षात घेतो. वाल्मीकी रामायण हे इतिहास आणि काव्य आहे — त्यामुळे ते रसभरित आहे. तपासल्या जाणाऱ्या तंत्रज्ञानातून शब्द निर्माण होतात — श्लोकाच्या संदर्भात. त्यांचे उच्चारण (शिक्षा), व्याकरण (व्याकरणम्), छंद आणि लय यांचा समावेश होतो. काव्याचा अंतिम उद्देश म्हणजे वाल्मीकींच्या मूळ अभिप्रेत भावनेनुसार श्रोत्यामध्ये मूळ भाव जागृत करणे — ज्यामुळे एक पूर्ण आत्मीय चक्र पूर्ण होते.",
@@ -80,7 +80,7 @@
     {
       "type": "section",
       "headMr": "मूल्यमापन पद्धती",
-      "headEn": "Evaluation Methods",
+      "headEn": "📊 Evaluation Methods",
       "paragraphs": [
         {
           "mr": "श्लोक पठणात रस किती प्रकट होतो किंवा कोणते भाव जागृत होतात याचे मापन करण्यासाठी, वापरकर्त्यांच्या प्रत्यक्ष अनुभवांच्या आधारे चाचण्या आखल्या जाऊ शकतात. सर्वात कठीण गोष्ट म्हणजे वाल्मीकींचा मूळ हेतू समजून घेणे. काव्यसंहितेच्या आकलनातून हे जाणवते की काव्याची सुंदरता अनुभवल्याशिवाय राहू नये, परंतु मनात दीर्घकाळ टिकून राहणारा प्रभाव हा रामाचे आत्मगुण असला पाहिजे.",
@@ -95,7 +95,7 @@
     {
       "type": "curiosity",
       "mr": "वाल्मीकींनी क्रौंच पक्ष्याच्या विरहाने व्यथित होऊन प्रथम श्लोक उच्चारला — 'मा निषाद...'. हा 'शोक' श्लोक बनला असे सांगितले जाते. काव्याचा जन्म रसापासून झाला. त्यामुळे काव्याचे मूल्यमापन करताना रस हा निकष प्राथमिक आहे — उच्चार-शुद्धता हे साधन आहे, साध्य नाही.",
-      "en": "Valmiki, distressed by the grief of a kraunch bird, uttered the first shloka — 'Ma nishada...'. This 'shoka' (grief) is said to have become a shloka (verse). Kavya was born from rasa. Therefore, when evaluating kavya, rasa is the primary criterion — pronunciation accuracy is the means, not the end."
+      "en": "🌟 Valmiki, distressed by the grief of a kraunch bird, uttered the first shloka — 'Ma nishada...'. This 'shoka' (grief) is said to have become a shloka (verse). Kavya was born from rasa. Therefore, when evaluating kavya, rasa is the primary criterion — pronunciation accuracy is the means, not the end."
     },
     {
       "type": "activity",
@@ -105,9 +105,9 @@
         "या प्रकरणातून 'घटकनिष्ठ पद्धत' समजली का? इतर कोणत्या क्षेत्रात — संगीत, शिक्षण, स्थापत्य — असे मूल्यमापन करता येईल? एक उदाहरण तयार करा."
       ],
       "en": [
-        "Can you distinguish between an 'AI voice' and a 'human voice'? What makes them different? How can this difference be articulated from an IKS perspective — rasa, bhava, atmaguna?",
-        "Listen to any shloka or poetic composition from the Valmiki Ramayana — once in mechanical recitation and once from a traditionally trained person. Compare the rasa-experience between the two.",
-        "Did this case study help you understand the 'component-based method'? In what other fields — music, education, architecture — can such evaluation be applied? Create one example."
+        "🎧 Can you distinguish between an 'AI voice' and a 'human voice'? What makes them different? How can this difference be articulated from an IKS perspective — rasa, bhava, atmaguna?",
+        "🎵 Listen to any shloka or poetic composition from the Valmiki Ramayana — once in mechanical recitation and once from a traditionally trained person. Compare the rasa-experience between the two.",
+        "💡 Did this case study help you understand the 'component-based method'? In what other fields — music, education, architecture — can such evaluation be applied? Create one example."
       ]
     },
     {
@@ -124,7 +124,15 @@
     }
   ],
   "nav": {
-    "prev": { "id": "57", "titleMr": "उपसंहार — समीक्षा मॉडेल", "titleEn": "Conclusion — The SaMIKSHA Model" },
-    "next": { "id": "59", "titleMr": "उपयोजन २ — एकात्मिक आरोग्य प्रणाली", "titleEn": "Application 2 — Integrative Healthcare" }
+    "prev": {
+      "id": "57",
+      "titleMr": "उपसंहार — समीक्षा मॉडेल",
+      "titleEn": "Conclusion — The SaMIKSHA Model"
+    },
+    "next": {
+      "id": "59",
+      "titleMr": "उपयोजन २ — एकात्मिक आरोग्य प्रणाली",
+      "titleEn": "Application 2 — Integrative Healthcare"
+    }
   }
 }

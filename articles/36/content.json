@@ -13,7 +13,7 @@
     {
       "type": "section",
       "headMr": "विद्या — शिक्षणाची मुख्य संकल्पना",
-      "headEn": "Vidya — The Core Concept of Education",
+      "headEn": "📚 Vidya — The Core Concept of Education",
       "paragraphs": [
         {
           "mr": "विद्या हे शिक्षणाचे मुख्य माध्यम आहे. त्यामुळे विद्या हा शब्द शिक्षणासाठी सामान्य संज्ञा बनला आहे. विद्यांचे व्यवस्थित वर्गीकरण प्रथम अथर्ववेदाच्या परिशिष्टात (उपसंहार) आढळते. तेथे वेदांच्या, त्यांच्या उपसंहारांच्या, त्यांच्या शाखांच्या — अंगांच्या — उपवेदांच्या याद्या वर्णन केल्या आहेत. या वर्गीकरणाची पद्धत स्मृतींनी चतुर्दशविद्या अर्थात चौदा विद्यांची पद्धत म्हणून औपचारिक केली.",
@@ -35,7 +35,7 @@
     {
       "type": "section",
       "headMr": "चतुर्दश विद्यांची रचना",
-      "headEn": "Structure of the Fourteen Vidyas",
+      "headEn": "🏗️ Structure of the Fourteen Vidyas",
       "paragraphs": [
         {
           "mr": "या चौदा विद्यांमध्ये हे समाविष्ट आहेत: **४ वेद** — ऋग्वेद, यजुर्वेद, सामवेद आणि अथर्ववेद. **६ वेदांग** — शिक्षा, व्याकरण, छंद, निरुक्त, ज्योतिष आणि कल्प. **४ उपांग** — इतिहास आणि पुराणे; धर्मशास्त्रे; न्याय; आणि मीमांसा तत्त्वज्ञान.",
@@ -50,7 +50,7 @@
     {
       "type": "section",
       "headMr": "कौटिल्याची चार विद्यांची पद्धत",
-      "headEn": "Kautilya's Fourfold Classification",
+      "headEn": "🔢 Kautilya's Fourfold Classification",
       "paragraphs": [
         {
           "mr": "महाभारत आणि कौटिल्याच्या अर्थशास्त्रात विद्या चतुर्विध (चार प्रकारच्या) असल्याचे सांगितले आहे. या चतुर्विध वर्गीकरणाचे क्षेत्र वर वर्णन केलेल्यापेक्षा अधिक व्यापक आहे:",
@@ -75,46 +75,90 @@
       "captionEn": "According to Kautilya's Arthashastra — four domains of knowledge from self to society.",
       "steps": [
         {
-          "mr": ["आन्वीक्षिकी"],
-          "en": ["Anvikshiki"],
+          "mr": [
+            "आन्वीक्षिकी"
+          ],
+          "en": [
+            "Anvikshiki"
+          ],
           "roman": "Ānvīkṣikī",
-          "subMr": ["सांख्य-योग", "आत्म-चिंतन"],
-          "subEn": ["Sankhya-Yoga", "Self-reflection"]
+          "subMr": [
+            "सांख्य-योग",
+            "आत्म-चिंतन"
+          ],
+          "subEn": [
+            "Sankhya-Yoga",
+            "Self-reflection"
+          ]
         },
         {
-          "mr": ["त्रयी"],
-          "en": ["Trayee"],
+          "mr": [
+            "त्रयी"
+          ],
+          "en": [
+            "Trayee"
+          ],
           "roman": "Trayī",
-          "subMr": ["वेद-इतिहास", "धर्माचे रक्षण"],
-          "subEn": ["Vedas-Itihas", "Protecting dharma"],
+          "subMr": [
+            "वेद-इतिहास",
+            "धर्माचे रक्षण"
+          ],
+          "subEn": [
+            "Vedas-Itihas",
+            "Protecting dharma"
+          ],
           "highlight": true
         },
         {
-          "mr": ["वार्ता"],
-          "en": ["Varta"],
+          "mr": [
+            "वार्ता"
+          ],
+          "en": [
+            "Varta"
+          ],
           "roman": "Vārtā",
-          "subMr": ["शेती-व्यापार", "अर्थव्यवस्था"],
-          "subEn": ["Agriculture-Trade", "Economy"]
+          "subMr": [
+            "शेती-व्यापार",
+            "अर्थव्यवस्था"
+          ],
+          "subEn": [
+            "Agriculture-Trade",
+            "Economy"
+          ]
         },
         {
-          "mr": ["दंडनीती"],
-          "en": ["Dandaniti"],
+          "mr": [
+            "दंडनीती"
+          ],
+          "en": [
+            "Dandaniti"
+          ],
           "roman": "Daṇḍanīti",
-          "subMr": ["राज्यशास्त्र", "न्याय-संरक्षण"],
-          "subEn": ["Statecraft", "Justice & protection"]
+          "subMr": [
+            "राज्यशास्त्र",
+            "न्याय-संरक्षण"
+          ],
+          "subEn": [
+            "Statecraft",
+            "Justice & protection"
+          ]
         }
       ],
       "examples": {
         "headMr": "लक्ष्य:",
         "headEn": "Goal:",
-        "mr": ["धर्म-अर्थ-काम-मोक्ष"],
-        "en": ["Dharma-Artha-Kama-Moksha"]
+        "mr": [
+          "धर्म-अर्थ-काम-मोक्ष"
+        ],
+        "en": [
+          "Dharma-Artha-Kama-Moksha"
+        ]
       }
     },
     {
       "type": "section",
       "headMr": "६४ कला — कौशल्यावर आधारित ज्ञान",
-      "headEn": "64 Kalas — Skill-Based Knowledge",
+      "headEn": "🎨 64 Kalas — Skill-Based Knowledge",
       "paragraphs": [
         {
           "mr": "कला मुख्यतः कौशल्य-आधारित आहेत, विद्यांच्या मौखिक स्वरूपाच्या विरुद्ध. कला सामान्यतः १६ किंवा ६४ संख्येने ओळखल्या जातात. १६ किंवा त्याच्या गुणाकारांचे महत्त्व आधीच वर्णन केले आहे. तथापि, ६४ कलांची यादी ग्रंथानुसार बदलते.",
@@ -160,7 +204,7 @@
     {
       "type": "curiosity",
       "mr": "शुक्रनीतीमध्ये ३२ विद्यांची यादी दिली आहे: ४ वेद, ४ उपवेद, ६ वेदांग, ६ दर्शने, इतिहास, पुराण, स्मृती, नास्तिक मत, अर्थशास्त्र, कामशास्त्र, शिल्पशास्त्र, अलंकारशास्त्र, काव्य, देशभाषा, अवसरोक्ती, यवनमत! यात ग्रीक तत्त्वज्ञान (यवनमत) देखील होते — भारताच्या ज्ञानविश्वाची व्यापकता दर्शवते.",
-      "en": "The Shukraniti lists 32 Vidyas: 4 Vedas, 4 Upavedas, 6 Vedangas, 6 Darshanas, Itihas, Purana, Smriti, Nastika mata, Arthashastra, Kamashastra, Shilpashastra, Alankarashastra, Kavya, Desha-bhasha, Avasarokti, and Yavanamata (Greek philosophy)! Even Greek philosophy was included — showing the breadth of India's knowledge universe."
+      "en": "🌟 The Shukraniti lists 32 Vidyas: 4 Vedas, 4 Upavedas, 6 Vedangas, 6 Darshanas, Itihas, Purana, Smriti, Nastika mata, Arthashastra, Kamashastra, Shilpashastra, Alankarashastra, Kavya, Desha-bhasha, Avasarokti, and Yavanamata (Greek philosophy)! Even Greek philosophy was included — showing the breadth of India's knowledge universe."
     },
     {
       "type": "activity",
@@ -170,9 +214,9 @@
         "तुम्ही ज्या एखाद्या कलेत निपुण आहात ती ६४ कलांच्या यादीत आहे का? त्या कलेत अंतिम कौशल्य मिळवण्याचा अनुभव कसा असतो — त्यात आत्मविद्येचे काही अंश दिसते का?"
       ],
       "en": [
-        "Look at the list of fourteen Vidyas. Compare with today's university curricula — which Vidya is still taught? Which is lost? Why?",
-        "In what form does Anvikshiki, among Kautilya's four Vidyas, exist today? Philosophy, psychology, or the science of yoga? Find their modern equivalents.",
-        "Is the art in which you are skilled present in the list of 64 Kalas? What is the experience of achieving ultimate mastery in that art — do you see any elements of Atmavidya in it?"
+        "🔍 Look at the list of fourteen Vidyas. Compare with today's university curricula — which Vidya is still taught? Which is lost? Why?",
+        "💡 In what form does Anvikshiki, among Kautilya's four Vidyas, exist today? Philosophy, psychology, or the science of yoga? Find their modern equivalents.",
+        "🎨 Is the art in which you are skilled present in the list of 64 Kalas? What is the experience of achieving ultimate mastery in that art — do you see any elements of Atmavidya in it?"
       ]
     },
     {
@@ -189,7 +233,15 @@
     }
   ],
   "nav": {
-    "prev": { "id": "35", "titleMr": "अध्यापन पद्धती व शैली", "titleEn": "Teaching Methods and Styles" },
-    "next": { "id": "37", "titleMr": "कर्मकांड व ज्ञानकांड", "titleEn": "Karmakanda and Jnanakanda" }
+    "prev": {
+      "id": "35",
+      "titleMr": "अध्यापन पद्धती व शैली",
+      "titleEn": "Teaching Methods and Styles"
+    },
+    "next": {
+      "id": "37",
+      "titleMr": "कर्मकांड व ज्ञानकांड",
+      "titleEn": "Karmakanda and Jnanakanda"
+    }
   }
 }

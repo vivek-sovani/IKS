@@ -13,7 +13,7 @@
     {
       "type": "section",
       "headMr": "तीर्थ — पार करणे",
-      "headEn": "Tirtha — To Cross Over",
+      "headEn": "🌉 Tirtha — To Cross Over",
       "paragraphs": [
         {
           "mr": "बहुतांश मंदिरे स्थानिक समुदायांसाठी एकात्मतेचे केंद्र म्हणून कार्य करतात. काही प्रसिद्ध मंदिरे मात्र मोठ्या लोकसंख्येला — जी दूर दूरच्या प्रदेशांतून येते — एकत्र आणण्याचे केंद्र स्थाने बनतात. ही मंदिरे मग विशाल प्रदेशांसाठी — कदाचित संपूर्ण देशासाठी किंवा जगासाठी — एकात्मतेची बंधने म्हणून काम करतात. अशी मंदिरे बहुतेक वेळा पवित्र मानलेल्या ठिकाणी म्हणजे तीर्थ किंवा क्षेत्र येथे आढळतात.",
@@ -35,7 +35,7 @@
     {
       "type": "section",
       "headMr": "सप्त मोक्षपुरी आणि पवित्र क्षेत्रे",
-      "headEn": "Sapta Mokshapur and Sacred Sites",
+      "headEn": "🗺️ Sapta Mokshapur and Sacred Sites",
       "paragraphs": [
         {
           "mr": "अयोध्या, मथुरा, माया (हरिद्वार), काशी, कांची आणि अवंती (उज्जैन) — यांना सात मोक्षपुरी असे म्हणतात. म्हणजे अशा नगरी ज्या मनुष्याला मृत्युसमयी सर्वोच्च ज्ञानप्राप्ती करून देण्यास समर्थ आहेत. या तीर्थांमध्ये प्राचीन मंदिरेही आहेत. म्हणून आपण वारंवार पाहतो की प्रसिद्ध मंदिरे आणि तीर्थस्थान यांचा एकत्रित संगम झालेला आहे.",
@@ -73,8 +73,20 @@
           "headEn": "Mokshapur (7)",
           "subMr": "सर्वोच्च ज्ञानप्राप्ती",
           "subEn": "Supreme Liberation",
-          "itemsMr": ["अयोध्या", "काशी", "मथुरा", "हरिद्वार", "उज्जैन"],
-          "itemsEn": ["Ayodhya", "Kashi", "Mathura", "Haridwar", "Ujjain"]
+          "itemsMr": [
+            "अयोध्या",
+            "काशी",
+            "मथुरा",
+            "हरिद्वार",
+            "उज्जैन"
+          ],
+          "itemsEn": [
+            "Ayodhya",
+            "Kashi",
+            "Mathura",
+            "Haridwar",
+            "Ujjain"
+          ]
         },
         {
           "position": "top-right",
@@ -83,8 +95,18 @@
           "headEn": "Shakti Peethas (51)",
           "subMr": "देवीशक्तीचा अनुभव",
           "subEn": "Experience of Devi Shakti",
-          "itemsMr": ["कन्याकुमारी", "कामाख्या", "वाराणसी", "कोल्हापूर"],
-          "itemsEn": ["Kanyakumari", "Kamakhya", "Varanasi", "Kolhapur"]
+          "itemsMr": [
+            "कन्याकुमारी",
+            "कामाख्या",
+            "वाराणसी",
+            "कोल्हापूर"
+          ],
+          "itemsEn": [
+            "Kanyakumari",
+            "Kamakhya",
+            "Varanasi",
+            "Kolhapur"
+          ]
         },
         {
           "position": "bottom-right",
@@ -93,8 +115,18 @@
           "headEn": "Jyotirlinga (12)",
           "subMr": "शिवशक्तीचा अनुभव",
           "subEn": "Experience of Shiva Shakti",
-          "itemsMr": ["सोमनाथ", "महाकालेश्वर", "केदारनाथ", "रामेश्वर"],
-          "itemsEn": ["Somnath", "Mahakaleswar", "Kedarnath", "Rameshwar"]
+          "itemsMr": [
+            "सोमनाथ",
+            "महाकालेश्वर",
+            "केदारनाथ",
+            "रामेश्वर"
+          ],
+          "itemsEn": [
+            "Somnath",
+            "Mahakaleswar",
+            "Kedarnath",
+            "Rameshwar"
+          ]
         },
         {
           "position": "bottom-left",
@@ -103,15 +135,25 @@
           "headEn": "Vaishnava Kshetras (108)",
           "subMr": "विष्णुशक्तीचा अनुभव",
           "subEn": "Experience of Vishnu Shakti",
-          "itemsMr": ["तिरुपती", "पंढरपूर", "द्वारका", "श्रीरंगम"],
-          "itemsEn": ["Tirupati", "Pandharpur", "Dwarka", "Srirangam"]
+          "itemsMr": [
+            "तिरुपती",
+            "पंढरपूर",
+            "द्वारका",
+            "श्रीरंगम"
+          ],
+          "itemsEn": [
+            "Tirupati",
+            "Pandharpur",
+            "Dwarka",
+            "Srirangam"
+          ]
         }
       ]
     },
     {
       "type": "section",
       "headMr": "भूगोल आणि धर्माचा संबंध",
-      "headEn": "Geography and its Relation to Dharma",
+      "headEn": "🌍 Geography and its Relation to Dharma",
       "paragraphs": [
         {
           "mr": "त्या स्थानाच्या हवामानाचे विविध प्रकार — थंड, गरम, समशीतोष्ण, दमट, उष्ण इत्यादी — ठरतात. भौगोलिक रचना वेगवेगळ्या प्रकारच्या क्रियांना उपयुक्त ठरते. वाळूचे किनारे पर्यटनासाठी, नदीतील वेगवान प्रवाह जलक्रीडेसाठी, धबधबे जलविद्युत निर्मितीसाठी. त्याचप्रमाणे ऋषींना त्यांच्या साधनेच्या प्रकारांसाठी — तपश्चर्या, यज्ञ किंवा इतर — ठिकाणांची उपयुक्तता जाणण्याची क्षमता होती.",
@@ -126,19 +168,19 @@
     {
       "type": "curiosity",
       "mr": "भारतीय संस्कृतीत ज्ञानी लोकांना देखील 'चलतीर्थ' मानले जाते — चलते-फिरते तीर्थ. त्यांच्या उपस्थितीमुळे ते इतरांच्या जीवनचक्रात बदल घडवू शकतात. साध्या अर्थाने सुद्धा त्यांची जीवनशैली सामान्य लोकांमध्ये सद्गुण आणि आत्मगुण निर्माण करण्यास प्रवृत्त करते.",
-      "en": "In Indian culture, jnanis (wise persons) are also called 'chalatirtha' — moving/walking tirthas. Their presence can transform the life-cycles of those around them. Even in the ordinary sense, their way of life inspires sattva and atma-gunas in the people they encounter."
+      "en": "🌟 In Indian culture, jnanis (wise persons) are also called 'chalatirtha' — moving/walking tirthas. Their presence can transform the life-cycles of those around them. Even in the ordinary sense, their way of life inspires sattva and atma-gunas in the people they encounter."
     },
     {
       "type": "activity",
       "mr": [
-        "(अ) एखाद्या निद्रानाश झालेल्या माणसाला डुलणाऱ्या रेल्वेत मात्र झोप लागते. (ब) दमा असलेला एखादा रुग्ण नवीन शहरात स्थलांतर केल्यानंतर पूर्णपणे बरा होतो. या दोन्ही उदाहरणांमध्ये — पाप, कारणीभूत कर्म आणि पाप शुद्ध करणारे तीर्थ यांचे अनुरूप काय आहे हे ओळखा. या प्रकरणात शुद्धीकरण तात्पुरते आहे की कायमचे?",
+        "🌿 (अ) एखाद्या निद्रानाश झालेल्या माणसाला डुलणाऱ्या रेल्वेत मात्र झोप लागते. (ब) दमा असलेला एखादा रुग्ण नवीन शहरात स्थलांतर केल्यानंतर पूर्णपणे बरा होतो. या दोन्ही उदाहरणांमध्ये — पाप, कारणीभूत कर्म आणि पाप शुद्ध करणारे तीर्थ यांचे अनुरूप काय आहे हे ओळखा. या प्रकरणात शुद्धीकरण तात्पुरते आहे की कायमचे?",
         "आपल्या कुटुंबाने भेट दिलेल्या एका तीर्थस्थानाची निवड करा. त्या ठिकाणाचे भौगोलिक वैशिष्ट्य काय आहे? ते कोणत्या देवतेशी संबंधित आहे? तेथील पूजाविधी काय आहेत — हे शोधण्याचा प्रयत्न करा.",
         "आपल्या परिसरातील एखाद्या संत, ज्ञानी किंवा आदरणीय व्यक्तीचा विचार करा. ती व्यक्ती 'चलतीर्थ' कशा अर्थाने आहे याचा विचार करा."
       ],
       "en": [
-        "(a) A person who cannot sleep at home falls asleep easily in a rocking train. (b) An asthma patient is completely cured after relocating to a new city. In both these examples, identify the analogue for paapa, the causative karma, and the tirtha that purifies it. Is the purification in these cases temporary or permanent?",
-        "Choose one tirtha visited by your family. What are its geographic characteristics? Which devata is it associated with? What are its worship rituals — try to research these.",
-        "Think of a saint, jnani, or revered person in your environment. Reflect on how that person is a 'chalatirtha' — in what sense does their presence transform those around them?"
+        "🌿 (a) A person who cannot sleep at home falls asleep easily in a rocking train. (b) An asthma patient is completely cured after relocating to a new city. In both these examples, identify the analogue for paapa, the causative karma, and the tirtha that purifies it. Is the purification in these cases temporary or permanent?",
+        "🗺️ Choose one tirtha visited by your family. What are its geographic characteristics? Which devata is it associated with? What are its worship rituals — try to research these.",
+        "🙏 Think of a saint, jnani, or revered person in your environment. Reflect on how that person is a 'chalatirtha' — in what sense does their presence transform those around them?"
       ]
     },
     {
@@ -155,7 +197,15 @@
     }
   ],
   "nav": {
-    "prev": { "id": "50", "titleMr": "मंदिर संस्था", "titleEn": "Temple Institution — Devalaya" },
-    "next": { "id": "52", "titleMr": "राष्ट्र आणि राजा", "titleEn": "Rashtra and Raja" }
+    "prev": {
+      "id": "50",
+      "titleMr": "मंदिर संस्था",
+      "titleEn": "Temple Institution — Devalaya"
+    },
+    "next": {
+      "id": "52",
+      "titleMr": "राष्ट्र आणि राजा",
+      "titleEn": "Rashtra and Raja"
+    }
   }
 }

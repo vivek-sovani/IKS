@@ -13,7 +13,7 @@
     {
       "type": "section",
       "headMr": "दर्शन म्हणजे काय?",
-      "headEn": "What is Darshana?",
+      "headEn": "👁️ What is Darshana?",
       "paragraphs": [
         {
           "mr": "'इक्ष' म्हणजे 'पाहणे' आणि 'अन्वेष' म्हणजे काळजीपूर्वक पाहणे, चिंतन किंवा अनुभूती. त्याचप्रमाणे, **'दर्शन'** हा शब्द 'दृष्टी', 'दृष्टिकोन' किंवा 'अवलोकन' या अर्थाने वापरला जातो — सत्य प्राप्त करण्याचे साधन म्हणून. तो एक सावध आणि गंभीर विचार आहे — जो प्रामुख्याने आत्म्याच्या किंवा जगाच्या स्वरूपाबद्दल असतो.",
@@ -39,7 +39,7 @@
     {
       "type": "section",
       "headMr": "नास्तिक दर्शने — लोकायत, बौद्ध, जैन",
-      "headEn": "Nastika Darshanas — Lokayata, Buddhist, Jain",
+      "headEn": "🧘 Nastika Darshanas — Lokayata, Buddhist, Jain",
       "paragraphs": [
         {
           "mr": "**लोकायत** किंवा **चार्वाक** ही अशी तत्त्वज्ञान प्रणाली आहे जी दैनंदिन मानवी अस्तित्वाच्या दृष्टिकोनातून अत्यंत व्यावहारिक दृष्टिकोन घेते. ती कोणतीही गोष्ट 'सत्य' म्हणून मान्य करत नाही जोपर्यंत ती प्रत्यक्ष जाणवत नाही. चार्वाक फक्त 'प्रत्यक्ष' या एकाच प्रमाणाला मानतो. त्याला इंद्रियांच्या आनंदाव्यतिरिक्त दुसरा कोणताही आनंद ज्ञात नाही. चार्वाक म्हणतो — **'शुद्ध तुपाचा स्वाद आणि आरोग्याचा आनंद उपभोग, जरी त्यासाठी कर्ज करावे लागले तरी चालेल.'**",
@@ -58,7 +58,7 @@
     {
       "type": "section",
       "headMr": "आस्तिक दर्शने — सांख्य, योग, न्याय, वैशेषिक",
-      "headEn": "Astika Darshanas — Samkhya, Yoga, Nyaya, Vaisheshika",
+      "headEn": "⚖️ Astika Darshanas — Samkhya, Yoga, Nyaya, Vaisheshika",
       "paragraphs": [
         {
           "mr": "**सांख्य** आणि **योग** या जुन्या तत्त्वज्ञान प्रणाली आहेत ज्या मानवी शरीराचे आणि मनाचे व्यवस्थित वर्गीकरण करून त्याचे वर्णन करतात. सांख्य मतानुसार शरीराच्या शारीरिक आणि मानसिक रचनेचे तेवीस घटक आहेत आणि त्यांचे मूळ कारण 'प्रकृती' (चोविसावे तत्त्व) आहे. 'पुरुष' हा प्रकृतीपेक्षा भिन्न असून तिचा निःशब्द साक्षीदार आहे.",
@@ -77,7 +77,7 @@
     {
       "type": "section",
       "headMr": "मीमांसा आणि वेदान्त",
-      "headEn": "Mimamsa and Vedanta",
+      "headEn": "📚 Mimamsa and Vedanta",
       "paragraphs": [
         {
           "mr": "**मीमांसा** ही अशी तत्त्वज्ञान प्रणाली आहे जी अस्तित्वाच्या प्रश्नांकडे वेद आणि कर्मयज्ञांच्या दृष्टिकोनातून पाहते. मीमांसा मत आपल्या तत्त्वचिंतनासाठी वेदांच्या ग्रंथांचा मोठ्या प्रमाणावर वापर करते. जरी प्रत्यक्ष निरीक्षण किंवा अनुमान ही सत्य मिळवण्याची साधने असली, तरी काही वेळा आपल्या मर्यादांमुळे दोन्ही शक्य नसते. अशा वेळी ज्यांना अनुभव आला आहे त्यांच्या साक्षीवर विश्वास ठेवावा लागतो. 'पूर्व मीमांसा' ही विशेषतः वेदांतील 'मंत्रवाक्ये' — संहिता आणि ब्राह्मण ग्रंथांवर — आधारित आहे.",
@@ -143,14 +143,22 @@
         }
       ],
       "callout": {
-        "mr": ["सर्वांचे ध्येय:", "दुःखाचा अंत", "मोक्षप्राप्ती"],
-        "en": ["Common aim:", "End of suffering", "Attainment of Moksha"]
+        "mr": [
+          "सर्वांचे ध्येय:",
+          "दुःखाचा अंत",
+          "मोक्षप्राप्ती"
+        ],
+        "en": [
+          "Common aim:",
+          "End of suffering",
+          "Attainment of Moksha"
+        ]
       }
     },
     {
       "type": "curiosity",
       "mr": "माधवाचार्यांनी रचलेल्या **'सर्वदर्शनसंग्रह'** या ग्रंथात सर्व प्रमुख भारतीय तत्त्वज्ञान प्रणालींचे एकत्र सादरीकरण आहे — चार्वाकापासून वेदान्तापर्यंत. विशेष म्हणजे या ग्रंथात प्रत्येक प्रणालीला तिचे स्वतःचे सर्वोत्तम युक्तिवाद दिले जातात — कोणाचीही थट्टा केली जात नाही! हे वैचारिक सहिष्णुतेचे अद्भुत उदाहरण आहे.",
-      "en": "Madhavacharya's **'Sarvadarshana-Samgraha'** presents all major Indian philosophical systems together — from Charvaka to Vedanta. Remarkably, in this text each system is given its own best arguments — no one is ridiculed! This is a wonderful example of intellectual tolerance."
+      "en": "🌟 Madhavacharya's **'Sarvadarshana-Samgraha'** presents all major Indian philosophical systems together — from Charvaka to Vedanta. Remarkably, in this text each system is given its own best arguments — no one is ridiculed! This is a wonderful example of intellectual tolerance."
     },
     {
       "type": "activity",
@@ -160,9 +168,9 @@
         "जैन 'स्याद्वाद' म्हणतो — 'असे असू शकते.' एखाद्या सध्याच्या वादाच्या विषयाबद्दल (कौटुंबिक किंवा सामाजिक) दोन्ही बाजू समान न्यायाने लिहा. प्रत्येक बाजूचे तर्क खरे असण्याची शक्यता आहे का?"
       ],
       "en": [
-        "Ask yourself: 'What is truly important in my life?' — Which darshana does your answer resemble? Charvaka (sensory pleasure), Buddhist (knowing impermanence and living in the present), or Vedanta (knowing one's true self)?",
-        "Samkhya philosophy says that the cause of our suffering is identifying ourselves with Prakriti — body, mind, emotions. Sit for a moment and reflect: 'What is my true nature? Am I my thoughts? Am I my emotions? Or am I the witness of all these?'",
-        "Jain 'Syadvada' says — 'It may be so.' On some current topic of debate (family or social), write both sides with equal fairness. Is it possible that the arguments of each side are true?"
+        "💭 Ask yourself: 'What is truly important in my life?' — Which darshana does your answer resemble? Charvaka (sensory pleasure), Buddhist (knowing impermanence and living in the present), or Vedanta (knowing one's true self)?",
+        "🔍 Samkhya philosophy says that the cause of our suffering is identifying ourselves with Prakriti — body, mind, emotions. Sit for a moment and reflect: 'What is my true nature? Am I my thoughts? Am I my emotions? Or am I the witness of all these?'",
+        "🧩 Jain 'Syadvada' says — 'It may be so.' On some current topic of debate (family or social), write both sides with equal fairness. Is it possible that the arguments of each side are true?"
       ]
     },
     {
@@ -179,7 +187,15 @@
     }
   ],
   "nav": {
-    "prev": { "id": "41", "titleMr": "चार वेद आणि उपवेद", "titleEn": "Four Vedas and Upavedas" },
-    "next": { "id": "43", "titleMr": "तंत्र व आगम", "titleEn": "Tantra and Agama" }
+    "prev": {
+      "id": "41",
+      "titleMr": "चार वेद आणि उपवेद",
+      "titleEn": "Four Vedas and Upavedas"
+    },
+    "next": {
+      "id": "43",
+      "titleMr": "तंत्र व आगम",
+      "titleEn": "Tantra and Agama"
+    }
   }
 }
