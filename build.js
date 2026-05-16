@@ -619,18 +619,16 @@ ${hasPhoto ? `<script>
   (function() {
     var panel = document.querySelector('.art-photo-panel');
     var zh = document.getElementById('zoom-hint');
+    var zhTimer;
+    function showZoomHint(zoomed) {
+      if (!zh) return;
+      zh.querySelector('.zoom-hint-in').style.display = zoomed ? 'none' : '';
+      zh.querySelector('.zoom-hint-out').style.display = zoomed ? '' : 'none';
+      zh.classList.remove('zh-hidden');
+      clearTimeout(zhTimer);
+      zhTimer = setTimeout(function() { zh.classList.add('zh-hidden'); }, 2000);
+    }
     if (panel) {
-      var zhTimer;
-      function showZoomHint(zoomed) {
-        if (!zh) return;
-        zh.querySelector('.zoom-hint-in').style.display = zoomed ? 'none' : '';
-        zh.querySelector('.zoom-hint-out').style.display = zoomed ? '' : 'none';
-        zh.classList.remove('zh-hidden');
-        clearTimeout(zhTimer);
-        zhTimer = setTimeout(function() { zh.classList.add('zh-hidden'); }, 2000);
-      }
-      // Auto-show hint briefly on load
-      showZoomHint(false);
       panel.addEventListener('click', function() {
         panel.classList.toggle('zoomed');
         var isZoomed = panel.classList.contains('zoomed');
@@ -640,13 +638,21 @@ ${hasPhoto ? `<script>
           lay.style.overflowX = isZoomed ? 'hidden' : '';
         }
       });
+      // Desktop: panel is immediately visible — show hint on load
+      if (!window.matchMedia('(max-width:860px)').matches) showZoomHint(false);
     }
     var lay = document.querySelector('.art-photo-layout');
     if (!lay || !window.matchMedia('(max-width:860px)').matches) return;
     lay.scrollLeft = window.innerWidth;
+    var mobileHintShown = false;
     lay.addEventListener('scroll', function() {
       var hint = document.getElementById('art-panel-hint');
       if (hint) hint.classList.toggle('hidden', lay.scrollLeft < lay.scrollWidth * 0.4);
+      // Mobile: show zoom hint the first time user swipes to the image panel
+      if (!mobileHintShown && lay.scrollLeft < window.innerWidth * 0.5) {
+        mobileHintShown = true;
+        showZoomHint(false);
+      }
     });
   })();
 </script>` : ''}
