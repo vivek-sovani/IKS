@@ -12,7 +12,7 @@
   "body": [
     {
       "type": "section",
-      "headMr": "संस्थांची आवश्यकता का भासली?",
+      "headMr": "🏛️ संस्थांची आवश्यकता का भासली?",
       "headEn": "🏛️ Why Were Institutions Needed?",
       "paragraphs": [
         {
@@ -27,7 +27,7 @@
     },
     {
       "type": "section",
-      "headMr": "व्यक्ती स्तरावरील संस्था",
+      "headMr": "🧘 व्यक्ती स्तरावरील संस्था",
       "headEn": "🧘 Institutions at the Individual Level",
       "paragraphs": [
         {
@@ -49,7 +49,7 @@
     },
     {
       "type": "section",
-      "headMr": "कुटुंब व समाज स्तरावरील संस्था",
+      "headMr": "👨‍👩‍👧 कुटुंब व समाज स्तरावरील संस्था",
       "headEn": "👨‍👩‍👧 Institutions at the Family and Society Level",
       "paragraphs": [
         {
@@ -64,7 +64,7 @@
     },
     {
       "type": "section",
-      "headMr": "राष्ट्र स्तरावरील संस्था",
+      "headMr": "🏴 राष्ट्र स्तरावरील संस्था",
       "headEn": "🏴 Institutions at the National Level",
       "paragraphs": [
         {
@@ -172,7 +172,7 @@
     },
     {
       "type": "section",
-      "headMr": "एकत्रित — अमूर्त वारशाचा खजिना",
+      "headMr": "💎 एकत्रित — अमूर्त वारशाचा खजिना",
       "headEn": "💎 Together — A Treasury of Intangible Heritage",
       "paragraphs": [
         {

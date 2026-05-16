@@ -12,7 +12,7 @@
   "body": [
     {
       "type": "section",
-      "headMr": "दर्शन म्हणजे काय?",
+      "headMr": "👁️ दर्शन म्हणजे काय?",
       "headEn": "👁️ What is Darshana?",
       "paragraphs": [
         {
@@ -38,7 +38,7 @@
     },
     {
       "type": "section",
-      "headMr": "नास्तिक दर्शने — लोकायत, बौद्ध, जैन",
+      "headMr": "🧘 नास्तिक दर्शने — लोकायत, बौद्ध, जैन",
       "headEn": "🧘 Nastika Darshanas — Lokayata, Buddhist, Jain",
       "paragraphs": [
         {
@@ -57,7 +57,7 @@
     },
     {
       "type": "section",
-      "headMr": "आस्तिक दर्शने — सांख्य, योग, न्याय, वैशेषिक",
+      "headMr": "⚖️ आस्तिक दर्शने — सांख्य, योग, न्याय, वैशेषिक",
       "headEn": "⚖️ Astika Darshanas — Samkhya, Yoga, Nyaya, Vaisheshika",
       "paragraphs": [
         {
@@ -76,7 +76,7 @@
     },
     {
       "type": "section",
-      "headMr": "मीमांसा आणि वेदान्त",
+      "headMr": "📚 मीमांसा आणि वेदान्त",
       "headEn": "📚 Mimamsa and Vedanta",
       "paragraphs": [
         {
