@@ -559,6 +559,10 @@ ${hasPhoto ? `  <!-- PHOTO PANEL (left on mobile / right-gutter on wide desktop)
   <div class="art-photo-panel">
     ${srcMr ? `<img class="art-photo-img" data-lang="mr" src="${srcMr}" alt="${c.titleMr}">` : ''}
     ${srcEn ? `<img class="art-photo-img" data-lang="en"${srcMr ? ' style="display:none"' : ''} src="${srcEn}" alt="${c.titleEn}">` : ''}
+    <div class="zoom-hint" id="zoom-hint">
+      <span class="zoom-hint-in">🔍+ <span data-lang="mr">मोठे करा</span><span data-lang="en" style="display:none">Zoom in</span></span>
+      <span class="zoom-hint-out" style="display:none">🔍− <span data-lang="mr">लहान करा</span><span data-lang="en" style="display:none">Zoom out</span></span>
+    </div>
   </div>
   <!-- Swipe hint (mobile only) -->
   <div class="art-panel-hint" id="art-panel-hint">
@@ -614,12 +618,26 @@ ${hasSlides ? '<script src="/IKS/assets/js/slides.js"></script>' : ''}
 ${hasPhoto ? `<script>
   (function() {
     var panel = document.querySelector('.art-photo-panel');
+    var zh = document.getElementById('zoom-hint');
     if (panel) {
+      var zhTimer;
+      function showZoomHint(zoomed) {
+        if (!zh) return;
+        zh.querySelector('.zoom-hint-in').style.display = zoomed ? 'none' : '';
+        zh.querySelector('.zoom-hint-out').style.display = zoomed ? '' : 'none';
+        zh.classList.remove('zh-hidden');
+        clearTimeout(zhTimer);
+        zhTimer = setTimeout(function() { zh.classList.add('zh-hidden'); }, 2000);
+      }
+      // Auto-show hint briefly on load
+      showZoomHint(false);
       panel.addEventListener('click', function() {
         panel.classList.toggle('zoomed');
+        var isZoomed = panel.classList.contains('zoomed');
+        showZoomHint(isZoomed);
         var lay = document.querySelector('.art-photo-layout');
         if (lay && window.matchMedia('(max-width:860px)').matches) {
-          lay.style.overflowX = panel.classList.contains('zoomed') ? 'hidden' : '';
+          lay.style.overflowX = isZoomed ? 'hidden' : '';
         }
       });
     }

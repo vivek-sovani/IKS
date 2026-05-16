@@ -473,6 +473,25 @@
 }
 .coming-soon p { font-size: 16px; color: var(--text-muted); font-style: italic; }
 
+/* ── ZOOM HINT BADGE ────────────────────────────────── */
+.zoom-hint {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background: rgba(44, 24, 16, 0.72);
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  padding: 5px 10px;
+  border-radius: 20px;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  white-space: nowrap;
+  z-index: 10;
+}
+.zoom-hint.zh-hidden { opacity: 0; }
+
 /* ── ARTICLE PHOTO PANEL ────────────────────────────── */
 
 /* Mobile (≤860px): horizontal scroll — text first, swipe LEFT to reveal image */
@@ -498,6 +517,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
   }
   .art-photo-panel.zoomed {
     overflow: auto;
@@ -583,6 +603,7 @@
     cursor: zoom-in;
     z-index: 90;
   }
+  .zoom-hint { bottom: 16px; right: 16px; }
   .art-photo-panel.zoomed {
     overflow: auto;
     cursor: zoom-out;
