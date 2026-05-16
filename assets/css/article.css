@@ -74,16 +74,6 @@
   font-size: 30px; font-weight: 600;
   color: var(--brown-pale); line-height: 1.35;
 }
-.art-header h1.title-photo-trigger {
-  cursor: pointer;
-  display: inline-block;
-}
-.art-header h1.title-photo-trigger::after {
-  content: ' 🖼';
-  font-size: 18px;
-  opacity: 0.55;
-  vertical-align: middle;
-}
 .art-header .en-title {
   font-family: 'Crimson Pro', serif;
   font-size: 17px; font-weight: 300; font-style: italic;
@@ -509,12 +499,25 @@
     align-items: center;
     justify-content: center;
   }
+  .art-photo-panel.zoomed {
+    overflow: auto;
+    cursor: zoom-out;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
   .art-photo-img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
     display: block;
     pointer-events: none;
+  }
+  .art-photo-panel.zoomed .art-photo-img {
+    max-width: none;
+    max-height: none;
+    width: 200%;
+    height: auto;
+    object-fit: unset;
   }
 
   /* Text panel — full-viewport page, shown first */
@@ -580,6 +583,13 @@
     cursor: zoom-in;
     z-index: 90;
   }
+  .art-photo-panel.zoomed {
+    overflow: auto;
+    cursor: zoom-out;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+  }
   .art-photo-img {
     max-width: 100%;
     max-height: 100%;
@@ -588,6 +598,15 @@
     pointer-events: none;
     border-radius: 4px;
     box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+  }
+  .art-photo-panel.zoomed .art-photo-img {
+    max-width: none;
+    max-height: none;
+    width: 200%;
+    height: auto;
+    object-fit: unset;
+    border-radius: 0;
+    box-shadow: none;
   }
   .art-panel-hint { display: none; }
   /* Offset article content to make room for the wider image panel */

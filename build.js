@@ -556,7 +556,7 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
 <main class="${hasPhoto ? 'main art-photo-layout' : 'main'}">
 
 ${hasPhoto ? `  <!-- PHOTO PANEL (left on mobile / right-gutter on wide desktop) -->
-  <div class="art-photo-panel" onclick="document.getElementById('iks-photo-modal').style.display='flex'" title="मोठे पाहण्यासाठी क्लिक करा / Tap to zoom">
+  <div class="art-photo-panel">
     ${srcMr ? `<img class="art-photo-img" data-lang="mr" src="${srcMr}" alt="${c.titleMr}">` : ''}
     ${srcEn ? `<img class="art-photo-img" data-lang="en"${srcMr ? ' style="display:none"' : ''} src="${srcEn}" alt="${c.titleEn}">` : ''}
   </div>
@@ -588,20 +588,10 @@ ${hasPhoto ? `  <!-- PHOTO PANEL (left on mobile / right-gutter on wide desktop)
       <span data-lang="mr">${badgeMr}</span>
       <span data-lang="en" style="display:none;">${badgeEn}</span>
     </div>
-    ${hasPhoto
-      ? `<h1 data-lang="mr" class="title-photo-trigger" onclick="document.getElementById('iks-photo-modal').style.display='flex'">${c.titleMr}</h1>
-    <h1 data-lang="en" style="display:none;" class="title-photo-trigger" onclick="document.getElementById('iks-photo-modal').style.display='flex'">${c.titleEn}</h1>`
-      : `<h1 data-lang="mr">${c.titleMr}</h1>
-    <h1 data-lang="en" style="display:none;">${c.titleEn}</h1>`}
+    <h1 data-lang="mr">${c.titleMr}</h1>
+    <h1 data-lang="en" style="display:none;">${c.titleEn}</h1>
     <div class="en-title" data-lang="mr">${c.titleEn}</div>
   </div>
-${hasPhoto ? `
-  <!-- TITLE PHOTO MODAL (bilingual) -->
-  <div id="iks-photo-modal" onclick="this.style.display='none'" style="display:none;position:fixed;inset:0;background:rgba(28,8,0,.88);z-index:9999;align-items:center;justify-content:center;cursor:zoom-out">
-    <button onclick="event.stopPropagation();document.getElementById('iks-photo-modal').style.display='none'" style="position:absolute;top:16px;right:20px;background:none;border:none;color:#fff;font-size:32px;cursor:pointer;line-height:1" aria-label="Close">×</button>
-    ${srcMr ? `<img data-lang="mr" src="${srcMr}" style="max-width:92vw;max-height:92vh;border-radius:8px;box-shadow:0 8px 48px rgba(0,0,0,.6);pointer-events:none" alt="${c.titleMr}">` : ''}
-    ${srcEn ? `<img data-lang="en"${srcMr ? ' style="display:none;max-width:92vw;max-height:92vh;border-radius:8px;box-shadow:0 8px 48px rgba(0,0,0,.6);pointer-events:none"' : ' style="max-width:92vw;max-height:92vh;border-radius:8px;box-shadow:0 8px 48px rgba(0,0,0,.6);pointer-events:none"'} src="${srcEn}" alt="${c.titleEn}">` : ''}
-  </div>` : ''}
 
   <!-- ARTICLE BODY -->
   <div class="art-body">
@@ -622,13 +612,19 @@ ${hasPhoto ? '  </div><!-- end art-scroll-panel -->' : ''}
 <script src="/IKS/assets/js/nav.js"></script>
 ${hasSlides ? '<script src="/IKS/assets/js/slides.js"></script>' : ''}
 ${hasPhoto ? `<script>
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') { var m = document.getElementById('iks-photo-modal'); if (m) m.style.display = 'none'; }
-  });
   (function() {
+    var panel = document.querySelector('.art-photo-panel');
+    if (panel) {
+      panel.addEventListener('click', function() {
+        panel.classList.toggle('zoomed');
+        var lay = document.querySelector('.art-photo-layout');
+        if (lay && window.matchMedia('(max-width:860px)').matches) {
+          lay.style.overflowX = panel.classList.contains('zoomed') ? 'hidden' : '';
+        }
+      });
+    }
     var lay = document.querySelector('.art-photo-layout');
     if (!lay || !window.matchMedia('(max-width:860px)').matches) return;
-    // Start scrolled to text panel (image is to the left)
     lay.scrollLeft = window.innerWidth;
     lay.addEventListener('scroll', function() {
       var hint = document.getElementById('art-panel-hint');
