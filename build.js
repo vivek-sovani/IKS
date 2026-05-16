@@ -571,10 +571,19 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
       <span data-lang="mr">${badgeMr}</span>
       <span data-lang="en" style="display:none;">${badgeEn}</span>
     </div>
-    <h1 data-lang="mr">${c.titleMr}</h1>
-    <h1 data-lang="en" style="display:none;">${c.titleEn}</h1>
+    ${c.titlePhoto
+      ? `<h1 data-lang="mr" class="title-photo-trigger" onclick="document.getElementById('iks-photo-modal').style.display='flex'">${c.titleMr}</h1>
+    <h1 data-lang="en" style="display:none;" class="title-photo-trigger" onclick="document.getElementById('iks-photo-modal').style.display='flex'">${c.titleEn}</h1>`
+      : `<h1 data-lang="mr">${c.titleMr}</h1>
+    <h1 data-lang="en" style="display:none;">${c.titleEn}</h1>`}
     <div class="en-title" data-lang="mr">${c.titleEn}</div>
   </div>
+${c.titlePhoto ? `
+  <!-- TITLE PHOTO MODAL -->
+  <div id="iks-photo-modal" onclick="this.style.display='none'" style="display:none;position:fixed;inset:0;background:rgba(28,8,0,.88);z-index:9999;align-items:center;justify-content:center;cursor:zoom-out">
+    <button onclick="event.stopPropagation();document.getElementById('iks-photo-modal').style.display='none'" style="position:absolute;top:16px;right:20px;background:none;border:none;color:#fff;font-size:32px;cursor:pointer;line-height:1" aria-label="Close">×</button>
+    <img src="${c.titlePhoto}" style="max-width:92vw;max-height:92vh;border-radius:8px;box-shadow:0 8px 48px rgba(0,0,0,.6);pointer-events:none" alt="${c.titleMr}">
+  </div>` : ''}
 
   <!-- ARTICLE BODY -->
   <div class="art-body">
@@ -593,6 +602,11 @@ ${renderNav(c.nav)}
 
 <script src="/IKS/assets/js/nav.js"></script>
 ${hasSlides ? '<script src="/IKS/assets/js/slides.js"></script>' : ''}
+${c.titlePhoto ? `<script>
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { var m = document.getElementById('iks-photo-modal'); if (m) m.style.display = 'none'; }
+  });
+</script>` : ''}
 <script>
   fetch('/IKS/shared/sidebar.html')
     .then(r => r.text())

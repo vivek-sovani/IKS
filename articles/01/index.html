@@ -61,9 +61,15 @@
       <span data-lang="mr">अध्याय १</span>
       <span data-lang="en" style="display:none;">Chapter 1</span>
     </div>
-    <h1 data-lang="mr">आनंद</h1>
-    <h1 data-lang="en" style="display:none;">Ananda — The Nature of Joy</h1>
+    <h1 data-lang="mr" class="title-photo-trigger" onclick="document.getElementById('iks-photo-modal').style.display='flex'">आनंद</h1>
+    <h1 data-lang="en" style="display:none;" class="title-photo-trigger" onclick="document.getElementById('iks-photo-modal').style.display='flex'">Ananda — The Nature of Joy</h1>
     <div class="en-title" data-lang="mr">Ananda — The Nature of Joy</div>
+  </div>
+
+  <!-- TITLE PHOTO MODAL -->
+  <div id="iks-photo-modal" onclick="this.style.display='none'" style="display:none;position:fixed;inset:0;background:rgba(28,8,0,.88);z-index:9999;align-items:center;justify-content:center;cursor:zoom-out">
+    <button onclick="event.stopPropagation();document.getElementById('iks-photo-modal').style.display='none'" style="position:absolute;top:16px;right:20px;background:none;border:none;color:#fff;font-size:32px;cursor:pointer;line-height:1" aria-label="Close">×</button>
+    <img src="img/adhyay01-poster.png" style="max-width:92vw;max-height:92vh;border-radius:8px;box-shadow:0 8px 48px rgba(0,0,0,.6);pointer-events:none" alt="आनंद">
   </div>
 
   <!-- ARTICLE BODY -->
@@ -326,6 +332,11 @@
 
 <script src="/IKS/assets/js/nav.js"></script>
 <script src="/IKS/assets/js/slides.js"></script>
+<script>
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { var m = document.getElementById('iks-photo-modal'); if (m) m.style.display = 'none'; }
+  });
+</script>
 <script>
   fetch('/IKS/shared/sidebar.html')
     .then(r => r.text())
