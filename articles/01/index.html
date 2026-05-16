@@ -38,8 +38,14 @@
 <nav class="sidebar" id="sidebar" aria-label="Article navigation"></nav>
 
 <!-- MAIN -->
-<main class="main">
+<main class="main art-photo-layout">
 
+  <!-- PHOTO PANEL (left on mobile, right on wide desktop) -->
+  <div class="art-photo-panel" onclick="document.getElementById('iks-photo-modal').style.display='flex'" title="मोठे पाहण्यासाठी क्लिक करा / Tap to zoom">
+    <img class="art-photo-img" data-lang="mr" src="img/adhyay01-poster.png" alt="आनंद">
+    <img class="art-photo-img" data-lang="en" style="display:none" src="img/adhyay01-poster-en.png" alt="Ananda — The Nature of Joy">
+  </div>
+  <div class="art-scroll-panel">
   <!-- ARTICLE TOPBAR — breadcrumb + font size -->
   <div class="art-topbar">
     <div class="breadcrumb">
@@ -66,10 +72,11 @@
     <div class="en-title" data-lang="mr">Ananda — The Nature of Joy</div>
   </div>
 
-  <!-- TITLE PHOTO MODAL -->
+  <!-- TITLE PHOTO MODAL (bilingual) -->
   <div id="iks-photo-modal" onclick="this.style.display='none'" style="display:none;position:fixed;inset:0;background:rgba(28,8,0,.88);z-index:9999;align-items:center;justify-content:center;cursor:zoom-out">
     <button onclick="event.stopPropagation();document.getElementById('iks-photo-modal').style.display='none'" style="position:absolute;top:16px;right:20px;background:none;border:none;color:#fff;font-size:32px;cursor:pointer;line-height:1" aria-label="Close">×</button>
-    <img src="img/adhyay01-poster.png" style="max-width:92vw;max-height:92vh;border-radius:8px;box-shadow:0 8px 48px rgba(0,0,0,.6);pointer-events:none" alt="आनंद">
+    <img data-lang="mr" src="img/adhyay01-poster.png" style="max-width:92vw;max-height:92vh;border-radius:8px;box-shadow:0 8px 48px rgba(0,0,0,.6);pointer-events:none" alt="आनंद">
+    <img data-lang="en" style="display:none;max-width:92vw;max-height:92vh;border-radius:8px;box-shadow:0 8px 48px rgba(0,0,0,.6);pointer-events:none" src="img/adhyay01-poster-en.png" alt="Ananda — The Nature of Joy">
   </div>
 
   <!-- ARTICLE BODY -->
@@ -328,6 +335,7 @@
     <a class="footer-home" href="/IKS/">← मुखपृष्ठ / Home</a>
   </footer>
 
+  </div><!-- end art-scroll-panel -->
 </main>
 
 <script src="/IKS/assets/js/nav.js"></script>

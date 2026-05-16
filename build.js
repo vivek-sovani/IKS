@@ -508,6 +508,11 @@ function page(c, sec, id) {
   const badgeMr   = isAppendix ? `परिशिष्ट ${toDevanagari(seqNum)}` : `अध्याय ${toDevanagari(seqNum)}`;
   const badgeEn   = isAppendix ? `Appendix ${seqNum}` : `Chapter ${seqNum}`;
 
+  // Title photo (bilingual)
+  const srcMr   = c.titlePhotoMr || c.titlePhoto || '';
+  const srcEn   = c.titlePhotoEn || c.titlePhoto || '';
+  const hasPhoto = !!(srcMr || srcEn);
+
   return `<!DOCTYPE html>
 <html lang="mr">
 <head>
@@ -548,8 +553,14 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
 <nav class="sidebar" id="sidebar" aria-label="Article navigation"></nav>
 
 <!-- MAIN -->
-<main class="main">
+<main class="${hasPhoto ? 'main art-photo-layout' : 'main'}">
 
+${hasPhoto ? `  <!-- PHOTO PANEL (left on mobile, right on wide desktop) -->
+  <div class="art-photo-panel" onclick="document.getElementById('iks-photo-modal').style.display='flex'" title="मोठे पाहण्यासाठी क्लिक करा / Tap to zoom">
+    ${srcMr ? `<img class="art-photo-img" data-lang="mr" src="${srcMr}" alt="${c.titleMr}">` : ''}
+    ${srcEn ? `<img class="art-photo-img" data-lang="en"${srcMr ? ' style="display:none"' : ''} src="${srcEn}" alt="${c.titleEn}">` : ''}
+  </div>
+  <div class="art-scroll-panel">` : ''}
   <!-- ARTICLE TOPBAR — breadcrumb + font size -->
   <div class="art-topbar">
     <div class="breadcrumb">
@@ -571,18 +582,19 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
       <span data-lang="mr">${badgeMr}</span>
       <span data-lang="en" style="display:none;">${badgeEn}</span>
     </div>
-    ${c.titlePhoto
+    ${hasPhoto
       ? `<h1 data-lang="mr" class="title-photo-trigger" onclick="document.getElementById('iks-photo-modal').style.display='flex'">${c.titleMr}</h1>
     <h1 data-lang="en" style="display:none;" class="title-photo-trigger" onclick="document.getElementById('iks-photo-modal').style.display='flex'">${c.titleEn}</h1>`
       : `<h1 data-lang="mr">${c.titleMr}</h1>
     <h1 data-lang="en" style="display:none;">${c.titleEn}</h1>`}
     <div class="en-title" data-lang="mr">${c.titleEn}</div>
   </div>
-${c.titlePhoto ? `
-  <!-- TITLE PHOTO MODAL -->
+${hasPhoto ? `
+  <!-- TITLE PHOTO MODAL (bilingual) -->
   <div id="iks-photo-modal" onclick="this.style.display='none'" style="display:none;position:fixed;inset:0;background:rgba(28,8,0,.88);z-index:9999;align-items:center;justify-content:center;cursor:zoom-out">
     <button onclick="event.stopPropagation();document.getElementById('iks-photo-modal').style.display='none'" style="position:absolute;top:16px;right:20px;background:none;border:none;color:#fff;font-size:32px;cursor:pointer;line-height:1" aria-label="Close">×</button>
-    <img src="${c.titlePhoto}" style="max-width:92vw;max-height:92vh;border-radius:8px;box-shadow:0 8px 48px rgba(0,0,0,.6);pointer-events:none" alt="${c.titleMr}">
+    ${srcMr ? `<img data-lang="mr" src="${srcMr}" style="max-width:92vw;max-height:92vh;border-radius:8px;box-shadow:0 8px 48px rgba(0,0,0,.6);pointer-events:none" alt="${c.titleMr}">` : ''}
+    ${srcEn ? `<img data-lang="en"${srcMr ? ' style="display:none;max-width:92vw;max-height:92vh;border-radius:8px;box-shadow:0 8px 48px rgba(0,0,0,.6);pointer-events:none"' : ' style="max-width:92vw;max-height:92vh;border-radius:8px;box-shadow:0 8px 48px rgba(0,0,0,.6);pointer-events:none"'} src="${srcEn}" alt="${c.titleEn}">` : ''}
   </div>` : ''}
 
   <!-- ARTICLE BODY -->
@@ -598,11 +610,12 @@ ${body}
 
   </div><!-- end art-body -->
 ${renderNav(c.nav)}
+${hasPhoto ? '  </div><!-- end art-scroll-panel -->' : ''}
 </main>
 
 <script src="/IKS/assets/js/nav.js"></script>
 ${hasSlides ? '<script src="/IKS/assets/js/slides.js"></script>' : ''}
-${c.titlePhoto ? `<script>
+${hasPhoto ? `<script>
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') { var m = document.getElementById('iks-photo-modal'); if (m) m.style.display = 'none'; }
   });
