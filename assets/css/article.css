@@ -563,32 +563,32 @@
   .art-header h1.title-photo-trigger::after { display: none; }
 }
 
-/* Mid desktop (861–1359px): photo panel hidden; title-click lightbox only */
-@media (min-width: 861px) and (max-width: 1359px) {
-  .art-photo-panel { display: none; }
-  .art-panel-hint  { display: none; }
-}
-
-/* Wide desktop (≥1360px): image fixed to right gutter */
-@media (min-width: 1360px) {
+/* Desktop (≥861px): image panel fixed on LEFT in the freed sidebar space */
+@media (min-width: 861px) {
   .art-photo-panel {
     position: fixed;
-    top: calc(var(--topbar-h) + 20px);
-    right: 20px;
-    width: 200px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.18);
+    left: 0;
+    top: var(--topbar-h);
+    width: var(--sidebar-w);
+    height: calc(100vh - var(--topbar-h));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--ivory);
+    border-right: 1px solid var(--border);
     cursor: zoom-in;
-    z-index: 50;
+    z-index: 90;
   }
   .art-photo-img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
     display: block;
     pointer-events: none;
   }
   .art-panel-hint { display: none; }
+  /* Offset article content to make room for the image panel */
+  main.art-photo-layout { margin-left: var(--sidebar-w); }
 }
 
 /* ── RESPONSIVE ARTICLE ─────────────────────────────── */
