@@ -508,10 +508,11 @@ function page(c, sec, id) {
   const badgeMr   = isAppendix ? `परिशिष्ट ${toDevanagari(seqNum)}` : `अध्याय ${toDevanagari(seqNum)}`;
   const badgeEn   = isAppendix ? `Appendix ${seqNum}` : `Chapter ${seqNum}`;
 
-  // Title photo (bilingual)
-  const srcMr   = c.titlePhotoMr || c.titlePhoto || '';
-  const srcEn   = c.titlePhotoEn || c.titlePhoto || '';
-  const hasPhoto = !!(srcMr || srcEn);
+  // Title photo — fixed convention: img/adhyayNN-poster.jpg / adhyayNN-poster-en.jpg
+  // Panel always emitted; onerror hides it if files don't exist (no rebuild needed)
+  const photoPfx = `img/adhyay${id}-poster`;
+  const srcMr = `${photoPfx}.jpg`;
+  const srcEn = `${photoPfx}-en.jpg`;
 
   return `<!DOCTYPE html>
 <html lang="mr">
@@ -553,12 +554,12 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
 <nav class="sidebar" id="sidebar" aria-label="Article navigation"></nav>
 
 <!-- MAIN -->
-<main class="${hasPhoto ? 'main art-photo-layout' : 'main'}">
+<main class="main art-photo-layout" id="art-main">
 
-${hasPhoto ? `  <!-- PHOTO PANEL (left on mobile / right-gutter on wide desktop) -->
-  <div class="art-photo-panel">
-    ${srcMr ? `<img class="art-photo-img" data-lang="mr" src="${srcMr}" alt="${c.titleMr}">` : ''}
-    ${srcEn ? `<img class="art-photo-img" data-lang="en"${srcMr ? ' style="display:none"' : ''} src="${srcEn}" alt="${c.titleEn}">` : ''}
+  <!-- PHOTO PANEL — shown if adhyayNN-poster.jpg / adhyayNN-poster-en.jpg exist -->
+  <div class="art-photo-panel" id="art-photo-panel">
+    <img class="art-photo-img" data-lang="mr" src="${srcMr}" alt="${c.titleMr}" onerror="this.dataset.err='1';_chkP()">
+    <img class="art-photo-img" data-lang="en" style="display:none" src="${srcEn}" alt="${c.titleEn}" onerror="this.dataset.err='1';_chkP()">
     <div class="zoom-icon" id="zoom-icon">🔍 Zoom in</div>
   </div>
   <!-- Swipe hint (mobile only) -->
@@ -567,7 +568,7 @@ ${hasPhoto ? `  <!-- PHOTO PANEL (left on mobile / right-gutter on wide desktop)
     <div class="hint-label" data-lang="mr">आकृती</div>
     <div class="hint-label" data-lang="en" style="display:none">Infographic</div>
   </div>
-  <div class="art-scroll-panel">` : ''}
+  <div class="art-scroll-panel">
   <!-- ARTICLE TOPBAR — breadcrumb + font size -->
   <div class="art-topbar">
     <div class="breadcrumb">
@@ -607,27 +608,35 @@ ${body}
 
   </div><!-- end art-body -->
 ${renderNav(c.nav)}
-${hasPhoto ? '  </div><!-- end art-scroll-panel -->' : ''}
+  </div><!-- end art-scroll-panel -->
 </main>
 
 <script src="/IKS/assets/js/nav.js"></script>
 ${hasSlides ? '<script src="/IKS/assets/js/slides.js"></script>' : ''}
-${hasPhoto ? `<script>
+<script>
+  // Hide photo panel if neither image loads
+  function _chkP() {
+    var imgs = document.querySelectorAll('#art-photo-panel .art-photo-img');
+    if (!Array.from(imgs).every(function(i){return i.dataset.err;})) return;
+    document.getElementById('art-photo-panel').style.display = 'none';
+    var h = document.getElementById('art-panel-hint'); if (h) h.style.display = 'none';
+    document.getElementById('art-main').classList.remove('art-photo-layout');
+  }
   (function() {
-    var panel = document.querySelector('.art-photo-panel');
+    var panel = document.getElementById('art-photo-panel');
     var zi = document.getElementById('zoom-icon');
     if (panel) {
       panel.addEventListener('click', function() {
         panel.classList.toggle('zoomed');
         var isZoomed = panel.classList.contains('zoomed');
         if (zi) zi.textContent = isZoomed ? '🔍 Zoom out' : '🔍 Zoom in';
-        var lay = document.querySelector('.art-photo-layout');
+        var lay = document.getElementById('art-main');
         if (lay && window.matchMedia('(max-width:860px)').matches) {
           lay.style.overflowX = isZoomed ? 'hidden' : '';
         }
       });
     }
-    var lay = document.querySelector('.art-photo-layout');
+    var lay = document.getElementById('art-main');
     if (!lay || !window.matchMedia('(max-width:860px)').matches) return;
     lay.scrollLeft = window.innerWidth;
     lay.addEventListener('scroll', function() {
@@ -635,7 +644,7 @@ ${hasPhoto ? `<script>
       if (hint) hint.classList.toggle('hidden', lay.scrollLeft < lay.scrollWidth * 0.4);
     });
   })();
-</script>` : ''}
+</script>
 <script>
   fetch('/IKS/shared/sidebar.html')
     .then(r => r.text())
