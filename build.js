@@ -555,10 +555,16 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
 <!-- MAIN -->
 <main class="${hasPhoto ? 'main art-photo-layout' : 'main'}">
 
-${hasPhoto ? `  <!-- PHOTO PANEL (left on mobile, right on wide desktop) -->
+${hasPhoto ? `  <!-- PHOTO PANEL (left on mobile / right-gutter on wide desktop) -->
   <div class="art-photo-panel" onclick="document.getElementById('iks-photo-modal').style.display='flex'" title="मोठे पाहण्यासाठी क्लिक करा / Tap to zoom">
     ${srcMr ? `<img class="art-photo-img" data-lang="mr" src="${srcMr}" alt="${c.titleMr}">` : ''}
     ${srcEn ? `<img class="art-photo-img" data-lang="en"${srcMr ? ' style="display:none"' : ''} src="${srcEn}" alt="${c.titleEn}">` : ''}
+  </div>
+  <!-- Swipe hint (mobile only) -->
+  <div class="art-panel-hint" id="art-panel-hint">
+    <div class="hint-icon">◀</div>
+    <div class="hint-label" data-lang="mr">आकृती</div>
+    <div class="hint-label" data-lang="en" style="display:none">Infographic</div>
   </div>
   <div class="art-scroll-panel">` : ''}
   <!-- ARTICLE TOPBAR — breadcrumb + font size -->
@@ -619,6 +625,16 @@ ${hasPhoto ? `<script>
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') { var m = document.getElementById('iks-photo-modal'); if (m) m.style.display = 'none'; }
   });
+  (function() {
+    var lay = document.querySelector('.art-photo-layout');
+    if (!lay || !window.matchMedia('(max-width:860px)').matches) return;
+    // Start scrolled to text panel (image is to the left)
+    lay.scrollLeft = window.innerWidth;
+    lay.addEventListener('scroll', function() {
+      var hint = document.getElementById('art-panel-hint');
+      if (hint) hint.classList.toggle('hidden', lay.scrollLeft < lay.scrollWidth * 0.4);
+    });
+  })();
 </script>` : ''}
 <script>
   fetch('/IKS/shared/sidebar.html')
