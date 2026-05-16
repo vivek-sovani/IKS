@@ -51,9 +51,14 @@ function toDevanagari(n) {
   return String(n).replace(/\d/g, d => '०१२३४५६७८९'[d]);
 }
 
+/** Convert **text** to <strong>text</strong> */
+function md(text) {
+  return (text || '').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+}
+
 /** Bilingual <p> pair */
 function biP(mr, en) {
-  return `      <p data-lang="mr">\n        ${mr}\n      </p>\n      <p data-lang="en" style="display:none;">\n        ${en}\n      </p>`;
+  return `      <p data-lang="mr">\n        ${md(mr)}\n      </p>\n      <p data-lang="en" style="display:none;">\n        ${md(en)}\n      </p>`;
 }
 
 // ── Block renderers ───────────────────────────────────────────────────────────
@@ -105,7 +110,7 @@ ${biP(b.mr, b.en)}
 }
 
 function renderActivity(b) {
-  const li = arr => arr.map(i => `        <li>${i}</li>`).join('\n');
+  const li = arr => arr.map(i => `        <li>${md(i)}</li>`).join('\n');
   return `
     <div class="activity-box">
       <div class="box-label" data-lang="mr">कृती — स्वतः अनुभवा</div>
@@ -126,8 +131,8 @@ function renderPhase2(b) {
       <div>
         <div class="phase2-label" data-lang="mr">सखोल अध्ययन — लवकरच येणार</div>
         <div class="phase2-label" data-lang="en" style="display:none;">Advanced Reading — Coming Soon</div>
-        <div class="phase2-desc" data-lang="mr">${b.mr}</div>
-        <div class="phase2-desc" data-lang="en" style="display:none;">${b.en}</div>
+        <div class="phase2-desc" data-lang="mr">${md(b.mr)}</div>
+        <div class="phase2-desc" data-lang="en" style="display:none;">${md(b.en)}</div>
       </div>
     </div>`;
 }
