@@ -473,24 +473,24 @@
 }
 .coming-soon p { font-size: 16px; color: var(--text-muted); font-style: italic; }
 
-/* ── ZOOM HINT BADGE ────────────────────────────────── */
-.zoom-hint {
+/* ── ZOOM ICON ───────────────────────────────────────── */
+.zoom-icon {
   position: absolute;
-  bottom: 12px;
-  right: 12px;
-  background: rgba(44, 24, 16, 0.72);
+  bottom: 10px;
+  right: 10px;
+  background: rgba(44, 24, 16, 0.55);
   color: #fff;
-  font-size: 12px;
-  font-family: 'Noto Sans Devanagari', sans-serif;
-  padding: 5px 10px;
-  border-radius: 20px;
+  font-size: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   pointer-events: none;
-  opacity: 1;
-  transition: opacity 0.5s ease;
-  white-space: nowrap;
   z-index: 10;
+  line-height: 1;
 }
-.zoom-hint.zh-hidden { opacity: 0; }
 
 /* ── ARTICLE PHOTO PANEL ────────────────────────────── */
 
@@ -603,7 +603,7 @@
     cursor: zoom-in;
     z-index: 90;
   }
-  .zoom-hint { bottom: 16px; right: 16px; }
+  .zoom-icon { bottom: 14px; right: 14px; }
   .art-photo-panel.zoomed {
     overflow: auto;
     cursor: zoom-out;
