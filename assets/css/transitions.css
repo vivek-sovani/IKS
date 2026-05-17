@@ -106,58 +106,69 @@ main.page-enter-home {
    INFOGRAPHIC HINT — floating button bottom-right
    ══════════════════════════════════════════════════════ */
 
-/* ── Poster-image hint — pill/pillow style ───────────
-   Centred between article header and summary box.      */
+/* ── Poster-image hint — vertical tab left of summary ─
+   .ih-wrap is a flex row; hint tab + summary sit side by side.
+   Summary keeps its own styles; wrap inherits its margin.     */
+
 .ih-wrap {
   display: flex;
-  justify-content: center;
-  margin: 10px 0 12px;
+  align-items: stretch;
+  margin-bottom: 40px;   /* matches .summary-box margin-bottom */
+}
+
+/* Cancel summary-box's own bottom margin inside the wrap */
+.ih-wrap .summary-box {
+  margin-bottom: 0;
+  flex: 1;
 }
 
 @keyframes ih-appear {
-  from { opacity: 0; transform: translateY(8px) scale(0.94); }
-  to   { opacity: 1; transform: translateY(0)   scale(1);    }
+  from { opacity: 0; transform: scaleY(0.88); }
+  to   { opacity: 1; transform: scaleY(1);    }
 }
 @keyframes ih-pulse {
-  0%, 100% { box-shadow: 0 3px 14px rgba(184,134,11,0.30); }
-  50%       { box-shadow: 0 4px 22px rgba(184,134,11,0.60); }
+  0%, 100% { box-shadow: 2px 0 10px rgba(184,134,11,0.25); }
+  50%       { box-shadow: 2px 0 18px rgba(184,134,11,0.55); }
 }
 
 #infographic-hint {
-  display: inline-flex;
+  /* Vertical layout */
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 8px;
-  background: linear-gradient(135deg, #B8860B 0%, #E8C84A 100%);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);   /* text reads top → bottom */
+
+  /* Pill shape — left side only rounded, right side connects to summary */
+  background: linear-gradient(to top, #B8860B 0%, #E8C84A 100%);
   color: #2C1810;
   border: none;
-  padding: 10px 20px 10px 16px;
-  border-radius: 40px;
-  font-size: 14px;
+  padding: 18px 9px;
+  border-radius: 6px 0 0 6px;
+
+  font-size: 12.5px;
   font-family: 'Noto Sans Devanagari', 'Crimson Pro', sans-serif;
-  font-weight: 600;
-  cursor: pointer;
-  letter-spacing: 0.01em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
   white-space: nowrap;
+  cursor: pointer;
+  flex-shrink: 0;
+
   animation: ih-appear 0.35s ease-out both,
-             ih-pulse  2.6s 0.5s ease-in-out infinite;
+             ih-pulse  2.8s 0.6s ease-in-out infinite;
   transition: filter 0.2s;
 }
 #infographic-hint:hover,
 #infographic-hint:active {
-  filter: brightness(1.08);
+  filter: brightness(1.1);
 }
 
 .ih-icon {
-  font-size: 16px;
-  line-height: 1;
-  opacity: 0.85;
-}
-.ih-label {
-  line-height: 1.2;
-}
-.ih-arrow {
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 14px;
+  opacity: 0.80;
+  /* writing-mode rotates the icon too — looks fine as a diamond marker */
 }
 
 /* ══════════════════════════════════════════════════════

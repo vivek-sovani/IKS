@@ -131,11 +131,8 @@
     btn.setAttribute('aria-label', 'दृश्यात्मक विवरण / Visual Explanation');
     btn.innerHTML =
       '<span class="ih-icon">◈</span>' +
-      '<span class="ih-label">' +
-        '<span data-lang="mr">दृश्यात्मक विवरण पहा</span>' +
-        '<span data-lang="en" style="display:none">View Visual Explanation</span>' +
-      '</span>' +
-      '<span class="ih-arrow">←</span>';
+      '<span data-lang="mr">दृश्यात्मक विवरण</span>' +
+      '<span data-lang="en" style="display:none">Visual Explanation</span>';
 
     if (typeof IKS !== 'undefined' && IKS.getLang) {
       var l = IKS.getLang();
@@ -144,17 +141,23 @@
       });
     }
 
-    /* Wrap in a centred row and insert BEFORE the summary box */
+    /* Wrap hint + summary together in a flex row.
+       Hint tab sits left of the summary's existing left border. */
     var wrap = document.createElement('div');
     wrap.className = 'ih-wrap';
+    summary.parentNode.insertBefore(wrap, summary);
     wrap.appendChild(btn);
-    summary.insertAdjacentElement('beforebegin', wrap);
+    wrap.appendChild(summary);   /* summary moves inside wrap */
 
-    /* Remove hint if every poster image fails to load */
+    /* Remove wrap if every poster image fails to load */
     var errCount = 0;
     posterImgs.forEach(function (img) {
       img.addEventListener('error', function () {
-        if (++errCount === posterImgs.length) wrap.remove();
+        if (++errCount === posterImgs.length) {
+          /* Unwrap: put summary back and remove hint */
+          wrap.parentNode.insertBefore(summary, wrap);
+          wrap.remove();
+        }
       });
     });
 
