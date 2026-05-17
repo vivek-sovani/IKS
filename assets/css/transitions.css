@@ -123,53 +123,45 @@ main.page-enter-home {
 }
 
 @keyframes ih-appear {
-  from { opacity: 0; transform: scaleY(0.88); }
-  to   { opacity: 1; transform: scaleY(1);    }
-}
-@keyframes ih-pulse {
-  0%, 100% { box-shadow: 2px 0 10px rgba(184,134,11,0.25); }
-  50%       { box-shadow: 2px 0 18px rgba(184,134,11,0.55); }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 #infographic-hint {
-  /* Vertical layout */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
   writing-mode: vertical-rl;
-  transform: rotate(180deg);   /* text reads top → bottom */
+  transform: rotate(180deg);
 
-  /* Pill shape — left side only rounded, right side connects to summary */
-  background: linear-gradient(to top, #B8860B 0%, #E8C84A 100%);
-  color: #2C1810;
+  /* Subtle — very light gold tint, thin border */
+  background: rgba(184, 134, 11, 0.07);
+  color: #9A7010;
   border: none;
-  padding: 18px 9px;
+  border-right: 1px solid rgba(184, 134, 11, 0.22);
+  padding: 14px 5px;
   border-radius: 6px 0 0 6px;
 
-  font-size: 12.5px;
+  font-size: 11px;
   font-family: 'Noto Sans Devanagari', 'Crimson Pro', sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
   white-space: nowrap;
   cursor: pointer;
   flex-shrink: 0;
+  opacity: 0.82;
 
-  animation: ih-appear 0.35s ease-out both,
-             ih-pulse  2.8s 0.6s ease-in-out infinite;
-  transition: filter 0.2s;
+  animation: ih-appear 0.4s ease-out both;
+  transition: opacity 0.2s, background 0.2s;
 }
 #infographic-hint:hover,
 #infographic-hint:active {
-  filter: brightness(1.1);
+  opacity: 1;
+  background: rgba(184, 134, 11, 0.15);
 }
 
-.ih-icon {
-  font-size: 14px;
-  opacity: 0.80;
-  /* writing-mode rotates the icon too — looks fine as a diamond marker */
-}
+.ih-icon { display: none; }  /* hide icon — text alone is cleaner at this size */
 
 /* ══════════════════════════════════════════════════════
    EDGE TAP ZONES — subtle arrow handles on left/right
