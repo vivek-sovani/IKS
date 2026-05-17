@@ -144,13 +144,17 @@
       });
     }
 
-    summary.insertAdjacentElement('afterend', btn);
+    /* Wrap in a centred row and insert BEFORE the summary box */
+    var wrap = document.createElement('div');
+    wrap.className = 'ih-wrap';
+    wrap.appendChild(btn);
+    summary.insertAdjacentElement('beforebegin', wrap);
 
     /* Remove hint if every poster image fails to load */
     var errCount = 0;
     posterImgs.forEach(function (img) {
       img.addEventListener('error', function () {
-        if (++errCount === posterImgs.length) btn.remove();
+        if (++errCount === posterImgs.length) wrap.remove();
       });
     });
 

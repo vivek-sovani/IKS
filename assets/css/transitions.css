@@ -106,48 +106,58 @@ main.page-enter-home {
    INFOGRAPHIC HINT — floating button bottom-right
    ══════════════════════════════════════════════════════ */
 
-/* ── Inline poster-image hint banner ─────────────────
-   Sits in document flow, right after the summary box.  */
-#infographic-hint {
+/* ── Poster-image hint — pill/pillow style ───────────
+   Centred between article header and summary box.      */
+.ih-wrap {
   display: flex;
+  justify-content: center;
+  margin: 10px 0 12px;
+}
+
+@keyframes ih-appear {
+  from { opacity: 0; transform: translateY(8px) scale(0.94); }
+  to   { opacity: 1; transform: translateY(0)   scale(1);    }
+}
+@keyframes ih-pulse {
+  0%, 100% { box-shadow: 0 3px 14px rgba(184,134,11,0.30); }
+  50%       { box-shadow: 0 4px 22px rgba(184,134,11,0.60); }
+}
+
+#infographic-hint {
+  display: inline-flex;
   align-items: center;
-  gap: 10px;
-  width: 100%;
-  box-sizing: border-box;
-  background: linear-gradient(135deg, #FDFAF0 0%, #FEF7DC 100%);
-  border: 1.5px solid #E8C84A;
-  border-left: 4px solid #B8860B;
+  gap: 8px;
+  background: linear-gradient(135deg, #B8860B 0%, #E8C84A 100%);
   color: #2C1810;
-  padding: 11px 18px;
-  border-radius: 8px;
-  margin: 14px 0 4px;
-  cursor: pointer;
-  font-size: 14.5px;
+  border: none;
+  padding: 10px 20px 10px 16px;
+  border-radius: 40px;
+  font-size: 14px;
   font-family: 'Noto Sans Devanagari', 'Crimson Pro', sans-serif;
   font-weight: 600;
-  text-align: left;
-  transition: background 0.2s, border-color 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  animation: ih-appear 0.35s ease-out both,
+             ih-pulse  2.6s 0.5s ease-in-out infinite;
+  transition: filter 0.2s;
 }
 #infographic-hint:hover,
 #infographic-hint:active {
-  background: linear-gradient(135deg, #FEF7DC 0%, #FDF0C0 100%);
-  border-color: #B8860B;
+  filter: brightness(1.08);
 }
 
 .ih-icon {
-  font-size: 18px;
-  color: #B8860B;
-  flex-shrink: 0;
+  font-size: 16px;
   line-height: 1;
+  opacity: 0.85;
 }
 .ih-label {
-  flex: 1;
+  line-height: 1.2;
 }
 .ih-arrow {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 700;
-  color: #B8860B;
-  flex-shrink: 0;
 }
 
 /* ══════════════════════════════════════════════════════
