@@ -157,13 +157,16 @@
   }, { once: true, passive: true });
 
   /* ── Poster image hint ───────────────────────────────
-     Inline banner inserted after .summary-box.
-     Scrolls to #art-photo-panel (the left-side poster).
-     Uses data-lang so IKS.setLang() auto-switches it.    */
+     Inline banner below the summary box, shown on every
+     chapter load. Scrolls to the left-side poster image.
+     Removed only if no poster exists for this article.   */
   (function () {
-    var target  = document.getElementById('art-photo-panel');
     var summary = document.querySelector('.summary-box');
-    if (!target || !summary) return;
+    if (!summary) return;
+
+    /* Check whether any poster img src is set (img exists in DOM) */
+    var posterImgs = document.querySelectorAll('#art-photo-panel .art-photo-img');
+    if (!posterImgs.length) return;   /* article has no poster at all */
 
     var btn = document.createElement('button');
     btn.id = 'infographic-hint';
@@ -184,21 +187,21 @@
       });
     }
 
-    /* Insert inline after summary box — hidden until image check passes */
-    btn.style.display = 'none';
+    /* Insert immediately after summary box */
     summary.insertAdjacentElement('afterend', btn);
 
-    /* Wait for onerror handlers to fire on missing poster images */
-    setTimeout(function () {
-      if (target.style.display === 'none') {
-        btn.remove();   /* no poster — remove hint entirely */
-        return;
-      }
-      btn.style.display = '';   /* poster exists — reveal */
-    }, 600);
+    /* If all poster images fail to load, remove the hint */
+    var errCount = 0;
+    posterImgs.forEach(function (img) {
+      img.addEventListener('error', function () {
+        errCount++;
+        if (errCount === posterImgs.length) btn.remove();
+      });
+    });
 
     btn.addEventListener('click', function () {
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      var panel = document.getElementById('art-photo-panel');
+      if (panel) panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   }());
 })();
