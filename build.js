@@ -527,6 +527,7 @@ function page(c, sec, id) {
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
+<link rel="stylesheet" href="/IKS/assets/css/transitions.css">
 ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>' : ''}
 </head>
 <body>
@@ -615,6 +616,7 @@ ${renderNav(c.nav)}
 </main>
 
 <script src="/IKS/assets/js/nav.js"></script>
+<script src="/IKS/assets/js/transitions.js"></script>
 ${hasSlides ? '<script src="/IKS/assets/js/slides.js"></script>' : ''}
 <script>
   // Hide photo panel if neither image loads

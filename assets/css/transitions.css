@@ -1,0 +1,58 @@
+/* ════════════════════════════════════════════════════
+   TRANSITIONS.CSS — Page-turn animations
+   ════════════════════════════════════════════════════ */
+
+/* ── Entry: next article (page flips in from the right) ── */
+@keyframes page-turn-in-right {
+  0%   { opacity: 0.2; transform: perspective(1400px) rotateY(-22deg) translateX(80px); }
+  60%  { opacity: 1;   transform: perspective(1400px) rotateY(2deg)  translateX(-4px);  }
+  100% { opacity: 1;   transform: perspective(1400px) rotateY(0deg)  translateX(0);     }
+}
+
+/* ── Entry: previous article (page flips in from the left) ── */
+@keyframes page-turn-in-left {
+  0%   { opacity: 0.2; transform: perspective(1400px) rotateY(22deg)  translateX(-80px); }
+  60%  { opacity: 1;   transform: perspective(1400px) rotateY(-2deg)  translateX(4px);   }
+  100% { opacity: 1;   transform: perspective(1400px) rotateY(0deg)   translateX(0);     }
+}
+
+/* ── Exit: going to next article (flip out to left) ── */
+@keyframes page-turn-out-left {
+  0%   { opacity: 1;   transform: perspective(1400px) rotateY(0deg)   translateX(0);     }
+  100% { opacity: 0;   transform: perspective(1400px) rotateY(18deg)  translateX(-60px); }
+}
+
+/* ── Exit: going to previous article (flip out to right) ── */
+@keyframes page-turn-out-right {
+  0%   { opacity: 1;   transform: perspective(1400px) rotateY(0deg)   translateX(0);    }
+  100% { opacity: 0;   transform: perspective(1400px) rotateY(-18deg) translateX(60px); }
+}
+
+/* ── Home page: simple fade-in ── */
+@keyframes page-fade-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+
+main {
+  transform-origin: center center;
+  will-change: transform, opacity;
+}
+
+main.page-enter-right {
+  animation: page-turn-in-right 0.38s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+main.page-enter-left {
+  animation: page-turn-in-left  0.38s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+main.page-exit-left {
+  animation: page-turn-out-left  0.26s cubic-bezier(0.55, 0, 1, 0.45) both;
+  pointer-events: none;
+}
+main.page-exit-right {
+  animation: page-turn-out-right 0.26s cubic-bezier(0.55, 0, 1, 0.45) both;
+  pointer-events: none;
+}
+main.page-enter-home {
+  animation: page-fade-in 0.4s ease-out both;
+}
