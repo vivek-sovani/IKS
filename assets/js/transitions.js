@@ -156,51 +156,56 @@
     clearTimeout(timer); dismissHint();
   }, { once: true, passive: true });
 
-  /* ── Infographic hint ────────────────────────────────
+  /* ── Poster image hint ───────────────────────────────
      Floating button that appears after 2 s if the article
-     has SVG infographics. Smooth-scrolls to the first one.
+     has a poster image panel (#art-photo-panel).
+     Smooth-scrolls to the poster on click.
      Uses data-lang so IKS.setLang() auto-switches it.    */
   (function () {
-    var figs = document.querySelectorAll('figure.art-image');
-    if (!figs.length) return;
-    var target = figs[0];
+    var target = document.getElementById('art-photo-panel');
+    if (!target) return;
 
-    var btn = document.createElement('button');
-    btn.id = 'infographic-hint';
-    btn.setAttribute('aria-label', 'दृश्यात्मक विवरण / Visual Explanation');
-    btn.innerHTML =
-      '<span class="ih-icon">◈</span>' +
-      '<span data-lang="mr">दृश्यात्मक विवरण</span>' +
-      '<span data-lang="en" style="display:none">Visual Explanation</span>' +
-      '<span class="ih-arrow">↓</span>';
+    /* The panel hides itself via JS if poster files are missing.
+       Wait 1.5 s for that check to complete before showing the hint. */
+    setTimeout(function () {
+      if (target.style.display === 'none') return;
 
-    /* Set initial language visibility */
-    if (typeof IKS !== 'undefined' && IKS.getLang) {
-      var l = IKS.getLang();
-      btn.querySelectorAll('[data-lang]').forEach(function (el) {
-        el.style.display = el.dataset.lang === l ? '' : 'none';
+      var btn = document.createElement('button');
+      btn.id = 'infographic-hint';
+      btn.setAttribute('aria-label', 'दृश्यात्मक विवरण / Visual Explanation');
+      btn.innerHTML =
+        '<span class="ih-icon">◈</span>' +
+        '<span data-lang="mr">दृश्यात्मक विवरण</span>' +
+        '<span data-lang="en" style="display:none">Visual Explanation</span>' +
+        '<span class="ih-arrow">↑</span>';
+
+      /* Set initial language visibility */
+      if (typeof IKS !== 'undefined' && IKS.getLang) {
+        var l = IKS.getLang();
+        btn.querySelectorAll('[data-lang]').forEach(function (el) {
+          el.style.display = el.dataset.lang === l ? '' : 'none';
+        });
+      }
+
+      function dismissIH() {
+        btn.classList.add('ih-hide');
+        setTimeout(function () { btn.remove(); }, 500);
+      }
+
+      btn.addEventListener('click', function () {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        dismissIH();
       });
-    }
 
-    function dismissIH() {
-      btn.classList.add('ih-hide');
-      setTimeout(function () { btn.remove(); }, 500);
-    }
+      /* Auto-hide once the poster scrolls into view */
+      if ('IntersectionObserver' in window) {
+        var io = new IntersectionObserver(function (entries) {
+          if (entries[0].isIntersecting) { dismissIH(); io.disconnect(); }
+        }, { threshold: 0.3 });
+        io.observe(target);
+      }
 
-    btn.addEventListener('click', function () {
-      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      dismissIH();
-    });
-
-    /* Auto-hide once the infographic scrolls into view */
-    if ('IntersectionObserver' in window) {
-      var io = new IntersectionObserver(function (entries) {
-        if (entries[0].isIntersecting) { dismissIH(); io.disconnect(); }
-      }, { threshold: 0.3 });
-      io.observe(target);
-    }
-
-    /* Show after 2 s (give user time to start reading) */
-    setTimeout(function () { document.body.appendChild(btn); }, 2000);
+      document.body.appendChild(btn);
+    }, 1500);
   }());
 })();
