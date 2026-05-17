@@ -181,9 +181,8 @@
     btn.id = 'infographic-hint';
     btn.setAttribute('aria-label', 'दृश्यात्मक विवरण / Visual Explanation');
     btn.innerHTML =
-      '<span class="ih-icon">◈</span>' +
-      '<span data-lang="mr">दृश्यात्मक विवरण</span>' +
-      '<span data-lang="en" style="display:none">Visual Explanation</span>';
+      '<span data-lang="mr"><span class="ih-icon">◈</span>दृश्यात्मक विवरण</span>' +
+      '<span data-lang="en" style="display:none"><span class="ih-icon">◈</span>Visual Explanation</span>';
 
     if (typeof IKS !== 'undefined' && IKS.getLang) {
       var l = IKS.getLang();
