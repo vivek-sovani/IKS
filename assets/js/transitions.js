@@ -11,12 +11,30 @@
   else if (dir === 'prev')  main.classList.add('page-enter-left');
   else                      main.classList.add('page-enter-home');
 
+  /* ── Shadow sweep overlay ───────────────────────────
+     A gradient that darkens the page as it turns edge-on,
+     selling the illusion of paper catching less light. */
+  function addShadow(cls, duration) {
+    var s = document.createElement('div');
+    s.className = 'pt-shadow ' + cls;
+    document.body.appendChild(s);
+    setTimeout(function () { s.remove(); }, duration + 100);
+    return s;
+  }
+
+  /* Apply entry shadow (called on page load) */
+  if (dir === 'next')       addShadow('shadow-enter-right', 450);
+  else if (dir === 'prev')  addShadow('shadow-enter-left',  450);
+
   /* ── Navigate helper ─────────────────────────────── */
   function goTo(href, direction) {
     sessionStorage.setItem('iks-nav-dir', direction);
     main.classList.remove('page-enter-right', 'page-enter-left', 'page-enter-home');
-    main.classList.add(direction === 'next' ? 'page-exit-left' : 'page-exit-right');
-    setTimeout(function () { window.location.href = href; }, 270);
+    var exitClass   = direction === 'next' ? 'page-exit-left'      : 'page-exit-right';
+    var shadowClass = direction === 'next' ? 'shadow-exit-left'    : 'shadow-exit-right';
+    main.classList.add(exitClass);
+    addShadow(shadowClass, 300);
+    setTimeout(function () { window.location.href = href; }, 310);
   }
 
   /* ── Nav-button clicks ───────────────────────────── */
