@@ -3,13 +3,18 @@
   var main = document.querySelector('main');
   if (!main) return;
 
-  /* ── Entry animation ─────────────────────────────── */
+  /* Touch-device detection — page-turn animation only on mobile */
+  var isTouch = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+
+  /* ── Entry animation (mobile only) ──────────────────── */
   var dir = sessionStorage.getItem('iks-nav-dir') || 'home';
   sessionStorage.removeItem('iks-nav-dir');
 
-  if (dir === 'next')       main.classList.add('page-enter-right');
-  else if (dir === 'prev')  main.classList.add('page-enter-left');
-  else                      main.classList.add('page-enter-home');
+  if (isTouch) {
+    if (dir === 'next')       main.classList.add('page-enter-right');
+    else if (dir === 'prev')  main.classList.add('page-enter-left');
+    else                      main.classList.add('page-enter-home');
+  }
 
   /* ── Shadow sweep overlay ───────────────────────────
      A gradient that darkens the page as it turns edge-on,
@@ -22,12 +27,19 @@
     return s;
   }
 
-  /* Apply entry shadow (called on page load) */
-  if (dir === 'next')       addShadow('shadow-enter-right', 450);
-  else if (dir === 'prev')  addShadow('shadow-enter-left',  450);
+  /* Apply entry shadow (mobile only) */
+  if (isTouch) {
+    if (dir === 'next')       addShadow('shadow-enter-right', 420);
+    else if (dir === 'prev')  addShadow('shadow-enter-left',  420);
+  }
 
   /* ── Navigate helper ─────────────────────────────── */
   function goTo(href, direction) {
+    if (!isTouch) {
+      /* Desktop: navigate immediately, no animation */
+      window.location.href = href;
+      return;
+    }
     sessionStorage.setItem('iks-nav-dir', direction);
     main.classList.remove('page-enter-right', 'page-enter-left', 'page-enter-home');
     var exitClass   = direction === 'next' ? 'page-exit-left'      : 'page-exit-right';

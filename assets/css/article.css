@@ -85,7 +85,7 @@
 /* ── ARTICLE BODY ─────────────────────────────────── */
 .art-body {
   max-width: 780px;
-  padding: 48px 56px 72px;
+  padding: 20px 56px 72px;
 }
 
 /* Summary box */
@@ -640,7 +640,7 @@
   .art-topbar { padding: 8px 24px; }
   .art-header { padding: 16px 24px 14px; }
   .art-header h1 { font-size: 24px; }
-  .art-body { padding: 32px 24px 56px; }
+  .art-body { padding: 16px 24px 56px; }
   .art-nav { padding: 20px 24px; }
   .art-footer-band { padding: 16px 24px; }
   .concepts-grid { grid-template-columns: 1fr; }
