@@ -58,6 +58,38 @@ main.page-enter-home {
 }
 
 /* ══════════════════════════════════════════════════════
+   EDGE TAP ZONES — subtle arrow handles on left/right
+   Only visible on touch devices (hover: none)
+   ══════════════════════════════════════════════════════ */
+
+@media (hover: none) and (pointer: coarse) {
+  .nav-btn-edge {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background: rgba(45, 62, 82, 0.18);
+    border-radius: 0 8px 8px 0;
+    color: rgba(255,255,255,0.55);
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    text-decoration: none;
+  }
+  .nav-btn-edge:active {
+    background: rgba(212, 80, 10, 0.55);
+    color: #fff;
+  }
+  .nav-btn-edge.edge-left  { left: 0;  border-radius: 0 8px 8px 0; }
+  .nav-btn-edge.edge-right { right: 0; border-radius: 8px 0 0 8px; }
+}
+
+/* ══════════════════════════════════════════════════════
    SWIPE HINT — bottom toast, first visit only
    ══════════════════════════════════════════════════════ */
 

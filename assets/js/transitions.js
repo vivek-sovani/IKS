@@ -27,20 +27,28 @@
     goTo(btn.href, btn.classList.contains('right') ? 'next' : 'prev');
   });
 
-  /* ── Swipe gesture ───────────────────────────────── */
-  var touchStartX = 0, touchStartY = 0;
+  /* ── Swipe gesture (edge-only) ──────────────────────
+     Only fires when the touch STARTS within the outer 22% of
+     screen width — avoids conflict with images and content. */
+  var touchStartX = 0, touchStartY = 0, touchEdge = false;
+  var EDGE_ZONE = 0.22;   /* fraction of screen width */
+  var MIN_SWIPE = 55;     /* minimum horizontal distance in px */
 
   document.addEventListener('touchstart', function (e) {
     touchStartX = e.changedTouches[0].clientX;
     touchStartY = e.changedTouches[0].clientY;
+    var sw = window.innerWidth;
+    touchEdge = touchStartX < sw * EDGE_ZONE          /* left edge  → prev */
+             || touchStartX > sw * (1 - EDGE_ZONE);   /* right edge → next */
   }, { passive: true });
 
   document.addEventListener('touchend', function (e) {
+    if (!touchEdge) return;
     var dx = e.changedTouches[0].clientX - touchStartX;
     var dy = e.changedTouches[0].clientY - touchStartY;
 
-    /* Only handle horizontal swipes (dx dominant, > 60px) */
-    if (Math.abs(dx) < 60 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+    /* Reject if not clearly horizontal */
+    if (Math.abs(dx) < MIN_SWIPE || Math.abs(dx) < Math.abs(dy) * 1.5) return;
 
     var navNext = document.querySelector('.nav-btn.right');
     var navPrev = document.querySelector('.nav-btn:not(.right)');
@@ -48,6 +56,48 @@
     if (dx < 0 && navNext) goTo(navNext.href, 'next');   /* swipe left  → next */
     if (dx > 0 && navPrev) goTo(navPrev.href, 'prev');   /* swipe right → prev */
   }, { passive: true });
+
+  /* ── Edge handle buttons (touch devices) ────────────
+     Thin translucent strips on left/right edge — tap or
+     swipe from there to go prev/next without ambiguity. */
+  function buildEdgeHandles() {
+    var navNext = document.querySelector('.nav-btn.right');
+    var navPrev = document.querySelector('.nav-btn:not(.right)');
+    if (!navNext && !navPrev) return;
+
+    if (navPrev) {
+      var lh = document.createElement('a');
+      lh.className = 'nav-btn-edge edge-left';
+      lh.href = navPrev.href;
+      lh.setAttribute('aria-label', 'Previous article');
+      lh.textContent = '‹';
+      lh.addEventListener('click', function (e) {
+        e.preventDefault();
+        goTo(navPrev.href, 'prev');
+      });
+      document.body.appendChild(lh);
+    }
+
+    if (navNext) {
+      var rh = document.createElement('a');
+      rh.className = 'nav-btn-edge edge-right';
+      rh.href = navNext.href;
+      rh.setAttribute('aria-label', 'Next article');
+      rh.textContent = '›';
+      rh.addEventListener('click', function (e) {
+        e.preventDefault();
+        goTo(navNext.href, 'next');
+      });
+      document.body.appendChild(rh);
+    }
+  }
+
+  /* Run after sidebar is injected (nav-btn links are in .art-nav, always present) */
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', buildEdgeHandles);
+  } else {
+    buildEdgeHandles();
+  }
 
   /* ── Swipe hint (first visit only) ──────────────────
      Shows once per browser session on article pages.
@@ -63,8 +113,8 @@
   hint.id = 'swipe-hint';
   hint.innerHTML =
     '<span class="sh-arrow sh-left">‹</span>' +
-    '<span class="sh-text" data-lang="mr">स्वाइप करा — पृष्ठ बदला</span>' +
-    '<span class="sh-text" data-lang="en" style="display:none">Swipe to turn pages</span>' +
+    '<span class="sh-text" data-lang="mr">कडेवरून स्वाइप करा — पृष्ठ बदला</span>' +
+    '<span class="sh-text" data-lang="en" style="display:none">Swipe from edge to turn pages</span>' +
     '<span class="sh-arrow sh-right">›</span>';
   document.body.appendChild(hint);
 
