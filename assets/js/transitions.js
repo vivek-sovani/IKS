@@ -157,55 +157,48 @@
   }, { once: true, passive: true });
 
   /* ── Poster image hint ───────────────────────────────
-     Floating button that appears after 2 s if the article
-     has a poster image panel (#art-photo-panel).
-     Smooth-scrolls to the poster on click.
+     Inline banner inserted after .summary-box.
+     Scrolls to #art-photo-panel (the left-side poster).
      Uses data-lang so IKS.setLang() auto-switches it.    */
   (function () {
-    var target = document.getElementById('art-photo-panel');
-    if (!target) return;
+    var target  = document.getElementById('art-photo-panel');
+    var summary = document.querySelector('.summary-box');
+    if (!target || !summary) return;
 
-    /* The panel hides itself via JS if poster files are missing.
-       Wait 1.5 s for that check to complete before showing the hint. */
-    setTimeout(function () {
-      if (target.style.display === 'none') return;
+    var btn = document.createElement('button');
+    btn.id = 'infographic-hint';
+    btn.setAttribute('aria-label', 'दृश्यात्मक विवरण / Visual Explanation');
+    btn.innerHTML =
+      '<span class="ih-icon">◈</span>' +
+      '<span class="ih-label">' +
+        '<span data-lang="mr">दृश्यात्मक विवरण पहा</span>' +
+        '<span data-lang="en" style="display:none">View Visual Explanation</span>' +
+      '</span>' +
+      '<span class="ih-arrow">←</span>';
 
-      var btn = document.createElement('button');
-      btn.id = 'infographic-hint';
-      btn.setAttribute('aria-label', 'दृश्यात्मक विवरण / Visual Explanation');
-      btn.innerHTML =
-        '<span class="ih-icon">◈</span>' +
-        '<span data-lang="mr">दृश्यात्मक विवरण</span>' +
-        '<span data-lang="en" style="display:none">Visual Explanation</span>' +
-        '<span class="ih-arrow">↑</span>';
-
-      /* Set initial language visibility */
-      if (typeof IKS !== 'undefined' && IKS.getLang) {
-        var l = IKS.getLang();
-        btn.querySelectorAll('[data-lang]').forEach(function (el) {
-          el.style.display = el.dataset.lang === l ? '' : 'none';
-        });
-      }
-
-      function dismissIH() {
-        btn.classList.add('ih-hide');
-        setTimeout(function () { btn.remove(); }, 500);
-      }
-
-      btn.addEventListener('click', function () {
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        dismissIH();
+    /* Set initial language visibility */
+    if (typeof IKS !== 'undefined' && IKS.getLang) {
+      var l = IKS.getLang();
+      btn.querySelectorAll('[data-lang]').forEach(function (el) {
+        el.style.display = el.dataset.lang === l ? '' : 'none';
       });
+    }
 
-      /* Auto-hide once the poster scrolls into view */
-      if ('IntersectionObserver' in window) {
-        var io = new IntersectionObserver(function (entries) {
-          if (entries[0].isIntersecting) { dismissIH(); io.disconnect(); }
-        }, { threshold: 0.3 });
-        io.observe(target);
+    /* Insert inline after summary box — hidden until image check passes */
+    btn.style.display = 'none';
+    summary.insertAdjacentElement('afterend', btn);
+
+    /* Wait for onerror handlers to fire on missing poster images */
+    setTimeout(function () {
+      if (target.style.display === 'none') {
+        btn.remove();   /* no poster — remove hint entirely */
+        return;
       }
+      btn.style.display = '';   /* poster exists — reveal */
+    }, 600);
 
-      document.body.appendChild(btn);
-    }, 1500);
+    btn.addEventListener('click', function () {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
   }());
 })();
