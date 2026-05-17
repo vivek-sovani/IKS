@@ -103,6 +103,63 @@ main.page-enter-home {
 }
 
 /* ══════════════════════════════════════════════════════
+   INFOGRAPHIC HINT — floating button bottom-right
+   ══════════════════════════════════════════════════════ */
+
+@keyframes ih-appear {
+  from { opacity: 0; transform: translateY(14px) scale(0.92); }
+  to   { opacity: 1; transform: translateY(0)    scale(1);    }
+}
+@keyframes ih-pulse {
+  0%, 100% { box-shadow: 0 3px 16px rgba(184,134,11,0.35); }
+  50%       { box-shadow: 0 4px 24px rgba(184,134,11,0.65); }
+}
+
+#infographic-hint {
+  position: fixed;
+  bottom: 76px;
+  right: 16px;
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: linear-gradient(135deg, #B8860B 0%, #E8C84A 100%);
+  color: #2C1810;
+  border: none;
+  padding: 10px 16px 10px 13px;
+  border-radius: 28px;
+  font-size: 13.5px;
+  font-family: 'Noto Sans Devanagari', 'Crimson Pro', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.01em;
+  animation: ih-appear 0.4s ease-out both,
+             ih-pulse  2.4s 0.6s ease-in-out infinite;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+#infographic-hint:hover,
+#infographic-hint:active {
+  filter: brightness(1.08);
+}
+
+.ih-icon {
+  font-size: 16px;
+  opacity: 0.85;
+  line-height: 1;
+}
+.ih-arrow {
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 2px;
+}
+
+#infographic-hint.ih-hide {
+  opacity: 0;
+  transform: translateY(10px) scale(0.92);
+  pointer-events: none;
+}
+
+/* ══════════════════════════════════════════════════════
    EDGE TAP ZONES — subtle arrow handles on left/right
    Only visible on touch devices (hover: none)
    ══════════════════════════════════════════════════════ */
