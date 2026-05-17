@@ -117,6 +117,57 @@
     buildEdgeHandles();
   }
 
+  /* ── Top nav arrows (below chapter heading) ──────────
+     ‹ prev title … next title › row inserted after .art-header.
+     Reuses goTo() so page-turn animation fires normally.   */
+  (function () {
+    var header  = document.querySelector('.art-header');
+    if (!header) return;
+
+    var navNext = document.querySelector('a.nav-btn.right');
+    var navPrev = document.querySelector('a.nav-btn:not(.right)');
+    if (!navNext && !navPrev) return;
+
+    var lang = (typeof IKS !== 'undefined' && IKS.getLang) ? IKS.getLang() : 'mr';
+
+    function titleSpans(btn) {
+      if (!btn) return '';
+      var mr = btn.querySelector('.nav-art-title[data-lang="mr"]');
+      var en = btn.querySelector('.nav-art-title[data-lang="en"]');
+      return (mr ? '<span data-lang="mr">'                      + mr.textContent + '</span>' : '') +
+             (en ? '<span data-lang="en" style="display:none">' + en.textContent + '</span>' : '');
+    }
+
+    var row = document.createElement('div');
+    row.className = 'art-top-nav';
+
+    if (navPrev) {
+      var pb = document.createElement('button');
+      pb.className = 'art-top-nav-btn atn-prev';
+      pb.innerHTML = '<span class="atn-arrow">‹</span><span class="atn-title">' + titleSpans(navPrev) + '</span>';
+      pb.querySelectorAll('[data-lang]').forEach(function (el) {
+        el.style.display = el.dataset.lang === lang ? '' : 'none';
+      });
+      pb.addEventListener('click', function () { goTo(navPrev.href, 'prev'); });
+      row.appendChild(pb);
+    } else {
+      row.appendChild(document.createElement('span')); /* spacer */
+    }
+
+    if (navNext) {
+      var nb = document.createElement('button');
+      nb.className = 'art-top-nav-btn atn-next';
+      nb.innerHTML = '<span class="atn-title">' + titleSpans(navNext) + '</span><span class="atn-arrow">›</span>';
+      nb.querySelectorAll('[data-lang]').forEach(function (el) {
+        el.style.display = el.dataset.lang === lang ? '' : 'none';
+      });
+      nb.addEventListener('click', function () { goTo(navNext.href, 'next'); });
+      row.appendChild(nb);
+    }
+
+    header.insertAdjacentElement('afterend', row);
+  }());
+
   /* ── Poster image hint ───────────────────────────────
      Inline banner below the summary box, shown on every
      chapter load. Independent of the swipe-hint session.
