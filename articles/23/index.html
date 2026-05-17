@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>कर्म, कल्प, कला | Karma, Kalpa and Kala — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="जेव्हा आंतरिक अनुभवाची तीव्रता एक मर्यादा ओलांडते तेव्हा तो केवळ वाणीतूनच नव्हे तर शरीराच्या हालचालींतूनही — कर्म, कल्प, कलेच्या रूपात — व्यक्त होतो. कला म्हणजे">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -415,6 +418,9 @@
       IKS.setActiveArticle('23');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

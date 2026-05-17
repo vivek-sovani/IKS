@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>वेदांग | Vedangas — Six Limbs of the Veda — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="वेदांग हे वेदाचे सहा अंग आहेत. ते अभिव्यक्तीच्या विविध घटकांचा — ध्वनी, शब्द, अर्थ, वाक्यरचना, काळ आणि कृती — सखोल अभ्यास करतात. जसे शरीराचे अवयव शरीराला कार्यक">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -385,6 +388,9 @@
       IKS.setActiveArticle('38');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

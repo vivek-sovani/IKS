@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>देश म्हणजे व्यक्तिभूत दैवी शक्ती | Nation as Embodied Divine Power — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="भारतीय चिंतन देशाला प्रकृतीचे एक रूप मानते — बाह्य विश्वात (ब्रह्मांडात) असलेली आणि पिंडांडातील प्रकृतीच्या प्रत्युत्तरस्वरूप असलेली. श्रीरंग महागुरूंनी राष्ट्र">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -368,6 +371,9 @@
       IKS.setActiveArticle('53');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

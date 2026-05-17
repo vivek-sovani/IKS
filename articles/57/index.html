@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>उपसंहार — समीक्षा मॉडेल | Conclusion — The SaMIKSHA Model — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="समीक्षा (SaMIKSHA) म्हणजे भारतीय ज्ञानप्रणाली व वारसा यांचे श्रीरंग मॉडेल. साडेतीन चक्रांमध्ये आनंद, धर्म, अव्यक्त-व्यक्त चक्रे आणि त्यांच्या संरक्षणासाठी संस्थ">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -309,6 +312,9 @@
       IKS.setActiveArticle('57');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>नित्यकर्म | Nityakarma — Daily Practice — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="भारतीय परंपरेत प्रत्येक दिवस एक संपूर्ण चक्र म्हणून आखला आहे. ब्राह्ममुहूर्तातील तुरीयावस्थेपासून संध्याकाळच्या लयापर्यंत, दिनचर्येतील प्रत्येक कृती पिंडांड आणि">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -350,6 +353,9 @@
       IKS.setActiveArticle('46');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

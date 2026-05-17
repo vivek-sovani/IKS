@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ब्रह्मांडामधील देवता | Deities in Brahmanda — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="पिंडांड (शरीर) मध्ये देवतांचे जसे संबंध आहेत, तसेच ब्रह्मांड (विश्व) मध्ये देखील आहेत. तीन प्रमुख वैदिक देवता — अग्नी (भूः), वायु किंवा इंद्र (भुवः) आणि सूर्य (">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -381,6 +384,9 @@
       IKS.setActiveArticle('31');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

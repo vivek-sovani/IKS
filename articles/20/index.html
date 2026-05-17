@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>व्यक्त अर्धचक्र | Manifest Half-Cycle — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="समाधीच्या अव्यक्त अवस्थेतून पुन्हा जागृत अवस्थेकडे परतणे म्हणजे व्यक्त अर्धचक्र. झोपेतून उठताना जसे झोपेचे गुणधर्म जागृत अवस्थेत ओतप्रोत होतात, तसेच समाधीतून पर">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -391,6 +394,9 @@
       IKS.setActiveArticle('20');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

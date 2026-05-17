@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>उपयोजन १ — महाकाव्यासाठी तंत्रज्ञान मूल्यमापन | Application 1 — Evaluating Technology for Mahakaavya — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="एखाद्या आंतरराष्ट्रीय रामायण संग्रहालयाला श्लोक पठणासाठी मजकूर-ते-ध्वनी तंत्रज्ञान हवे आहे. IKS चौकटीनुसार या तंत्रज्ञानाचे मूल्यमापन कसे करावे? रस, भाव आणि आत्">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -328,6 +331,9 @@
       IKS.setActiveArticle('58');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

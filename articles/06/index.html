@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>योग व विद्या | Yoga and Vidya — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="ज्ञान प्राप्तीची प्रक्रिया 'विद्या' किंवा 'योग' या व्यापक शब्दाने संबोधली जाते. दोन्ही शब्द वेगवेगळ्या मूळ धातूंपासून आले असले तरी एकाच ध्येयाकडे — अमर्यादित आन">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -407,6 +410,9 @@ Bliss</text>
       IKS.setActiveArticle('06');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

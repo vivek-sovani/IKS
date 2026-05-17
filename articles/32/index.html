@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>देवतांची एकसंध संकल्पना | Unified Concept of Deities — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="देव हा शब्द 'दिव्' म्हणजे तेज किंवा प्रकाश या धातूपासून आला आहे. ऋषींच्या अनुभवाचे विषय म्हणून देवांना स्तोत्रांमध्ये तृतीय, द्वितीय आणि प्रथम पुरुषात संबोधले ज">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -372,6 +375,9 @@
       IKS.setActiveArticle('32');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

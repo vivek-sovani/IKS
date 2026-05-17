@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>कर्म पुनर्विचार — पाप व पुण्य | Karma Reconsidered — Papa and Punya — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="भारतीय विचारात कर्म हे दैवी बदला नाही. इष्ट कर्म म्हणजे अव्यक्त-व्यक्त चक्राच्या पूर्णतेच्या दिशेने नेणारी सुकुशल क्रिया. पाप म्हणजे चक्राला विचलित करणारी क्रिय">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -334,6 +337,9 @@
       IKS.setActiveArticle('56');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

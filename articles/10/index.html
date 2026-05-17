@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>जीवनचक्र व आनंद | Life Cycle for Ultimate Bliss — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="जागृती, स्वप्न आणि निद्रा — या तीन अवस्था जगभरातील सर्व संस्कृतींना माहीत आहेत. परंतु भारतीय वारशाचे वैशिष्ट्य म्हणजे चौथी अवस्था — तुरीय. आत्यंतिक आनंदासाठी आद">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -408,6 +411,9 @@
       IKS.setActiveArticle('10');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

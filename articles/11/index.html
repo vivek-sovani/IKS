@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>मानवी शरीर आणि चौथी अवस्था | The Human Body and the Fourth State — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="मानवी शरीर — विशेषतः मेंदू आणि चेतासंस्था — या चारही अवस्थांचा आधार आहे: जागृती, स्वप्न, सुषुप्ती आणि समाधी (तुरीय) — अमर्यादित आनंद, शांती आणि समभाव. शंकराचार्">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -403,6 +406,9 @@
       IKS.setActiveArticle('11');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

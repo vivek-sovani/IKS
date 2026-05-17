@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>मंदिर संस्था | Temple Institution — Devalaya — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="मंदिर ही केवळ उपासनेची जागा नव्हे तर पिंडांड-ब्रह्मांडाचे जिवंत प्रतिरूप आहे. वैदिक यज्ञवेदीपासून आगमिक मंदिरापर्यंत एक सातत्याचा धागा आहे. मंदिर हे भारतीय ज्ञा">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -390,6 +393,9 @@
       IKS.setActiveArticle('50');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

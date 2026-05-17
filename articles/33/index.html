@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>पुनर्रचनेच्या समस्या | Problems of Reconstruction — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="देवतांचे प्रत्येक गुणधर्म परिचित असले तरी त्यांची एकत्रित रचना ज्यांना अनुभव नाही त्यांना अविश्वसनीय वाटते. मूळ वर्णनापासून हजारो वर्षे गेल्यावर खऱ्या चित्राची ">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -420,6 +423,9 @@
       IKS.setActiveArticle('33');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

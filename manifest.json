@@ -1,0 +1,49 @@
+{
+  "name": "भारतीय ज्ञानप्रणाली व वारसा",
+  "short_name": "IKS",
+  "description": "Elements of Indian Knowledge Systems — bilingual Marathi & English educational website",
+  "start_url": "/IKS/",
+  "scope": "/IKS/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#2D3E52",
+  "theme_color": "#2D3E52",
+  "lang": "mr",
+  "categories": ["education", "books"],
+  "icons": [
+    {
+      "src": "/IKS/assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/IKS/assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/IKS/assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "आनंद — Article 01",
+      "short_name": "Article 01",
+      "url": "/IKS/articles/01/",
+      "icons": [{ "src": "/IKS/assets/images/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "ज्ञान — Article 03",
+      "short_name": "Article 03",
+      "url": "/IKS/articles/03/",
+      "icons": [{ "src": "/IKS/assets/images/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

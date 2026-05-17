@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>प्राण आणि नाडी | Prana and Nadis — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="शरीरातील सर्व हालचाली — श्वास, रक्तसंचार, पचन, मज्जातंतूंमधील संदेशवहन — या प्राणाच्या विविध रूपांमुळे होतात. प्राणशक्ती ज्या मार्गांनी वाहते ते मार्ग म्हणजे ना">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -461,6 +464,9 @@
       IKS.setActiveArticle('16');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

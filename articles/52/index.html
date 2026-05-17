@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>राष्ट्र आणि राजा | Rashtra and Raja — Nation and Ruler — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="भारतीय परंपरेत राजाचे राज्य दोन पातळ्यांवर आहे — बाह्य (प्रजाजन आणि भूमी) आणि आंतरिक (प्रत्येक व्यक्तीचा ब्रह्मदंड). दंड हा केवळ शिक्षेचे साधन नव्हे तर ब्रह्मदं">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -350,6 +353,9 @@
       IKS.setActiveArticle('52');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

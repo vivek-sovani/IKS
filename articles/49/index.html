@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>अभिरुची आणि मनोरंजन | Rasa and Kala — Taste and Arts — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="भारतीय दृष्टिकोनात कला आणि अभिरुची हे केवळ मनोरंजनाचे साधन नाही — ते आनंदाच्या सर्वोच्च अवस्थेकडे नेणाऱ्या चक्राचा भाग आहेत. रस म्हणजे सौंदर्याचा अनुभव; तो आत्म">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -416,6 +419,9 @@
       IKS.setActiveArticle('49');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

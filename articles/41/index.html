@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>चार वेद आणि उपवेद | Four Vedas and Upavedas — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="चार वेद हे ऋषींच्या वैदिक अभिव्यक्तीच्या चार वेगवेगळ्या टप्प्यांशी संबंधित आहेत. ऋग्वेद, यजुर्वेद, सामवेद आणि अथर्ववेद हे प्रत्येक वेगळ्या प्रकारचे ज्ञान आणि अभ">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -390,6 +393,9 @@
       IKS.setActiveArticle('41');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

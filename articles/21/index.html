@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>आत्मगुण | Atmaguna — Qualities of the Self — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="तुरीय अवस्थेचा (समाधीचा) अनुभव मनावर कायमस्वरूपी छाप सोडतो — त्याला आत्मगुण म्हणतात. झोपेतून उठताना जसे झोपेचे गुणधर्म जागृत अवस्थेत राहतात, तसे समाधीचे आठ गुणध">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -403,6 +406,9 @@
       IKS.setActiveArticle('21');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

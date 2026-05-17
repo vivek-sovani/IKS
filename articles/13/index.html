@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>पुरुष–प्रकृती, सृष्टी–स्थिती–लय | Purusha-Prakriti, Creation-Preservation-Dissolution — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="जागृतीपासून समाधीकडे आणि परत जागृतीकडे — हे एक पूर्ण चक्र आहे. या आंतरिक चक्राची रचना बाह्य विश्वाच्या सृष्टी-स्थिती-लय या वैश्विक चक्राशी तंतोतंत जुळते. पुरुष ">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -436,6 +439,9 @@
       IKS.setActiveArticle('13');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>धर्म आणि शास्त्र | Dharma and Shastra — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="धर्म हा शब्द वेदांमध्ये देवाचे कार्य, स्मृतींमध्ये कर्तव्य, आणि वैशेषिक सूत्रांत इहलोक व परलोक सुख देणारा असे विविध संदर्भांत वापरला आहे. मूलतः धर्म म्हणजे ऋतम्">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -332,6 +335,9 @@
       IKS.setActiveArticle('55');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

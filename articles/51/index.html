@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>तीर्थ आणि क्षेत्र | Tirtha and Kshetra — Sacred Sites — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="तीर्थ म्हणजे केवळ नदीकाठ नव्हे तर इंद्रियांच्या जगातून इंद्रियातीत आनंदाच्या जगात प्रवेश करण्याचे द्वार. भारताच्या भूगोलाचा, हवामानाचा आणि शक्तीच्या अनुभवाच्या ">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -370,6 +373,9 @@
       IKS.setActiveArticle('51');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

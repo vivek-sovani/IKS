@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>वाक्, वेद व विद्या | Vak, Veda and Vidya — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="व्यक्त होण्याच्या प्रवासात वाणी सर्वात महत्त्वाची भूमिका बजावते. अव्यक्त अवस्थेत बोलण्याची शक्ती थांबते; व्यक्त होताना ती आंतरिक अनुभव बाह्य जगात आणते. बौबा-किक">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -415,6 +418,9 @@
       IKS.setActiveArticle('22');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

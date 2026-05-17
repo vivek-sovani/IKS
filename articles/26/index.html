@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>विद्या, कला, यज्ञ, कर्म | Vidya, Kala, Yajna, Karma — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="एखाद्या परदेशी भाषेतील संगीत ऐकताना मनात भावना का उचंबळतात? हे विद्या आणि कलेचे रहस्य आहे — अंतर्गत अनुभव शब्दांद्वारे किंवा कृतींद्वारे दुसऱ्यापर्यंत पोहोचवण्य">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -406,6 +409,9 @@
       IKS.setActiveArticle('26');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

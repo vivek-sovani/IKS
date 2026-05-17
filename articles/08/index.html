@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>धर्म | Dharma — Maintaining Natural Order — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="निसर्गातील चक्रांची शुद्धता राखणे हे प्राचीन भारतीयांनी आपले कर्तव्य मानले — त्याला 'धर्म' म्हटले. 'धृ' धातूपासून आलेला हा शब्द म्हणजे ऋतम्-सत्यम् ची व्यवस्था ध">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -416,6 +419,9 @@
       IKS.setActiveArticle('08');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

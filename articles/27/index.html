@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>विज्ञान | Vijnana — Applied Knowledge — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="मंदिराच्या प्रवेशद्वारावर उदबत्तीचा सुगंध आला. एक व्यक्ती त्यात धुराचा वास घेते; दुसरी व्यक्ती त्यातच शांतता आणि समाधीयोग्य अवस्था अनुभवते. दुसऱ्या व्यक्तीकडे ज">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -409,6 +412,9 @@
       IKS.setActiveArticle('27');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>आनंद | Ananda — The Nature of Joy — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="सर्व मानवी प्रयत्नांचे अंतिम ध्येय — आनंद. भारतीय ज्ञानप्रणालीची मूलभूत संकल्पना.">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -381,6 +384,9 @@
       IKS.setActiveArticle('01');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

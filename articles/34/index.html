@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>धर्मासाठी संस्था निर्माण | Creating Institutions for Dharma — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="वैदिक जीवनपद्धती केवळ व्यक्तीपुरती मर्यादित ठेवणे शक्य नव्हते — ती एक जनआंदोलन बनवायची होती. म्हणून भारतीय विचारवंतांनी तीन स्तरांवर — व्यक्ती, कुटुंब-समाज आणि ">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -421,6 +424,9 @@
       IKS.setActiveArticle('34');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

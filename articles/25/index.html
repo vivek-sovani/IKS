@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>गुरु व शिष्य | Guru and Shishya — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="दोन विद्यार्थी एकाच टेबलावर अभ्यास करत आहेत. एकाला जांभई आली आणि दुसऱ्यालाही लगेच झोप येऊ लागली. ही एक साधी घटना आहे — परंतु त्यामागे एक गहन तत्त्व आहे: एका व्य">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -406,6 +409,9 @@
       IKS.setActiveArticle('25');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

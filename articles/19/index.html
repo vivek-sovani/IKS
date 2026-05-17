@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>योगाचे तीन मार्ग | Three Paths of Yoga — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="ज्ञानयोग, कर्मयोग आणि भक्तियोग — हे तीन मुख्य मार्ग वेगवेगळ्या प्रवेशद्वारातून एकाच समाधीच्या अवस्थेकडे नेतात. ज्ञानयोग हा बुद्धीचा थेट मार्ग आहे, कर्मयोग इंद्र">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -433,6 +436,9 @@
       IKS.setActiveArticle('19');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

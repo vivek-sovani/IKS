@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>संस्कार | Samskaras — Rites of Refinement — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="संस्कार म्हणजे जीवनाच्या चक्रात निर्माण होणाऱ्या असंतुलनाला दूर करण्यासाठी आणि आत्मगुण वाढवण्यासाठी विशिष्ट वेळी केले जाणारे उपाय. जन्मापूर्वीपासून मृत्यूपर्यंत">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -393,6 +396,9 @@
       IKS.setActiveArticle('48');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>१४ विद्या आणि ६४ कला | 14 Vidyas and 64 Kalas — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="विद्या हे शिक्षणाचे मुख्य माध्यम आहे. भारतीय विद्वानांनी ज्ञानाचे शास्त्रशुद्ध वर्गीकरण केले — ४ वेद, ६ वेदांग आणि ४ उपांगांसह चतुर्दश विद्या. त्याशिवाय कौटिल्य">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -411,6 +414,9 @@
       IKS.setActiveArticle('36');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

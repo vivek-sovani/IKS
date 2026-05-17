@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>विद्या आणि योग | Vidya and Yoga — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="विद्या आणि योग हे दोन्ही शब्द अनेकदा एकमेकांच्या बदली वापरले जातात. परंतु त्यांच्यात एक सूक्ष्म फरक आहे — विद्या व्यक्त अवस्थेकडे झुकते आणि स्त्रैण आहे; योग अव्">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -381,6 +384,9 @@
       IKS.setActiveArticle('28');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

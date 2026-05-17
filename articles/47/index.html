@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>उत्सव | Utsava — Festivals — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="भारतीय सणांची रचना केवळ उत्सव म्हणून नव्हे तर निसर्गाच्या विविध चक्रांशी मानवी जीवनाचे संयोजन करणारे साधन म्हणून केली आहे. प्रत्येक सण एका विशिष्ट काळात विशिष्ट">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -360,6 +363,9 @@
       IKS.setActiveArticle('47');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>भारतीय ज्ञानप्रणाली व वारसा | Elements of IKS</title>
 <meta name="description" content="भारतीय ज्ञानप्रणाली व वारशाचा सुगम, द्विभाषिक परिचय. Elements of Indian Knowledge Systems in Marathi and English.">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="assets/css/fonts.css">
 <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -105,13 +108,15 @@
 
 <script src="assets/js/nav.js"></script>
 <script>
-  // Load sidebar
   fetch('/IKS/shared/sidebar.html')
     .then(r => r.text())
     .then(html => {
       document.getElementById('sidebar').innerHTML = html;
       IKS.init();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

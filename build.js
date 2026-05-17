@@ -521,6 +521,9 @@ function page(c, sec, id) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${c.titleMr} | ${c.titleEn} — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="${desc}">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -654,6 +657,9 @@ ${hasSlides ? '<script src="/IKS/assets/js/slides.js"></script>' : ''}
       IKS.setActiveArticle('${id}');
       ${hasSlides ? 'if (IKS.initSlides) IKS.initSlides();' : ''}
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>`;

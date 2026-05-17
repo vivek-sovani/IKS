@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>अध्यापन पद्धती व शैली | Teaching Methods and Styles — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="रामदास शेट्टींच्या तीन मुलांची कथा भारताच्या अध्यापन तत्त्वज्ञानाचे सार सांगते. प्रत्येक माणूस वेगळ्या मार्गाने शिकतो — थेट आदेशाने, मित्राच्या उदाहरणाने किंवा ">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -408,6 +411,9 @@
       IKS.setActiveArticle('35');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>

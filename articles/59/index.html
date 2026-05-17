@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>उपयोजन २ — व्यसन, नैराश्य आणि जीवनशैली आजारांसाठी एकात्मिक आरोग्य प्रणाली | Application 2 — Integrative Healthcare for Addiction, Depression and Lifestyle Diseases — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="IKS दृष्टिकोनातून व्यसन म्हणजे दम (स्वसंयम) नाही, नैराश्य म्हणजे तमोगुण बाहुल्य, ताण म्हणजे आयास. या सर्वांचे मूळ कारण धर्मक्षतिजा — दैनंदिन जीवनचक्र विस्कळीत ह">
+<meta name="theme-color" content="#2D3E52">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
@@ -306,6 +309,9 @@
       IKS.setActiveArticle('59');
       if (IKS.initSlides) IKS.initSlides();
     });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
+  }
 </script>
 </body>
 </html>
