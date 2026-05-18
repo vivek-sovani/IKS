@@ -579,7 +579,7 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
       <a href="/IKS/">मुखपृष्ठ / Home</a>
       <span>›</span>
       <span data-lang="mr">चक्र ${sec.numMr || ''} — ${sec.nameMr || ''}</span>
-      <span data-lang="en" style="display:none;">Chapter ${sec.numMr || ''} — ${sec.nameEn || ''}</span>
+      <span data-lang="en" style="display:none;">Cycle ${sec.numEn || ''} — ${sec.nameEn || ''}</span>
     </div>
     <div class="fs-toggle">
       <button class="fs-btn active" data-fs-btn="md" onclick="IKS.setFontSize('md')" title="Default text">A</button>

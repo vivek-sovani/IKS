@@ -8,6 +8,7 @@
     {
       "id": "c0",
       "numMr": "०",
+      "numEn": "0",
       "nameMr": "मध्यवर्ती संकल्पना",
       "nameEn": "Central Concepts",
       "articles": [
@@ -22,6 +23,7 @@
     {
       "id": "c1",
       "numMr": "१",
+      "numEn": "1",
       "nameMr": "जीवनाची चक्रे",
       "nameEn": "Cycles of Life",
       "articles": [
@@ -37,6 +39,7 @@
     {
       "id": "c2",
       "numMr": "२",
+      "numEn": "2",
       "nameMr": "अव्यक्त, व्यक्त व आंतरव्यक्तीक चक्रे",
       "nameEn": "Unmanifest, Manifest & Inter-Personal Cycles",
       "articles": [
@@ -68,6 +71,7 @@
     {
       "id": "c3",
       "numMr": "३",
+      "numEn": "3",
       "nameMr": "चक्रांच्या संरक्षणासाठी संस्था",
       "nameEn": "Institutions for Protecting the Cycles",
       "articles": [
