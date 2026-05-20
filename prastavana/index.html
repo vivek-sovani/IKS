@@ -4,178 +4,228 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>प्रस्तावना | भारतीय ज्ञानप्रणाली व वारसा</title>
-<meta name="description" content="भारतीय ज्ञानप्रणाली व वारसा पुस्तकाची पार्श्वभूमी, लेखकांचा परिचय आणि SaMIKSHA चौकट. Introduction and background of Elements of Indian Knowledge Systems.">
+<meta name="description" content="भारतीय ज्ञानप्रणाली व वारसा पुस्तकाची पार्श्वभूमी, SaMIKSHA चौकट आणि श्रीरंग महागुरूंचा परिचय. Introduction to Elements of Indian Knowledge Systems.">
+<meta name="theme-color" content="#B14820">
+<link rel="manifest" href="/IKS/manifest.json">
+<link rel="apple-touch-icon" sizes="192x192" href="/IKS/assets/images/icon-192.png">
+<link rel="apple-touch-icon" sizes="512x512" href="/IKS/assets/images/icon-512.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/IKS/assets/images/icon-512.png">
+<link rel="icon" type="image/svg+xml" href="/IKS/assets/images/iks-icon.svg">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="IKS">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
 <link rel="stylesheet" href="/IKS/assets/css/main.css">
 <link rel="stylesheet" href="/IKS/assets/css/article.css">
 <style>
-/* ── Prastavana-specific styles ── */
-.pras-hero {
-  background: linear-gradient(135deg, var(--brown-deep) 0%, var(--brown) 60%, #3D5A73 100%);
-  color: white;
-  padding: 3rem 2rem 2.5rem;
-  text-align: center;
-}
-.pras-hero h1 {
-  font-family: 'Noto Sans Devanagari', sans-serif;
-  font-size: 2rem;
-  font-weight: 700;
-  margin: 0 0 0.4rem;
-  color: var(--gold-light);
-}
-.pras-hero h1.en-title {
-  font-family: 'Crimson Pro', Georgia, serif;
-  font-size: 1.4rem;
-  font-weight: 400;
-  color: var(--brown-pale);
-  margin-bottom: 1rem;
-  font-style: italic;
-}
-.pras-hero .book-subtitle {
-  font-size: 1rem;
-  color: var(--gold-light);
-  letter-spacing: 0.05em;
-}
-.pras-back-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  color: var(--brown-pale);
-  text-decoration: none;
-  font-size: 0.9rem;
-  margin-bottom: 1.5rem;
-  opacity: 0.8;
-  transition: opacity 0.2s;
-}
-.pras-back-link:hover { opacity: 1; }
+/* ── Preface-specific overrides ────────────────────── */
 
-.pras-body {
-  max-width: 740px;
-  margin: 0 auto;
-  padding: 2.5rem 1.5rem 4rem;
+/* Header: same parchment style as articles, but no badge */
+.pras-header {
+  background: var(--parchment);
+  padding: 36px 56px 28px;
+  border-bottom: 1px solid var(--rule-soft);
 }
+.pras-label {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.28em; text-transform: uppercase;
+  color: var(--ink-mute); margin-bottom: 18px;
+}
+.pras-header h1 {
+  font-family: 'Tiro Devanagari Marathi', serif;
+  font-size: clamp(42px, 6vw, 84px);
+  font-weight: 400; color: var(--ink); line-height: 1.08;
+  text-wrap: balance;
+}
+.pras-header h1[data-lang="en"] {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600; font-style: italic;
+  font-size: clamp(32px, 4.5vw, 68px);
+  color: var(--ink); line-height: 1.1;
+}
+.pras-header .en-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(18px, 2vw, 24px); font-weight: 300; font-style: italic;
+  color: var(--ink-mute); margin-top: 10px;
+}
+.pras-header-meta {
+  margin-top: 24px; padding-top: 18px;
+  border-top: 1px solid var(--rule-soft);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--ink-mute);
+  display: flex; align-items: center; gap: 16px;
+}
+.pras-header-meta a {
+  color: var(--accent); text-decoration: none; font-style: italic;
+  transition: color 0.2s;
+}
+.pras-header-meta a:hover { color: var(--accent-deep); }
 
-.pras-section {
-  margin-bottom: 2.5rem;
+/* Breadcrumb topbar (between topbar and header) */
+.art-topbar {
+  background: var(--parchment);
+  border-bottom: 1px solid var(--rule-soft);
+  padding: 8px 56px;
+  display: flex; align-items: center;
 }
-.pras-section h2 {
-  font-family: 'Noto Sans Devanagari', sans-serif;
-  font-size: 1.15rem;
-  color: var(--saffron);
-  border-bottom: 2px solid var(--border-light);
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.2rem;
+.breadcrumb {
+  display: flex; align-items: center; gap: 6px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13px; color: var(--ink-soft); font-style: italic;
 }
-.pras-section h2[data-lang="en"] {
-  font-family: 'Crimson Pro', Georgia, serif;
-  font-size: 1.2rem;
-  font-style: italic;
-}
-.pras-section p {
-  font-size: 17.5px;
-  line-height: 1.9;
-  color: var(--text-primary);
-  margin-bottom: 1.1rem;
-}
-.pras-section p[data-lang="en"] {
-  font-family: 'Crimson Pro', Georgia, serif;
-  font-size: 18px;
-}
+.breadcrumb a { color: var(--accent); text-decoration: none; }
+.breadcrumb a:hover { color: var(--accent-deep); }
 
-/* Samarpan block within prastavana */
+/* Dedication (samarpan) block */
 .pras-samarpan {
-  background: var(--ivory);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 2.5rem 2rem;
-  text-align: center;
-  margin: 2.5rem 0;
+  background: var(--paper);
+  border-left: 3px solid var(--gold);
+  padding: 28px 32px;
+  margin-bottom: 56px;
 }
 .pras-samarpan .sam-label {
-  font-family: 'Tiro Devanagari Marathi', serif;
-  font-size: 0.85rem;
-  letter-spacing: 0.12em;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  margin-bottom: 0.5rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.28em; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 14px;
 }
 .pras-samarpan .sam-title {
-  font-family: 'Noto Sans Devanagari', sans-serif;
-  font-size: 1.15rem;
-  color: var(--text-primary);
-  margin-bottom: 0.25rem;
+  font-family: 'Tiro Devanagari Marathi', serif;
+  font-size: clamp(18px, 2.2vw, 26px);
+  font-weight: 400; color: var(--ink);
+  line-height: 1.35; margin-bottom: 6px;
 }
-.pras-samarpan .sam-title-en {
-  font-family: 'Crimson Pro', serif;
-  font-style: italic;
-  color: var(--text-secondary);
-  font-size: 1rem;
-  margin-bottom: 1.8rem;
+.pras-samarpan .sam-title[data-lang="en"] {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic; font-weight: 400;
+  font-size: clamp(17px, 2vw, 22px);
+  color: var(--ink-soft);
 }
+
+/* Guru photo */
 .pras-guru-row {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
+  margin-top: 24px;
+  display: flex; justify-content: flex-start;
 }
-.pras-guru-couple {
-  text-align: center;
-}
+.pras-guru-couple { max-width: 380px; }
 .pras-couple-img {
-  display: block;
-  max-width: 360px;
-  width: 100%;
-  border-radius: 8px;
-  border: 2px solid var(--gold);
-  box-shadow: 0 4px 20px rgba(92,58,30,0.2);
-  filter: brightness(1.03) contrast(1.05);
+  display: block; width: 100%; border-radius: 8px;
+  border: 1px solid var(--rule);
+  box-shadow: 0 4px 24px rgba(30,24,18,0.14);
 }
 .pras-couple-caption {
   margin-top: 10px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13px; font-style: italic;
+  color: var(--ink-mute); line-height: 1.6;
+}
+.pras-couple-caption [data-lang="mr"] {
   font-family: 'Noto Sans Devanagari', sans-serif;
-  font-size: 13px;
-  color: var(--text-secondary);
-  line-height: 1.6;
+  font-style: normal; font-size: 12px;
 }
 
-/* Author signature area */
+/* Section h2 — reuse content-sec style but with left accent line */
+.pras-section { margin-bottom: 56px; }
+.pras-section h2 {
+  font-family: 'Tiro Devanagari Marathi', serif;
+  font-size: clamp(24px, 2.6vw, 36px); font-weight: 400;
+  color: var(--ink); margin-bottom: 22px;
+  line-height: 1.25; text-wrap: balance;
+}
+.pras-section h2[data-lang="en"] {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic; font-weight: 500;
+  font-size: clamp(22px, 2.4vw, 33px);
+}
+.pras-section h2::after {
+  content: ''; display: block;
+  width: 40px; height: 2px;
+  background: var(--accent); margin-top: 10px;
+  border-radius: 1px;
+}
+.pras-section p {
+  font-size: var(--art-fs);
+  color: var(--ink); line-height: 1.9; margin-bottom: 14px;
+}
+.pras-section p[data-lang="mr"] {
+  font-family: 'Noto Sans Devanagari', sans-serif; line-height: 1.95;
+}
+
+/* Signature block */
 .pras-signature {
+  margin-top: 64px; padding-top: 24px;
+  border-top: 1px solid var(--rule-soft);
   text-align: right;
-  border-top: 1px solid var(--border-light);
-  padding-top: 1.2rem;
-  margin-top: 2rem;
 }
 .pras-signature p {
-  font-size: 0.95rem;
-  margin-bottom: 0.3rem;
-  color: var(--text-secondary);
+  font-size: var(--art-fs);
+  color: var(--ink-soft); line-height: 1.9; margin-bottom: 6px;
+}
+.pras-signature p[data-lang="mr"] {
+  font-family: 'Noto Sans Devanagari', sans-serif; line-height: 1.95;
+}
+.pras-signature .sig-loc {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic; font-size: 16px;
+  color: var(--ink-mute); margin-top: 12px; margin-bottom: 4px;
+}
+.pras-signature .sig-names {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px; color: var(--ink-mute);
+  letter-spacing: 0.04em;
 }
 
+/* Navigation footer */
+.pras-nav {
+  margin-top: 72px; padding-top: 28px;
+  border-top: 1px solid var(--rule-soft);
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 16px;
+}
+.pras-nav a {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px; font-style: italic;
+  color: var(--accent); text-decoration: none;
+  transition: color 0.2s;
+}
+.pras-nav a:hover { color: var(--accent-deep); }
 
-@media (max-width: 600px) {
-  .pras-hero h1 { font-size: 1.6rem; }
-  .pras-couple-img { max-width: 280px; }
-  .pras-body { padding: 1.8rem 1rem 3rem; }
+@media (max-width: 700px) {
+  .pras-header { padding: 24px 24px 20px; }
+  .art-topbar { padding: 8px 20px; }
+  .art-body { padding: 20px 24px 60px; }
+  .pras-samarpan { padding: 20px 20px; }
+  .pras-guru-couple { max-width: 100%; }
 }
 </style>
 </head>
 <body>
 
 <!-- TOP BAR -->
-<header class="topbar">
+<header class="topbar" role="banner">
   <div class="topbar-left">
-    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
     <a class="topbar-title" href="/IKS/">
-      <span class="mr">भारतीय ज्ञानप्रणाली व वारसा</span>
-      <span class="en">Elements of Indian Knowledge Systems</span>
+      <span class="nav-mark-glyph" aria-hidden="true">
+        <svg viewBox="-32 -32 64 64" stroke="currentColor" fill="currentColor" stroke-linejoin="round" stroke-linecap="round">
+          <g fill="none" stroke-width="1.6"><circle cx="0" cy="0" r="29"/><circle cx="0" cy="0" r="27" stroke-width="0.6"/></g>
+          <g stroke="none"><circle cx="0" cy="-30.5" r="0.9"/><circle cx="11.7" cy="-28.2" r="0.9"/><circle cx="21.6" cy="-21.6" r="0.9"/><circle cx="28.2" cy="-11.7" r="0.9"/><circle cx="30.5" cy="0" r="0.9"/><circle cx="28.2" cy="11.7" r="0.9"/><circle cx="21.6" cy="21.6" r="0.9"/><circle cx="11.7" cy="28.2" r="0.9"/><circle cx="0" cy="30.5" r="0.9"/><circle cx="-11.7" cy="28.2" r="0.9"/><circle cx="-21.6" cy="21.6" r="0.9"/><circle cx="-28.2" cy="11.7" r="0.9"/><circle cx="-30.5" cy="0" r="0.9"/><circle cx="-28.2" cy="-11.7" r="0.9"/><circle cx="-21.6" cy="-21.6" r="0.9"/><circle cx="-11.7" cy="-28.2" r="0.9"/></g>
+          <g stroke-width="0.4"><ellipse cx="-7.5" cy="-13" rx="3.4" ry="2.8" transform="rotate(-12 -7.5 -13)"/><path d="M -10.6 -13.4 L -14.5 -12.2 L -12 -11 Z"/><circle cx="-9" cy="-18" r="1.2"/><circle cx="-5.5" cy="-18.5" r="1"/><ellipse cx="7.5" cy="-13" rx="3.4" ry="2.8" transform="rotate(12 7.5 -13)"/><path d="M 10.6 -13.4 L 14.5 -12.2 L 12 -11 Z"/><circle cx="9" cy="-18" r="1.2"/><circle cx="5.5" cy="-18.5" r="1"/><path d="M -5 -11 C -3 -7 -1.5 -5 0 -4 C 1.5 -5 3 -7 5 -11 C 4 -8 2.5 -7 0 -7 C -2.5 -7 -4 -8 -5 -11 Z"/><path d="M -5 -5 C -10 -5 -14 -2 -14 4 C -13 7 -10 8 -7 6 C -5 4 -4 1 -4 -2 Z"/><path d="M 5 -5 C 10 -5 14 -2 14 4 C 13 7 10 8 7 6 C 5 4 4 1 4 -2 Z"/><path d="M 0 -6 C -4.5 -5 -6 -2 -6 2 C -6 7 -3 12 0 14 C 3 12 6 7 6 2 C 6 -2 4.5 -5 0 -6 Z"/><path d="M 0 13 L -8 22 L -4 19 Z"/><path d="M 0 13 L -4 23 L -1 20 Z"/><path d="M 0 13 L 0 24 L 2 21 L 1 20 Z"/><path d="M 0 13 L 4 23 L 1 20 Z"/><path d="M 0 13 L 8 22 L 4 19 Z"/></g>
+        </svg>
+      </span>
+      <span class="topbar-name">
+        <span class="mr">भारतीय ज्ञानप्रणाली व वारसा</span>
+        <span class="en">Indian Knowledge Systems</span>
+        <span class="topbar-sub" data-lang="mr">Elements of Indian Knowledge Systems</span>
+        <span class="topbar-sub" data-lang="en">A bilingual heritage edition</span>
+      </span>
     </a>
   </div>
   <div class="topbar-right">
-    <div class="lang-toggle">
-      <button class="lang-btn active" data-lang-btn="mr" onclick="IKS.setLang('mr')">मराठी</button>
-      <button class="lang-btn" data-lang-btn="en" onclick="IKS.setLang('en')">English</button>
-    </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
 
@@ -188,27 +238,43 @@
 <!-- MAIN -->
 <main class="main">
 
-  <!-- HERO -->
-  <div class="pras-hero">
-    <a class="pras-back-link" href="/IKS/">← मुखपृष्ठ / Home</a>
-    <h1 data-lang="mr">प्रस्तावना</h1>
-    <h1 class="en-title" data-lang="en" style="display:none;">Preface — About the Book</h1>
-    <div class="book-subtitle" data-lang="mr">भारतीय ज्ञानप्रणाली व वारसा — पार्श्वभूमी</div>
-    <div class="book-subtitle" data-lang="en" style="display:none;">Elements of Indian Knowledge Systems — Background</div>
+  <!-- BREADCRUMB -->
+  <div class="art-topbar">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/IKS/" data-lang="mr">मुखपृष्ठ</a>
+      <a href="/IKS/" data-lang="en" style="display:none;">Home</a>
+      <span>›</span>
+      <span data-lang="mr">प्रस्तावना</span>
+      <span data-lang="en" style="display:none;">Preface</span>
+    </nav>
   </div>
 
-  <div class="pras-body">
+  <!-- PAGE HEADER -->
+  <div class="pras-header">
+    <div class="pras-label">प्रस्तावना &nbsp;·&nbsp; Preface</div>
+    <h1 data-lang="mr">वारसा कशासाठी — आणि कोणासाठी</h1>
+    <h1 data-lang="en" style="display:none;">A Heritage Worth Reading Slowly</h1>
+    <div class="en-title" data-lang="mr">Elements of Indian Knowledge Systems — Background & Introduction</div>
+    <div class="pras-header-meta">
+      <a href="/IKS/" data-lang="mr">← मुखपृष्ठावर परत</a>
+      <a href="/IKS/" data-lang="en" style="display:none;">← Back to Home</a>
+    </div>
+  </div>
 
-    <!-- SAMARPAN -->
+  <!-- BODY -->
+  <div class="art-body">
+
+    <!-- DEDICATION (SAMARPAN) -->
     <div class="pras-samarpan">
       <div class="sam-label">समर्पण &nbsp;·&nbsp; Dedication</div>
       <div class="sam-title" data-lang="mr">या ग्रंथ दैवी गुरु-दांपत्याला समर्पित</div>
-      <div class="sam-title-en" data-lang="en" style="display:none;">This work is dedicated to the divine guru-couple</div>
+      <div class="sam-title" data-lang="en" style="display:none;">This work is dedicated to the divine guru-couple</div>
       <div class="pras-guru-row">
         <div class="pras-guru-couple">
           <img src="/IKS/assets/images/guru-couple.jpg"
                alt="Sri Sriranga Mahaguru and Srimati Vijayalakshmi"
-               class="pras-couple-img">
+               class="pras-couple-img"
+               onerror="this.style.display='none'">
           <div class="pras-couple-caption">
             <span data-lang="mr">योगी-विद्वान श्री श्रीरंग महागुरू (१९१३–१९६९) &nbsp;·&nbsp; श्रीमती विजयालक्ष्मी (१९१९–२०२२)</span>
             <span data-lang="en" style="display:none;">Yogi-vidwan Sri Sriranga Mahaguru (1913–1969) &nbsp;·&nbsp; Srimati Vijayalakshmi (1919–2022)</span>
@@ -217,9 +283,9 @@
       </div>
     </div>
 
-    <!-- SECTION 1: What is Heritage -->
+    <!-- SECTION 1: Nature of Heritage -->
     <div class="pras-section">
-      <h2 data-lang="mr">वारशाचे स्वरूप</h2>
+      <h2 data-lang="mr">वारशाचे स्वरूप<span class="en-h">The Nature of Heritage</span></h2>
       <h2 data-lang="en" style="display:none;">The Nature of Heritage</h2>
 
       <p data-lang="mr">वारसा हा आपल्या आधीच्या पिढ्यांकडून मिळालेला ठेवा आहे. तो आपल्याकडे विश्वस्त म्हणून सोपवला गेला आहे — यासाठी की आपण त्याचे जतन करावे, त्याला अधिक समृद्ध करावे आणि पुढील पिढ्यांपर्यंत पोहोचवावे. आपल्या देशाला दीर्घकाळ अखंडपणे चालू असलेल्या संस्कृतीमुळे अत्यंत समृद्ध आणि वैविध्यपूर्ण वारसा लाभलेला आहे, जो आजही सजीव आणि ऊर्जावान आहे.</p>
@@ -232,33 +298,42 @@
       <p data-lang="en" style="display:none;">UNESCO places special emphasis on the protection of all forms of heritage. India is a region with numerous heritages inscribed on the UNESCO World Heritage List — from the shore temples at Mahabalipuram, the Konark Sun Temple, and the Indus Valley site at Dholavira as tangible examples, to yoga, Vedic recitation, and Ramlila as inscribed on UNESCO's Intangible World Heritage List.</p>
     </div>
 
-    <!-- SECTION 2: This Book -->
+    <!-- SECTION 2: Approach of This Book -->
     <div class="pras-section">
-      <h2 data-lang="mr">या पुस्तकाचा दृष्टिकोन</h2>
+      <h2 data-lang="mr">या पुस्तकाचा दृष्टिकोन<span class="en-h">The Approach of This Book</span></h2>
       <h2 data-lang="en" style="display:none;">The Approach of This Book</h2>
 
       <p data-lang="mr">नवीन राष्ट्रीय शिक्षण धोरणाच्या अंमलबजावणीनंतर भारतीय संस्कृती, वारसा आणि ज्ञानप्रणाली यांना आजच्या शैक्षणिक अभ्यासक्रमात वाढते स्थान मिळत आहे. त्यामुळे या विषयाची ओळख करून देणारी अनेक विद्वत्तापूर्ण पुस्तके प्रकाशित झाली आहेत. बहुतेक पुस्तके विविध शाखांचा परिचय करून देणारी असून, त्यामध्ये व्यवस्थित संकलित माहिती दिलेली आहे. तथापि, भारतीय वारशाच्या या शाखांमध्ये असे काही मूलभूत तत्त्वांचे गाभे आहेत, ज्यांच्या आधारे विचार, कल्पना, प्रणाली, नियम व मूल्यांची एक विस्तीर्ण परंपरा उलगडता येते — हे पुरेसे लक्षात घेतले गेलेले नाही.</p>
       <p data-lang="en" style="display:none;">After the implementation of the New National Education Policy, Indian culture, heritage, and knowledge systems are receiving increasing attention in contemporary educational curricula. As a result, many scholarly books introducing this subject have been published. Most books are introductory surveys of various branches, presenting well-compiled information. However, within these branches of Indian heritage there are certain foundational cores of principles, on the basis of which a vast tradition of thoughts, ideas, systems, rules, and values can be unfolded — and this has not been sufficiently recognised.</p>
 
-      <p data-lang="mr">हे अगदी तसेच आहे, जसे रसायनशास्त्र समजल्यावर कोणत्याही पदार्थाकडे किंवा संयुगाकडे घटकांच्या ठरावीक नियमानुसार बनलेल्या स्वरूपात पाहता येते. हे पुस्तक अशाच तत्त्वांवर — म्हणजेच मूल तत्त्वांवर — केंद्रित आहे. या तत्त्वांना एकत्र करून भारतीय संस्कृती, वारसा आणि ज्ञानप्रणालीचे एक व्यापक चित्र तयार होते. "का?", "काय?", "कसे?" — हे मूलभूत प्रश्न आजची युवा पिढी आणि विचारशील मने प्रत्येक शास्त्राला विचारतात. भारतीय संस्कृती, वारसा आणि ज्ञानप्रणाली बद्दल हेच प्रश्न विचारले जातात. आमच्या मते, भारतीय वारशाचे हे तत्त्वात्मक आकलन चालू काळासाठी सर्वाधिक योग्य आहे.</p>
-      <p data-lang="en" style="display:none;">It is exactly like how, once chemistry is understood, any substance or compound can be viewed as built according to the specific laws of its constituent elements. This book is focused on precisely such principles — that is, first principles. By bringing these principles together, a broad picture of Indian culture, heritage, and knowledge systems takes shape. "Why?", "What?", "How?" — these fundamental questions are asked by today's youth and inquiring minds of every discipline. These same questions are asked about Indian culture, heritage, and knowledge systems. In our view, this principles-based understanding of Indian heritage is most appropriate for the present age.</p>
+      <p data-lang="mr">हे अगदी तसेच आहे, जसे रसायनशास्त्र समजल्यावर कोणत्याही पदार्थाकडे किंवा संयुगाकडे घटकांच्या ठरावीक नियमानुसार बनलेल्या स्वरूपात पाहता येते. हे पुस्तक अशाच तत्त्वांवर — म्हणजेच मूल तत्त्वांवर — केंद्रित आहे. या तत्त्वांना एकत्र करून भारतीय संस्कृती, वारसा आणि ज्ञानप्रणालीचे एक व्यापक चित्र तयार होते.</p>
+      <p data-lang="en" style="display:none;">It is exactly like how, once chemistry is understood, any substance or compound can be viewed as built according to the specific laws of its constituent elements. This book is focused on precisely such principles — that is, first principles. By bringing these principles together, a broad picture of Indian culture, heritage, and knowledge systems takes shape.</p>
+
+      <p data-lang="mr">"का?", "काय?", "कसे?" — हे मूलभूत प्रश्न आजची युवा पिढी आणि विचारशील मने प्रत्येक शास्त्राला विचारतात. भारतीय संस्कृती, वारसा आणि ज्ञानप्रणाली बद्दल हेच प्रश्न विचारले जातात. आमच्या मते, भारतीय वारशाचे हे तत्त्वात्मक आकलन चालू काळासाठी सर्वाधिक योग्य आहे.</p>
+      <p data-lang="en" style="display:none;">"Why?", "What?", "How?" — these fundamental questions are asked by today's youth and inquiring minds of every discipline. These same questions are asked about Indian culture, heritage, and knowledge systems. In our view, this principles-based understanding of Indian heritage is most appropriate for the present age.</p>
     </div>
 
-    <!-- SECTION 3: Srirang Model -->
+    <!-- KEY INSIGHT -->
+    <div class="insight-block">
+      <p data-lang="mr">एका सूत्रात बांधलेले ज्ञान — हीच परंपरेची खरी ओळख.</p>
+      <p data-lang="en" style="display:none;">Knowledge held together by a single thread — this, more than any single text, is what the tradition is.</p>
+    </div>
+
+    <!-- SECTION 3: SaMIKSHA Framework -->
     <div class="pras-section">
-      <h2 data-lang="mr">SaMIKSHA चौकट — श्रीरंग मॉडेल</h2>
+      <h2 data-lang="mr">SaMIKSHA चौकट — श्रीरंग मॉडेल<span class="en-h">The SaMIKSHA Framework</span></h2>
       <h2 data-lang="en" style="display:none;">The SaMIKSHA Framework — The Srirang Model</h2>
 
-      <p data-lang="mr">भारतीय संस्कृती, वारसा आणि ज्ञानप्रणालीकडे "मूल तत्त्वांचा" दृष्टिकोन मांडण्याचे कार्य योगी-विद्वान श्रीरंग महागुरूंनी केले. त्यांच्या अनेक शिष्यांनी हा दृष्टिकोन अधिक परिष्कृत करून शास्त्रीय रूप दिले. भारतीय संस्कृती, वारसा आणि ज्ञानप्रणाली समजून घेण्यासाठी श्रीरंग महागुरूंनी ओळख करून दिलेली आणि त्यांच्या शिष्यांनी अधिक प्रणालीबद्ध केलेली ही "तत्त्वाधिष्ठित चौकट" श्रीरंग मॉडेल (SaMIKSHA) म्हणून ओळखली जाऊ शकते.</p>
-      <p data-lang="en" style="display:none;">The work of presenting the "first principles" perspective on Indian culture, heritage, and knowledge systems was performed by the yogi-scholar Srirangamahaguru. Many of his disciples refined this perspective further and gave it a systematic form. The "principles-based framework" that Srirangamahaguru identified and his disciples systematised for understanding Indian culture, heritage, and knowledge systems can be known as the Srirang Model (SaMIKSHA).</p>
+      <p data-lang="mr">भारतीय संस्कृती, वारसा आणि ज्ञानप्रणालीकडे "मूल तत्त्वांचा" दृष्टिकोन मांडण्याचे कार्य योगी-विद्वान श्रीरंग महागुरूंनी केले. त्यांच्या अनेक शिष्यांनी हा दृष्टिकोन अधिक परिष्कृत करून शास्त्रीय रूप दिले. भारतीय संस्कृती, वारसा आणि ज्ञानप्रणाली समजून घेण्यासाठी श्रीरंग महागुरूंनी ओळख करून दिलेली आणि त्यांच्या शिष्यांनी अधिक प्रणालीबद्ध केलेली ही "तत्त्वाधिष्ठित चौकट" <strong>श्रीरंग मॉडेल (SaMIKSHA)</strong> म्हणून ओळखली जाऊ शकते.</p>
+      <p data-lang="en" style="display:none;">The work of presenting the "first principles" perspective on Indian culture, heritage, and knowledge systems was performed by the yogi-scholar Srirangamahaguru. Many of his disciples refined this perspective further and gave it a systematic form. The "principles-based framework" that Srirangamahaguru identified and his disciples systematised for understanding Indian culture, heritage, and knowledge systems can be known as the <strong>Srirang Model (SaMIKSHA)</strong>.</p>
 
       <p data-lang="mr">या ग्रंथात या SaMIKSHA चौकटीसह उदाहरणे, दृष्टांत आणि प्राथमिक ग्रंथांतील संदर्भ दिले आहेत, यापैकी अनेक स्वतः श्रीरंग महागुरूंनी मांडलेले आहेत. आमची नम्र विनंती आहे की, या चौकटीचा काही अंश वापरला किंवा पूर्णतः वापरली तरी त्याचा उल्लेख "SaMIKSHA चौकट" किंवा "श्रीरंग मॉडेल" असा करावा.</p>
       <p data-lang="en" style="display:none;">This work presents examples, illustrations, and references from primary texts along with this SaMIKSHA framework, many of which were articulated by Srirangamahaguru himself. Our humble request is that whether any part or the whole of this framework is used, it be attributed as the "SaMIKSHA framework" or "Srirang Model."</p>
     </div>
 
-    <!-- SECTION 4: Guru Bio -->
+    <!-- SECTION 4: Guru Introduction -->
     <div class="pras-section">
-      <h2 data-lang="mr">श्रीरंग महागुरू — संक्षिप्त परिचय</h2>
+      <h2 data-lang="mr">श्रीरंग महागुरू — संक्षिप्त परिचय<span class="en-h">Srirangamahaguru — A Brief Introduction</span></h2>
       <h2 data-lang="en" style="display:none;">Srirangamahaguru — A Brief Introduction</h2>
 
       <p data-lang="mr">श्रीरंग महागुरूंचा जन्म एच. टी. श्रीनिवास रंगाचार्य (एच.टी.एस.आर.) या नावाने, म्हैसूरजवळील नंजनगुड तालुक्यातील हेडाटळे या गावात झाला. लहानपणापासूनच ते आध्यात्मिक प्रवृत्तीचे होते. केवळ एकविसाव्या वर्षीच त्यांनी योगातील सर्वोच्च अवस्थांमध्ये अवरोधरहित प्रवेश मिळवला. त्यांच्या मार्गदर्शनाखाली आणि प्रशिक्षणाखाली त्यांच्या सहचारिणी विजयलक्ष्मी श्रीमतींनीही त्याच उंचीपर्यंत प्रगती साधली.</p>
@@ -267,13 +342,13 @@
       <p data-lang="mr">काही काळ श्रीरंग महागुरू म्हैसूरच्या महाराजांच्या प्रसिद्ध योगशाळेत शिक्षक होते. ही योगशाळा आधुनिक योगाचे जनक मानले जाणारे श्री टी. कृष्णमाचार्य यांच्या मार्गदर्शनाखाली चालवली जात होती. ते पुढील काळातील नामांकित योगगुरू जसे की श्री पट्टाभी जोइस आणि श्री बी.के.एस. अय्यंगार यांचे समकालीन होते. परंतु श्रीरंग महागुरूंसाठी योग ही केवळ शारीरिक साधना नव्हती. तो सर्वोच्च आनंदप्राप्तीकडे नेणारा आध्यात्मिक मार्ग होता.</p>
       <p data-lang="en" style="display:none;">For a time, Srirangamahaguru was a teacher at the famous yoga school of the Maharaja of Mysore. This yoga school was conducted under the guidance of Sri T. Krishnamacharya, considered the father of modern yoga. He was a contemporary of later-renowned yoga masters such as Sri Pattabhi Jois and Sri B.K.S. Iyengar. But for Srirangamahaguru, yoga was not merely physical practice. It was a spiritual path leading toward the attainment of the highest ananda.</p>
 
-      <p data-lang="mr">भारतीय संस्कृती, वारसा आणि ज्ञानप्रणालीचा पाया म्हणून योगाचे स्वरूप साकार करण्यासाठी ते आपल्या मूळ गावी परतले आणि १९४७ साली अष्टांग योग विज्ञान मंदिरम् याची स्थापना केली. त्यांनी अनेक तरुण शिष्यांची निवड करून त्यांना प्रशिक्षण दिले. हे शिष्य पुढे स्वतःही प्रतिष्ठित शिक्षक व ज्ञानी पुरुष बनले. त्यांची कन्नड भाषेतील प्रवचने भाषांतरित करून सुमारे २१ खंडांत "अमरवाणी" या नावाने प्रकाशित झाली.</p>
-      <p data-lang="en" style="display:none;">To realise the form of yoga as the foundation of Indian culture, heritage, and knowledge systems, he returned to his native village and in 1947 founded the Ashtanga Yoga Vijnana Mandiram. He selected many young disciples and gave them training. These disciples themselves later became respected teachers and men of wisdom. His discourses in the Kannada language were translated and published in approximately 21 volumes under the name "Amaravani."</p>
+      <p data-lang="mr">भारतीय संस्कृती, वारसा आणि ज्ञानप्रणालीचा पाया म्हणून योगाचे स्वरूप साकार करण्यासाठी ते आपल्या मूळ गावी परतले आणि १९४७ साली <strong>अष्टांग योग विज्ञान मंदिरम्</strong> याची स्थापना केली. त्यांनी अनेक तरुण शिष्यांची निवड करून त्यांना प्रशिक्षण दिले. हे शिष्य पुढे स्वतःही प्रतिष्ठित शिक्षक व ज्ञानी पुरुष बनले. त्यांची कन्नड भाषेतील प्रवचने भाषांतरित करून सुमारे २१ खंडांत <em>अमरवाणी</em> या नावाने प्रकाशित झाली.</p>
+      <p data-lang="en" style="display:none;">To realise the form of yoga as the foundation of Indian culture, heritage, and knowledge systems, he returned to his native village and in 1947 founded the <strong>Ashtanga Yoga Vijnana Mandiram</strong>. He selected many young disciples and gave them training. These disciples themselves later became respected teachers and men of wisdom. His discourses in the Kannada language were translated and published in approximately 21 volumes under the name <em>Amaravani</em>.</p>
     </div>
 
-    <!-- SECTION 6: Audience -->
+    <!-- SECTION 5: Audience -->
     <div class="pras-section">
-      <h2 data-lang="mr">वाचकवर्ग</h2>
+      <h2 data-lang="mr">वाचकवर्ग<span class="en-h">Audience</span></h2>
       <h2 data-lang="en" style="display:none;">Audience</h2>
 
       <p data-lang="mr">या पुस्तकातील मांडणीचा स्तर महाविद्यालयीन विद्यार्थ्यांपासून पुढील अभ्यासकांपर्यंत योग्य आहे. भारतीय संस्कृती, वारसा आणि ज्ञानप्रणालीबाबत जागरूकता आणि औपचारिक प्रशिक्षण आता माध्यमिक शाळा आणि महाविद्यालयीन स्तरावर सुरू झाले असल्याने, शिक्षकांना प्रशिक्षणात्मक साधनांची कमतरता जाणवू लागली आहे. या संदर्भात हे पुस्तक अशा प्रशिक्षण कार्यक्रमांसाठी पूरक ग्रंथ म्हणूनही उपयोगी ठरू शकते.</p>
@@ -283,25 +358,23 @@
       <p data-lang="en" style="display:none;">The book is also suited for those researchers who wish to look at traditional disciplines afresh and wish to rediscover them from an Indian perspective. This book is in the form of a first introduction to Indian culture, heritage, and knowledge systems. Prior study or prior knowledge is not required for this.</p>
     </div>
 
-    <!-- Signature -->
+    <!-- SIGNATURE -->
     <div class="pras-signature">
       <p data-lang="mr">या कार्यातील जर काही गुण असतील, तर ते दैवी गुरु-दांपत्य श्रीरंग महागुरू आणि श्रीमती विजयलक्ष्मी यांच्या पवित्र स्मृतींना अर्पण आहेत. आणि जर काही दोष असतील, तर ते लेखकांच्या मर्यादांमुळे आहेत.</p>
       <p data-lang="en" style="display:none;">If there are any merits in this work, they are offered to the sacred memory of the divine guru-couple Srirangamahaguru and Srimati Vijayalakshmi. And if there are any deficiencies, they are due to the limitations of the authors.</p>
-      <p style="margin-top:1rem; color:var(--text-secondary); font-family:'Crimson Pro',serif; font-style:italic;">
-        — बंगळूरू &nbsp;|&nbsp; Bengaluru<br>
-        <span style="font-size:0.9rem; color:var(--text-muted);">
-          डॉ. मोहन राघवन &nbsp;·&nbsp; डॉ. हर्षा सिम्हा एम.एस. &nbsp;·&nbsp; डॉ. रामास्वामी सी.आर.
-        </span>
-      </p>
+      <p class="sig-loc">— बंगळूरू &nbsp;|&nbsp; Bengaluru</p>
+      <p class="sig-names">डॉ. मोहन राघवन &nbsp;·&nbsp; डॉ. हर्षा सिम्हा एम.एस. &nbsp;·&nbsp; डॉ. रामास्वामी सी.आर.</p>
     </div>
 
-  </div><!-- /.pras-body -->
+    <!-- FOOTER NAV -->
+    <div class="pras-nav">
+      <a href="/IKS/" data-lang="mr">← मुखपृष्ठ</a>
+      <a href="/IKS/" data-lang="en" style="display:none;">← Home</a>
+      <a href="/IKS/articles/01/" data-lang="mr">पहिला लेख वाचा →</a>
+      <a href="/IKS/articles/01/" data-lang="en" style="display:none;">Read first article →</a>
+    </div>
 
-  <footer class="home-footer-band">
-    <span class="footer-note" data-lang="mr">SaMIKSHA चौकट — श्री श्रीरंग महागुरु यांच्या शिकवणींवर आधारित</span>
-    <span class="footer-note" data-lang="en" style="display:none;">Based on the SaMIKSHA framework of Yogi-vidwan Sri Sriranga Mahaguru</span>
-    <a class="footer-link" href="/IKS/">← मुखपृष्ठ / Home</a>
-  </footer>
+  </div><!-- /.art-body -->
 
 </main>
 
