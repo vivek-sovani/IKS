@@ -318,11 +318,6 @@ html[lang="en"]  .mr-t { display: none !important; }
 .sb-art-link.active .sb-art-titles .mr-t,
 .sb-art-link.active .sb-art-titles .en-t { color: var(--accent); }
 
-.sb-art-link.done::after {
-  content: '✓'; font-size: 9px;
-  color: var(--accent);
-  margin-left: auto; flex-shrink: 0; padding-top: 2px;
-}
 
 /* ── MAIN CONTENT WRAPPER ────────────────────────── */
 .main {

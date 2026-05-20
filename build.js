@@ -535,9 +535,6 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
 <!-- TOP BAR -->
 <header class="topbar">
   <div class="topbar-left">
-    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
     <a class="topbar-title" href="/IKS/">
       <span class="nav-mark-glyph" aria-hidden="true">
         <svg viewBox="-32 -32 64 64" stroke="currentColor" fill="currentColor" stroke-linejoin="round" stroke-linecap="round">
@@ -559,6 +556,9 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
       <button class="lang-btn active lt-mr" data-lang-btn="mr" onclick="IKS.setLang('mr')">मराठी</button>
       <button class="lang-btn lt-en" data-lang-btn="en" onclick="IKS.setLang('en')">English</button>
     </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
 
@@ -608,6 +608,10 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
     <h1 data-lang="mr">${c.titleMr}</h1>
     <h1 data-lang="en" style="display:none;">${c.titleEn}</h1>
     <div class="en-title" data-lang="mr">${c.titleEn}</div>
+    <div class="art-header-meta">
+      <span data-lang="mr">${c.readingTime} मिनिटे वाचन &nbsp;·&nbsp; ${sec.nameMr || ''}</span>
+      <span data-lang="en" style="display:none;">${c.readingTimeEn || c.readingTime} min read &nbsp;·&nbsp; ${sec.nameEn || ''}</span>
+    </div>
   </div>
 
   <!-- ARTICLE BODY -->
