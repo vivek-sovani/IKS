@@ -329,6 +329,9 @@ html[lang="en"]  .mr-t { display: none !important; }
   min-width: 18px; padding-top: 1px;
   font-family: monospace; flex-shrink: 0;
 }
+.sb-art-num .mr-t {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
 .sb-art-titles { min-width: 0; }
 .sb-art-titles .mr-t {
   font-family: 'Noto Sans Devanagari', sans-serif;
