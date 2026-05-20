@@ -212,6 +212,31 @@ html[lang="en"]  .mr-t { display: none !important; }
   font-size: 13px;
 }
 
+/* Sidebar language toggle */
+.sb-lang-toggle-wrap {
+  padding: 14px 16px 12px;
+  border-bottom: 1px solid var(--rule);
+  background: var(--parchment);
+}
+.sb-lang-toggle {
+  width: 100%;
+  display: flex;
+  border-radius: 6px;
+}
+.sb-lang-toggle .lang-btn {
+  flex: 1;
+  padding: 7px 10px;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 0;
+}
+.sb-lang-toggle .lang-btn.lt-mr {
+  border-radius: 5px 0 0 5px;
+}
+.sb-lang-toggle .lang-btn.lt-en {
+  border-radius: 0 5px 5px 0;
+}
+
 /* ── SIDEBAR ─────────────────────────────────────── */
 .sidebar {
   position: fixed;
@@ -322,7 +347,6 @@ html[lang="en"]  .mr-t { display: none !important; }
 /* ── MAIN CONTENT WRAPPER ────────────────────────── */
 .main {
   margin-left: 0;
-  margin-top: var(--topbar-h);
   min-height: calc(100vh - var(--topbar-h));
   position: relative; z-index: 1;
 }

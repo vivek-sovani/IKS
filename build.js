@@ -558,10 +558,6 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
     </a>
   </div>
   <div class="topbar-right">
-    <div class="lang-toggle">
-      <button class="lang-btn active lt-mr" data-lang-btn="mr" onclick="IKS.setLang('mr')">मराठी</button>
-      <button class="lang-btn lt-en" data-lang-btn="en" onclick="IKS.setLang('en')">English</button>
-    </div>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu">
       <span></span><span></span><span></span>
     </button>

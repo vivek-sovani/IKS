@@ -65,7 +65,7 @@
 }
 .art-header h1[data-lang="en"] {
   font-family: 'Cormorant Garamond', serif;
-  font-weight: 300; font-style: italic;
+  font-weight: 600; font-style: italic;
   font-size: clamp(32px, 4.5vw, 68px);
   color: var(--ink); line-height: 1.1;
 }
