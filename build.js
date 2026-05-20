@@ -148,12 +148,12 @@ function svgFlow(inf) {
     ? steps.findIndex(s => s.highlight)
     : Math.max(n - 2, 0);
 
-  const HI_PALETTE  = { fill: '#D4500A', stroke: '#B03A06' };
+  const HI_PALETTE  = { fill: '#B14820', stroke: '#7A2F12' };
   const STD_PALETTE = [
-    { fill: '#EDF0F4', stroke: '#E2E6EC' },
-    { fill: '#E2E8F0', stroke: '#A8B8CC' },
-    { fill: '#EEF2F7', stroke: '#D4500A' },
-    { fill: '#F3F5F9', stroke: '#B8860B' },
+    { fill: '#EFE9DD', stroke: '#D9CDA9' },
+    { fill: '#E8E0D0', stroke: '#C9B996' },
+    { fill: '#F2EDE3', stroke: '#B14820' },
+    { fill: '#F5F0E8', stroke: '#9C7A2A' },
   ];
 
   const boxes = steps.map((s, i) => {
@@ -168,7 +168,7 @@ function svgFlow(inf) {
 
   const arrows = steps.slice(0, -1).map((_, i) => {
     const x1 = boxes[i].x + boxes[i].w, x2 = boxes[i + 1].x;
-    const col = i >= hiIdx ? '#B8860B' : '#D4500A';
+    const col = i >= hiIdx ? '#9C7A2A' : '#B14820';
     const sw  = i === hiIdx - 1 ? '2' : '1.5';
     return `        <line x1="${x1}" y1="94" x2="${x2}" y2="94" stroke="${col}" stroke-width="${sw}" marker-end="url(#arrF)"/>`;
   }).join('\n');
@@ -181,15 +181,15 @@ function svgFlow(inf) {
     const isMr = lang === 'mr';
     const ff = isMr ? FF.mr : FF.en;
     const out = [];
-    out.push(`          <text font-family="${ff}" font-size="15" fill="#6B7A8D" text-anchor="middle" x="350" y="22">${isMr ? inf.titleMr : inf.titleEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="15" fill="#7A6B53" text-anchor="middle" x="350" y="22">${isMr ? inf.titleMr : inf.titleEn}</text>`);
 
     boxes.forEach((b, i) => {
       const s = steps[i];
       const labels = isMr ? s.mr : s.en;
       const subs   = isMr ? (s.subMr || []) : (s.subEn || []);
-      const tFill  = b.hi ? '#FFFFFF' : '#1C2535';
-      const sFill  = b.hi ? '#D4B896' : '#6B7A8D';
-      const smFill = b.hi ? '#A8B4C4' : '#3D4F63';
+      const tFill  = b.hi ? '#FFFFFF' : '#1E1812';
+      const sFill  = b.hi ? '#C9A85A' : '#7A6B53';
+      const smFill = b.hi ? '#B8AE92' : '#4A3F30';
       const fs     = b.hi ? 17 : 13;
 
       labels.forEach((line, li) => {
@@ -207,12 +207,12 @@ function svgFlow(inf) {
     if (inf.examples) {
       const head  = isMr ? inf.examples.headMr : inf.examples.headEn;
       const items = isMr ? inf.examples.mr     : inf.examples.en;
-      out.push(`          <text font-family="${ff}" font-size="13" font-weight="600" fill="#1C2535" x="36" y="192">${head}</text>`);
+      out.push(`          <text font-family="${ff}" font-size="13" font-weight="600" fill="#1E1812" x="36" y="192">${head}</text>`);
       items.forEach((ex, i) => {
-        out.push(`          <text font-family="${ff}" font-size="12" fill="#3D4F63" x="36" y="${212 + i * 17}">${ex}</text>`);
+        out.push(`          <text font-family="${ff}" font-size="12" fill="#4A3F30" x="36" y="${212 + i * 17}">${ex}</text>`);
       });
     }
-    out.push(`          <text font-family="${ff}" font-size="12" fill="#6B7A8D" text-anchor="middle" x="350" y="305" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="12" fill="#7A6B53" text-anchor="middle" x="350" y="305" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
     return out.join('\n');
   }
 
@@ -220,10 +220,10 @@ function svgFlow(inf) {
         <title>${inf.titleMr}</title>
         <defs>
           <marker id="arrF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-            <path d="M2 1L8 5L2 9" fill="none" stroke="#D4500A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 1L8 5L2 9" fill="none" stroke="#B14820" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </marker>
         </defs>
-        <rect width="700" height="320" fill="#FAF7F3"/>
+        <rect width="700" height="320" fill="#FAF4E5"/>
 ${rects}
 ${arrows}
 ${exRect}
@@ -244,9 +244,9 @@ ${layer('en')}
 function svgWheel(inf) {
   const Q_COL = {
     green:   { fill: '#E1F5EE', stroke: '#2A9D6B', head: '#0F6E56', sub: '#5a9a7a', line: '#2A9D6B' },
-    gold:    { fill: '#FAEEDA', stroke: '#B8860B', head: '#8B6400', sub: '#c4956a', line: '#B8860B' },
+    gold:    { fill: '#FAEEDA', stroke: '#9C7A2A', head: '#8B6400', sub: '#c4956a', line: '#9C7A2A' },
     purple:  { fill: '#EEEDFF', stroke: '#7B68CC', head: '#534AB7', sub: '#8a80cc', line: '#7B68CC' },
-    saffron: { fill: '#FDF1EA', stroke: '#D4500A', head: '#8B4010', sub: '#c4956a', line: '#D4500A' },
+    saffron: { fill: '#FDF1EA', stroke: '#B14820', head: '#8B4010', sub: '#c4956a', line: '#B14820' },
     gray:    { fill: '#F1EFE8', stroke: '#888780', head: '#5F5E5A', sub: '#888780', line: '#888780' },
   };
   const Q_POS = {
@@ -270,11 +270,11 @@ function svgWheel(inf) {
     const isMr = lang === 'mr';
     const ff = isMr ? FF.mr : FF.en;
     const out = [];
-    out.push(`          <text font-family="${ff}" font-size="14" fill="#6B7A8D" text-anchor="middle" x="350" y="20">${isMr ? inf.titleMr : inf.titleEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="14" fill="#7A6B53" text-anchor="middle" x="350" y="20">${isMr ? inf.titleMr : inf.titleEn}</text>`);
     const ctr = inf.center;
     out.push(`          <text font-family="${ff}" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle" x="350" y="156">${isMr ? ctr.mr : ctr.en}</text>`);
-    out.push(`          <text font-family="${FF.en}" font-size="13" font-style="italic" fill="#D4B896" text-anchor="middle" x="350" y="173">${ctr.roman}</text>`);
-    out.push(`          <text font-family="${ff}" font-size="11" fill="#A8B4C4" text-anchor="middle" x="350" y="189">${isMr ? ctr.subMr : ctr.subEn}</text>`);
+    out.push(`          <text font-family="${FF.en}" font-size="13" font-style="italic" fill="#C9A85A" text-anchor="middle" x="350" y="173">${ctr.roman}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="11" fill="#B8AE92" text-anchor="middle" x="350" y="189">${isMr ? ctr.subMr : ctr.subEn}</text>`);
     quads.forEach(q => {
       const p = Q_POS[q.position]; const c = Q_COL[q.color] || Q_COL.gold;
       const tx = p.x + 16;
@@ -282,17 +282,17 @@ function svgWheel(inf) {
       out.push(`          <text font-family="${ff}" font-size="12" font-weight="600" fill="${c.head}" x="${tx}" y="${p.y + 20}">${isMr ? q.headMr : q.headEn}</text>`);
       out.push(`          <text font-family="${FF.en}" font-size="11" font-style="italic" fill="${c.sub}" x="${tx}" y="${p.y + 34}">${isMr ? q.subMr : q.subEn}</text>`);
       items.forEach((item, i) => {
-        out.push(`          <text font-family="${ff}" font-size="12" fill="#1C2535" x="${tx}" y="${p.y + 52 + i * 17}">${item}</text>`);
+        out.push(`          <text font-family="${ff}" font-size="12" fill="#1E1812" x="${tx}" y="${p.y + 52 + i * 17}">${item}</text>`);
       });
     });
-    out.push(`          <text font-family="${ff}" font-size="12" fill="#6B7A8D" text-anchor="middle" x="350" y="336" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="12" fill="#7A6B53" text-anchor="middle" x="350" y="336" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
     return out.join('\n');
   }
 
   return `      <svg viewBox="0 0 700 348" xmlns="http://www.w3.org/2000/svg" role="img">
         <title>${inf.titleMr}</title>
-        <rect width="700" height="348" fill="#FAF7F3"/>
-        <circle cx="350" cy="162" r="52" fill="#D4500A" stroke="#B03A06" stroke-width="1.5"/>
+        <rect width="700" height="348" fill="#FAF4E5"/>
+        <circle cx="350" cy="162" r="52" fill="#B14820" stroke="#7A2F12" stroke-width="1.5"/>
 ${structure}
 ${lines}
         <g data-lang="mr">
@@ -314,51 +314,51 @@ function svgBars(inf) {
   const boxW = Math.floor((640 - (n - 1) * 10) / n);
   const startX = 30;
   const STATE_COL = [
-    { fill: '#EDF0F4', stroke: '#E2E6EC' },
-    { fill: '#E2E8F0', stroke: '#A8B8CC' },
-    { fill: '#EEF2F7', stroke: '#D4500A' },
-    { fill: '#D4500A', stroke: '#B03A06' },
+    { fill: '#EFE9DD', stroke: '#C9B996' },
+    { fill: '#E8E0D0', stroke: '#C9B996' },
+    { fill: '#F2EDE3', stroke: '#C9B996' },
+    { fill: '#B14820', stroke: '#7A2F12' },
   ];
-  const BAR_COL = ['#7A8FA0', '#A8B8CC', '#F4874B', '#D4500A'];
+  const BAR_COL = ['#9A8A70', '#C9B996', '#D87035', '#B14820'];
 
   const stateRects = states.map((s, i) => {
     const x = startX + i * (boxW + 10);
     const hi = s.highlight;
     const col = hi ? STATE_COL[3] : STATE_COL[Math.min(i, STATE_COL.length - 2)];
-    return `        <rect x="${x}" y="${hi ? 34 : 44}" width="${boxW}" height="${hi ? 92 : 72}" rx="8" fill="${hi ? '#D4500A' : col.fill}" stroke="${hi ? '#B03A06' : col.stroke}" stroke-width="${hi ? 1.5 : 1}"/>`;
+    return `        <rect x="${x}" y="${hi ? 34 : 44}" width="${boxW}" height="${hi ? 92 : 72}" rx="8" fill="${hi ? '#B14820' : col.fill}" stroke="${hi ? '#7A2F12' : col.stroke}" stroke-width="${hi ? 1.5 : 1}"/>`;
   }).join('\n');
 
   const barRects = states.map((s, i) => {
     const x = startX + i * (boxW + 10);
     const hi = s.highlight;
     const bw = hi ? boxW : (s.barWidth || Math.round(boxW * (i + 1) / (n + 0.5)));
-    const bc = hi ? '#D4500A' : (BAR_COL[Math.min(i, BAR_COL.length - 1)]);
-    return `        <rect x="${x}" y="168" width="${boxW}" height="18" rx="4" fill="#D8DFE8"/>\n        <rect x="${x}" y="168" width="${bw}" height="18" rx="4" fill="${bc}"/>`;
+    const bc = hi ? '#B14820' : (BAR_COL[Math.min(i, BAR_COL.length - 1)]);
+    return `        <rect x="${x}" y="168" width="${boxW}" height="18" rx="4" fill="#D9CDA9"/>\n        <rect x="${x}" y="168" width="${bw}" height="18" rx="4" fill="${bc}"/>`;
   }).join('\n');
 
   const arrows = states.slice(0, -1).map((_, i) => {
     const x1 = startX + i * (boxW + 10) + boxW;
     const x2 = startX + (i + 1) * (boxW + 10);
-    return `        <line x1="${x1}" y1="80" x2="${x2}" y2="80" stroke="#D4500A" stroke-width="${i === n - 2 ? 2 : 1.5}" marker-end="url(#arrB)"/>`;
+    return `        <line x1="${x1}" y1="80" x2="${x2}" y2="80" stroke="#B14820" stroke-width="${i === n - 2 ? 2 : 1.5}" marker-end="url(#arrB)"/>`;
   }).join('\n');
 
   const callRect = inf.callout
-    ? `        <rect x="30" y="210" width="640" height="64" rx="8" fill="#F3F5F9" stroke="#B8860B" stroke-width="1"/>`
+    ? `        <rect x="30" y="210" width="640" height="64" rx="8" fill="#F2EDE3" stroke="#9C7A2A" stroke-width="1"/>`
     : '';
 
   function layer(lang) {
     const isMr = lang === 'mr';
     const ff = isMr ? FF.mr : FF.en;
     const out = [];
-    out.push(`          <text font-family="${ff}" font-size="15" fill="#6B7A8D" text-anchor="middle" x="350" y="22">${isMr ? inf.titleMr : inf.titleEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="15" fill="#7A6B53" text-anchor="middle" x="350" y="22">${isMr ? inf.titleMr : inf.titleEn}</text>`);
     states.forEach((s, i) => {
       const x  = startX + i * (boxW + 10);
       const cx = x + boxW / 2;
       const hi = s.highlight;
       const y0 = hi ? 34 : 44;
-      const tF = hi ? '#FFFFFF' : (i === 2 ? '#D4500A' : '#1C2535');
-      const sF = hi ? '#D4B896' : '#6B7A8D';
-      const smF= hi ? '#A8B4C4' : '#3D4F63';
+      const tF = hi ? '#FFFFFF' : (i === 2 ? '#B14820' : '#1E1812');
+      const sF = hi ? '#C9A85A' : '#7A6B53';
+      const smF= hi ? '#B8AE92' : '#4A3F30';
       const name = isMr ? s.mr : s.en;
       out.push(`          <text font-family="${ff}" font-size="16" font-weight="600" fill="${tF}" text-anchor="middle" x="${cx}" y="${y0 + 26}">${name}</text>`);
       if (s.roman) out.push(`          <text font-family="${FF.en}" font-size="13" font-style="italic" fill="${sF}" text-anchor="middle" x="${cx}" y="${y0 + 45}">${s.roman}</text>`);
@@ -367,20 +367,20 @@ function svgBars(inf) {
       if (sub)  out.push(`          <text font-family="${ff}" font-size="12" fill="${smF}" text-anchor="middle" x="${cx}" y="${y0 + (s.roman ? 64 : 50)}">${sub}</text>`);
       if (sub2) out.push(`          <text font-family="${ff}" font-size="12" fill="${smF}" text-anchor="middle" x="${cx}" y="${y0 + (s.roman ? 79 : 65)}">${sub2}</text>`);
     });
-    out.push(`          <text font-family="${ff}" font-size="13" fill="#6B7A8D" x="30" y="150">${isMr ? inf.barLabelMr : inf.barLabelEn}</text>`);
-    if (inf.showInfinity) out.push(`          <text font-family="${FF.en}" font-size="15" font-weight="600" fill="#D4500A" x="675" y="183">&#x221e;</text>`);
+    out.push(`          <text font-family="${ff}" font-size="13" fill="#7A6B53" x="30" y="150">${isMr ? inf.barLabelMr : inf.barLabelEn}</text>`);
+    if (inf.showInfinity) out.push(`          <text font-family="${FF.en}" font-size="15" font-weight="600" fill="#B14820" x="675" y="183">&#x221e;</text>`);
     if (inf.callout) {
       const lines = isMr ? inf.callout.mr : inf.callout.en;
-      out.push(`          <text font-family="${ff}" font-size="14" font-weight="600" fill="#B8860B" x="50" y="231">${lines[0]}</text>`);
+      out.push(`          <text font-family="${ff}" font-size="14" font-weight="600" fill="#9C7A2A" x="50" y="231">${lines[0]}</text>`);
       lines.slice(1).forEach((line, li) => {
-        out.push(`          <text font-family="${ff}" font-size="13" fill="${li === 0 ? '#1C2535' : '#3D4F63'}" x="50" y="${250 + li * 17}">${line}</text>`);
+        out.push(`          <text font-family="${ff}" font-size="13" fill="${li === 0 ? '#1E1812' : '#4A3F30'}" x="50" y="${250 + li * 17}">${line}</text>`);
       });
       const right = isMr ? inf.callout.mrRight : inf.callout.enRight;
       if (right) right.forEach((line, li) => {
-        out.push(`          <text font-family="${li === 0 ? FF.en : ff}" font-size="${li === 0 ? 14 : 13}" font-weight="${li === 0 ? 600 : 'normal'}" fill="${li === 0 ? '#D4500A' : '#3D4F63'}" x="390" y="${250 + li * 17}">${line}</text>`);
+        out.push(`          <text font-family="${li === 0 ? FF.en : ff}" font-size="${li === 0 ? 14 : 13}" font-weight="${li === 0 ? 600 : 'normal'}" fill="${li === 0 ? '#B14820' : '#4A3F30'}" x="390" y="${250 + li * 17}">${line}</text>`);
       });
     }
-    out.push(`          <text font-family="${ff}" font-size="12" fill="#6B7A8D" text-anchor="middle" x="350" y="307" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
+    out.push(`          <text font-family="${ff}" font-size="12" fill="#7A6B53" text-anchor="middle" x="350" y="307" font-style="italic">${isMr ? inf.captionMr : inf.captionEn}</text>`);
     return out.join('\n');
   }
 
@@ -388,10 +388,10 @@ function svgBars(inf) {
         <title>${inf.titleMr}</title>
         <defs>
           <marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-            <path d="M2 1L8 5L2 9" fill="none" stroke="#D4500A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 1L8 5L2 9" fill="none" stroke="#B14820" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </marker>
         </defs>
-        <rect width="700" height="320" fill="#FAF7F3"/>
+        <rect width="700" height="320" fill="#FAF4E5"/>
 ${stateRects}
 ${arrows}
 ${barRects}
@@ -521,7 +521,7 @@ function page(c, sec, id) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${c.titleMr} | ${c.titleEn} — भारतीय ज्ञानप्रणाली</title>
 <meta name="description" content="${desc}">
-<meta name="theme-color" content="#2D3E52">
+<meta name="theme-color" content="#F2E9D5">
 <link rel="manifest" href="/IKS/manifest.json">
 <link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
 <link rel="stylesheet" href="/IKS/assets/css/fonts.css">
@@ -539,14 +539,23 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
       <span></span><span></span><span></span>
     </button>
     <a class="topbar-title" href="/IKS/">
-      <span class="mr">भारतीय ज्ञानप्रणाली व वारसा</span>
-      <span class="en">Elements of Indian Knowledge Systems</span>
+      <span class="nav-mark-glyph" aria-hidden="true">
+        <svg viewBox="-32 -32 64 64" stroke="currentColor" fill="currentColor" stroke-linejoin="round" stroke-linecap="round">
+          <g fill="none" stroke-width="1.6"><circle cx="0" cy="0" r="29"/><circle cx="0" cy="0" r="27" stroke-width="0.6"/></g>
+          <g stroke="none"><circle cx="0" cy="-30.5" r="0.9"/><circle cx="11.7" cy="-28.2" r="0.9"/><circle cx="21.6" cy="-21.6" r="0.9"/><circle cx="28.2" cy="-11.7" r="0.9"/><circle cx="30.5" cy="0" r="0.9"/><circle cx="28.2" cy="11.7" r="0.9"/><circle cx="21.6" cy="21.6" r="0.9"/><circle cx="11.7" cy="28.2" r="0.9"/><circle cx="0" cy="30.5" r="0.9"/><circle cx="-11.7" cy="28.2" r="0.9"/><circle cx="-21.6" cy="21.6" r="0.9"/><circle cx="-28.2" cy="11.7" r="0.9"/><circle cx="-30.5" cy="0" r="0.9"/><circle cx="-28.2" cy="-11.7" r="0.9"/><circle cx="-21.6" cy="-21.6" r="0.9"/><circle cx="-11.7" cy="-28.2" r="0.9"/></g>
+          <g stroke-width="0.4"><ellipse cx="-7.5" cy="-13" rx="3.4" ry="2.8" transform="rotate(-12 -7.5 -13)"/><path d="M -10.6 -13.4 L -14.5 -12.2 L -12 -11 Z"/><circle cx="-9" cy="-18" r="1.2"/><circle cx="-5.5" cy="-18.5" r="1"/><ellipse cx="7.5" cy="-13" rx="3.4" ry="2.8" transform="rotate(12 7.5 -13)"/><path d="M 10.6 -13.4 L 14.5 -12.2 L 12 -11 Z"/><circle cx="9" cy="-18" r="1.2"/><circle cx="5.5" cy="-18.5" r="1"/><path d="M -5 -11 C -3 -7 -1.5 -5 0 -4 C 1.5 -5 3 -7 5 -11 C 4 -8 2.5 -7 0 -7 C -2.5 -7 -4 -8 -5 -11 Z"/><path d="M -5 -5 C -10 -5 -14 -2 -14 4 C -13 7 -10 8 -7 6 C -5 4 -4 1 -4 -2 Z"/><path d="M 5 -5 C 10 -5 14 -2 14 4 C 13 7 10 8 7 6 C 5 4 4 1 4 -2 Z"/><path d="M 0 -6 C -4.5 -5 -6 -2 -6 2 C -6 7 -3 12 0 14 C 3 12 6 7 6 2 C 6 -2 4.5 -5 0 -6 Z"/><path d="M 0 13 L -8 22 L -4 19 Z"/><path d="M 0 13 L -4 23 L -1 20 Z"/><path d="M 0 13 L 0 24 L 2 21 L 1 20 Z"/><path d="M 0 13 L 4 23 L 1 20 Z"/><path d="M 0 13 L 8 22 L 4 19 Z"/></g>
+        </svg>
+      </span>
+      <span class="topbar-name">
+        <span class="mr">भारतीय ज्ञानप्रणाली व वारसा</span>
+        <span class="en">Indian Knowledge Systems</span>
+      </span>
     </a>
   </div>
   <div class="topbar-right">
     <div class="lang-toggle">
-      <button class="lang-btn active" data-lang-btn="mr" onclick="IKS.setLang('mr')">मराठी</button>
-      <button class="lang-btn" data-lang-btn="en" onclick="IKS.setLang('en')">English</button>
+      <button class="lang-btn active lt-mr" data-lang-btn="mr" onclick="IKS.setLang('mr')">मराठी</button>
+      <button class="lang-btn lt-en" data-lang-btn="en" onclick="IKS.setLang('en')">English</button>
     </div>
   </div>
 </header>

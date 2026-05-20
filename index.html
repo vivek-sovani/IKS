@@ -3,122 +3,486 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>भारतीय ज्ञानप्रणाली व वारसा | Elements of IKS</title>
-<meta name="description" content="भारतीय ज्ञानप्रणाली व वारशाचा सुगम, द्विभाषिक परिचय. Elements of Indian Knowledge Systems in Marathi and English.">
-<meta name="theme-color" content="#2D3E52">
+<title>भारतीय ज्ञानप्रणाली व वारसा | Elements of Indian Knowledge Systems</title>
+<meta name="description" content="भारतीय ज्ञानप्रणाली व वारशाचा सुगम, द्विभाषिक परिचय. A bilingual, scholarly introduction to the Elements of Indian Knowledge Systems.">
+<meta name="theme-color" content="#F2E9D5">
 <link rel="manifest" href="/IKS/manifest.json">
-<link rel="apple-touch-icon" href="/IKS/assets/images/icon-192.png">
+<link rel="apple-touch-icon" href="/IKS/assets/images/iks-icon.svg">
+<link rel="icon" type="image/svg+xml" href="/IKS/assets/images/iks-icon.svg">
 <link rel="stylesheet" href="assets/css/fonts.css">
 <link rel="stylesheet" href="assets/css/main.css">
-<link rel="stylesheet" href="assets/css/transitions.css">
 </head>
 <body>
 
-<!-- TOP BAR -->
-<header class="topbar">
+<!-- ──────────────────── NAV ──────────────────────── -->
+<header class="topbar" role="banner">
   <div class="topbar-left">
     <button class="hamburger" id="hamburger" aria-label="Toggle menu">
       <span></span><span></span><span></span>
     </button>
     <a class="topbar-title" href="/IKS/">
-      <span class="mr">भारतीय ज्ञानप्रणाली व वारसा</span>
-      <span class="en">Elements of Indian Knowledge Systems</span>
+      <span class="nav-mark-glyph" aria-hidden="true">
+        <svg viewBox="-32 -32 64 64" stroke="currentColor" fill="currentColor" stroke-linejoin="round" stroke-linecap="round">
+          <g fill="none" stroke-width="1.6"><circle cx="0" cy="0" r="29"/><circle cx="0" cy="0" r="27" stroke-width="0.6"/></g>
+          <g stroke="none"><circle cx="0" cy="-30.5" r="0.9"/><circle cx="11.7" cy="-28.2" r="0.9"/><circle cx="21.6" cy="-21.6" r="0.9"/><circle cx="28.2" cy="-11.7" r="0.9"/><circle cx="30.5" cy="0" r="0.9"/><circle cx="28.2" cy="11.7" r="0.9"/><circle cx="21.6" cy="21.6" r="0.9"/><circle cx="11.7" cy="28.2" r="0.9"/><circle cx="0" cy="30.5" r="0.9"/><circle cx="-11.7" cy="28.2" r="0.9"/><circle cx="-21.6" cy="21.6" r="0.9"/><circle cx="-28.2" cy="11.7" r="0.9"/><circle cx="-30.5" cy="0" r="0.9"/><circle cx="-28.2" cy="-11.7" r="0.9"/><circle cx="-21.6" cy="-21.6" r="0.9"/><circle cx="-11.7" cy="-28.2" r="0.9"/></g>
+          <g stroke-width="0.4"><ellipse cx="-7.5" cy="-13" rx="3.4" ry="2.8" transform="rotate(-12 -7.5 -13)"/><path d="M -10.6 -13.4 L -14.5 -12.2 L -12 -11 Z"/><circle cx="-9" cy="-18" r="1.2"/><circle cx="-5.5" cy="-18.5" r="1"/><ellipse cx="7.5" cy="-13" rx="3.4" ry="2.8" transform="rotate(12 7.5 -13)"/><path d="M 10.6 -13.4 L 14.5 -12.2 L 12 -11 Z"/><circle cx="9" cy="-18" r="1.2"/><circle cx="5.5" cy="-18.5" r="1"/><path d="M -5 -11 C -3 -7 -1.5 -5 0 -4 C 1.5 -5 3 -7 5 -11 C 4 -8 2.5 -7 0 -7 C -2.5 -7 -4 -8 -5 -11 Z"/><path d="M -5 -5 C -10 -5 -14 -2 -14 4 C -13 7 -10 8 -7 6 C -5 4 -4 1 -4 -2 Z"/><path d="M 5 -5 C 10 -5 14 -2 14 4 C 13 7 10 8 7 6 C 5 4 4 1 4 -2 Z"/><path d="M 0 -6 C -4.5 -5 -6 -2 -6 2 C -6 7 -3 12 0 14 C 3 12 6 7 6 2 C 6 -2 4.5 -5 0 -6 Z"/><path d="M 0 13 L -8 22 L -4 19 Z"/><path d="M 0 13 L -4 23 L -1 20 Z"/><path d="M 0 13 L 0 24 L 2 21 L 1 20 Z"/><path d="M 0 13 L 4 23 L 1 20 Z"/><path d="M 0 13 L 8 22 L 4 19 Z"/></g>
+        </svg>
+      </span>
+      <span class="topbar-name">
+        <span class="mr">भारतीय ज्ञानप्रणाली व वारसा</span>
+        <span class="en">Indian Knowledge Systems</span>
+      </span>
     </a>
   </div>
   <div class="topbar-right">
-    <div class="lang-toggle">
-      <button class="lang-btn active" data-lang-btn="mr" onclick="IKS.setLang('mr')">मराठी</button>
-      <button class="lang-btn" data-lang-btn="en" onclick="IKS.setLang('en')">English</button>
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button class="lang-btn active lt-mr" data-lang-btn="mr" onclick="IKS.setLang('mr')">मराठी</button>
+      <button class="lang-btn lt-en" data-lang-btn="en" onclick="IKS.setLang('en')">English</button>
     </div>
   </div>
 </header>
 
 <!-- SIDEBAR OVERLAY -->
 <div class="sidebar-overlay" id="sidebar-overlay"></div>
-
 <!-- SIDEBAR -->
 <nav class="sidebar" id="sidebar" aria-label="Article navigation"></nav>
 
-<!-- MAIN -->
-<main class="main">
-  <div class="home-hero">
-    <h1 data-lang="mr">भारतीय ज्ञानप्रणाली व वारसा</h1>
-    <h1 data-lang="en" style="display:none;">Elements of Indian Knowledge Systems</h1>
-    <div class="hero-divider"></div>
-    <p class="hero-desc" data-lang="mr">भारताच्या ऋषी-मुनींनी आणि विचारवंतांनी सहस्र वर्षांमध्ये जे ज्ञान जतन केले, त्याचे हे सुगम व संक्षिप्त रूप. SaMIKSHA चौकटीनुसार मांडलेला हा ज्ञानकोश भारतीय वारशाची मूलभूत ओळख करून देतो.</p>
-    <p class="hero-desc" data-lang="en" style="display:none;">A systematic and accessible exploration of India's knowledge heritage — consciousness, cosmos, ethics, language, philosophy, and the institutions that sustained them. Based on the SaMIKSHA framework of Yogi-vidwan Sri Sriranga Mahaguru.</p>
-    <div class="authors">
-      <span class="author-tag">Dr. Mohan Raghavan</span>
-      <span class="author-tag">Dr. Harsha Sinha</span>
-      <span class="author-tag">Dr. Ramaswamy</span>
-      <span class="author-tag" data-lang="mr">मराठी अनुवाद: विवेक सोवनी</span>
-      <span class="author-tag" data-lang="en" style="display:none;">Marathi translation: Vivek Sovani</span>
-    </div>
-    <div class="hero-links">
-      <a href="/IKS/prastavana/" class="hero-link-btn">
-        <span data-lang="mr">📖 प्रस्तावना</span>
-        <span data-lang="en" style="display:none;">📖 About This Book</span>
-      </a>
-    </div>
-  </div>
+<main id="top" style="margin-top: var(--topbar-h);">
 
-  <div class="home-sections-band">
-  <div class="home-grid">
-    <div class="sec-card c0" onclick="location.href='/IKS/articles/01/'">
-      <div class="sec-card-badge">०</div>
-      <h3 data-lang="mr">मध्यवर्ती संकल्पना</h3>
-      <h3 data-lang="en" style="display:none;">Central Concepts</h3>
-      <div class="sc-sub" data-lang="mr">आनंद · ज्ञान · योग · विद्या</div>
-      <div class="sc-sub" data-lang="en" style="display:none;">Ananda · Jnana · Yoga · Vidya</div>
-      <div class="sc-count">६ लेख &nbsp;|&nbsp; 6 articles</div>
+  <!-- ────────────────── HERO ───────────────────────── -->
+  <section class="hero">
+    <div class="hero-eyebrow reveal">
+      <span data-lang="mr">सहस्र वर्षांचा ज्ञानप्रवाह</span>
+      <span data-lang="en">A Millennial Stream of Knowledge</span>
     </div>
-    <div class="sec-card c1" onclick="location.href='/IKS/articles/07/'">
-      <div class="sec-card-badge">१</div>
-      <h3 data-lang="mr">जीवनाची चक्रे</h3>
-      <h3 data-lang="en" style="display:none;">Cycles of Life</h3>
-      <div class="sc-sub" data-lang="mr">ऋतम् · धर्म · सत्यम् · पुरुष-प्रकृती</div>
-      <div class="sc-sub" data-lang="en" style="display:none;">Rtam · Dharma · Satyam · Purusha-Prakriti</div>
-      <div class="sc-count">७ लेख &nbsp;|&nbsp; 7 articles</div>
+
+    <h1 class="hero-title reveal" data-lang="mr">भारतीय<br>ज्ञानप्रणाली<br>व&nbsp;वारसा</h1>
+    <h1 class="hero-title reveal" data-lang="en">Elements of<br>Indian Knowledge<br>Systems</h1>
+
+    <div class="hero-sub reveal" data-lang="mr">Elements of Indian Knowledge Systems</div>
+    <div class="hero-sub reveal" data-lang="en">भारतीय ज्ञानप्रणाली व वारसा</div>
+
+    <div class="hero-ornament reveal">
+      <div class="line"></div>
+      <div class="mark"></div>
+      <div class="line"></div>
     </div>
-    <div class="sec-card c2" onclick="location.href='/IKS/articles/14/'">
-      <div class="sec-card-badge">२</div>
-      <h3 data-lang="mr">अव्यक्त, व्यक्त व आंतरव्यक्तीक चक्रे</h3>
-      <h3 data-lang="en" style="display:none;">Unmanifest, Manifest &amp; Inter-Personal Cycles</h3>
-      <div class="sc-sub" data-lang="mr">अंतःकरण · प्राण · देवता · गुरु-शिष्य</div>
-      <div class="sc-sub" data-lang="en" style="display:none;">Antahkarana · Prana · Deities · Guru-Shishya</div>
-      <div class="sc-count">२३ लेख &nbsp;|&nbsp; 23 articles</div>
+
+    <p class="hero-tagline reveal" data-lang="mr">भारताच्या ऋषी-मुनींनी आणि विचारवंतांनी सहस्र वर्षांमध्ये जे ज्ञान जतन केले — चेतना, सृष्टी, धर्म, भाषा, दर्शने व त्यांना सांभाळणाऱ्या संस्था — त्याचा सुगम, द्विभाषिक परिचय.</p>
+    <p class="hero-tagline reveal" data-lang="en">A systematic, accessible exploration of India's knowledge heritage — consciousness, cosmos, ethics, language, the six darśanas, and the institutions that sustained them across millennia — presented side by side in Marathi and English.</p>
+
+    <div class="hero-meta reveal">
+      <div class="hero-meta-item">
+        <strong>४</strong>
+        <span data-lang="mr">विभाग</span>
+        <span data-lang="en">Sections</span>
+      </div>
+      <div class="hero-meta-item">
+        <strong>५३</strong>
+        <span data-lang="mr">लेख</span>
+        <span data-lang="en">Articles</span>
+      </div>
+      <div class="hero-meta-item">
+        <strong>२</strong>
+        <span data-lang="mr">भाषा</span>
+        <span data-lang="en">Languages</span>
+      </div>
+      <div class="hero-meta-item">
+        <strong>१</strong>
+        <span data-lang="mr">चौकट · समीक्षा</span>
+        <span data-lang="en">Framework · SaMIKSHA</span>
+      </div>
     </div>
-    <div class="sec-card c3" onclick="location.href='/IKS/articles/34/'">
-      <div class="sec-card-badge">३</div>
-      <h3 data-lang="mr">चक्रांच्या संरक्षणासाठी संस्था</h3>
-      <h3 data-lang="en" style="display:none;">Institutions for Protecting the Cycles</h3>
-      <div class="sc-sub" data-lang="mr">वेद · दर्शने · तंत्र · संस्कार · मंदिर</div>
-      <div class="sc-sub" data-lang="en" style="display:none;">Vedas · Darshanas · Tantra · Samskaras · Temples</div>
-      <div class="sc-count">२० लेख &nbsp;|&nbsp; 20 articles</div>
+  </section>
+
+  <!-- ──────────────────── PREFACE ──────────────────── -->
+  <section class="band alt" id="preface">
+    <div class="band-inner">
+      <div class="preface-grid">
+        <aside class="preface-aside reveal">
+          <div class="ps-label">
+            <span data-lang="mr">प्रस्तावना</span>
+            <span data-lang="en">Preface</span>
+          </div>
+          <div class="ps-title" data-lang="mr">वारसा कशासाठी —<br>आणि कोणासाठी.</div>
+          <div class="ps-title" data-lang="en">A heritage worth<br>reading slowly.</div>
+        </aside>
+
+        <div class="preface-body reveal">
+          <p class="dropcap" data-lang="mr">भारतीय ज्ञानप्रणाली ही केवळ धार्मिक ग्रंथांची सूची नाही. ती चेतनेपासून समाजरचनेपर्यंत पसरलेली एक सुसंगत व्यवस्था आहे — जिथे योग, दर्शन, वेद, कला, संस्कार आणि राजनीती एकाच रचनेत बसवल्या आहेत. हा ग्रंथ त्या रचनेची मूलभूत ओळख करून देतो.</p>
+          <p data-lang="mr">प्रत्येक लेख छोटा आहे, पण स्वयंपूर्ण — एखादा विचार, एखादी संकल्पना, एखादा प्रश्न. वाचक नवशिका असो वा अभ्यासक, लेख क्रमाने वाचता येतो किंवा ज्या विषयाची ओढ आहे तिथून सुरुवात करता येते. मराठी आणि इंग्रजी — दोन्ही भाषांमधील मांडणी मूळ आशयाशी प्रामाणिक राहण्याचा प्रयत्न आहे.</p>
+
+          <p class="dropcap" data-lang="en">The Indian knowledge tradition is not a list of religious texts. It is a coherent system that stretches from the inner life of consciousness to the outer architecture of society — a single grammar that connects yoga, philosophy, the Vedas, the arts, the rites, and the polity. This book offers a foundational reading of that grammar.</p>
+          <p data-lang="en">Each article is short but self-contained — one idea, one term, one question. A newcomer may read in sequence; a scholar may begin wherever curiosity leads. The Marathi and English editions sit side by side, each holding faithfully to the source while letting the reader move between languages without losing the thread.</p>
+        </div>
+      </div>
     </div>
-    <div class="sec-card c4" onclick="location.href='/IKS/articles/57/'">
-      <h3 data-lang="mr">परिशिष्टे</h3>
-      <h3 data-lang="en" style="display:none;">Appendices</h3>
-      <div class="sc-sub" data-lang="mr">SaMIKSHA · तंत्रज्ञान · आरोग्य · संस्कृती</div>
-      <div class="sc-sub" data-lang="en" style="display:none;">SaMIKSHA · Technology · Health · Culture</div>
-      <div class="sc-count">४ लेख &nbsp;|&nbsp; 4 articles</div>
+  </section>
+
+  <!-- ──────────────────── CYCLES ───────────────────── -->
+  <section class="band" id="cycles">
+    <div class="band-inner">
+      <header class="section-head reveal">
+        <div class="section-eyebrow">
+          <span data-lang="mr">रचना</span>
+          <span data-lang="en">Structure</span>
+        </div>
+        <h2 class="section-title" data-lang="mr">चार विभाग, सहस्र वर्षांची मांडणी</h2>
+        <h2 class="section-title" data-lang="en">Four sections,<br>one continuous tradition</h2>
+        <p class="section-sub" data-lang="mr">ज्ञानाच्या मध्यबिंदूपासून समाजव्यवस्थेपर्यंत — एका सुसंगत क्रमाने.</p>
+        <p class="section-sub" data-lang="en">From the still centre of awareness outward to the institutions that protect it.</p>
+      </header>
+
+      <div class="cycles-list">
+
+        <a class="cycle-row c0 reveal" href="/IKS/articles/01/">
+          <div class="cycle-num" data-lang="mr">०</div>
+          <div class="cycle-num" data-lang="en">0</div>
+          <div>
+            <h3 class="cycle-title" data-lang="mr">मध्यवर्ती संकल्पना</h3>
+            <h3 class="cycle-title" data-lang="en">Central Concepts</h3>
+            <div class="cycle-terms" data-lang="mr">आनंद · ज्ञान · योग · विद्या</div>
+            <div class="cycle-terms" data-lang="en">Ānanda · Jñāna · Yoga · Vidyā</div>
+          </div>
+          <p class="cycle-desc" data-lang="mr">परंपरेच्या केंद्रस्थानी असलेल्या मूलभूत संकल्पना — ज्या समजल्यावर पुढील सर्व रचनेची भाषा सहज वाचता येते.</p>
+          <p class="cycle-desc" data-lang="en">The foundational ideas at the heart of the tradition — once understood, they unlock the vocabulary of everything that follows.</p>
+          <div class="cycle-count" data-lang="mr"><strong>६</strong> लेख</div>
+          <div class="cycle-count" data-lang="en"><strong>6</strong> Articles</div>
+        </a>
+
+        <a class="cycle-row c1 reveal" href="/IKS/articles/07/">
+          <div class="cycle-num" data-lang="mr">१</div>
+          <div class="cycle-num" data-lang="en">1</div>
+          <div>
+            <h3 class="cycle-title" data-lang="mr">जीवनाची चक्रे</h3>
+            <h3 class="cycle-title" data-lang="en">Cycles of Life</h3>
+            <div class="cycle-terms" data-lang="mr">ऋतम् · धर्म · सत्यम् · पुरुष-प्रकृती</div>
+            <div class="cycle-terms" data-lang="en">Ṛtam · Dharma · Satyam · Puruṣa-Prakṛti</div>
+          </div>
+          <p class="cycle-desc" data-lang="mr">सृष्टीच्या नियमबद्ध लयीचा — ऋत आणि सत्य यांचा — मानवी जीवनातील प्रत्यय कसा घ्यायचा, याची मांडणी.</p>
+          <p class="cycle-desc" data-lang="en">How the rhythmic order of the cosmos — Ṛtam and Satyam — finds expression in a human life, and what it asks of one who would live in tune with it.</p>
+          <div class="cycle-count" data-lang="mr"><strong>७</strong> लेख</div>
+          <div class="cycle-count" data-lang="en"><strong>7</strong> Articles</div>
+        </a>
+
+        <a class="cycle-row c2 reveal" href="/IKS/articles/14/">
+          <div class="cycle-num" data-lang="mr">२</div>
+          <div class="cycle-num" data-lang="en">2</div>
+          <div>
+            <h3 class="cycle-title" data-lang="mr">अव्यक्त, व्यक्त व आंतरव्यक्तीक चक्रे</h3>
+            <h3 class="cycle-title" data-lang="en">Unmanifest, Manifest &amp; Inter-Personal Cycles</h3>
+            <div class="cycle-terms" data-lang="mr">अंतःकरण · प्राण · देवता · गुरु-शिष्य</div>
+            <div class="cycle-terms" data-lang="en">Antaḥkaraṇa · Prāṇa · Devatā · Guru-Śiṣya</div>
+          </div>
+          <p class="cycle-desc" data-lang="mr">शरीराच्या आत — मन, बुद्धी, प्राण; शरीराबाहेर — गुरु, शिष्य, देवता. आत आणि बाहेरचा एकच क्रम जोडणारी सर्वात विस्तृत मांडणी.</p>
+          <p class="cycle-desc" data-lang="en">Within the body — mind, intellect, prāṇa; beyond it — teacher, student, deity. The longest section, tracing one continuous order from inner to inter-personal life.</p>
+          <div class="cycle-count" data-lang="mr"><strong>२३</strong> लेख</div>
+          <div class="cycle-count" data-lang="en"><strong>23</strong> Articles</div>
+        </a>
+
+        <a class="cycle-row c3 reveal" href="/IKS/articles/34/">
+          <div class="cycle-num" data-lang="mr">३</div>
+          <div class="cycle-num" data-lang="en">3</div>
+          <div>
+            <h3 class="cycle-title" data-lang="mr">चक्रांच्या संरक्षणासाठी संस्था</h3>
+            <h3 class="cycle-title" data-lang="en">Institutions for Protecting the Cycles</h3>
+            <div class="cycle-terms" data-lang="mr">वेद · दर्शने · तंत्र · संस्कार · मंदिर</div>
+            <div class="cycle-terms" data-lang="en">Vedas · Darśanas · Tantra · Saṃskāras · Mandira</div>
+          </div>
+          <p class="cycle-desc" data-lang="mr">वेद, षड्दर्शने, तंत्र, संस्कार, मंदिर, राष्ट्र — परंपरा टिकवण्यासाठी निर्माण झालेल्या सामूहिक संस्थांची ओळख.</p>
+          <p class="cycle-desc" data-lang="en">Vedas, the six darśanas, tantra, the rites of refinement, the temple, the polity — the communal institutions a civilisation built to keep its inner cycles alive.</p>
+          <div class="cycle-count" data-lang="mr"><strong>२०</strong> लेख</div>
+          <div class="cycle-count" data-lang="en"><strong>20</strong> Articles</div>
+        </a>
+
+      </div>
     </div>
-  </div>
-  </div>
+  </section>
+
+  <!-- ──────────────────── SAMIKSHA ─────────────────── -->
+  <section class="band alt" id="framework">
+    <div class="band-inner">
+      <header class="section-head reveal">
+        <div class="section-eyebrow">
+          <span data-lang="mr">चौकट</span>
+          <span data-lang="en">Framework</span>
+        </div>
+        <h2 class="section-title" data-lang="mr">समीक्षा — मांडणीची चौकट</h2>
+        <h2 class="section-title" data-lang="en">SaMIKSHA —<br>the organising framework</h2>
+      </header>
+
+      <div class="samiksha">
+        <div class="samiksha-text reveal">
+          <p data-lang="mr">हा ग्रंथ कोणत्या एका विद्वानाच्या मतावर उभा नाही. योगी-विद्वान <em>श्री श्रीरंग महागुरु</em> यांनी मांडलेल्या <strong>समीक्षा</strong> या चौकटीचा वापर करून, परंपरेतील अनेक धागे एका सुसंगत क्रमात बांधले आहेत — मूलभूत संकल्पना, जीवनाची चक्रे, अंतर्बाह्य व्यवस्था, आणि त्या व्यवस्थांचे संरक्षण करणाऱ्या संस्था.</p>
+          <p data-lang="mr">समीक्षा म्हणजे नुसती चिकित्सा नव्हे; ती एक दृष्टी आहे — ज्ञानाच्या सर्व क्षेत्रांना त्यांच्या मूळ सूत्राशी जोडून पाहण्याची.</p>
+
+          <p data-lang="en">This book does not rest on a single scholar's opinion. It uses the <strong>SaMIKSHA</strong> framework set out by the yogi-vidvān <em>Śrī Śrīraṅga Mahāguru</em> to weave many strands of the tradition into one continuous order — the central concepts, the cycles of life, the inner and outer order, and the institutions that protect them.</p>
+          <p data-lang="en">SaMIKSHA is not mere critique. It is a way of seeing — one that returns every field of knowledge to its first principle, and lets each thread be read alongside the rest.</p>
+
+          <blockquote class="sam-quote" data-lang="mr">
+            "एका सूत्रात बांधलेले ज्ञान — हीच परंपरेची खरी ओळख."
+            <cite>— ग्रंथकारांची भूमिका</cite>
+          </blockquote>
+          <blockquote class="sam-quote" data-lang="en">
+            "Knowledge held together by a single thread — this, more than any single text, is what the tradition is."
+            <cite>— from the authors' note</cite>
+          </blockquote>
+        </div>
+
+        <div class="reveal">
+          <div class="emblem" aria-hidden="true">
+            <svg id="emblem-svg" viewBox="-220 -240 440 480" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"></svg>
+          </div>
+          <div class="emblem-caption" data-lang="mr">
+            <strong>गण्डभेरुण्ड</strong>
+            एकात्म चक्रांचे प्रतीक · दोन शिरांचा एकच देह
+          </div>
+          <div class="emblem-caption" data-lang="en">
+            <strong>Gaṇḍabheruṇḍa</strong>
+            Emblem of the integrated cycles · two heads, one body
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ──────────────────── AUTHORS ───────────────────── -->
+  <section class="band" id="authors">
+    <div class="band-inner">
+      <header class="section-head reveal">
+        <div class="section-eyebrow">
+          <span data-lang="mr">लेखक व अनुवादक</span>
+          <span data-lang="en">Authors &amp; Translator</span>
+        </div>
+        <h2 class="section-title" data-lang="mr">ज्यांच्या परिश्रमातून<br>हा ग्रंथ साकारला</h2>
+        <h2 class="section-title" data-lang="en">The hands behind<br>this edition</h2>
+      </header>
+
+      <div class="authors-grid">
+        <div class="author-card reveal">
+          <div class="au-role" data-lang="mr">लेखक</div>
+          <div class="au-role" data-lang="en">Author</div>
+          <div class="au-name" data-lang="mr">डॉ. मोहन राघवन</div>
+          <div class="au-name" data-lang="en">Dr. Mohan Raghavan</div>
+          <div class="au-affil" data-lang="mr">मूळ इंग्रजी आवृत्तीचे संकलक</div>
+          <div class="au-affil" data-lang="en">Compiler, English edition</div>
+        </div>
+
+        <div class="author-card reveal">
+          <div class="au-role" data-lang="mr">लेखिका</div>
+          <div class="au-role" data-lang="en">Author</div>
+          <div class="au-name" data-lang="mr">डॉ. हर्षा सिन्हा</div>
+          <div class="au-name" data-lang="en">Dr. Harsha Sinha</div>
+          <div class="au-affil" data-lang="mr">मूळ इंग्रजी आवृत्तीच्या लेखिका</div>
+          <div class="au-affil" data-lang="en">Contributing author</div>
+        </div>
+
+        <div class="author-card reveal">
+          <div class="au-role" data-lang="mr">लेखक</div>
+          <div class="au-role" data-lang="en">Author</div>
+          <div class="au-name" data-lang="mr">डॉ. रामस्वामी</div>
+          <div class="au-name" data-lang="en">Dr. Ramaswamy</div>
+          <div class="au-affil" data-lang="mr">मूळ इंग्रजी आवृत्तीचे लेखक</div>
+          <div class="au-affil" data-lang="en">Contributing author</div>
+        </div>
+
+        <div class="author-card reveal">
+          <div class="au-role" data-lang="mr">मराठी अनुवाद</div>
+          <div class="au-role" data-lang="en">Marathi Translation</div>
+          <div class="au-name" data-lang="mr">विवेक सोवनी</div>
+          <div class="au-name" data-lang="en">Vivek Sovani</div>
+          <div class="au-affil" data-lang="mr">मराठी आवृत्तीचे अनुवादक व संकलक</div>
+          <div class="au-affil" data-lang="en">Translator &amp; editor, Marathi edition</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ──────────────────── CTA ───────────────────────── -->
+  <section class="cta-band" id="begin">
+    <div class="cta-eyebrow">
+      <span data-lang="mr">वाचनास प्रारंभ</span>
+      <span data-lang="en">Begin the Reading</span>
+    </div>
+    <h2 class="cta-title" data-lang="mr">पहिल्या लेखापासून सुरुवात —<br>आनंद.</h2>
+    <h2 class="cta-title" data-lang="en">Begin where the<br>tradition begins — Ānanda.</h2>
+
+    <div class="cta-actions">
+      <a class="btn btn-primary" href="/IKS/articles/01/" data-lang="mr">
+        लेख १ — आनंद <span class="arrow">→</span>
+      </a>
+      <a class="btn btn-primary" href="/IKS/articles/01/" data-lang="en">
+        Article 1 — Ānanda <span class="arrow">→</span>
+      </a>
+      <a class="btn btn-ghost" href="#cycles" data-lang="mr">सर्व विभाग पाहा</a>
+      <a class="btn btn-ghost" href="#cycles" data-lang="en">Browse all sections</a>
+    </div>
+  </section>
+
 </main>
 
+<!-- ──────────────────── FOOTER ───────────────────── -->
+<footer class="foot">
+  <div class="foot-inner">
+    <div class="foot-brand">
+      <div class="fb-mr" data-lang="mr">भारतीय ज्ञानप्रणाली व वारसा</div>
+      <div class="fb-mr" data-lang="en">Elements of Indian Knowledge Systems</div>
+      <div class="fb-en" data-lang="mr">Elements of Indian Knowledge Systems</div>
+      <div class="fb-en" data-lang="en">भारतीय ज्ञानप्रणाली व वारसा</div>
+      <div class="fb-note" data-lang="mr">योगी-विद्वान श्री श्रीरंग महागुरु यांच्या समीक्षा चौकटीवर आधारित द्विभाषिक संकलन.</div>
+      <div class="fb-note" data-lang="en">A bilingual edition based on the SaMIKSHA framework of Yogi-vidvān Śrī Śrīraṅga Mahāguru.</div>
+    </div>
+
+    <div class="foot-col">
+      <h4 data-lang="mr">अनुक्रमणिका</h4>
+      <h4 data-lang="en">Contents</h4>
+      <ul>
+        <li>
+          <a href="#preface" data-lang="mr">प्रस्तावना</a>
+          <a href="#preface" data-lang="en">Preface</a>
+        </li>
+        <li>
+          <a href="#cycles" data-lang="mr">चार विभाग</a>
+          <a href="#cycles" data-lang="en">The four sections</a>
+        </li>
+        <li>
+          <a href="#framework" data-lang="mr">समीक्षा चौकट</a>
+          <a href="#framework" data-lang="en">SaMIKSHA framework</a>
+        </li>
+        <li>
+          <a href="#authors" data-lang="mr">लेखक</a>
+          <a href="#authors" data-lang="en">Authors</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="foot-col">
+      <h4 data-lang="mr">वाचनासाठी</h4>
+      <h4 data-lang="en">Read</h4>
+      <ul>
+        <li>
+          <a href="/IKS/articles/01/" data-lang="mr">लेख १ · आनंद</a>
+          <a href="/IKS/articles/01/" data-lang="en">Article 1 · Ānanda</a>
+        </li>
+        <li>
+          <a href="/IKS/articles/07/" data-lang="mr">लेख ७ · ऋतम् व सत्यम्</a>
+          <a href="/IKS/articles/07/" data-lang="en">Article 7 · Ṛtam &amp; Satyam</a>
+        </li>
+        <li>
+          <a href="/IKS/articles/14/" data-lang="mr">लेख १४ · अंतःकरण</a>
+          <a href="/IKS/articles/14/" data-lang="en">Article 14 · Antaḥkaraṇa</a>
+        </li>
+        <li>
+          <a href="/IKS/articles/34/" data-lang="mr">लेख ३४ · वेद</a>
+          <a href="/IKS/articles/34/" data-lang="en">Article 34 · Vedas</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="foot-base">
+    <span data-lang="mr">© भारतीय ज्ञानप्रणाली व वारसा · २०२६</span>
+    <span data-lang="en">© Elements of Indian Knowledge Systems · 2026</span>
+    <span data-lang="mr">मराठी अनुवाद — विवेक सोवनी</span>
+    <span data-lang="en">Marathi translation — Vivek Sovani</span>
+  </div>
+</footer>
+
 <script src="assets/js/nav.js"></script>
-<script src="assets/js/transitions.js"></script>
 <script>
+(function () {
+  // ── Scroll reveal ─────────────────────────────────
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // ── Gandaberunda emblem ───────────────────────────
+  (function drawEmblem() {
+    const svg = document.getElementById('emblem-svg');
+    if (!svg) return;
+    const NS = 'http://www.w3.org/2000/svg';
+    const $ = (tag, attrs) => {
+      const el = document.createElementNS(NS, tag);
+      for (const k in attrs) el.setAttribute(k, attrs[k]);
+      return el;
+    };
+    // Outer scalloped petal ring
+    const petals = 36, Rin = 195, Rout = 225;
+    for (let i = 0; i < petals; i++) {
+      const a = (i / petals) * Math.PI * 2 - Math.PI / 2;
+      const a1 = a - Math.PI / petals * 0.85, a2 = a + Math.PI / petals * 0.85;
+      const x1 = Math.cos(a1)*Rin, y1 = Math.sin(a1)*Rin;
+      const xt = Math.cos(a)*Rout, yt = Math.sin(a)*Rout;
+      const x2 = Math.cos(a2)*Rin, y2 = Math.sin(a2)*Rin;
+      const cx = Math.cos(a)*(Rin+8), cy = Math.sin(a)*(Rin+8);
+      svg.appendChild($('path', { d: `M ${x1} ${y1} Q ${cx} ${cy} ${xt} ${yt} Q ${cx} ${cy} ${x2} ${y2}`, 'stroke-width': 1.1 }));
+      const dx = Math.cos(a)*(Rin+14), dy = Math.sin(a)*(Rin+14);
+      svg.appendChild($('circle', { cx: dx, cy: dy, r: 1.2, fill: 'currentColor', stroke: 'none' }));
+    }
+    svg.appendChild($('circle', { cx:0, cy:0, r: Rin, 'stroke-width': 1.2 }));
+    svg.appendChild($('circle', { cx:0, cy:0, r: Rin-5, 'stroke-width': 0.6 }));
+    // Scrollwork band
+    const Rs1=180, Rs2=158, Rcurl=(Rs1+Rs2)/2, curls=24;
+    svg.appendChild($('circle', { cx:0, cy:0, r:Rs1, 'stroke-width':0.8 }));
+    svg.appendChild($('circle', { cx:0, cy:0, r:Rs2, 'stroke-width':0.8 }));
+    for (let i = 0; i < curls; i++) {
+      const a = (i/curls)*Math.PI*2;
+      const cx=Math.cos(a)*Rcurl, cy=Math.sin(a)*Rcurl;
+      const ang=(a*180/Math.PI)+90;
+      const g = $('g', { transform: `translate(${cx} ${cy}) rotate(${ang})` });
+      g.appendChild($('path', { d:'M -8 0 q 0 -6 4 -6 q 4 0 4 5 M 0 -1 q 4 0 4 5 q 0 6 -4 6', 'stroke-width':0.9 }));
+      g.appendChild($('circle', { cx:-8, cy:0, r:1, fill:'currentColor', stroke:'none' }));
+      g.appendChild($('circle', { cx:8,  cy:6, r:1, fill:'currentColor', stroke:'none' }));
+      svg.appendChild(g);
+    }
+    // Inner frame rings
+    svg.appendChild($('circle', { cx:0, cy:0, r:148, 'stroke-width':0.6 }));
+    svg.appendChild($('circle', { cx:0, cy:0, r:145, 'stroke-width':1.2 }));
+    // Bird body
+    const bird = $('g');
+    bird.appendChild($('path', { d:'M 0 -54 C -26 -50 -38 -28 -36 4 C -34 38 -22 76 0 96 C 22 76 34 38 36 4 C 38 -28 26 -50 0 -54 Z', 'stroke-width':1.6 }));
+    bird.appendChild($('path', { d:'M 0 -46 C -20 -42 -30 -22 -28 4 C -26 32 -16 64 0 82 C 16 64 26 32 28 4 C 30 -22 20 -42 0 -46 Z', 'stroke-width':0.5 }));
+    // Wings (mirrored)
+    [[-1,1],[1,-1]].forEach(([sx]) => {
+      const g = $('g', { transform:`scale(${sx},1)` });
+      g.appendChild($('path', { d:'M -36 4 C -55 -8 -75 -18 -90 -10 C -80 0 -65 8 -50 6 C -40 4 -38 4 -36 4 Z', 'stroke-width':1.4 }));
+      g.appendChild($('path', { d:'M -36 20 C -60 14 -85 20 -95 32 C -80 28 -65 26 -48 24 Z', 'stroke-width':1 }));
+      g.appendChild($('path', { d:'M -34 36 C -55 36 -75 44 -82 56 C -68 50 -52 46 -38 44 Z', 'stroke-width':1 }));
+      svg.appendChild(g);
+    });
+    // Tail
+    [-24,-12,0,12,24].forEach(xoff => {
+      bird.appendChild($('path', { d:`M ${xoff} 96 C ${xoff-8} 110 ${xoff-6} 130 ${xoff} 140 C ${xoff+6} 130 ${xoff+8} 110 ${xoff} 96`, 'stroke-width':1 }));
+    });
+    // Two heads (symmetric)
+    [[-42,-68],[42,-68]].forEach(([hx,hy]) => {
+      const g = $('g');
+      g.appendChild($('ellipse', { cx:hx, cy:hy, rx:16, ry:13, 'stroke-width':1.4 }));
+      // Crest
+      [-6,-2,2,6].forEach((ox,i) => {
+        g.appendChild($('path', { d:`M ${hx+ox} ${hy-13} C ${hx+ox} ${hy-24} ${hx+ox+(i<2?-3:3)} ${hy-28} ${hx+ox+(i<2?-2:2)} ${hy-32}`, 'stroke-width':0.9 }));
+      });
+      g.appendChild($('circle', { cx: hx+(hx<0?5:-5), cy: hy-4, r:2.5, fill:'currentColor', stroke:'none' }));
+      // Beak
+      const bx = hx+(hx<0?-16:16);
+      g.appendChild($('path', { d:`M ${bx} ${hy+2} L ${bx+(hx<0?-14:14)} ${hy} L ${bx} ${hy-4} Z`, 'stroke-width':0.8 }));
+      svg.appendChild(g);
+    });
+    svg.appendChild(bird);
+  })();
+
+  // ── Sidebar ───────────────────────────────────────
   fetch('/IKS/shared/sidebar.html')
     .then(r => r.text())
-    .then(html => {
-      document.getElementById('sidebar').innerHTML = html;
-      IKS.init();
-    });
+    .then(html => { document.getElementById('sidebar').innerHTML = html; IKS.init(); });
+
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/IKS/sw.js', { scope: '/IKS/' });
   }
+})();
 </script>
 </body>
 </html>
