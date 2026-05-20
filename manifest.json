@@ -6,8 +6,8 @@
   "scope": "/IKS/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#F5A623",
-  "theme_color": "#2D3E52",
+  "background_color": "#F2E9D5",
+  "theme_color": "#B14820",
   "lang": "mr",
   "categories": ["education", "books"],
   "icons": [
