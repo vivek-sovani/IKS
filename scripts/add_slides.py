@@ -141,14 +141,14 @@ def compress_pdf(path):
 
 
 def find_source(src_dir, num, lang):
-    """Find 'slides NN lang.pdf' or 'slides NN lang.pdf' (case-insensitive)."""
-    pattern = os.path.join(src_dir, f"slides {num} {lang}.pdf")
-    matches = glob.glob(pattern)
-    if not matches:
-        # Try with zero-padded number
-        pattern = os.path.join(src_dir, f"slides {num:02d} {lang}.pdf")
-        matches = glob.glob(pattern)
-    return matches[0] if matches else None
+    """Find 'slides NN lang.pdf' or 'adhyay NN lang.pdf' (with/without zero-padding)."""
+    for prefix in ("slides", "adhyay"):
+        for n in (num, f"{num:02d}"):
+            pattern = os.path.join(src_dir, f"{prefix} {n} {lang}.pdf")
+            matches = glob.glob(pattern)
+            if matches:
+                return matches[0]
+    return None
 
 
 def process_article(num, src_dir, do_compress):
