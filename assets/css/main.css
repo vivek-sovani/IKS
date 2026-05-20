@@ -83,6 +83,9 @@ html[lang="mr"] .sb-section-label .en { display: none !important; }
 html[lang="en"]  .sb-section-label .mr { display: none !important; }
 html[lang="mr"] .topbar-title .en   { display: none !important; }
 html[lang="en"]  .topbar-title .mr  { display: none !important; }
+/* Sidebar article list + badge numbers (use .mr-t / .en-t classes) */
+html[lang="mr"] .en-t { display: none !important; }
+html[lang="en"]  .mr-t { display: none !important; }
 
 /* ── TOPBAR ─────────────────────────────────────── */
 .topbar {
@@ -147,27 +150,33 @@ html[lang="en"]  .topbar-title .mr  { display: none !important; }
 .topbar-name { display: flex; flex-direction: column; min-width: 0; }
 .topbar-name .mr {
   font-family: 'Noto Sans Devanagari', sans-serif;
-  font-size: 14px; font-weight: 600;
+  font-size: 17px; font-weight: 600;
   color: var(--ink); line-height: 1.2;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 .topbar-name .en {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 12px; font-style: italic;
-  color: var(--ink-mute); margin-top: 1px;
+  font-size: 17px; font-weight: 500;
+  color: var(--ink); line-height: 1.2;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.topbar-name .topbar-sub {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 11.5px; font-style: italic;
+  color: var(--ink-mute); margin-top: 2px;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 /* Legacy .topbar-title direct span children (non-nav-mark) */
 .topbar-title > .mr {
   font-family: 'Noto Sans Devanagari', sans-serif;
-  font-size: 14px; font-weight: 600;
+  font-size: 17px; font-weight: 600;
   color: var(--ink); white-space: nowrap;
   overflow: hidden; text-overflow: ellipsis;
 }
 .topbar-title > .en {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 12px; font-style: italic;
-  color: var(--ink-mute);
+  font-size: 17px; font-weight: 500;
+  color: var(--ink);
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 
@@ -821,7 +830,7 @@ footer.foot {
   .cycle-count { grid-area: count; text-align: left; padding-top: 4px; }
   .foot-inner { grid-template-columns: 1fr; gap: 28px; }
   .topbar { padding: 0 16px; }
-  .topbar-name .en { display: none; }
+  .topbar-name .topbar-sub { display: none; }
 }
 @media (max-width: 480px) {
   .cta-actions { flex-direction: column; align-items: center; }

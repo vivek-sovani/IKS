@@ -549,6 +549,8 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
       <span class="topbar-name">
         <span class="mr">भारतीय ज्ञानप्रणाली व वारसा</span>
         <span class="en">Indian Knowledge Systems</span>
+        <span class="topbar-sub" data-lang="mr">Elements of Indian Knowledge Systems</span>
+        <span class="topbar-sub" data-lang="en">A bilingual heritage edition</span>
       </span>
     </a>
   </div>

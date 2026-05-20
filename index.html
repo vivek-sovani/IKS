@@ -31,6 +31,8 @@
       <span class="topbar-name">
         <span class="mr">भारतीय ज्ञानप्रणाली व वारसा</span>
         <span class="en">Indian Knowledge Systems</span>
+        <span class="topbar-sub" data-lang="mr">Elements of Indian Knowledge Systems</span>
+        <span class="topbar-sub" data-lang="en">A bilingual heritage edition</span>
       </span>
     </a>
   </div>
@@ -403,74 +405,187 @@
   (function drawEmblem() {
     const svg = document.getElementById('emblem-svg');
     if (!svg) return;
-    const NS = 'http://www.w3.org/2000/svg';
+    const SVGNS = 'http://www.w3.org/2000/svg';
     const $ = (tag, attrs) => {
-      const el = document.createElementNS(NS, tag);
+      const el = document.createElementNS(SVGNS, tag);
       for (const k in attrs) el.setAttribute(k, attrs[k]);
       return el;
     };
+
     // Outer scalloped petal ring
     const petals = 36, Rin = 195, Rout = 225;
     for (let i = 0; i < petals; i++) {
       const a = (i / petals) * Math.PI * 2 - Math.PI / 2;
-      const a1 = a - Math.PI / petals * 0.85, a2 = a + Math.PI / petals * 0.85;
-      const x1 = Math.cos(a1)*Rin, y1 = Math.sin(a1)*Rin;
-      const xt = Math.cos(a)*Rout, yt = Math.sin(a)*Rout;
-      const x2 = Math.cos(a2)*Rin, y2 = Math.sin(a2)*Rin;
-      const cx = Math.cos(a)*(Rin+8), cy = Math.sin(a)*(Rin+8);
+      const a1 = a - Math.PI / petals * 0.85;
+      const a2 = a + Math.PI / petals * 0.85;
+      const x1 = Math.cos(a1) * Rin, y1 = Math.sin(a1) * Rin;
+      const xt = Math.cos(a)  * Rout, yt = Math.sin(a)  * Rout;
+      const x2 = Math.cos(a2) * Rin, y2 = Math.sin(a2) * Rin;
+      const cx = Math.cos(a) * (Rin + 8), cy = Math.sin(a) * (Rin + 8);
       svg.appendChild($('path', { d: `M ${x1} ${y1} Q ${cx} ${cy} ${xt} ${yt} Q ${cx} ${cy} ${x2} ${y2}`, 'stroke-width': 1.1 }));
-      const dx = Math.cos(a)*(Rin+14), dy = Math.sin(a)*(Rin+14);
+      const dx = Math.cos(a) * (Rin + 14), dy = Math.sin(a) * (Rin + 14);
       svg.appendChild($('circle', { cx: dx, cy: dy, r: 1.2, fill: 'currentColor', stroke: 'none' }));
     }
-    svg.appendChild($('circle', { cx:0, cy:0, r: Rin, 'stroke-width': 1.2 }));
-    svg.appendChild($('circle', { cx:0, cy:0, r: Rin-5, 'stroke-width': 0.6 }));
+    svg.appendChild($('circle', { cx: 0, cy: 0, r: Rin, 'stroke-width': 1.2 }));
+    svg.appendChild($('circle', { cx: 0, cy: 0, r: Rin - 5, 'stroke-width': 0.6 }));
+
     // Scrollwork band
-    const Rs1=180, Rs2=158, Rcurl=(Rs1+Rs2)/2, curls=24;
-    svg.appendChild($('circle', { cx:0, cy:0, r:Rs1, 'stroke-width':0.8 }));
-    svg.appendChild($('circle', { cx:0, cy:0, r:Rs2, 'stroke-width':0.8 }));
+    const Rs1 = 180, Rs2 = 158, Rcurl = (Rs1 + Rs2) / 2, curls = 24;
+    svg.appendChild($('circle', { cx: 0, cy: 0, r: Rs1, 'stroke-width': 0.8 }));
+    svg.appendChild($('circle', { cx: 0, cy: 0, r: Rs2, 'stroke-width': 0.8 }));
     for (let i = 0; i < curls; i++) {
-      const a = (i/curls)*Math.PI*2;
-      const cx=Math.cos(a)*Rcurl, cy=Math.sin(a)*Rcurl;
-      const ang=(a*180/Math.PI)+90;
+      const a = (i / curls) * Math.PI * 2;
+      const cx = Math.cos(a) * Rcurl, cy = Math.sin(a) * Rcurl;
+      const ang = (a * 180 / Math.PI) + 90;
       const g = $('g', { transform: `translate(${cx} ${cy}) rotate(${ang})` });
-      g.appendChild($('path', { d:'M -8 0 q 0 -6 4 -6 q 4 0 4 5 M 0 -1 q 4 0 4 5 q 0 6 -4 6', 'stroke-width':0.9 }));
-      g.appendChild($('circle', { cx:-8, cy:0, r:1, fill:'currentColor', stroke:'none' }));
-      g.appendChild($('circle', { cx:8,  cy:6, r:1, fill:'currentColor', stroke:'none' }));
+      g.appendChild($('path', { d: 'M -8 0 q 0 -6 4 -6 q 4 0 4 5 M 0 -1 q 4 0 4 5 q 0 6 -4 6', 'stroke-width': 0.9 }));
+      g.appendChild($('circle', { cx: -8, cy: 0, r: 1, fill: 'currentColor', stroke: 'none' }));
+      g.appendChild($('circle', { cx:  8, cy: 6, r: 1, fill: 'currentColor', stroke: 'none' }));
       svg.appendChild(g);
     }
+
     // Inner frame rings
-    svg.appendChild($('circle', { cx:0, cy:0, r:148, 'stroke-width':0.6 }));
-    svg.appendChild($('circle', { cx:0, cy:0, r:145, 'stroke-width':1.2 }));
-    // Bird body
-    const bird = $('g');
-    bird.appendChild($('path', { d:'M 0 -54 C -26 -50 -38 -28 -36 4 C -34 38 -22 76 0 96 C 22 76 34 38 36 4 C 38 -28 26 -50 0 -54 Z', 'stroke-width':1.6 }));
-    bird.appendChild($('path', { d:'M 0 -46 C -20 -42 -30 -22 -28 4 C -26 32 -16 64 0 82 C 16 64 26 32 28 4 C 30 -22 20 -42 0 -46 Z', 'stroke-width':0.5 }));
+    svg.appendChild($('circle', { cx: 0, cy: 0, r: 148, 'stroke-width': 0.6 }));
+    svg.appendChild($('circle', { cx: 0, cy: 0, r: 145, 'stroke-width': 1.2 }));
+
+    // ── Bird ──
+    const bird = $('g', { id: 'bird' });
+
+    // Body
+    const body = $('g');
+    body.appendChild($('path', {
+      d: 'M 0 -54 C -26 -50 -38 -28 -36 4 C -34 38 -22 76 0 96 C 22 76 34 38 36 4 C 38 -28 26 -50 0 -54 Z',
+      'stroke-width': 1.6
+    }));
+    body.appendChild($('path', {
+      d: 'M 0 -46 C -20 -42 -30 -22 -28 4 C -26 32 -16 64 0 82 C 16 64 26 32 28 4 C 30 -22 20 -42 0 -46 Z',
+      'stroke-width': 0.5
+    }));
+    const scaleRows = [
+      { y: -36, count: 3, w: 14 }, { y: -24, count: 4, w: 18 },
+      { y: -12, count: 5, w: 22 }, { y:   0, count: 6, w: 26 },
+      { y:  14, count: 6, w: 26 }, { y:  28, count: 5, w: 24 },
+      { y:  42, count: 5, w: 22 }, { y:  56, count: 4, w: 18 },
+      { y:  70, count: 3, w: 13 }
+    ];
+    scaleRows.forEach(({ y, count, w }) => {
+      for (let s = 0; s < count; s++) {
+        const x = -w + (s + 0.5) * (w * 2 / count);
+        body.appendChild($('path', { d: `M ${x - 4} ${y} q 4 -5 8 0`, 'stroke-width': 0.7 }));
+      }
+    });
+    bird.appendChild(body);
+
+    // Neck + Head (mirrored)
+    function neckHead(side) {
+      const g = $('g', { transform: `scale(${side} 1)` });
+      g.appendChild($('path', { d: 'M 6 -52 C 18 -72 30 -94 52 -110', 'stroke-width': 1.5 }));
+      g.appendChild($('path', { d: 'M 18 -50 C 26 -68 36 -86 56 -100', 'stroke-width': 1.2 }));
+      for (let i = 0; i < 5; i++) {
+        const t = (i + 0.5) / 5;
+        const bx = 6 + (52 - 6) * t, by = -52 + (-110 - -52) * t;
+        g.appendChild($('path', { d: `M ${bx} ${by} q 3 -2 7 -2`, 'stroke-width': 0.6 }));
+      }
+      g.appendChild($('path', { d: 'M 4 -50 q 8 4 16 0', 'stroke-width': 0.8 }));
+      g.appendChild($('circle', { cx: 12, cy: -48, r: 1.5, fill: 'currentColor', stroke: 'none' }));
+
+      const h = $('g', { transform: 'translate(60 -118) rotate(20)' });
+      h.appendChild($('path', { d: 'M -16 -2 C -16 -14 -6 -20 6 -18 C 18 -16 24 -8 22 4 C 20 14 8 18 -4 14 C -14 12 -16 6 -16 -2 Z', 'stroke-width': 1.5 }));
+      h.appendChild($('path', { d: 'M 20 0 C 32 -2 40 0 42 6 C 38 12 28 14 22 10 Z', 'stroke-width': 1.4 }));
+      h.appendChild($('path', { d: 'M 22 5 q 8 0 16 1', 'stroke-width': 0.7 }));
+      h.appendChild($('circle', { cx: 26, cy: 2, r: 0.8, fill: 'currentColor', stroke: 'none' }));
+      h.appendChild($('circle', { cx: 8, cy: -2, r: 3.5, 'stroke-width': 1.1 }));
+      h.appendChild($('circle', { cx: 8, cy: -2, r: 1.6, fill: 'currentColor', stroke: 'none' }));
+      h.appendChild($('path', { d: 'M 0 -10 q 8 -4 16 -2', 'stroke-width': 0.7 }));
+      h.appendChild($('path', { d: 'M -2 -20 C -8 -30 -2 -38 8 -38 C 18 -38 22 -28 16 -22', 'stroke-width': 1.2 }));
+      h.appendChild($('circle', { cx: 8, cy: -32, r: 1.5, fill: 'currentColor', stroke: 'none' }));
+      h.appendChild($('path', { d: 'M -8 -22 C -16 -28 -14 -36 -6 -36 C -2 -36 0 -32 -2 -28', 'stroke-width': 1 }));
+      h.appendChild($('circle', { cx: -8, cy: -32, r: 1.1, fill: 'currentColor', stroke: 'none' }));
+      h.appendChild($('path', { d: 'M 6 -36 C 10 -46 18 -50 22 -42 C 24 -38 20 -34 16 -34', 'stroke-width': 1 }));
+      h.appendChild($('circle', { cx: 20, cy: -42, r: 1.1, fill: 'currentColor', stroke: 'none' }));
+      h.appendChild($('path', { d: 'M -14 -4 C -22 -10 -24 -20 -16 -24', 'stroke-width': 1 }));
+      h.appendChild($('circle', { cx: -20, cy: -16, r: 1, fill: 'currentColor', stroke: 'none' }));
+      g.appendChild(h);
+      return g;
+    }
+    bird.appendChild(neckHead(1));
+    bird.appendChild(neckHead(-1));
+
     // Wings (mirrored)
-    [[-1,1],[1,-1]].forEach(([sx]) => {
-      const g = $('g', { transform:`scale(${sx},1)` });
-      g.appendChild($('path', { d:'M -36 4 C -55 -8 -75 -18 -90 -10 C -80 0 -65 8 -50 6 C -40 4 -38 4 -36 4 Z', 'stroke-width':1.4 }));
-      g.appendChild($('path', { d:'M -36 20 C -60 14 -85 20 -95 32 C -80 28 -65 26 -48 24 Z', 'stroke-width':1 }));
-      g.appendChild($('path', { d:'M -34 36 C -55 36 -75 44 -82 56 C -68 50 -52 46 -38 44 Z', 'stroke-width':1 }));
-      svg.appendChild(g);
-    });
-    // Tail
-    [-24,-12,0,12,24].forEach(xoff => {
-      bird.appendChild($('path', { d:`M ${xoff} 96 C ${xoff-8} 110 ${xoff-6} 130 ${xoff} 140 C ${xoff+6} 130 ${xoff+8} 110 ${xoff} 96`, 'stroke-width':1 }));
-    });
-    // Two heads (symmetric)
-    [[-42,-68],[42,-68]].forEach(([hx,hy]) => {
-      const g = $('g');
-      g.appendChild($('ellipse', { cx:hx, cy:hy, rx:16, ry:13, 'stroke-width':1.4 }));
-      // Crest
-      [-6,-2,2,6].forEach((ox,i) => {
-        g.appendChild($('path', { d:`M ${hx+ox} ${hy-13} C ${hx+ox} ${hy-24} ${hx+ox+(i<2?-3:3)} ${hy-28} ${hx+ox+(i<2?-2:2)} ${hy-32}`, 'stroke-width':0.9 }));
+    function wing(side) {
+      const g = $('g', { transform: `scale(${side} 1)` });
+      g.appendChild($('path', { d: 'M 38 -52 C 60 -78 92 -82 110 -68 C 124 -56 124 -38 110 -32', 'stroke-width': 1.5 }));
+      g.appendChild($('path', { d: 'M 96 -64 C 106 -60 110 -52 104 -46', 'stroke-width': 1 }));
+      g.appendChild($('circle', { cx: 104, cy: -54, r: 1.5, fill: 'currentColor', stroke: 'none' }));
+      g.appendChild($('path', { d: 'M 110 -32 C 132 -18 138 8 128 30 C 116 50 92 56 70 48 C 56 42 44 30 38 14', 'stroke-width': 1.6 }));
+      g.appendChild($('path', { d: 'M 36 -38 C 56 -52 80 -52 96 -38 C 110 -24 116 0 110 22', 'stroke-width': 0.7 }));
+      for (let i = 0; i < 7; i++) {
+        const t = i / 6, x = 38 + t * 66, y = -36 + t * 50;
+        g.appendChild($('path', { d: `M ${x} ${y} q 4 -4 9 -1`, 'stroke-width': 0.7 }));
+      }
+      for (let i = 0; i < 6; i++) {
+        const t = i / 5, x = 44 + t * 58, y = -16 + t * 42;
+        g.appendChild($('path', { d: `M ${x} ${y} q 5 -4 10 -1`, 'stroke-width': 0.7 }));
+      }
+      const primaries = [
+        [62, -36, 102, -56], [80, -40, 122, -50], [98, -34, 134, -28],
+        [112, -16, 142, 2], [120, 6, 140, 30], [118, 26, 130, 50],
+        [104, 42, 110, 60], [86, 50, 88, 64]
+      ];
+      primaries.forEach(([x1, y1, x2, y2]) => {
+        const mx = (x1 + x2) / 2, my = (y1 + y2) / 2;
+        g.appendChild($('path', { d: `M ${x1} ${y1} Q ${mx + 3} ${my - 3} ${x2} ${y2}`, 'stroke-width': 1.1 }));
+        g.appendChild($('path', { d: `M ${x2} ${y2} q -2 4 -6 4 q 2 -2 2 -6`, 'stroke-width': 0.7 }));
+        g.appendChild($('path', { d: `M ${x1 + (mx - x1) * 0.4} ${y1 + (my - y1) * 0.4} Q ${mx + 1} ${my - 1} ${x2 - (x2 - x1) * 0.15} ${y2 - (y2 - y1) * 0.15}`, 'stroke-width': 0.5 }));
       });
-      g.appendChild($('circle', { cx: hx+(hx<0?5:-5), cy: hy-4, r:2.5, fill:'currentColor', stroke:'none' }));
-      // Beak
-      const bx = hx+(hx<0?-16:16);
-      g.appendChild($('path', { d:`M ${bx} ${hy+2} L ${bx+(hx<0?-14:14)} ${hy} L ${bx} ${hy-4} Z`, 'stroke-width':0.8 }));
-      svg.appendChild(g);
-    });
+      return g;
+    }
+    bird.appendChild(wing(1));
+    bird.appendChild(wing(-1));
+
+    // Tail
+    const tail = $('g');
+    const tailCount = 9, tailBaseY = 90;
+    for (let i = 0; i < tailCount; i++) {
+      const t = (i / (tailCount - 1)) - 0.5;
+      const angle = t * 1.05;
+      const baseX = t * 10, baseY = tailBaseY;
+      const reach = 86 - Math.abs(t) * 6;
+      const tipX = Math.sin(angle) * reach * 1.2;
+      const tipY = tailBaseY + Math.cos(angle) * 78;
+      const ctrlOutX = tipX + (t > 0 ? 6 : -6);
+      const ctrlOutY = (baseY + tipY) / 2 + 8;
+      const ctrlInX  = (baseX + tipX) / 2 - (t > 0 ? 4 : -4);
+      const ctrlInY  = (baseY + tipY) / 2 - 4;
+      tail.appendChild($('path', { d: `M ${baseX} ${baseY} Q ${ctrlOutX} ${ctrlOutY} ${tipX} ${tipY}`, 'stroke-width': 1 }));
+      tail.appendChild($('path', { d: `M ${tipX} ${tipY} Q ${ctrlInX} ${ctrlInY} ${baseX} ${baseY}`, 'stroke-width': 1 }));
+      tail.appendChild($('path', { d: `M ${baseX} ${baseY + 2} Q ${(baseX + tipX) / 2 + t * 2} ${(baseY + tipY) / 2 + 2} ${tipX * 0.95} ${tipY - 4}`, 'stroke-width': 0.5 }));
+      tail.appendChild($('path', { d: `M ${baseX - 2} ${baseY + 6} q ${t * 4} 4 ${t * 8} 6`, 'stroke-width': 0.5 }));
+    }
+    tail.appendChild($('path', { d: 'M -8 88 q 8 4 16 0', 'stroke-width': 0.8 }));
+    tail.appendChild($('circle', { cx: 0, cy: 90, r: 1.5, fill: 'currentColor', stroke: 'none' }));
+    bird.appendChild(tail);
+
+    // Legs + serpents (mirrored)
+    function leg(side) {
+      const g = $('g', { transform: `scale(${side} 1)` });
+      g.appendChild($('path', { d: 'M 22 68 C 30 80 38 90 44 100', 'stroke-width': 1.4 }));
+      g.appendChild($('path', { d: 'M 26 70 C 32 82 40 92 46 102', 'stroke-width': 0.8 }));
+      g.appendChild($('circle', { cx: 44, cy: 100, r: 2, 'stroke-width': 0.9 }));
+      g.appendChild($('path', { d: 'M 44 102 L 50 118', 'stroke-width': 1.3 }));
+      g.appendChild($('path', { d: 'M 50 118 q -6 8 -10 12 q -2 2 -4 1', 'stroke-width': 1 }));
+      g.appendChild($('path', { d: 'M 50 118 q 0 10 -2 16 q 0 2 -2 2',   'stroke-width': 1 }));
+      g.appendChild($('path', { d: 'M 50 118 q 6 8 7 14',                 'stroke-width': 1 }));
+      g.appendChild($('path', { d: 'M 50 118 q -2 -6 -10 -6',             'stroke-width': 0.8 }));
+      g.appendChild($('path', { d: 'M 54 132 C 64 134 70 130 70 124 C 70 118 64 116 60 120 C 58 122 60 124 62 124', 'stroke-width': 1 }));
+      g.appendChild($('circle', { cx: 70, cy: 124, r: 1.6, 'stroke-width': 0.8 }));
+      g.appendChild($('path', { d: 'M 71 124 q 4 -2 6 1', 'stroke-width': 0.7 }));
+      g.appendChild($('circle', { cx: 69, cy: 123, r: 0.6, fill: 'currentColor', stroke: 'none' }));
+      return g;
+    }
+    bird.appendChild(leg(1));
+    bird.appendChild(leg(-1));
+
     svg.appendChild(bird);
   })();
 
