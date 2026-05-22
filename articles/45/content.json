@@ -16,11 +16,11 @@
       "headEn": "🎯 Four Values of Life — Purusharthas",
       "paragraphs": [
         {
-          "mr": "भारतीय जीवनदर्शन अत्यंत साधे होते. त्याचे ध्येय सुखाची वाढ करणे होते. या सुखाचे दोन प्रकार आहेत — इंद्रियजन्य आणि इंद्रियातीत. हे सुख स्वतःसाठी, आपल्या समाजासाठी आणि सर्व चेतन व अचेतन घटकांसाठी वाढवायचे होते. हे एक औपचारिक जीवन मूल्यांच्या संचाच्या रूपात संस्थाबद्ध केले गेले आहे — **पुरुषार्थ**. यांची संख्या चार आहे.",
+          "mr": "भारतीय जीवनदर्शन अत्यंत साधे होते. त्याचे ध्येय सुखाची वाढ करणे होते. या सुखाचे दोन प्रकार आहेत — इंद्रियजन्य आणि अतींद्रिय. हे सुख स्वतःसाठी, आपल्या समाजासाठी आणि सर्व चेतन व अचेतन घटकांसाठी वाढवायचे होते. हे एक औपचारिक जीवन मूल्यांच्या संचाच्या रूपात संस्थाबद्ध केले गेले आहे — **पुरुषार्थ**. यांची संख्या चार आहे.",
           "en": "The Indian life philosophy was extremely simple. Its aim was to increase joy. There are two types of this joy — sensory and trans-sensory. This joy was to be increased for oneself, for one's society, and for all conscious and non-conscious elements. This was formally encoded in a set of life values — **Purushartha**. There are four of them."
         },
         {
-          "mr": "**धर्म** म्हणजे जागृत आणि समाधी अवस्थांमध्ये इच्छेनुसार फिरण्यासाठी लागणाऱ्या संतुलनाची भावना. **अर्थ** म्हणजे जीवन चालवण्याची साधने — जसे पैसा, धान्य, शक्ती. **काम** म्हणजे इच्छा, सामान्यतः इंद्रियविषयक इच्छा. **मोक्ष** म्हणजे सर्व इंद्रिय विषयांपासून मुक्तता आणि केवळ इंद्रियातीत आनंदावर पूर्ण लक्ष केंद्रित करणे.",
+          "mr": "**धर्म** म्हणजे जागृत आणि समाधी अवस्थांमध्ये इच्छेनुसार फिरण्यासाठी लागणाऱ्या संतुलनाची भावना. **अर्थ** म्हणजे जीवन चालवण्याची साधने — जसे पैसा, धान्य, शक्ती. **काम** म्हणजे इच्छा, सामान्यतः इंद्रियविषयक इच्छा. **मोक्ष** म्हणजे सर्व इंद्रिय विषयांपासून मुक्तता आणि केवळ अतींद्रिय आनंदावर पूर्ण लक्ष केंद्रित करणे.",
           "en": "**Dharma** is the sense of balance needed to move freely between the states of Jagrit and Samadhi. **Artha** means the means of sustaining life — money, grain, power. **Kama** means desire, generally sensory desire. **Moksha** means freedom from all sensory objects and complete focus on trans-sensory joy."
         },
         {
@@ -196,7 +196,7 @@
         {
           "term": "मोक्ष",
           "roman": "Mokṣa",
-          "defMr": "सर्व इंद्रिय विषयांपासून मुक्तता — इंद्रियातीत आनंदाची परमावस्था",
+          "defMr": "सर्व इंद्रिय विषयांपासून मुक्तता — अतींद्रिय आनंदाची परमावस्था",
           "defEn": "Freedom from all sensory objects — supreme state of trans-sensory joy"
         }
       ]
