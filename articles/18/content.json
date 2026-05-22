@@ -2,12 +2,12 @@
   "id": "18",
   "section": "c2",
   "titleMr": "अव्यक्त अर्धचक्र",
-  "titleEn": "Unmanifest Half-Cycle",
+  "titleEn": "Involution Half-Cycle",
   "readingTime": "५",
   "readingTimeEn": "5",
   "summary": {
     "mr": "जागृत अवस्थेतून समाधीच्या अमर्यादित आनंदाच्या अवस्थेकडे जाणे म्हणजे अव्यक्त अर्धचक्र. झोप येण्याच्या प्रक्रियेसारखेच यातही दोन मूलभूत मार्ग आहेत: इंद्रियांना उत्तेजनांपासून वंचित ठेवणे किंवा मर्यादित नमुनेदार उत्तेजना देणे. भारतीय ज्ञान परंपरेतील महत्त्वाचा शोध म्हणजे — एखाद्या घटकावर योग्य नमुनेदार उत्तेजना दिल्यास संपूर्ण जोडलेली यंत्रणा शांत होते.",
-    "en": "Moving from the waking state to the state of unlimited bliss in samadhi is the unmanifest half-cycle. Like the process of falling asleep, this too has two fundamental paths: depriving the senses of stimulation, or giving them limited patterned stimulation. The key insight of the Indian knowledge tradition is that by giving patterned stimulation to one component, the entire interconnected system can be quieted."
+    "en": "Moving from the waking state to the state of unlimited bliss in samadhi is the involution half-cycle. Like the process of falling asleep, this too has two fundamental paths: depriving the senses of stimulation, or giving them limited patterned stimulation. The key insight of the Indian knowledge tradition is that by giving patterned stimulation to one component, the entire interconnected system can be quieted."
   },
   "body": [
     {
@@ -28,7 +28,7 @@
     {
       "type": "section",
       "headMr": "🌑 अव्यक्त होण्याचे दोन मार्ग",
-      "headEn": "🌑 Two Paths to the Unmanifest State",
+      "headEn": "🌑 Two Paths to the Involution State",
       "paragraphs": [
         {
           "mr": "भारतीय परंपरांमध्ये समाधीची अवस्था आणण्यासाठी हेच दोन व्यापक मार्ग वापरले गेले आहेत. पहिला मार्ग म्हणजे इंद्रियांना त्यांच्या विषयांपासून वंचित ठेवणे. म्हणून डोळे बंद करण्यास, शांत जागी बसण्यास, कृती किंवा बोलण्याची प्रवृत्ती जाणीवपूर्वक थांबवण्यास सांगितले जाते.",
@@ -74,7 +74,7 @@
       "type": "infographic",
       "svgType": "flow",
       "titleMr": "अव्यक्त अर्धचक्र — जागृतीतून समाधीकडे",
-      "titleEn": "Unmanifest Half-Cycle — From Waking to Samadhi",
+      "titleEn": "Involution Half-Cycle — From Waking to Samadhi",
       "captionMr": "जागृत अवस्थेतून समाधीकडे जाण्याचे दोन मूलभूत मार्ग — उत्तेजना वंचितता किंवा नमुनेदार उत्तेजना.",
       "captionEn": "Two fundamental paths from waking state to samadhi — sensory deprivation or patterned stimulation.",
       "steps": [
@@ -102,7 +102,7 @@
         },
         {
           "mr": ["समाधी", "अव्यक्त अवस्था"],
-          "en": ["Samadhi", "Unmanifest state"],
+          "en": ["Samadhi", "Involution state"],
           "roman": "Samādhi",
           "subMr": ["चित्तवृत्ति निरोध", "अमर्यादित आनंद"],
           "subEn": ["Chitta vritti nirodha", "Unlimited bliss"]
@@ -143,7 +143,7 @@
     {
       "type": "phase2",
       "mr": "सखोल अध्ययनात पातञ्जल योगसूत्रांमधील अष्टांगयोगाचे सविस्तर विवेचन, ध्यान आणि समाधीच्या विविध अवस्थांचे वर्णन (सबीज-निर्बीज समाधी, संप्रज्ञात-असंप्रज्ञात समाधी), तैत्तिरीय उपनिषदातील अव्यक्त प्रक्रियेचे वर्णन आणि आधुनिक न्यूरोसायन्समधील डिफॉल्ट मोड नेटवर्क आणि समाधी यांचे संबंध मांडले जातील.",
-      "en": "Advanced reading will present a detailed exposition of Ashtanga yoga in the Patanjali Yogasutras, descriptions of the various states of dhyana and samadhi (sabija-nirbija samadhi, samprajnata-asamprajnata samadhi), the description of the unmanifest process in the Taittiriya Upanishad, and the connection between the default mode network in modern neuroscience and samadhi."
+      "en": "Advanced reading will present a detailed exposition of Ashtanga yoga in the Patanjali Yogasutras, descriptions of the various states of dhyana and samadhi (sabija-nirbija samadhi, samprajnata-asamprajnata samadhi), the description of the involution process in the Taittiriya Upanishad, and the connection between the default mode network in modern neuroscience and samadhi."
     }
   ],
   "nav": {

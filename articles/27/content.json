@@ -21,7 +21,7 @@
         },
         {
           "mr": "विज्ञान म्हणजे ज्ञानाचा व्यक्त अवस्थांमध्ये विस्तार. व्यक्त होण्याच्या किंवा सृष्टीच्या प्रक्रियेतील चक्राच्या वेगवेगळ्या पायऱ्यांशी जोडलेले इतर अनुभव किंवा साक्षात्कार होऊ शकतात. त्यांना ज्ञानाचा विस्तार किंवा विस्ताराच्या टप्प्यातील ज्ञान म्हणतात. यामुळेच त्याला विज्ञान म्हणतात.",
-          "en": "Vijnana means the extension of jnana into manifest states. Other experiences or realizations connected to various stages of the cycle of manifestation can occur. These are called the extension of jnana or knowledge at the level of unfolding. This is precisely why it is called vijnana."
+          "en": "Vijnana means the extension of jnana into evolution states. Other experiences or realizations connected to various stages of the cycle of evolution can occur. These are called the extension of jnana or knowledge at the level of unfolding. This is precisely why it is called vijnana."
         }
       ]
     },
@@ -30,7 +30,7 @@
       "word": "विज्ञान",
       "roman": "Vijnana",
       "defMr": "वि = विशेष, विस्तृत; ज्ञान = अनुभवजन्य ज्ञान. व्यक्त अवस्थांमध्ये चक्रांची रचना समजून घेऊन त्यांचा उपयोग करण्याची क्षमता. आधुनिक 'विज्ञान' (science) या अर्थाने नव्हे — धर्मप्रेरित शास्त्र.",
-      "defEn": "'Vi' = special, extended; 'jnana' = experiential knowledge. The capacity to understand cycles in manifest states and apply them. Not in the sense of modern 'science' — vijnana is dharma-driven knowledge."
+      "defEn": "'Vi' = special, extended; 'jnana' = experiential knowledge. The capacity to understand cycles in evolution states and apply them. Not in the sense of modern 'science' — vijnana is dharma-driven knowledge."
     },
     {
       "type": "section",
@@ -58,7 +58,7 @@
         },
         {
           "mr": "उदाहरणार्थ, एखाद्याला दिव्याचे दर्शन आणि कांस्य घंटेचा आवाज आत्मसुखाच्या अनुभवासारखा वाटला तर त्याला हे पाहायचे असते की ते अव्यक्त होण्याच्या प्रक्रियेला मदत करण्यासाठी उपयोगी पडू शकते का. अशा व्यक्तीला व्यक्त किंवा अव्यक्त प्रक्रिया समजलेली आहे — म्हणजेच सृष्टी-स्थिती-लय समजले आहे.",
-          "en": "For example, if someone finds that the sight of a lamp and the sound of a bronze bell feel like their experience of the blissful inner state, they look to see whether this can help others enter the unmanifest process. Such a person understands the manifest or unmanifest process — meaning they understand creation-preservation-dissolution."
+          "en": "For example, if someone finds that the sight of a lamp and the sound of a bronze bell feel like their experience of the blissful inner state, they look to see whether this can help others enter the involution process. Such a person understands the evolution or involution process — meaning they understand creation-preservation-dissolution."
         }
       ],
       "insight": {
@@ -94,7 +94,7 @@
           "term": "विज्ञान",
           "roman": "Vijnana",
           "defMr": "ज्ञानाचा व्यक्त अवस्थांमध्ये विस्तार; चक्रांची रचना समजून त्याचा उपयोग करणे",
-          "defEn": "Extension of jnana into manifest states; understanding cycles and applying them"
+          "defEn": "Extension of jnana into evolution states; understanding cycles and applying them"
         },
         {
           "term": "विज्ञानमय कोश",
@@ -153,7 +153,7 @@
           "subMr": "सृष्टी-स्थिती-लय",
           "subEn": "Creation-Preservation-Dissolution",
           "itemsMr": ["अव्यक्त-व्यक्त", "आंतरव्यक्तीक", "बाह्य-अंतर्गत"],
-          "itemsEn": ["Unmanifest-manifest", "Inter-personal", "Outer-inner"]
+          "itemsEn": ["Involution-evolution", "Inter-personal", "Outer-inner"]
         },
         {
           "position": "bottom-right",

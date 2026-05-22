@@ -7,7 +7,7 @@
   "readingTimeEn": "5",
   "summary": {
     "mr": "विद्या आणि योग हे दोन्ही शब्द अनेकदा एकमेकांच्या बदली वापरले जातात. परंतु त्यांच्यात एक सूक्ष्म फरक आहे — विद्या व्यक्त अवस्थेकडे झुकते आणि स्त्रैण आहे; योग अव्यक्त अंतर्मुखतेकडे झुकतो आणि पुरुषी आहे. चक्राच्या दृष्टिकोनातून, दोन्ही एकमेकांशिवाय अपूर्ण आहेत — म्हणून 'योगविद्या' हे संयुक्त रूप आढळते.",
-    "en": "Vidya and Yoga are often used interchangeably, yet a subtle difference exists — vidya leans toward the manifest side and is feminine; yoga leans toward unmanifest inwardness and is masculine. From the cycle perspective, neither is complete without the other — which is why the combined expression 'yogavidya' is found."
+    "en": "Vidya and Yoga are often used interchangeably, yet a subtle difference exists — vidya leans toward the evolution side and is feminine; yoga leans toward involution inwardness and is masculine. From the cycle perspective, neither is complete without the other — which is why the combined expression 'yogavidya' is found."
   },
   "body": [
     {
@@ -30,7 +30,7 @@
       "word": "विद्या",
       "roman": "Vidyā",
       "defMr": "वि + ज्ञा — विशेष प्रकारे जाणणे. विद्येमध्ये व्यक्त पैलूवर थोडा अधिक भर असतो. अंतर्गत आनंदाच्या फुलण्याचा स्वाद विद्येत असतो. विद्या व्यक्त अवस्थेकडे भर देते आणि स्त्रैण आहे.",
-      "defEn": "Vi + jñā — to know in a special way. Vidya places slightly greater emphasis on the manifest aspect. It carries the taste of blossoming of inner ananda. Vidya emphasises manifest states and is feminine in nature."
+      "defEn": "Vi + jñā — to know in a special way. Vidya places slightly greater emphasis on the evolution aspect. It carries the taste of blossoming of inner ananda. Vidya emphasises evolution states and is feminine in nature."
     },
     {
       "type": "section",
@@ -39,7 +39,7 @@
       "paragraphs": [
         {
           "mr": "योगामध्ये कठोर साधना किंवा एकाग्रतेला विशेष अर्थ असतो. योग अंतर्मुखतेवर भर देतो आणि म्हणून तो पुरुषी आहे. योग हा अव्यक्त संदर्भात थोडा अधिक केंद्रित असतो — चक्राच्या अव्यक्त अर्धभागाशी त्याचे नाते घट्ट आहे.",
-          "en": "Yoga carries special meaning in terms of rigorous sadhana or deep concentration. Yoga emphasises inward-turning and is therefore masculine. Yoga is slightly more focused in the unmanifest context — it has a stronger connection to the unmanifest half of the cycle."
+          "en": "Yoga carries special meaning in terms of rigorous sadhana or deep concentration. Yoga emphasises inward-turning and is therefore masculine. Yoga is slightly more focused in the involution context — it has a stronger connection to the involution half of the cycle."
         },
         {
           "mr": "त्यागराजांच्या रचनांमधील काही लोकप्रिय वाक्यरचना ह्या दाखवतात की संगीतज्ञानं भक्तिहीनाना संगता नादतनुमान् — संगीताचे खरे ज्ञान केवळ भक्तियोगाशिवाय शक्य नाही. विद्या (ज्ञान) आणि योग (साधना-भक्ती) यांची ही अभेद्यता आहे.",
@@ -48,7 +48,7 @@
       ],
       "insight": {
         "mr": "योग आणि विद्या हे चक्राच्या दोन अर्धभागांसारखे आहेत — अव्यक्त आणि व्यक्त. एक नसेल तर दुसऱ्याचे अस्तित्व नाही. म्हणूनच 'योगविद्या' हे संयुक्त रूप वेदांगांमध्ये आढळते.",
-        "en": "Yoga and vidya are like the two halves of the cycle — unmanifest and manifest. One cannot exist without the other. This is why the combined expression 'yogavidya' appears throughout the Vedic corpus."
+        "en": "Yoga and vidya are like the two halves of the cycle — involution and evolution. One cannot exist without the other. This is why the combined expression 'yogavidya' appears throughout the Vedic corpus."
       }
     },
     {
@@ -57,11 +57,11 @@
       "titleMr": "विद्या आणि योग — चक्राच्या दोन बाजू",
       "titleEn": "Vidya and Yoga — Two Sides of the Cycle",
       "captionMr": "चक्राच्या व्यक्त बाजूला विद्या आणि अव्यक्त बाजूला योग — दोन्ही एकत्र आनंदाकडे नेतात.",
-      "captionEn": "Vidya on the manifest side, yoga on the unmanifest — together they complete the cycle towards ananda.",
+      "captionEn": "Vidya on the evolution side, yoga on involution — together they complete the cycle towards ananda.",
       "steps": [
         {
           "mr": ["अव्यक्त", "अर्धचक्र"],
-          "en": ["Unmanifest", "Half-Cycle"],
+          "en": ["Involution", "Half-Cycle"],
           "roman": "Avyakta",
           "subMr": ["योगाचे क्षेत्र"],
           "subEn": ["Domain of Yoga"]
@@ -76,7 +76,7 @@
         },
         {
           "mr": ["व्यक्त", "अर्धचक्र"],
-          "en": ["Manifest", "Half-Cycle"],
+          "en": ["Evolution", "Half-Cycle"],
           "roman": "Vyakta",
           "subMr": ["विद्येचे क्षेत्र"],
           "subEn": ["Domain of Vidya"]
@@ -97,11 +97,11 @@
       "paragraphs": [
         {
           "mr": "विद्या स्त्रैण आहे कारण ती व्यक्त अवस्थेशी — प्रकृतीशी — जोडलेली आहे. योग पुरुषी आहे कारण तो अव्यक्त चेतनेशी — पुरुषाशी — जोडलेला आहे. हा फरक वर्चस्वाचा नाही, तर प्रकृती-पुरुष चक्राचाच एक भाग आहे.",
-          "en": "Vidya is feminine because it is connected to manifest states — to prakriti. Yoga is masculine because it is connected to unmanifest consciousness — to purusha. This difference is not one of hierarchy, but is itself part of the prakriti-purusha cycle."
+          "en": "Vidya is feminine because it is connected to evolution states — to prakriti. Yoga is masculine because it is connected to involution consciousness — to purusha. This difference is not one of hierarchy, but is itself part of the prakriti-purusha cycle."
         },
         {
           "mr": "प्रत्यक्षात, आपल्याला माहीत आहे की व्यक्त किंवा अव्यक्त हा चक्राचा भाग आहे. एक नसेल तर दुसऱ्याचे अस्तित्व नाही. म्हणून अनेकदा 'योगविद्या' अशी अभिव्यक्ती आढळते. अशा प्रकारे येथे असे म्हणणे पुरेसे आहे की आलटून पालटून करता येत असताना, दोन्ही शब्दांचा रूढ वापरात स्वतंत्र अर्थ आहे.",
-          "en": "In practice, we know that manifest or unmanifest is a part of the cycle. One cannot exist without the other. Hence the combined expression 'yogavidya' is often found. So while they can be used interchangeably, both words carry their own independent meanings in established usage."
+          "en": "In practice, we know that evolution or involution is a part of the cycle. One cannot exist without the other. Hence the combined expression 'yogavidya' is often found. So while they can be used interchangeably, both words carry their own independent meanings in established usage."
         }
       ]
     },
@@ -112,13 +112,13 @@
           "term": "योग",
           "roman": "Yoga",
           "defMr": "कठोर साधना आणि एकाग्रता; अव्यक्त अंतर्मुखतेचा मार्ग; पुरुषी",
-          "defEn": "Rigorous sadhana and concentration; path of unmanifest inwardness; masculine"
+          "defEn": "Rigorous sadhana and concentration; path of involution inwardness; masculine"
         },
         {
           "term": "विद्या",
           "roman": "Vidyā",
           "defMr": "व्यक्त अनुभवातून ज्ञान; अंतर्गत आनंदाच्या फुलण्याचा स्वाद; स्त्रैण",
-          "defEn": "Knowledge through manifest experience; taste of blossoming inner ananda; feminine"
+          "defEn": "Knowledge through evolution experience; taste of blossoming inner ananda; feminine"
         },
         {
           "term": "योगविद्या",
