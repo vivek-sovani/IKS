@@ -236,7 +236,9 @@
   overflow-y: auto; overflow-x: hidden;
   background: #2a2420; padding: 16px;
   -webkit-overflow-scrolling: touch;
-  scroll-snap-type: y proximity; touch-action: pan-y pinch-zoom;
+  scroll-snap-type: y proximity;
+  /* allow both axes so a horizontal swipe still reaches the panel-swipe layout */
+  touch-action: pan-x pan-y pinch-zoom;
 }
 .slide-inner { display: flex; flex-direction: column; gap: 16px; align-items: center; }
 .slide-page { flex: 0 0 auto; scroll-snap-align: start; max-width: 100%; }
