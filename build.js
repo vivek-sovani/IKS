@@ -449,6 +449,7 @@ ${svg}
 }
 
 // ── Block dispatcher ──────────────────────────────────────────────────────────
+// `slides` block is hoisted into the right-side panel and skipped inline here.
 function renderBlock(b, id) {
   switch (b.type) {
     case 'section':     return renderSection(b);
@@ -458,7 +459,7 @@ function renderBlock(b, id) {
     case 'curiosity':   return renderCuriosity(b);
     case 'activity':    return renderActivity(b);
     case 'phase2':      return renderPhase2(b);
-    case 'slides':      return renderSlides(b, id);
+    case 'slides':      return '';
     default:            return `\n    <!-- unknown block: ${b.type} -->`;
   }
 }
@@ -498,7 +499,9 @@ function renderNav(nav) {
 // ── Full page ─────────────────────────────────────────────────────────────────
 function page(c, sec, id) {
   const body      = (c.body || []).map(b => renderBlock(b, id)).join('\n');
-  const hasSlides = (c.body || []).some(b => b.type === 'slides');
+  const slidesBlk = (c.body || []).find(b => b.type === 'slides');
+  const hasSlides = !!slidesBlk;
+  const slidesPanel = hasSlides ? renderSlides(slidesBlk, id) : '';
   const desc = c.metaDesc || (c.summary && c.summary.mr ? c.summary.mr.slice(0, 160) : '');
 
   // Article / Appendix badge
@@ -571,7 +574,7 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
 <nav class="sidebar" id="sidebar" aria-label="Article navigation"></nav>
 
 <!-- MAIN -->
-<main class="main art-photo-layout" id="art-main">
+<main class="main art-photo-layout${hasSlides ? ' has-slides' : ''}" id="art-main">
 
   <!-- PHOTO PANEL — shown if adhyayNN-poster.jpg / adhyayNN-poster-en.jpg exist -->
   <div class="art-photo-panel" id="art-photo-panel">
@@ -579,12 +582,18 @@ ${hasSlides ? '<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.1
     <img class="art-photo-img" data-lang="en" style="display:none" src="${srcEn}" alt="${c.titleEn}" onerror="this.dataset.err='1';_chkP()">
     <div class="zoom-icon" id="zoom-icon">🔍 Zoom in</div>
   </div>
-  <!-- Swipe hint (mobile only) -->
+  <!-- Swipe hint — infographic (mobile/tablet only) -->
   <div class="art-panel-hint" id="art-panel-hint">
     <div class="hint-icon">◀</div>
     <div class="hint-label" data-lang="mr">आकृती</div>
     <div class="hint-label" data-lang="en" style="display:none">Infographic</div>
-  </div>
+  </div>${hasSlides ? `
+  <!-- Swipe hint — slides (mobile/tablet only) -->
+  <div class="art-panel-hint right" id="art-panel-hint-r">
+    <div class="hint-icon">▶</div>
+    <div class="hint-label" data-lang="mr">सादरीकरण</div>
+    <div class="hint-label" data-lang="en" style="display:none">Slides</div>
+  </div>` : ''}
   <div class="art-scroll-panel">
   <!-- ARTICLE TOPBAR — breadcrumb + font size -->
   <div class="art-topbar">
@@ -630,6 +639,10 @@ ${body}
   </div><!-- end art-body -->
 ${renderNav(c.nav)}
   </div><!-- end art-scroll-panel -->
+${hasSlides ? `
+  <!-- SLIDES PANEL (right rail on desktop, swipe-in on mobile) -->
+  <aside class="art-slides-panel" id="art-slides-panel">${slidesPanel}
+  </aside>` : ''}
 </main>
 
 <script src="/IKS/assets/js/nav.js"></script>
@@ -645,6 +658,7 @@ ${hasSlides ? '<script src="/IKS/assets/js/slides.js"></script>' : ''}
     document.getElementById('art-main').classList.remove('art-photo-layout');
   }
   (function() {
+    var SWIPE_MQ = '(max-width:1099px)';
     var panel = document.getElementById('art-photo-panel');
     var zi = document.getElementById('zoom-icon');
     if (panel) {
@@ -653,17 +667,22 @@ ${hasSlides ? '<script src="/IKS/assets/js/slides.js"></script>' : ''}
         var isZoomed = panel.classList.contains('zoomed');
         if (zi) zi.textContent = isZoomed ? '🔍 Zoom out' : '🔍 Zoom in';
         var lay = document.getElementById('art-main');
-        if (lay && window.matchMedia('(max-width:860px)').matches) {
+        if (lay && window.matchMedia(SWIPE_MQ).matches) {
           lay.style.overflowX = isZoomed ? 'hidden' : '';
         }
       });
     }
     var lay = document.getElementById('art-main');
-    if (!lay || !window.matchMedia('(max-width:860px)').matches) return;
-    lay.scrollLeft = window.innerWidth;
+    if (!lay || !window.matchMedia(SWIPE_MQ).matches) return;
+    // Land on the article (middle panel) when the page opens
+    lay.scrollLeft = lay.clientWidth;
+    var hintL = document.getElementById('art-panel-hint');
+    var hintR = document.getElementById('art-panel-hint-r');
     lay.addEventListener('scroll', function() {
-      var hint = document.getElementById('art-panel-hint');
-      if (hint) hint.classList.toggle('hidden', lay.scrollLeft < lay.scrollWidth * 0.4);
+      var w = lay.clientWidth || 1;
+      var idx = lay.scrollLeft / w;            // 0 = photo, 1 = article, 2 = slides
+      if (hintL) hintL.classList.toggle('hidden', idx < 0.6);
+      if (hintR) hintR.classList.toggle('hidden', idx > 1.4);
     });
   })();
 </script>

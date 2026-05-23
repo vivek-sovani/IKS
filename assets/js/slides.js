@@ -52,19 +52,33 @@
 
   // ── Load PDF into a viewer ────────────────────────────────────────────────
 
+  // Collapse the surrounding right rail (and unset the layout offset) when the
+  // viewer is unusable for the current language. Restore them when it becomes
+  // usable again on a language switch.
+  function _setRailVisible(viewer, visible) {
+    var panel = viewer.closest('.art-slides-panel');
+    if (panel) panel.style.display = visible ? '' : 'none';
+    var main = document.getElementById('art-main');
+    if (main) main.classList.toggle('has-slides', visible);
+    var hintR = document.getElementById('art-panel-hint-r');
+    if (hintR) hintR.style.display = visible ? '' : 'none';
+  }
+
   async function _loadViewer(viewer, lang) {
     var id  = viewer.id;
     var url = lang === 'en' ? viewer.dataset.pdfEn : viewer.dataset.pdfMr;
 
-    // No URL for this language — hide the viewer entirely
+    // No URL for this language — hide the viewer and collapse the side rail
     if (!url) {
       viewer.style.display = 'none';
+      _setRailVisible(viewer, false);
       return;
     }
 
     // Already showing this exact PDF — just re-render (zoom change / resize)
     if (_state[id] && _state[id].url === url) {
       viewer.style.display = '';
+      _setRailVisible(viewer, true);
       _renderPages(id);
       return;
     }
@@ -99,13 +113,15 @@
       delete _loading[id];
 
       viewer.style.display = '';
+      _setRailVisible(viewer, true);
       _syncLangButtons(viewer, lang);
       _updateZoomDisplay(viewer, _state[id].zoom);
       await _renderPages(id);
     } catch (e) {
       delete _loading[id];
-      // PDF URL was set but file doesn't exist — hide the viewer
+      // PDF URL was set but file doesn't exist — hide the viewer + rail
       viewer.style.display = 'none';
+      _setRailVisible(viewer, false);
     }
   }
 
@@ -140,14 +156,6 @@
       inner.appendChild(wrap);
 
       page.render({ canvasContext: canvas.getContext('2d'), viewport: viewport });
-    }
-
-    // Set track height to exactly fit one page (no more, no less)
-    var firstCanvas = inner.querySelector('.slide-page canvas');
-    if (firstCanvas) {
-      var cs   = getComputedStyle(track);
-      var padV = parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom);
-      track.style.height = (firstCanvas.height + padV) + 'px';
     }
   }
 
@@ -187,22 +195,6 @@
     var track = viewer.querySelector('.slide-track');
     var id    = viewer.id;
     if (!track) return;
-
-    // ── Desktop drag-scroll ───────────────────────────────────────────────
-    var dragging = false, startX, scrollLeft;
-    track.addEventListener('mousedown', function (e) {
-      dragging   = true;
-      startX     = e.pageX - track.offsetLeft;
-      scrollLeft = track.scrollLeft;
-      track.style.cursor = 'grabbing';
-      e.preventDefault();
-    });
-    track.addEventListener('mouseleave', function () { dragging = false; track.style.cursor = 'grab'; });
-    track.addEventListener('mouseup',    function () { dragging = false; track.style.cursor = 'grab'; });
-    track.addEventListener('mousemove',  function (e) {
-      if (!dragging) return;
-      track.scrollLeft = scrollLeft - (e.pageX - track.offsetLeft - startX) * 1.2;
-    });
 
     // ── Mobile pinch-zoom ─────────────────────────────────────────────────
     // Strategy: live visual feedback via CSS transform during pinch;

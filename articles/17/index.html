@@ -55,7 +55,7 @@
 <nav class="sidebar" id="sidebar" aria-label="Article navigation"></nav>
 
 <!-- MAIN -->
-<main class="main art-photo-layout" id="art-main">
+<main class="main art-photo-layout has-slides" id="art-main">
 
   <!-- PHOTO PANEL — shown if adhyayNN-poster.jpg / adhyayNN-poster-en.jpg exist -->
   <div class="art-photo-panel" id="art-photo-panel">
@@ -63,11 +63,17 @@
     <img class="art-photo-img" data-lang="en" style="display:none" src="img/adhyay17-poster-en.jpg" alt="Purusha and Prakriti" onerror="this.dataset.err='1';_chkP()">
     <div class="zoom-icon" id="zoom-icon">🔍 Zoom in</div>
   </div>
-  <!-- Swipe hint (mobile only) -->
+  <!-- Swipe hint — infographic (mobile/tablet only) -->
   <div class="art-panel-hint" id="art-panel-hint">
     <div class="hint-icon">◀</div>
     <div class="hint-label" data-lang="mr">आकृती</div>
     <div class="hint-label" data-lang="en" style="display:none">Infographic</div>
+  </div>
+  <!-- Swipe hint — slides (mobile/tablet only) -->
+  <div class="art-panel-hint right" id="art-panel-hint-r">
+    <div class="hint-icon">▶</div>
+    <div class="hint-label" data-lang="mr">सादरीकरण</div>
+    <div class="hint-label" data-lang="en" style="display:none">Slides</div>
   </div>
   <div class="art-scroll-panel">
   <!-- ARTICLE TOPBAR — breadcrumb + font size -->
@@ -339,27 +345,6 @@
       </ol>
     </div>
 
-    <div class="slide-viewer" id="slides-17"
-         data-pdf-mr="slides/slides-mr.pdf"
-         data-pdf-en="slides/slides-en.pdf">
-      <div class="slide-header">
-        <div class="slide-label">
-          <span data-lang="mr">सादरीकरण</span>
-          <span data-lang="en" style="display:none;">Presentation</span>
-        </div>
-        <div class="slide-controls">
-          <div class="zoom-bar">
-            <button class="zoom-btn" onclick="IKS.zoomSlides(this,-0.25)">−</button>
-            <span class="zoom-pct">100%</span>
-            <button class="zoom-btn" onclick="IKS.zoomSlides(this,+0.25)">+</button>
-            <button class="zoom-btn open-pdf-btn" title="नवीन टॅबमध्ये उघडा / Open in new tab" onclick="IKS.openSlidesPdf(this)"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M5 2H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V8M8 1h4v4M12 1 6.5 6.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-          </div>
-        </div>
-      </div>
-      <div class="slide-track">
-        <div class="slide-inner"></div>
-      </div>
-    </div>
 
     <div class="phase2-teaser">
       <div class="phase2-icon">📖</div>
@@ -394,6 +379,31 @@
   </footer>
 
   </div><!-- end art-scroll-panel -->
+
+  <!-- SLIDES PANEL (right rail on desktop, swipe-in on mobile) -->
+  <aside class="art-slides-panel" id="art-slides-panel">
+    <div class="slide-viewer" id="slides-17"
+         data-pdf-mr="slides/slides-mr.pdf"
+         data-pdf-en="slides/slides-en.pdf">
+      <div class="slide-header">
+        <div class="slide-label">
+          <span data-lang="mr">सादरीकरण</span>
+          <span data-lang="en" style="display:none;">Presentation</span>
+        </div>
+        <div class="slide-controls">
+          <div class="zoom-bar">
+            <button class="zoom-btn" onclick="IKS.zoomSlides(this,-0.25)">−</button>
+            <span class="zoom-pct">100%</span>
+            <button class="zoom-btn" onclick="IKS.zoomSlides(this,+0.25)">+</button>
+            <button class="zoom-btn open-pdf-btn" title="नवीन टॅबमध्ये उघडा / Open in new tab" onclick="IKS.openSlidesPdf(this)"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M5 2H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V8M8 1h4v4M12 1 6.5 6.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-track">
+        <div class="slide-inner"></div>
+      </div>
+    </div>
+  </aside>
 </main>
 
 <script src="/IKS/assets/js/nav.js"></script>
@@ -409,6 +419,7 @@
     document.getElementById('art-main').classList.remove('art-photo-layout');
   }
   (function() {
+    var SWIPE_MQ = '(max-width:1099px)';
     var panel = document.getElementById('art-photo-panel');
     var zi = document.getElementById('zoom-icon');
     if (panel) {
@@ -417,17 +428,22 @@
         var isZoomed = panel.classList.contains('zoomed');
         if (zi) zi.textContent = isZoomed ? '🔍 Zoom out' : '🔍 Zoom in';
         var lay = document.getElementById('art-main');
-        if (lay && window.matchMedia('(max-width:860px)').matches) {
+        if (lay && window.matchMedia(SWIPE_MQ).matches) {
           lay.style.overflowX = isZoomed ? 'hidden' : '';
         }
       });
     }
     var lay = document.getElementById('art-main');
-    if (!lay || !window.matchMedia('(max-width:860px)').matches) return;
-    lay.scrollLeft = window.innerWidth;
+    if (!lay || !window.matchMedia(SWIPE_MQ).matches) return;
+    // Land on the article (middle panel) when the page opens
+    lay.scrollLeft = lay.clientWidth;
+    var hintL = document.getElementById('art-panel-hint');
+    var hintR = document.getElementById('art-panel-hint-r');
     lay.addEventListener('scroll', function() {
-      var hint = document.getElementById('art-panel-hint');
-      if (hint) hint.classList.toggle('hidden', lay.scrollLeft < lay.scrollWidth * 0.4);
+      var w = lay.clientWidth || 1;
+      var idx = lay.scrollLeft / w;            // 0 = photo, 1 = article, 2 = slides
+      if (hintL) hintL.classList.toggle('hidden', idx < 0.6);
+      if (hintR) hintR.classList.toggle('hidden', idx > 1.4);
     });
   })();
 </script>
