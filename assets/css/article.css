@@ -251,12 +251,17 @@
 .art-slides-panel.zoomed .slide-inner { align-items: flex-start; }
 .art-slides-panel.zoomed .slide-page { max-width: none; }
 .art-slides-panel.zoomed .slide-page canvas { max-width: none; height: auto; }
-/* Zoom hint chip — shown only on mobile/tablet (≤1099px), like the photo panel */
+/* Zoom hint chip — same chip as the photo panel; gold-soft border reads on
+   the dark slides panel. */
 .art-slides-panel .zoom-icon {
-  position: absolute; top: 12px; right: 12px; z-index: 5;
-  background: rgba(0,0,0,0.55); color: #fff;
-  font-size: 11px; padding: 4px 8px; border-radius: 12px;
-  pointer-events: none; font-family: 'Cormorant Garamond', serif;
+  position: absolute; top: 14px; right: 14px; left: auto; transform: none;
+  background: rgba(30,24,18,0.78); color: var(--parchment);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 13px; letter-spacing: 0.03em;
+  padding: 6px 14px; border-radius: 20px; white-space: nowrap;
+  pointer-events: none; z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  border: 1px solid var(--gold-soft);
 }
 .slide-loading, .slide-unavail {
   color: rgba(255,255,255,0.4); font-size: 13px;

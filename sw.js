@@ -1,7 +1,7 @@
 /* IKS Service Worker — PWA offline support */
 'use strict';
 
-const CACHE_NAME = 'iks-v4';
+const CACHE_NAME = 'iks-v5';
 
 /* Core assets pre-cached on install */
 const PRECACHE = [
