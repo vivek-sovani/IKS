@@ -410,6 +410,7 @@
         <div class="slide-inner"></div>
       </div>
     </div>
+    <div class="zoom-icon" id="slides-zoom-icon">🔍 Zoom in</div>
   </aside>
 </main>
 
@@ -438,6 +439,13 @@
         if (lay && window.matchMedia(SWIPE_MQ).matches) {
           lay.style.overflowX = isZoomed ? 'hidden' : '';
         }
+      });
+    }
+    // Slides panel: tap to toggle 1× / 2× zoom (mirrors infographic UX)
+    var sPanel = document.getElementById('art-slides-panel');
+    if (sPanel) {
+      sPanel.addEventListener('click', function() {
+        if (IKS && IKS.toggleSlidesZoom) IKS.toggleSlidesZoom(sPanel);
       });
     }
     var lay = document.getElementById('art-main');

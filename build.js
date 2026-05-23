@@ -634,6 +634,7 @@ ${renderNav(c.nav)}
 ${hasSlides ? `
   <!-- SLIDES PANEL (right rail on desktop, swipe-in on mobile) -->
   <aside class="art-slides-panel" id="art-slides-panel">${slidesPanel}
+    <div class="zoom-icon" id="slides-zoom-icon">🔍 Zoom in</div>
   </aside>` : ''}
 </main>
 
@@ -662,6 +663,13 @@ ${hasSlides ? '<script src="/IKS/assets/js/slides.js"></script>' : ''}
         if (lay && window.matchMedia(SWIPE_MQ).matches) {
           lay.style.overflowX = isZoomed ? 'hidden' : '';
         }
+      });
+    }
+    // Slides panel: tap to toggle 1× / 2× zoom (mirrors infographic UX)
+    var sPanel = document.getElementById('art-slides-panel');
+    if (sPanel) {
+      sPanel.addEventListener('click', function() {
+        if (IKS && IKS.toggleSlidesZoom) IKS.toggleSlidesZoom(sPanel);
       });
     }
     var lay = document.getElementById('art-main');

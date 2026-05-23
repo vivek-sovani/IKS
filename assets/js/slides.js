@@ -271,12 +271,28 @@
     if (pct) pct.textContent = Math.round(z * 100) + '%';
   }
 
+  // ── Public: toggle 1× / 2× zoom on a slides panel (click-to-zoom UX) ─────
+
+  async function toggleSlidesZoom(panel) {
+    if (!panel) return;
+    var viewer = panel.querySelector('.slide-viewer');
+    if (!viewer) return;
+    var id    = viewer.id;
+    if (!_state[id]) return;
+    var nowZoomed = panel.classList.toggle('zoomed');
+    _state[id].zoom = nowZoomed ? 2.0 : 1.0;
+    var icon = panel.querySelector('.zoom-icon');
+    if (icon) icon.textContent = nowZoomed ? '🔍 Zoom out' : '🔍 Zoom in';
+    await _renderPages(id);
+  }
+
   // ── Attach to IKS global ──────────────────────────────────────────────────
 
   window.IKS = window.IKS || {};
-  IKS.initSlides      = initSlides;
-  IKS.switchSlideLang = switchSlideLang;
-  IKS.zoomSlides      = zoomSlides;
-  IKS.openSlidesPdf   = openSlidesPdf;
+  IKS.initSlides       = initSlides;
+  IKS.switchSlideLang  = switchSlideLang;
+  IKS.zoomSlides       = zoomSlides;
+  IKS.openSlidesPdf    = openSlidesPdf;
+  IKS.toggleSlidesZoom = toggleSlidesZoom;
 
 })();
