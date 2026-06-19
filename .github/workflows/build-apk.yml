@@ -93,11 +93,19 @@ jobs:
           path: android/iks-release.jks
           key: android-release-keystore-v1
 
+      - name: Resolve keystore password
+        env:
+          SECRET_PASS: ${{ secrets.RELEASE_KEYSTORE_PASS }}
+        run: |
+          if [ ${#SECRET_PASS} -ge 6 ]; then
+            echo "KEYSTORE_PASS=$SECRET_PASS" >> "$GITHUB_ENV"
+          else
+            echo "KEYSTORE_PASS=iks-release-2024" >> "$GITHUB_ENV"
+          fi
+
       - name: Generate release keystore (first run only)
         if: steps.keystore-cache.outputs.cache-hit != 'true'
         working-directory: android
-        env:
-          KEYSTORE_PASS: ${{ secrets.RELEASE_KEYSTORE_PASS }}
         run: |
           keytool -genkeypair \
             -keystore iks-release.jks \
@@ -112,17 +120,15 @@ jobs:
 
       - name: Print release certificate fingerprint
         working-directory: android
-        env:
-          KEYSTORE_PASS: ${{ secrets.RELEASE_KEYSTORE_PASS }}
         run: |
           echo "=== SHA-256 fingerprint (for assetlinks.json) ==="
-          keytool -list -v -keystore iks-release.jks -alias iks -storepass "$KEYSTORE_PASS" 2>/dev/null | grep "SHA256:"
+          keytool -list -v -keystore iks-release.jks -alias iks \
+            -storepass "$KEYSTORE_PASS" 2>/dev/null | grep "SHA256:"
 
       - name: Build and sign release APK
         working-directory: android
         env:
           KEYSTORE_FILE: ${{ github.workspace }}/android/iks-release.jks
-          KEYSTORE_PASS: ${{ secrets.RELEASE_KEYSTORE_PASS }}
         run: gradle assembleRelease --no-daemon
 
       - name: Upload release APK
