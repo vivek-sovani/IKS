@@ -20,7 +20,6 @@ android {
             storePassword System.getenv("KEYSTORE_PASS") ?: ""
             keyAlias "iks"
             keyPassword System.getenv("KEYSTORE_PASS") ?: ""
-            storeType "JKS"
         }
     }
 
