@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Saffron brown — matches site topbar/header -->
+    <color name="colorPrimary">#5C3A1E</color>
+    <!-- Ivory — matches site background -->
+    <color name="colorSplash">#FAF6EE</color>
+</resources>
