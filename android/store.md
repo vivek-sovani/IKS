@@ -152,10 +152,11 @@ Contact: vivek.sovani@kimayainfotech.com
 
 | Asset | Size | Notes |
 |---|---|---|
-| **App icon** | 512 × 512 px PNG | Use `assets/images/icon-512.png` from the repo |
-| **Feature graphic** | 1024 × 500 px JPG/PNG | Required — create a banner with app name + tagline |
+| **App icon** | 512 × 512 px PNG | Use `assets/images/icon-512.png` or generate new (see prompts below) |
+| **Feature graphic** | 1024 × 500 px JPG/PNG | Required — use prompt below |
 | **Screenshots (phone)** | min 2, up to 8 | 1080 × 1920 px recommended |
 | **Screenshots (tablet)** | optional | 1200 × 1920 px |
+| **Promo graphic** | 180 × 120 px | Optional small banner |
 
 ### Suggested screenshots to capture (install release APK, take these):
 1. Home page — showing article grid with Marathi titles
@@ -163,6 +164,111 @@ Contact: vivek.sovani@kimayainfotech.com
 3. Article page — showing an infographic (wheel or flow diagram)
 4. Bilingual toggle — same article in English
 5. Sidebar open — showing all 4 cycles/sections
+
+---
+
+## AI Image Generation Prompts
+
+Use these prompts in **ChatGPT (DALL-E 3)**, **Gemini**, **Adobe Firefly**, or **Midjourney**.
+After generating, use Canva or any photo editor to resize to the required dimensions.
+
+---
+
+### 1. App Icon — 512 × 512 px
+
+**Style:** Flat icon, clean, no text inside the icon itself.
+
+```
+A minimalist app icon for an Indian knowledge and philosophy education app.
+Centered design: a glowing Om symbol (ॐ) in warm saffron (#D4500A) on a rich
+dark brown (#3C1A0A) circular background. Around the Om, subtle geometric
+mandala-like patterns in gold (#B8860B). Clean flat vector style.
+No text. Suitable for Android app icon at 512x512 pixels. Premium, modern,
+cultural feel.
+```
+
+**Alternative — lotus + open book:**
+```
+A flat minimalist Android app icon. A stylized open book whose pages form a
+blooming lotus flower. Saffron orange and gold color palette on a dark brown
+background. Clean vector art, no gradients, no text. 512x512 pixels.
+Represents Indian classical knowledge and wisdom.
+```
+
+---
+
+### 2. Feature Graphic — 1024 × 500 px
+
+**This is the banner shown at the top of your Play Store page. Must have text.**
+
+```
+A wide banner graphic (1024x500 pixels) for a bilingual Marathi-English
+education app about Indian Knowledge Systems.
+
+Left side: subtle mandala pattern in gold and saffron on dark brown background.
+Center: bold text "IKS" in large saffron letters, below it "भारतीय ज्ञानप्रणाली"
+in Devanagari script in gold, and below that "Elements of Indian Knowledge Systems"
+in elegant serif English font in cream/ivory.
+Right side: a soft glowing Om symbol (ॐ) fading into the background.
+
+Color palette: dark brown #3C1A0A background, saffron #D4500A, gold #B8860B,
+ivory #FAF6EE text. No photographic elements. Flat design with subtle texture.
+Wide landscape orientation.
+```
+
+---
+
+### 3. Promotional Illustration — for screenshots background / social sharing
+
+```
+A beautifully illustrated scene representing Indian classical knowledge.
+An ancient scholar sitting under a banyan tree, surrounded by floating Sanskrit
+manuscripts, a lamp (diya), and geometric yantra patterns glowing softly.
+Warm saffron, gold and brown color palette. Painterly digital art style.
+Landscape orientation. No text. Evokes timeless wisdom and the Gurukul tradition.
+```
+
+---
+
+### 4. Screenshot Frame / Mockup background — 1080 × 1920 px
+
+**Use as background behind your app screenshots in Canva:**
+
+```
+A vertical phone screenshot background (1080x1920 pixels).
+Top portion: dark brown header area with subtle gold mandala pattern and
+"IKS — भारतीय ज्ञानप्रणाली" text in gold Devanagari script.
+Main area: clean ivory/cream #FAF6EE solid background — leave this empty
+for placing the app screenshot on top.
+Bottom: a thin gold decorative border strip with small lotus motifs.
+Minimal, elegant, Indian classical aesthetic.
+```
+
+---
+
+### 5. WhatsApp / Social Share Card — 1080 × 1080 px
+
+**Square format for sharing the app launch on WhatsApp, Instagram:**
+
+```
+A square social media announcement card (1080x1080 pixels) for an Android app launch.
+Background: rich dark brown with faint mandala watermark in gold.
+Center top: Om symbol ॐ in glowing saffron.
+Center: "Now on Google Play" in bold ivory English text.
+Below: "IKS — भारतीय ज्ञानप्रणाली" in large gold Devanagari.
+Below: "53 articles on Indian Knowledge Systems in Marathi & English" in smaller ivory text.
+Bottom: Google Play badge area (leave space for a badge).
+Color palette: #3C1A0A, #D4500A, #B8860B, #FAF6EE. Premium, cultural, modern.
+```
+
+---
+
+### Tips for using these prompts
+
+- **ChatGPT / DALL-E 3:** Paste the prompt as-is. If the Devanagari text renders incorrectly, ask it to "skip the text, I will add it in Canva."
+- **Gemini:** Works well for illustration-style prompts (prompts 3 and 4). May struggle with exact hex colors — describe colors by name instead.
+- **Canva AI:** Use the shorter prompts; Canva's generator works better with concise descriptions.
+- **After generating:** Open in Canva → resize to exact pixel dimensions → add any Devanagari text manually using Noto Sans Devanagari font.
 
 ---
 
