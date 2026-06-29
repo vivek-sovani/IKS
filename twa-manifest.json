@@ -1,0 +1,60 @@
+{
+  "packageId": "io.github.vivek_sovani.twa",
+  "host": "vivek-sovani.github.io",
+  "name": "IKS&H",
+  "launcherName": "IKS&H",
+  "display": "standalone",
+  "themeColor": "#2D3E52",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#2D3E52",
+  "enableNotifications": true,
+  "startUrl": "/IKS/",
+  "iconUrl": "https://vivek-sovani.github.io/IKS/assets/images/icon-512.png",
+  "maskableIconUrl": "https://vivek-sovani.github.io/IKS/assets/images/icon-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/Users/viveksovani/projects/IKS/android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "आनंद — Article 01",
+      "shortName": "Article 01",
+      "url": "https://vivek-sovani.github.io/IKS/articles/01/",
+      "chosenIconUrl": "https://vivek-sovani.github.io/IKS/assets/images/icon-192.png"
+    },
+    {
+      "name": "ज्ञान — Article 03",
+      "shortName": "Article 03",
+      "url": "https://vivek-sovani.github.io/IKS/articles/03/",
+      "chosenIconUrl": "https://vivek-sovani.github.io/IKS/assets/images/icon-192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://vivek-sovani.github.io/IKS/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://vivek-sovani.github.io/IKS/",
+  "minSdkVersion": 21,
+  "orientation": "portrait-primary",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "",
+  "displayOverride": [],
+  "appVersion": "1"
+}

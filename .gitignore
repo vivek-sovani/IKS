@@ -1,0 +1,22 @@
+# Android build outputs
+build/
+app/build/
+.gradle/
+
+# Signing keystore — never commit
+android.keystore
+*.jks
+*.keystore
+
+# macOS
+.DS_Store
+assets/.DS_Store
+
+# Claude Code session files
+.claude/
+
+# Node
+node_modules/
+
+# Generated PWA asset checksum
+manifest-checksum.txt
