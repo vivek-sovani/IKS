@@ -741,33 +741,6 @@ The first section (`c0`) has class `open` by default. Others are collapsed.
 
 ---
 
-## Article Registry (site.json)
-
-All 53 articles are registered in `site.json`. When publishing an article, update its `"status"` from `"draft"` to `"published"`.
-
-### Section mapping
-
-| Articles | Section ID | Marathi Name | English Name |
-|---|---|---|---|
-| 01–06 | c0 | मध्यवर्ती संकल्पना | Central Concepts |
-| 07–13 | c1 | जीवनाची चक्रे | Cycles of Life |
-| 14–33 | c2 | अव्यक्त, व्यक्त व आंतरव्यक्तीक चक्रे | Unmanifest, Manifest & Inter-Personal Cycles |
-| 34–53 | c3 | चक्रांच्या संरक्षणासाठी संस्था | Institutions for Protecting the Cycles |
-
-### Publication status (as of May 2026)
-
-```
-01 आनंद / Ananda — The Nature of Joy                                          [published]
-02 आनंदाच्या उच्च मर्यादांचा शोध / In Search of Supreme Joy                  [published]
-03 ज्ञान — परमावस्थेचा सिद्धांत / Jnana — Theory of Supreme State           [published]
-04 ज्ञानाच्या अवस्थेची पर्यायी नावे / Alternate Names for the State of Jnana [published]
-05 अमर्यादित आनंदाचे परिणाम / Effects of Unlimited Bliss                     [published]
-06 योग व विद्या / Yoga and Vidya                                              [published]
-07–53 …                                                                        [draft]
-```
-
----
-
 ## How to Add a New Article
 
 ### Step 1 — Read the book chapter
@@ -869,10 +842,154 @@ Each article will eventually have `articles/NN/advanced.html` with:
 - Modern science parallels (where relevant)
 - Bibliography: Vedic sources, commentaries, scholarly references
 
-Do not build Phase II until Phase I for all 53 articles is complete.
+Do not build Phase II until Phase I for all 60 articles is complete.
 
 ---
 
-*Last updated: May 2026*  
+## Android TWA App
+
+The site is packaged as a **Trusted Web Activity (TWA)** Android app using [Bubblewrap CLI](https://github.com/GoogleChromeLabs/bubblewrap). The Android project lives in the same repo root alongside the website source.
+
+### Key files
+
+| File | Purpose |
+|------|---------|
+| `twa-manifest.json` | Bubblewrap config — source of truth for all app settings |
+| `build.gradle` | Root Gradle build (Android Gradle Plugin 8.9.1) |
+| `app/build.gradle` | App module — reads `twaManifest` map, generates all resource values |
+| `app/src/main/AndroidManifest.xml` | Android manifest — activities, permissions, intent filters |
+| `settings.gradle` | Gradle settings |
+| `gradlew` / `gradlew.bat` | Gradle wrapper scripts |
+| `android.keystore` | Release signing key — **never commit, excluded by .gitignore** |
+| `scripts/gen_pwa_assets.py` | Generates icon PNGs for all densities (requires Pillow) |
+| `store_icon.png` | Source icon for Play Store |
+
+### App identity
+
+| Field | Value |
+|-------|-------|
+| Package ID | `io.github.vivek_sovani.twa` |
+| App name | `IKS&H` |
+| Start URL | `https://vivek-sovani.github.io/IKS/` |
+| Host | `vivek-sovani.github.io` |
+| Min SDK | 21 (Android 5.0) |
+| Target SDK | 35 |
+| Compile SDK | 36 |
+| Orientation | Portrait only |
+| Fallback | Custom Tabs |
+| Notifications | Enabled |
+
+### Java source files
+
+```
+app/src/main/java/io/github/vivek_sovani/twa/
+├── Application.java         ← Application subclass
+├── LauncherActivity.java    ← Main TWA entry point
+└── DelegationService.java   ← Push notification delegation
+```
+
+### App shortcuts (long-press on launcher icon)
+
+Two shortcuts defined in `twaManifest.shortcuts` in `app/build.gradle`:
+1. **आनंद — Article 01** → `/IKS/articles/01/`
+2. **ज्ञान — Article 03** → `/IKS/articles/03/`
+
+To add/change shortcuts: edit `shortcuts` array in both `app/build.gradle` AND `twa-manifest.json` (keep them in sync), then rebuild.
+
+### Build commands
+
+```bash
+# Debug APK
+./gradlew assembleDebug
+
+# Release APK (requires android.keystore at path in twa-manifest.json)
+./gradlew assembleRelease
+
+# Release AAB (for Play Store upload)
+./gradlew bundleRelease
+
+# Clean build outputs
+./gradlew clean
+```
+
+### Regenerating icons
+
+```bash
+# Requires: pip install Pillow
+python3 scripts/gen_pwa_assets.py
+```
+
+### .gitignore rules for Android
+
+The `.gitignore` excludes:
+- `android.keystore` — signing key, must never be committed
+- `build/` and `app/build/` — Gradle build outputs
+- `.gradle/` — Gradle cache
+
+### Digital Asset Links
+
+For the TWA to run without browser chrome (true full-screen), the GitHub Pages site must serve:
+```
+https://vivek-sovani.github.io/.well-known/assetlinks.json
+```
+This file links the site to the app's signing certificate SHA-256 fingerprint. If missing or fingerprint mismatch, the app falls back to Custom Tabs (address bar visible). The `fingerprints` array in `twa-manifest.json` is currently empty — DAL setup is pending.
+
+---
+
+## Article Registry (site.json)
+
+All 60 articles are registered in `site.json`. When publishing an article, update its `"status"` from `"draft"` to `"published"`.
+
+### Section mapping
+
+| Articles | Section ID | Marathi Name | English Name |
+|---|---|---|---|
+| 01–06 | c0 | मध्यवर्ती संकल्पना | Central Concepts |
+| 07–13 | c1 | जीवनाची चक्रे | Cycles of Life |
+| 14–33, 54–56 | c2 | अव्यक्त, व्यक्त व आंतरव्यक्तीक चक्रे | Involution, Evolution & Inter-Personal Cycles |
+| 34–53 | c3 | चक्रांच्या संरक्षणासाठी संस्था | Institutions for Protecting the Cycles |
+| 57–60 | c4 | परिशिष्टे | Appendices |
+
+### Publication status (as of June 2026)
+
+```
+01–45   [published]
+46      नित्यकर्म / Nityakarma                    [draft]
+47      उत्सव / Utsava                             [draft]
+48      संस्कार / Samskaras                        [draft]
+49–45   [published]
+54–56   [published]  ← section c2, numbered out of order
+57–60   [published]  ← appendices (section c4)
+```
+
+---
+
+## Development Server
+
+Always use a local server — never open HTML files with `file://` protocol.
+
+```bash
+# Option 1: npx serve (simplest)
+npx serve . -p 3000
+
+# Option 2: Python
+python3 -m http.server 3000
+```
+
+Then visit: `http://localhost:3000`
+
+---
+
+## GitHub Pages Deployment
+
+The site is hosted at `https://vivek-sovani.github.io/IKS`.
+
+Settings: Repository → Settings → Pages → Source: main branch, / (root)
+
+Push to `main` branch to deploy. GitHub Pages builds automatically within ~1 minute.
+
+---
+
+*Last updated: June 2026*  
 *Site author: Vivek Sovani*  
 *Book: Elements of Indian Knowledge Systems (English) — Marathi translation by Vivek Sovani*
